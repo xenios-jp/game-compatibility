@@ -164,6 +164,7 @@ function extractReportMeta(markdown) {
     ["Build Channel", "buildChannel"],
     ["XeniOS Version", "appVersion"],
     ["Build Number", "buildNumber"],
+    ["Build Stage", "buildStage"],
     ["Commit Short", "commitShort"],
     ["Submitted By", "submittedBy"],
   ];

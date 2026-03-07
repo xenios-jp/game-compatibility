@@ -34,6 +34,11 @@ jobs:
             const helpers = require("./scripts/compat-data.cjs");
 
             const existingGames = JSON.parse(fs.readFileSync("data/compatibility.json", "utf8"));
+            const trustedAuthorAssociations = new Set(["OWNER", "MEMBER", "COLLABORATOR"]);
+            function trustWorkerMetadataFor(item) {
+              const association = String(item?.author_association || "").toUpperCase();
+              return trustedAuthorAssociations.has(association) || item?.user?.type === "Bot";
+            }
             const carryForward = new Map();
             for (const game of existingGames) {
               carryForward.set(String(game.titleId || "").toUpperCase(), {
@@ -81,7 +86,9 @@ jobs:
 
               const reports = [];
               if (issue.body) {
-                const bodyReport = helpers.parseReportFromMarkdown(issue.body, issue.created_at);
+                const bodyReport = helpers.parseReportFromMarkdown(issue.body, issue.created_at, {
+                  trustWorkerMetadata: trustWorkerMetadataFor(issue),
+                });
                 if (bodyReport) {
                   reports.push(bodyReport);
                 }
@@ -94,7 +101,9 @@ jobs:
               });
 
               for (const comment of comments) {
-                const parsed = helpers.parseReportFromMarkdown(comment.body, comment.created_at);
+                const parsed = helpers.parseReportFromMarkdown(comment.body, comment.created_at, {
+                  trustWorkerMetadata: trustWorkerMetadataFor(comment),
+                });
                 if (parsed) {
                   reports.push(parsed);
                 }

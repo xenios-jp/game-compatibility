@@ -13,6 +13,8 @@ body:
 
         **How to find the Title ID:** Open the game in XeniOS and check the title bar or log output for the 8-character hex ID (e.g. `4D5307E6`).
 
+        **Build trust:** GitHub issue and Discord reports are always recorded as self-built / unverified. Only reports submitted from CI-distributed XeniOS builds can count as official Release or Preview compatibility data.
+
   - type: checkboxes
     id: validation
     attributes:
