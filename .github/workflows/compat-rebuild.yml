@@ -1,0 +1,168 @@
+name: Rebuild Compatibility Data
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [deleted, closed, reopened, edited, transferred]
+  issue_comment:
+    types: [deleted, edited, created]
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: compat-data
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      contains(github.event.issue.labels.*.name, 'compat-report')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Rebuild compatibility.json from GitHub issues
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const helpers = require("./scripts/compat-data.cjs");
+
+            const existingGames = JSON.parse(fs.readFileSync("data/compatibility.json", "utf8"));
+            const carryForward = new Map();
+            for (const game of existingGames) {
+              carryForward.set(String(game.titleId || "").toUpperCase(), {
+                tags: Array.isArray(game.tags) ? game.tags : [],
+                screenshots: Array.isArray(game.screenshots) ? game.screenshots : [],
+              });
+            }
+
+            const releaseManifestUrl =
+              "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/data/release-builds.json";
+            let releaseBuilds = null;
+            try {
+              const response = await fetch(releaseManifestUrl, {
+                headers: { "User-Agent": "xenios-compat-rebuild-workflow" },
+              });
+              if (response.ok) {
+                releaseBuilds = await response.json();
+              }
+            } catch (error) {
+              core.warning(`Failed to load release manifest: ${error.message}`);
+            }
+
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              ...context.repo,
+              labels: "compat-report",
+              state: "open",
+              per_page: 100,
+            });
+
+            const games = [];
+            const seenTitleIds = new Set();
+
+            for (const issue of issues.filter((item) => !item.pull_request)) {
+              const titleInfo = helpers.parseIssueTitle(issue.title || "");
+              if (!titleInfo) {
+                core.info(`Skipping issue #${issue.number}: invalid title format`);
+                continue;
+              }
+
+              if (seenTitleIds.has(titleInfo.titleId)) {
+                core.info(`Skipping issue #${issue.number}: duplicate canonical title ID ${titleInfo.titleId}`);
+                continue;
+              }
+              seenTitleIds.add(titleInfo.titleId);
+
+              const reports = [];
+              if (issue.body) {
+                const bodyReport = helpers.parseReportFromMarkdown(issue.body, issue.created_at);
+                if (bodyReport) {
+                  reports.push(bodyReport);
+                }
+              }
+
+              const comments = await github.paginate(github.rest.issues.listComments, {
+                ...context.repo,
+                issue_number: issue.number,
+                per_page: 100,
+              });
+
+              for (const comment of comments) {
+                const parsed = helpers.parseReportFromMarkdown(comment.body, comment.created_at);
+                if (parsed) {
+                  reports.push(parsed);
+                }
+              }
+
+              reports.sort((left, right) => String(right.date || "").localeCompare(String(left.date || "")));
+              if (reports.length === 0) {
+                core.info(`Skipping issue #${issue.number}: no valid reports`);
+                continue;
+              }
+
+              const latestReport = helpers.getLatestReport(reports);
+              const titleId = titleInfo.titleId;
+              const carry = carryForward.get(titleId) || { tags: [], screenshots: [] };
+              const rawGame = {
+                slug: helpers.slugify(titleInfo.gameName),
+                title: titleInfo.gameName,
+                titleId,
+                status: latestReport.status,
+                perf: latestReport.perf || "n/a",
+                tags: carry.tags,
+                platforms: [...new Set(reports.map((report) => report.platform))],
+                lastReport: {
+                  device: latestReport.device,
+                  platform: latestReport.platform,
+                  osVersion: latestReport.osVersion,
+                  arch: latestReport.arch,
+                  gpuBackend: latestReport.gpuBackend,
+                },
+                updatedAt: latestReport.date,
+                notes: latestReport.notes,
+                reports,
+                screenshots: carry.screenshots,
+                issueNumber: issue.number,
+                issueUrl: issue.html_url,
+              };
+
+              games.push(helpers.decorateGame(rawGame, releaseBuilds));
+            }
+
+            games.sort((left, right) => left.title.localeCompare(right.title));
+            fs.writeFileSync("data/compatibility.json", JSON.stringify(games, null, 2) + "\n");
+
+      - name: Rebuild discussions snapshot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/build-discussions.mjs
+
+      - name: Commit rebuilt data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/compatibility.json data/discussions.json
+          if ! git diff --staged --quiet; then
+            git commit -m "compat: rebuild canonical data [skip ci]"
+            git push
+          else
+            echo "No changes"
+          fi
+
+      - name: Notify website mirror
+        if: ${{ secrets.WEBSITE_REPO_PAT != '' }}
+        env:
+          WEBSITE_REPO_PAT: ${{ secrets.WEBSITE_REPO_PAT }}
+        run: |
+          curl -fsSL \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${WEBSITE_REPO_PAT}" \
+            https://api.github.com/repos/xenios-jp/xenios.jp/dispatches \
+            -d '{"event_type":"compat-data-updated","client_payload":{"source_repo":"xenios-jp/game-compatibility"}}'

@@ -1,0 +1,252 @@
+name: Process Compatibility Report
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: compat-data
+  cancel-in-progress: false
+
+jobs:
+  process-report:
+    if: contains(github.event.issue.labels.*.name, 'compat-report')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Parse issue and update canonical data
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const helpers = require("./scripts/compat-data.cjs");
+            const issue = context.payload.issue;
+            const sentinel = "<!-- xenios-auto -->";
+
+            if ((issue.body || "").includes(sentinel)) {
+              core.info("Skipping auto-generated issue");
+              return;
+            }
+
+            const sections = helpers.parseIssueSections(issue.body || "");
+            const { report, errors } = helpers.normalizeIssueFormReport(issue, sections);
+            if (!report || errors.length > 0) {
+              const extra = errors.length > 0
+                ? errors.map((error) => `- ${error}`).join("\n")
+                : '- Issue title must match "TITLE_ID — Game Name".';
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: issue.number,
+                body: `⚠️ Could not process this report automatically.\n\n${extra}\n\n${sentinel}`,
+              });
+              core.setFailed("Issue validation failed");
+              return;
+            }
+
+            const releaseManifestUrl =
+              "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/data/release-builds.json";
+            let releaseBuilds = null;
+            try {
+              const response = await fetch(releaseManifestUrl, {
+                headers: { "User-Agent": "xenios-compat-report-workflow" },
+              });
+              if (response.ok) {
+                releaseBuilds = await response.json();
+              }
+            } catch (error) {
+              core.warning(`Failed to load release manifest: ${error.message}`);
+            }
+
+            const compatibility = JSON.parse(fs.readFileSync("data/compatibility.json", "utf8"));
+            const today = helpers.todayISO();
+            const newReport = {
+              device: report.device,
+              platform: report.platform,
+              osVersion: report.osVersion,
+              arch: report.arch,
+              gpuBackend: report.gpuBackend,
+              status: report.status,
+              perf: report.perf,
+              date: today,
+              notes: report.notes,
+              source: "github",
+              build: report.build || undefined,
+            };
+
+            const existingIndex = compatibility.findIndex(
+              (game) => String(game.titleId || "").toUpperCase() === report.titleId.toUpperCase()
+            );
+
+            if (existingIndex >= 0) {
+              const current = compatibility[existingIndex];
+              const nextGame = {
+                ...current,
+                title: report.title,
+                titleId: report.titleId,
+                slug: current.slug || helpers.slugify(report.title),
+                status: report.status,
+                perf: report.perf,
+                tags: Array.isArray(current.tags) ? current.tags : [],
+                platforms: Array.from(
+                  new Set([...(Array.isArray(current.platforms) ? current.platforms : []), report.platform])
+                ),
+                lastReport: {
+                  device: report.device,
+                  platform: report.platform,
+                  osVersion: report.osVersion,
+                  arch: report.arch,
+                  gpuBackend: report.gpuBackend,
+                },
+                updatedAt: today,
+                notes: report.notes,
+                reports: [newReport, ...(Array.isArray(current.reports) ? current.reports : [])],
+                screenshots: Array.isArray(current.screenshots) ? current.screenshots : [],
+                issueNumber: current.issueNumber || issue.number,
+                issueUrl: current.issueUrl || issue.html_url,
+              };
+              compatibility[existingIndex] = helpers.decorateGame(nextGame, releaseBuilds);
+            } else {
+              const nextGame = {
+                slug: helpers.slugify(report.title),
+                title: report.title,
+                titleId: report.titleId,
+                status: report.status,
+                perf: report.perf,
+                tags: [],
+                platforms: [report.platform],
+                lastReport: {
+                  device: report.device,
+                  platform: report.platform,
+                  osVersion: report.osVersion,
+                  arch: report.arch,
+                  gpuBackend: report.gpuBackend,
+                },
+                updatedAt: today,
+                notes: report.notes,
+                reports: [newReport],
+                screenshots: [],
+                issueNumber: issue.number,
+                issueUrl: issue.html_url,
+              };
+              compatibility.push(helpers.decorateGame(nextGame, releaseBuilds));
+            }
+
+            compatibility.sort((left, right) => left.title.localeCompare(right.title));
+            fs.writeFileSync("data/compatibility.json", JSON.stringify(compatibility, null, 2) + "\n");
+
+            const reportLabels = helpers.buildLabelsForReport({
+              ...report,
+              perf: report.perf,
+            });
+            await github.rest.issues.setLabels({
+              ...context.repo,
+              issue_number: issue.number,
+              labels: reportLabels,
+            });
+
+            const existingIssues = await github.paginate(github.rest.issues.listForRepo, {
+              ...context.repo,
+              labels: "compat-report",
+              state: "open",
+              per_page: 100,
+            });
+            const canonical = existingIssues
+              .filter((item) => !item.pull_request)
+              .filter((item) => item.number !== issue.number)
+              .filter((item) => String(item.title || "").startsWith(`${report.titleId} `))
+              .sort((left, right) => left.number - right.number)[0];
+
+            let canonicalIssueUrl = issue.html_url;
+            let canonicalIssueNumber = issue.number;
+
+            if (canonical) {
+              const canonicalLabels = new Set(
+                (canonical.labels || []).map((label) =>
+                  typeof label === "string" ? label : label.name
+                )
+              );
+              for (const label of reportLabels) {
+                canonicalLabels.add(label);
+              }
+              await github.rest.issues.update({
+                ...context.repo,
+                issue_number: canonical.number,
+                labels: [...canonicalLabels],
+              });
+
+              const screenshotUrls = helpers.extractImageUrls(issue.body || "");
+              const commentBody = helpers.buildMarkdownReportBody(
+                report,
+                "github",
+                screenshotUrls
+              );
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: canonical.number,
+                body: commentBody,
+              });
+
+              await github.rest.issues.update({
+                ...context.repo,
+                issue_number: issue.number,
+                state: "closed",
+                state_reason: "completed",
+              });
+
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: issue.number,
+                body: `Duplicate report linked to #${canonical.number}. Future reports for this title should use the canonical issue.\n\n${sentinel}`,
+              });
+
+              canonicalIssueUrl = canonical.html_url;
+              canonicalIssueNumber = canonical.number;
+            }
+
+            const refreshed = JSON.parse(fs.readFileSync("data/compatibility.json", "utf8")).map((game) => {
+              if (String(game.titleId || "").toUpperCase() !== report.titleId.toUpperCase()) {
+                return game;
+              }
+              return {
+                ...game,
+                issueNumber: canonicalIssueNumber,
+                issueUrl: canonicalIssueUrl,
+              };
+            });
+            fs.writeFileSync("data/compatibility.json", JSON.stringify(refreshed, null, 2) + "\n");
+
+      - name: Rebuild discussions snapshot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/build-discussions.mjs
+
+      - name: Commit compatibility data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/compatibility.json data/discussions.json
+          if ! git diff --staged --quiet; then
+            git commit -m "compat: process issue #${{ github.event.issue.number }} [skip ci]"
+            git push
+          else
+            echo "No changes"
+          fi
+
+      - name: Notify website mirror
+        if: ${{ secrets.WEBSITE_REPO_PAT != '' }}
+        env:
+          WEBSITE_REPO_PAT: ${{ secrets.WEBSITE_REPO_PAT }}
+        run: |
+          curl -fsSL \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${WEBSITE_REPO_PAT}" \
+            https://api.github.com/repos/xenios-jp/xenios.jp/dispatches \
+            -d '{"event_type":"compat-data-updated","client_payload":{"source_repo":"xenios-jp/game-compatibility"}}'
