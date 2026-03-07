@@ -240,10 +240,13 @@ jobs:
           fi
 
       - name: Notify website mirror
-        if: ${{ secrets.WEBSITE_REPO_PAT != '' }}
         env:
           WEBSITE_REPO_PAT: ${{ secrets.WEBSITE_REPO_PAT }}
         run: |
+          if [ -z "${WEBSITE_REPO_PAT}" ]; then
+            echo "WEBSITE_REPO_PAT not configured; skipping mirror dispatch"
+            exit 0
+          fi
           curl -fsSL \
             -X POST \
             -H "Accept: application/vnd.github+json" \
