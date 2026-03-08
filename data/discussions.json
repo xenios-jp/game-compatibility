@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:50:25.552Z",
+  "generatedAt": "2026-03-08T20:51:51.417Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1242,6 +1242,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/1",
       "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019991063",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019991063",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773003086000,
+          "issueNumber": 1,
+          "excerpt": "Works great as long as graphics are switched to classic.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "comment-4019623360",
           "type": "comment",
