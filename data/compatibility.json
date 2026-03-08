@@ -1980,13 +1980,34 @@
     "lastReport": {
       "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-08",
-    "notes": "The game crashes as soon as I launch it.",
+    "notes": "Doesn’t eve load anything just crashes",
     "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "26.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "Doesn’t eve load anything just crashes",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 17 Pro",
         "platform": "ios",
@@ -2104,27 +2125,28 @@
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
-        "notes": "The game crashes as soon as I launch it.",
+        "notes": "Doesn’t eve load anything just crashes",
         "updatedAt": "2026-03-08",
-        "reportCount": 3,
+        "reportCount": 4,
         "latestReport": {
           "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
           "date": "2026-03-08",
-          "notes": "The game crashes as soon as I launch it.",
+          "notes": "Doesn’t eve load anything just crashes",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
