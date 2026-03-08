@@ -1852,6 +1852,159 @@
     }
   },
   {
+    "slug": "grand-theft-auto-v",
+    "title": "Grand Theft Auto V",
+    "titleId": "545408A7",
+    "status": "loads",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone Air",
+      "platform": "ios",
+      "osVersion": "26.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "after it loads it just goes into a black screen ):",
+    "reports": [
+      {
+        "device": "iPhone Air",
+        "platform": "ios",
+        "osVersion": "26.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "after it loads it just goes into a black screen ):",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 62,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "loads",
+        "perf": "n/a",
+        "notes": "after it loads it just goes into a black screen ):",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "after it loads it just goes into a black screen ):",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "after it loads it just goes into a black screen ):",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "n/a",
+        "notes": "after it loads it just goes into a black screen ):",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "after it loads it just goes into a black screen ):",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "after it loads it just goes into a black screen ):",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "gta-iv",
     "title": "GTA IV",
     "titleId": "545407F2",
