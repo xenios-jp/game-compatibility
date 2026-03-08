@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T19:14:21.014Z",
+  "generatedAt": "2026-03-08T19:16:53.144Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -354,6 +354,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "4D5309C9": {
+      "titleId": "4D5309C9",
+      "issueNumber": 61,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/61",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-61",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/61",
+          "author": "ssdecf",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772997390000,
+          "issueNumber": 61,
+          "excerpt": "Nothing seems to work",
+          "images": [],
+          "meta": {}
         }
       ]
     },
