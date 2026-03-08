@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T21:17:06.023Z",
+  "generatedAt": "2026-03-08T21:17:37.194Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -444,18 +444,6 @@
       "updatedAt": "2026-03-08",
       "entries": [
         {
-          "id": "issue-91",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/91",
-          "author": "HaloProdigy",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773004605000,
-          "issueNumber": 91,
-          "excerpt": "Playable, but will drop in the 10-20 fps range sometimes. Some graphical glitches mainly upon starting up but it eventually clears up.",
-          "images": [],
-          "meta": {}
-        },
-        {
           "id": "comment-4019846453",
           "type": "comment",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/12#issuecomment-4019846453",
@@ -496,6 +484,38 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "415608C3": {
+      "titleId": "415608C3",
+      "issueNumber": 92,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/92",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-92",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/92",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773004630000,
+          "issueNumber": 92,
+          "excerpt": "\"Loads\" into cyan colored screen. Nothing else.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-66",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/66",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772998433000,
+          "issueNumber": 66,
+          "excerpt": "Upon launch, full cyan colored screen. Nothing else.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
@@ -838,26 +858,6 @@
           "createdAtMs": 1772998660000,
           "issueNumber": 67,
           "excerpt": "The game boots and you can get into the main game as expected. Video content (e.g. pre-rendered cutscenes and intro sequences) have heavy graphical glitches during playback. There is also an issue related to, what I think is, the physics with the skaters hair.",
-          "images": [],
-          "meta": {}
-        }
-      ]
-    },
-    "415608C3": {
-      "titleId": "415608C3",
-      "issueNumber": 66,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/66",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "issue-66",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/66",
-          "author": "QualityControled",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772998433000,
-          "issueNumber": 66,
-          "excerpt": "Upon launch, full cyan colored screen. Nothing else.",
           "images": [],
           "meta": {}
         }
