@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T21:24:50.938Z",
+  "generatedAt": "2026-03-08T21:26:01.101Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -903,6 +903,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/65",
       "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4020046751",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/65#issuecomment-4020046751",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773005108000,
+          "issueNumber": 65,
+          "excerpt": "It runs good you just have to skip the cut scenes to play",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-65",
           "type": "issue",
