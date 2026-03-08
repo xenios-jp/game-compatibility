@@ -31,12 +31,12 @@
         "notes": "Developer pre-release test report",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0-1",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0",
           "buildNumber": "1",
-          "commitShort": "21f106d09e",
-          "buildId": "ios-self-built-1.0-1"
+          "commitShort": "21f106d09e"
         }
       },
       {
@@ -123,12 +123,12 @@
           "notes": "Developer pre-release test report",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0-1",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0",
             "buildNumber": "1",
-            "commitShort": "21f106d09e",
-            "buildId": "ios-self-built-1.0-1"
+            "commitShort": "21f106d09e"
           }
         },
         "bestReport": {
@@ -143,12 +143,12 @@
           "notes": "Developer pre-release test report",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0-1",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0",
             "buildNumber": "1",
-            "commitShort": "21f106d09e",
-            "buildId": "ios-self-built-1.0-1"
+            "commitShort": "21f106d09e"
           }
         }
       }
