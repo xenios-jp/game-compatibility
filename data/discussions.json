@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:49:40.964Z",
+  "generatedAt": "2026-03-08T20:49:58.689Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -422,6 +422,28 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "4541080F": {
+      "titleId": "4541080F",
+      "issueNumber": 83,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/83",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-83",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/83",
+          "author": "daisuke1227",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773002978000,
+          "issueNumber": 83,
+          "excerpt": "So The Orange Box does load yes but even after several reboots it can't reach into gameplay so there's not much i can note about",
+          "images": [
+            "https://github.com/user-attachments/assets/4dddde36-451b-4c3c-9c42-b1a4df1493fd"
+          ],
+          "meta": {}
         }
       ]
     },
