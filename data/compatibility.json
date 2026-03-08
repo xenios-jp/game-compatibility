@@ -5669,43 +5669,22 @@
     "slug": "toy-story-3",
     "title": "Toy Story 3",
     "titleId": "425607E5",
-    "status": "playable",
+    "status": "ingame",
     "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 14 Pro Max",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-08",
-    "notes": "Game doesn’t fully load at start graphical  issues.",
+    "notes": "Audio is ok, everything works great but some corruptions in game.",
     "reports": [
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-08",
-        "notes": "Game doesn’t fully load at start graphical  issues.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      },
       {
         "device": "iPhone 14 Pro Max",
         "platform": "ios",
@@ -5716,6 +5695,26 @@
         "perf": "ok",
         "date": "2026-03-08",
         "notes": "Audio is ok, everything works great but some corruptions in game.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-08",
+        "notes": "Game doesn’t fully load at start graphical  issues.",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.0-9280",
@@ -5757,28 +5756,27 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Game doesn’t fully load at start graphical  issues.",
+        "notes": "Audio is ok, everything works great but some corruptions in game.",
         "updatedAt": "2026-03-08",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 14 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "ingame",
           "perf": "ok",
           "date": "2026-03-08",
-          "notes": "Game doesn’t fully load at start graphical  issues.",
+          "notes": "Audio is ok, everything works great but some corruptions in game.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -5793,13 +5791,12 @@
           "notes": "Game doesn’t fully load at start graphical  issues.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
