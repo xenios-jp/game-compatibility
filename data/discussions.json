@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T18:31:49.708Z",
+  "generatedAt": "2026-03-08T18:37:39.788Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -354,6 +354,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "534507D6": {
+      "titleId": "534507D6",
+      "issueNumber": 53,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/53",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-53",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/53",
+          "author": "daisuke1227",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772995043000,
+          "issueNumber": 53,
+          "excerpt": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
+          "images": [],
+          "meta": {}
         }
       ]
     },

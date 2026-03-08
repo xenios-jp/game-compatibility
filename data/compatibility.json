@@ -3554,6 +3554,159 @@
     }
   },
   {
+    "slug": "sonic-the-hedgehog",
+    "title": "Sonic the Hedgehog",
+    "titleId": "534507D6",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "Iphone Air",
+      "platform": "ios",
+      "osVersion": "26.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
+    "reports": [
+      {
+        "device": "Iphone Air",
+        "platform": "ios",
+        "osVersion": "26.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-08",
+        "notes": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 53,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/53",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Iphone Air",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "Iphone Air",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Iphone Air",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "Iphone Air",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "sonic-transformed",
     "title": "Sonic Transformed",
     "titleId": "5345085D",
