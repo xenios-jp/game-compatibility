@@ -2105,7 +2105,7 @@
     "slug": "halo-3",
     "title": "Halo 3",
     "titleId": "4D5307E6",
-    "status": "ingame",
+    "status": "intro",
     "perf": "poor",
     "tags": [],
     "platforms": [
@@ -2120,28 +2120,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-08",
-    "notes": "Another test",
+    "notes": "Dev test report",
     "reports": [
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Another test",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9276",
-          "commitShort": "e8106d3ddb",
-          "buildId": "ios-self-built-1.0.0-9276"
-        }
-      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -2220,6 +2200,26 @@
           "appVersion": "1.0.0",
           "buildNumber": "9271",
           "commitShort": "0a5bf5b240"
+        }
+      },
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "Another test",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9276",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9276",
+          "commitShort": "e8106d3ddb"
         }
       },
       {
@@ -2366,7 +2366,7 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "Another test",
+        "notes": "Dev test report",
         "updatedAt": "2026-03-08",
         "reportCount": 12,
         "latestReport": {
@@ -2375,18 +2375,18 @@
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "intro",
           "perf": "poor",
           "date": "2026-03-08",
-          "notes": "Another test",
+          "notes": "Dev test report",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0-1",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9276",
-            "commitShort": "e8106d3ddb",
-            "buildId": "ios-self-built-1.0.0-9276"
+            "appVersion": "1.0",
+            "buildNumber": "1",
+            "commitShort": "315f4dee9"
           }
         },
         "bestReport": {
