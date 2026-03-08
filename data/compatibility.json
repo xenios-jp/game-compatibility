@@ -3308,22 +3308,43 @@
     "slug": "halo-ce-anniversary",
     "title": "Halo: CE Anniversary",
     "titleId": "4D5309B1",
-    "status": "ingame",
+    "status": "playable",
     "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.4",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-06",
-    "notes": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
+    "updatedAt": "2026-03-08",
+    "notes": "Works great as long as graphics are switched to classic.",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-08",
+        "notes": "Works great as long as graphics are switched to classic.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -3368,36 +3389,52 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
+        "status": "playable",
         "perf": "great",
-        "notes": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
-        "updatedAt": "2026-03-06",
-        "reportCount": 1,
+        "notes": "Works great as long as graphics are switched to classic.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.4",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "great",
-          "date": "2026-03-06",
-          "notes": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
+          "date": "2026-03-08",
+          "notes": "Works great as long as graphics are switched to classic.",
           "source": "app",
-          "build": null
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
         },
         "bestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.4",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "great",
-          "date": "2026-03-06",
-          "notes": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
+          "date": "2026-03-08",
+          "notes": "Works great as long as graphics are switched to classic.",
           "source": "app",
-          "build": null
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
         }
       }
     }
