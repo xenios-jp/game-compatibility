@@ -1859,8 +1859,8 @@
     "perf": "n/a",
     "tags": [],
     "platforms": [
-      "macos",
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
       "device": "iPhone 17 Pro",
@@ -1884,13 +1884,12 @@
         "notes": "The game crashes as soon as I launch it.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       },
       {
@@ -1950,13 +1949,12 @@
           "notes": "The game crashes as soon as I launch it.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
