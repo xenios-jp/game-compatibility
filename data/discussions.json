@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T18:05:31.036Z",
+  "generatedAt": "2026-03-08T18:20:35.015Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -353,6 +353,39 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "425607E5": {
+      "titleId": "425607E5",
+      "issueNumber": 52,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/52",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-52",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/52",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772994018000,
+          "issueNumber": 52,
+          "excerpt": "Audio is ok, everything works great but some corruptions in game.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425607E5/1772994014616-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
