@@ -2579,159 +2579,6 @@
     }
   },
   {
-    "slug": "gears-of-war-3",
-    "title": "Gears of War 3",
-    "titleId": "4D5308AB",
-    "status": "ingame",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "2 Mac mini",
-      "platform": "macos",
-      "osVersion": "macOS 26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-03-08",
-    "notes": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
-    "reports": [
-      {
-        "device": "2 Mac mini",
-        "platform": "macos",
-        "osVersion": "macOS 26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-08",
-        "notes": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633E8177"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 87,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/87",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "2 Mac mini",
-          "platform": "macos",
-          "osVersion": "macOS 26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        },
-        "bestReport": {
-          "device": "2 Mac mini",
-          "platform": "macos",
-          "osVersion": "macOS 26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "2 Mac mini",
-          "platform": "macos",
-          "osVersion": "macOS 26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        },
-        "bestReport": {
-          "device": "2 Mac mini",
-          "platform": "macos",
-          "osVersion": "macOS 26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "gta-iv",
     "title": "GTA IV",
     "titleId": "545407F2",
@@ -3052,42 +2899,23 @@
     "slug": "halo-3",
     "title": "Halo 3",
     "titleId": "4D5307E6",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "MacBook Pro M1",
+      "device": "iPhone 17",
       "platform": "ios",
-      "osVersion": "15.6.3",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-08",
-    "notes": "Shows Halo 3 copyright screen with logo and crashes immediately.",
+    "notes": "Dev test report",
     "reports": [
-      {
-        "device": "MacBook Pro M1",
-        "platform": "ios",
-        "osVersion": "15.6.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "Shows Halo 3 copyright screen with logo and crashes immediately.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280"
-        }
-      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -3186,6 +3014,25 @@
           "appVersion": "1.0.0",
           "buildNumber": "9276",
           "commitShort": "e8106d3ddb"
+        }
+      },
+      {
+        "device": "MacBook Pro M1",
+        "platform": "ios",
+        "osVersion": "15.6.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "Shows Halo 3 copyright screen with logo and crashes immediately.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280"
         }
       },
       {
@@ -3344,26 +3191,27 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "Shows Halo 3 copyright screen with logo and crashes immediately.",
+        "notes": "Dev test report",
         "updatedAt": "2026-03-08",
         "reportCount": 13,
         "latestReport": {
-          "device": "MacBook Pro M1",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "15.6.3",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "intro",
+          "perf": "poor",
           "date": "2026-03-08",
-          "notes": "Shows Halo 3 copyright screen with logo and crashes immediately.",
-          "source": "github",
+          "notes": "Dev test report",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
+            "buildId": "ios-self-built-1.0-1",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0",
+            "buildNumber": "1",
+            "commitShort": "315f4dee9"
           }
         },
         "bestReport": {
