@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T17:32:08.209Z",
+  "generatedAt": "2026-03-08T17:33:48.357Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -425,6 +425,18 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/1",
       "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019623360",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019623360",
+          "author": "J7mbo",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772991200000,
+          "issueNumber": 1,
+          "excerpt": "<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\nEnemies guns are seen through walls.",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-4019619455",
           "type": "comment",
