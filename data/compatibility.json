@@ -2590,36 +2590,15 @@
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-08",
-    "notes": "game crashes as soon as it’s launched",
+    "notes": "The game crashes as soon as I launch it.",
     "reports": [
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "game crashes as soon as it’s launched",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      },
       {
         "device": "iPhone 17 Pro",
         "platform": "ios",
@@ -2700,6 +2679,26 @@
         }
       },
       {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "game crashes as soon as it’s launched",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
+      {
         "device": "MacBook Pro M4 Pro/Max",
         "platform": "macos",
         "osVersion": "15.3",
@@ -2777,28 +2776,27 @@
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
-        "notes": "game crashes as soon as it’s launched",
+        "notes": "The game crashes as soon as I launch it.",
         "updatedAt": "2026-03-08",
         "reportCount": 6,
         "latestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
           "date": "2026-03-08",
-          "notes": "game crashes as soon as it’s launched",
+          "notes": "The game crashes as soon as I launch it.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
