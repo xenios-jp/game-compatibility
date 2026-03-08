@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T18:51:29.611Z",
+  "generatedAt": "2026-03-08T19:06:25.480Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -363,6 +363,18 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/56",
       "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019794445",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/56#issuecomment-4019794445",
+          "author": "daisuke1227",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772996757000,
+          "issueNumber": 56,
+          "excerpt": "try relaunching a couple of times and see if that fixes it",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-56",
           "type": "issue",
