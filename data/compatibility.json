@@ -4050,7 +4050,7 @@
     "slug": "naruto-storm-3",
     "title": "NARUTO STORM 3",
     "titleId": "4E4D085C",
-    "status": "loads",
+    "status": "intro",
     "perf": "poor",
     "tags": [],
     "platforms": [
@@ -4064,8 +4064,29 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-08",
-    "notes": "Unusable but it boots and intro works.",
+    "notes": "Unusable but boots",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "Unusable but boots",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -4113,29 +4134,30 @@
       },
       "all": {
         "channel": "all",
-        "status": "loads",
+        "status": "intro",
         "perf": "poor",
-        "notes": "Unusable but it boots and intro works.",
+        "notes": "Unusable but boots",
         "updatedAt": "2026-03-08",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 15 Pro Max",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "intro",
           "perf": "poor",
           "date": "2026-03-08",
-          "notes": "Unusable but it boots and intro works.",
+          "notes": "Unusable but boots",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
@@ -4144,18 +4166,19 @@
           "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "intro",
           "perf": "poor",
           "date": "2026-03-08",
-          "notes": "Unusable but it boots and intro works.",
+          "notes": "Unusable but boots",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         }
       }
