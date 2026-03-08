@@ -3335,23 +3335,44 @@
     "slug": "halo-3",
     "title": "Halo 3",
     "titleId": "4D5307E6",
-    "status": "intro",
-    "perf": "poor",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-08",
-    "notes": "Dev test report",
+    "notes": "- XeniOS is inside of LiveContainer nightly with universal.js as its script and it boots up the App Store version of StikDebug (the App Store version launches JIT for other apps just fine)\n- The PiP window almost never shows up\n- Halo 3 usually opens into a black screen but sometimes the entire app just closes instantly\n- I have all modern scripts in the scripts folder of the App Store version of StikDebug",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "- XeniOS is inside of LiveContainer nightly with universal.js as its script and it boots up the App Store version of StikDebug (the App Store version launches JIT for other apps just fine)\n- The PiP window almost never shows up\n- Halo 3 usually opens into a black screen but sometimes the entire app just closes instantly\n- I have all modern scripts in the scripts folder of the App Store version of StikDebug",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -3627,27 +3648,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "Dev test report",
+        "notes": "- XeniOS is inside of LiveContainer nightly with universal.js as its script and it boots up the App Store version of StikDebug (the App Store version launches JIT for other apps just fine)\n- The PiP window almost never shows up\n- Halo 3 usually opens into a black screen but sometimes the entire app just closes instantly\n- I have all modern scripts in the scripts folder of the App Store version of StikDebug",
         "updatedAt": "2026-03-08",
-        "reportCount": 13,
+        "reportCount": 14,
         "latestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
+          "status": "nothing",
+          "perf": "n/a",
           "date": "2026-03-08",
-          "notes": "Dev test report",
+          "notes": "- XeniOS is inside of LiveContainer nightly with universal.js as its script and it boots up the App Store version of StikDebug (the App Store version launches JIT for other apps just fine)\n- The PiP window almost never shows up\n- Halo 3 usually opens into a black screen but sometimes the entire app just closes instantly\n- I have all modern scripts in the scripts folder of the App Store version of StikDebug",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0-1",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0",
-            "buildNumber": "1",
-            "commitShort": "315f4dee9"
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
