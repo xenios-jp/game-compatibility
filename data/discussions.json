@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T19:37:19.336Z",
+  "generatedAt": "2026-03-08T19:37:58.168Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -377,6 +377,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "4541087F": {
+      "titleId": "4541087F",
+      "issueNumber": 67,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/67",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-67",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/67",
+          "author": "sinceohsix",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772998660000,
+          "issueNumber": 67,
+          "excerpt": "The game boots and you can get into the main game as expected. Video content (e.g. pre-rendered cutscenes and intro sequences) have heavy graphical glitches during playback. There is also an issue related to, what I think is, the physics with the skaters hair.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
