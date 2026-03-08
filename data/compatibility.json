@@ -118,8 +118,8 @@
     "slug": "batman-arkham-asylum",
     "title": "Batman: Arkham Asylum",
     "titleId": "534307F6",
-    "status": "intro",
-    "perf": "great",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
@@ -132,8 +132,29 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-08",
-    "notes": "Game doesn’t load. Cutscenes only work.",
+    "notes": "It runs good you just have to skip the cut scenes to play",
     "reports": [
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-08",
+        "notes": "It runs good you just have to skip the cut scenes to play",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -181,29 +202,30 @@
       },
       "all": {
         "channel": "all",
-        "status": "intro",
-        "perf": "great",
-        "notes": "Game doesn’t load. Cutscenes only work.",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "It runs good you just have to skip the cut scenes to play",
         "updatedAt": "2026-03-08",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 15 Pro",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "great",
+          "status": "playable",
+          "perf": "ok",
           "date": "2026-03-08",
-          "notes": "Game doesn’t load. Cutscenes only work.",
+          "notes": "It runs good you just have to skip the cut scenes to play",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
@@ -212,18 +234,19 @@
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "great",
+          "status": "playable",
+          "perf": "ok",
           "date": "2026-03-08",
-          "notes": "Game doesn’t load. Cutscenes only work.",
+          "notes": "It runs good you just have to skip the cut scenes to play",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         }
       }
