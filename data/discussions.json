@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T21:04:01.721Z",
+  "generatedAt": "2026-03-09T21:37:49.968Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -740,6 +740,37 @@
             "status": "ingame",
             "perf": "ok",
             "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "555307E5": {
+      "titleId": "555307E5",
+      "issueNumber": 155,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/155",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-155",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/155",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773092241000,
+          "issueNumber": 155,
+          "excerpt": "Runs smooth getting like 20-30 fps super smooth also here’s a tip boot the game like 10 times it will make the shader cache run smoothly",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15 Pro",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
