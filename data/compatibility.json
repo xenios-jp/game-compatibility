@@ -1892,9 +1892,30 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
-    "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
+    "updatedAt": "2026-03-09",
+    "notes": "I’d recon that this game is playable but not enjoyable many gotches when first loading the game and when playing the gam. Like random textures spreading around and blue flashing on the screen. To the developer please fix the issue where I can’t report games that are iso I’ve been able to report games that are in GOD format. Also mw1 has pretty alright fps but does start to stutter in combat. Like full fps when doing the training course but on the boat it fluctuates.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-09",
+        "notes": "I’d recon that this game is playable but not enjoyable many gotches when first loading the game and when playing the gam. Like random textures spreading around and blue flashing on the screen. To the developer please fix the issue where I can’t report games that are iso I’ve been able to report games that are in GOD format. Also mw1 has pretty alright fps but does start to stutter in combat. Like full fps when doing the training course but on the boat it fluctuates.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -1929,7 +1950,9 @@
         "build": null
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607E6/1773077297584-1.jpg"
+    ],
     "issueNumber": 37,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/37",
     "summaries": {
@@ -1995,9 +2018,9 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 2,
+        "notes": "I’d recon that this game is playable but not enjoyable many gotches when first loading the game and when playing the gam. Like random textures spreading around and blue flashing on the screen. To the developer please fix the issue where I can’t report games that are iso I’ve been able to report games that are in GOD format. Also mw1 has pretty alright fps but does start to stutter in combat. Like full fps when doing the training course but on the boat it fluctuates.",
+        "updatedAt": "2026-03-09",
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
@@ -2006,16 +2029,17 @@
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
-          "source": "github",
+          "date": "2026-03-09",
+          "notes": "I’d recon that this game is playable but not enjoyable many gotches when first loading the game and when playing the gam. Like random textures spreading around and blue flashing on the screen. To the developer please fix the issue where I can’t report games that are iso I’ve been able to report games that are in GOD format. Also mw1 has pretty alright fps but does start to stutter in combat. Like full fps when doing the training course but on the boat it fluctuates.",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
@@ -2026,16 +2050,17 @@
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
-          "source": "github",
+          "date": "2026-03-09",
+          "notes": "I’d recon that this game is playable but not enjoyable many gotches when first loading the game and when playing the gam. Like random textures spreading around and blue flashing on the screen. To the developer please fix the issue where I can’t report games that are iso I’ve been able to report games that are in GOD format. Also mw1 has pretty alright fps but does start to stutter in combat. Like full fps when doing the training course but on the boat it fluctuates.",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         }
       }
