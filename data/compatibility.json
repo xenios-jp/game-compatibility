@@ -8040,15 +8040,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9 inch 6th Gen",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "17.0",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
-    "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+    "updatedAt": "2026-03-09",
+    "notes": "Black screen",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-09",
+        "notes": "Black screen",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPad Pro 12.9 inch 6th Gen",
         "platform": "ios",
@@ -8098,47 +8119,49 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
+        "notes": "Black screen",
+        "updatedAt": "2026-03-09",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "17.0",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+          "date": "2026-03-09",
+          "notes": "Black screen",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "17.0",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+          "date": "2026-03-09",
+          "notes": "Black screen",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         }
       }
