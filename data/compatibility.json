@@ -2119,15 +2119,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad15,7",
+      "device": "iPad 11th Gen",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-06",
-    "notes": "When the game finishes launching past the Developer credits and the intro movie starts the visuals of the movie have a Matrix-effect, when you hear the audio start Press Start or A to get to the main start menu. The audio effects and music in the game play well. Some in game graphics have a rainbow psychedelic coloration effect over them, it seems to occur when a transparent filter is applied over the in game characters and objects, such as looking through a window or when the in game lighting is in day time. The Game plays slower than the original speed but is still very playable.",
+    "updatedAt": "2026-03-09",
+    "notes": "Compatibility update with the release version. Audio effects and music work well. FPS speed is usually between 15 -20. The XeniOS 1.0 release is stable for this game, once you get it launched in game with audio it works great.",
     "reports": [
+      {
+        "device": "iPad 11th Gen",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-09",
+        "notes": "Compatibility update with the release version. Audio effects and music work well. FPS speed is usually between 15 -20. The XeniOS 1.0 release is stable for this game, once you get it launched in game with audio it works great.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPad15,7",
         "platform": "ios",
@@ -2142,7 +2163,10 @@
         "build": null
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494F07D4/1773052016095-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494F07D4/1773052016095-2.jpg"
+    ],
     "issueNumber": 5,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/5",
     "summaries": {
@@ -2170,34 +2194,50 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "When the game finishes launching past the Developer credits and the intro movie starts the visuals of the movie have a Matrix-effect, when you hear the audio start Press Start or A to get to the main start menu. The audio effects and music in the game play well. Some in game graphics have a rainbow psychedelic coloration effect over them, it seems to occur when a transparent filter is applied over the in game characters and objects, such as looking through a window or when the in game lighting is in day time. The Game plays slower than the original speed but is still very playable.",
-        "updatedAt": "2026-03-06",
-        "reportCount": 1,
+        "notes": "Compatibility update with the release version. Audio effects and music work well. FPS speed is usually between 15 -20. The XeniOS 1.0 release is stable for this game, once you get it launched in game with audio it works great.",
+        "updatedAt": "2026-03-09",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad15,7",
+          "device": "iPad 11th Gen",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-06",
-          "notes": "When the game finishes launching past the Developer credits and the intro movie starts the visuals of the movie have a Matrix-effect, when you hear the audio start Press Start or A to get to the main start menu. The audio effects and music in the game play well. Some in game graphics have a rainbow psychedelic coloration effect over them, it seems to occur when a transparent filter is applied over the in game characters and objects, such as looking through a window or when the in game lighting is in day time. The Game plays slower than the original speed but is still very playable.",
+          "date": "2026-03-09",
+          "notes": "Compatibility update with the release version. Audio effects and music work well. FPS speed is usually between 15 -20. The XeniOS 1.0 release is stable for this game, once you get it launched in game with audio it works great.",
           "source": "app",
-          "build": null
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
         },
         "bestReport": {
-          "device": "iPad15,7",
+          "device": "iPad 11th Gen",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-06",
-          "notes": "When the game finishes launching past the Developer credits and the intro movie starts the visuals of the movie have a Matrix-effect, when you hear the audio start Press Start or A to get to the main start menu. The audio effects and music in the game play well. Some in game graphics have a rainbow psychedelic coloration effect over them, it seems to occur when a transparent filter is applied over the in game characters and objects, such as looking through a window or when the in game lighting is in day time. The Game plays slower than the original speed but is still very playable.",
+          "date": "2026-03-09",
+          "notes": "Compatibility update with the release version. Audio effects and music work well. FPS speed is usually between 15 -20. The XeniOS 1.0 release is stable for this game, once you get it launched in game with audio it works great.",
           "source": "app",
-          "build": null
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
         }
       }
     }
