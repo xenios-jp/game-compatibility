@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T11:34:58.995Z",
+  "generatedAt": "2026-03-09T12:12:43.542Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2343,7 +2343,7 @@
       "titleId": "415608E4",
       "issueNumber": 47,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/47",
-      "updatedAt": "2026-03-08",
+      "updatedAt": "2026-03-09",
       "entries": [
         {
           "id": "issue-47",
