@@ -2331,154 +2331,6 @@
     }
   },
   {
-    "slug": "crysis-3-ipad-pro-m5",
-    "title": "Crysis 3 (iPad Pro M5)",
-    "titleId": "4541098E",
-    "status": "loads",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro M5",
-      "platform": "ios",
-      "osVersion": "iPadOS 26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "Game boots but is stuck on an infinite loading screen",
-    "reports": [
-      {
-        "device": "iPad Pro M5",
-        "platform": "ios",
-        "osVersion": "iPadOS 26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-09",
-        "notes": "Game boots but is stuck on an infinite loading screen",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 150,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/150",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Game boots but is stuck on an infinite loading screen",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro M5",
-          "platform": "ios",
-          "osVersion": "iPadOS 26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Game boots but is stuck on an infinite loading screen",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro M5",
-          "platform": "ios",
-          "osVersion": "iPadOS 26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Game boots but is stuck on an infinite loading screen",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Game boots but is stuck on an infinite loading screen",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro M5",
-          "platform": "ios",
-          "osVersion": "iPadOS 26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Game boots but is stuck on an infinite loading screen",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro M5",
-          "platform": "ios",
-          "osVersion": "iPadOS 26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Game boots but is stuck on an infinite loading screen",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "dark-souls-ii",
     "title": "DARK SOULS II",
     "titleId": "465307E4",
@@ -5155,42 +5007,21 @@
     "title": "Forza Horizon",
     "titleId": "4D5309C9",
     "status": "ingame",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-09",
-    "notes": "Glitches",
+    "notes": "Distortions and is unplayable experience",
     "reports": [
-      {
-        "device": "iPhone 14",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-09",
-        "notes": "Glitches",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -5201,6 +5032,26 @@
         "perf": "poor",
         "date": "2026-03-09",
         "notes": "Distortions and is unplayable experience",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
+      {
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-09",
+        "notes": "Glitches",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.0-9280",
@@ -5239,50 +5090,48 @@
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "ok",
-        "notes": "Glitches",
+        "perf": "poor",
+        "notes": "Distortions and is unplayable experience",
         "updatedAt": "2026-03-09",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-09",
-          "notes": "Glitches",
+          "notes": "Distortions and is unplayable experience",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
-          "device": "iPhone 14",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-09",
-          "notes": "Glitches",
+          "notes": "Distortions and is unplayable experience",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -5389,43 +5238,22 @@
     "slug": "grand-theft-auto-v",
     "title": "Grand Theft Auto V",
     "titleId": "545408A7",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 12 Pro Max",
+      "device": "iPhone 17",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-09",
-    "notes": "Black screen, when you touch the screen the menu does NOT appear so you’re trapped and have to exit xenios and close the window.",
+    "notes": "It shows the start then goes black the audio is a bit bugged too",
     "reports": [
-      {
-        "device": "iPhone 12 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-09",
-        "notes": "Black screen, when you touch the screen the menu does NOT appear so you’re trapped and have to exit xenios and close the window.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -5436,6 +5264,26 @@
         "perf": "poor",
         "date": "2026-03-09",
         "notes": "It shows the start then goes black the audio is a bit bugged too",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
+      {
+        "device": "iPhone 12 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-09",
+        "notes": "Black screen, when you touch the screen the menu does NOT appear so you’re trapped and have to exit xenios and close the window.",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.0-9280",
@@ -5475,28 +5323,27 @@
         "channel": "all",
         "status": "intro",
         "perf": "poor",
-        "notes": "Black screen, when you touch the screen the menu does NOT appear so you’re trapped and have to exit xenios and close the window.",
+        "notes": "It shows the start then goes black the audio is a bit bugged too",
         "updatedAt": "2026-03-09",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 12 Pro Max",
+          "device": "iPhone 17",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "intro",
+          "perf": "poor",
           "date": "2026-03-09",
-          "notes": "Black screen, when you touch the screen the menu does NOT appear so you’re trapped and have to exit xenios and close the window.",
+          "notes": "It shows the start then goes black the audio is a bit bugged too",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -8214,6 +8061,121 @@
     }
   },
   {
+    "slug": "nfs-most-wanted",
+    "title": "NFS Most Wanted",
+    "titleId": "454107D9",
+    "status": "loads",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad 11th Gen",
+      "platform": "ios",
+      "osVersion": "26.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "Stuck sen tried to strt a quick race",
+    "reports": [
+      {
+        "device": "iPad 11th Gen",
+        "platform": "ios",
+        "osVersion": "26.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "ok",
+        "date": "2026-03-09",
+        "notes": "Stuck sen tried to strt a quick race",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 151,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/151",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "ok",
+        "notes": "Stuck sen tried to strt a quick race",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad 11th Gen",
+          "platform": "ios",
+          "osVersion": "26.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "ok",
+          "date": "2026-03-09",
+          "notes": "Stuck sen tried to strt a quick race",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPad 11th Gen",
+          "platform": "ios",
+          "osVersion": "26.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "ok",
+          "date": "2026-03-09",
+          "notes": "Stuck sen tried to strt a quick race",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "nfs-undercover",
     "title": "NFS Undercover",
     "titleId": "45410876",
@@ -8943,17 +8905,18 @@
         "notes": "Glitches",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 148,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/148",
     "summaries": {
       "release": {
         "channel": "release",
@@ -8994,13 +8957,12 @@
           "notes": "Glitches",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -9015,19 +8977,16 @@
           "notes": "Glitches",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 148,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/148"
+    }
   },
   {
     "slug": "pes-2016",
@@ -9061,17 +9020,18 @@
         "notes": "Glitchis",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 147,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/147",
     "summaries": {
       "release": {
         "channel": "release",
@@ -9112,13 +9072,12 @@
           "notes": "Glitchis",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -9133,19 +9092,16 @@
           "notes": "Glitchis",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 147,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/147"
+    }
   },
   {
     "slug": "popcap-collection",
@@ -11877,123 +11833,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "nfs-most-wanted",
-    "title": "NFS Most Wanted",
-    "titleId": "454107D9",
-    "status": "loads",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad 11th Gen",
-      "platform": "ios",
-      "osVersion": "26.2.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "Stuck sen tried to strt a quick race",
-    "reports": [
-      {
-        "device": "iPad 11th Gen",
-        "platform": "ios",
-        "osVersion": "26.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "ok",
-        "date": "2026-03-09",
-        "notes": "Stuck sen tried to strt a quick race",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "ok",
-        "notes": "Stuck sen tried to strt a quick race",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "26.2.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Stuck sen tried to strt a quick race",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "26.2.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Stuck sen tried to strt a quick race",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 151,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/151"
   }
 ]

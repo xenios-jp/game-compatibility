@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T19:26:46.719Z",
+  "generatedAt": "2026-03-09T19:31:57.724Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2460,6 +2460,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
       "updatedAt": "2026-03-09",
       "entries": [
+        {
+          "id": "comment-4026231316",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/62#issuecomment-4026231316",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773084677000,
+          "issueNumber": 62,
+          "excerpt": "Black screen, when you touch the screen the menu does NOT appear so you’re trapped and have to exit xenios and close the window.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 12 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "comment-4020577528",
           "type": "comment",
