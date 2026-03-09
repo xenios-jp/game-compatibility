@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T16:10:22.866Z",
+  "generatedAt": "2026-03-09T16:39:35.552Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1716,8 +1716,33 @@
       "titleId": "415608C3",
       "issueNumber": 92,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/92",
-      "updatedAt": "2026-03-08",
+      "updatedAt": "2026-03-09",
       "entries": [
+        {
+          "id": "comment-4025103892",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/92#issuecomment-4025103892",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773074334000,
+          "issueNumber": 92,
+          "excerpt": "Boots into a cyan screen after like 5 seconds. Tried changing settings and booted like over 10 times.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C3/1773074330525-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-92",
           "type": "issue",
