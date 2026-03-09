@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T17:47:50.889Z",
+  "generatedAt": "2026-03-09T18:28:07.369Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -709,6 +709,37 @@
             "status": "ingame",
             "perf": "ok",
             "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "4B4E0861": {
+      "titleId": "4B4E0861",
+      "issueNumber": 147,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/147",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-147",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/147",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773080858000,
+          "issueNumber": 147,
+          "excerpt": "Glitchis",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 14",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
