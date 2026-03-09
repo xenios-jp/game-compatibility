@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T16:39:35.552Z",
+  "generatedAt": "2026-03-09T16:47:20.905Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -716,6 +716,114 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "545407F2": {
+      "titleId": "545407F2",
+      "issueNumber": 41,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-141",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/141",
+          "author": "DVZOLL",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773074798000,
+          "issueNumber": 141,
+          "excerpt": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-4020014302",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-4020014302",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773004052000,
+          "issueNumber": 41,
+          "excerpt": "game crashes as soon as it’s launched",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "comment-4019907259",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-4019907259",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773000764000,
+          "issueNumber": 41,
+          "excerpt": "Doesn’t eve load anything just crashes",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "comment-4019826469",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-4019826469",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772997793000,
+          "issueNumber": 41,
+          "excerpt": "The game crashes as soon as I launch it.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-41",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/41",
+          "author": "xenios-jp",
+          "createdAt": "2026-02-28",
+          "createdAtMs": 1772273998000,
+          "issueNumber": 41,
+          "excerpt": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "MacBook Pro M4 Pro/Max",
+            "platform": "macOS",
+            "osVersion": "macOS 15.3",
+            "gpuBackend": "MSC"
           }
         }
       ]
@@ -3894,102 +4002,6 @@
             "osVersion": "macOS 26.3",
             "gpuBackend": "MSC",
             "submittedBy": "reality111"
-          }
-        }
-      ]
-    },
-    "545407F2": {
-      "titleId": "545407F2",
-      "issueNumber": 41,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "comment-4020014302",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-4020014302",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773004052000,
-          "issueNumber": 41,
-          "excerpt": "game crashes as soon as it’s launched",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 15 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "comment-4019907259",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-4019907259",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773000764000,
-          "issueNumber": 41,
-          "excerpt": "Doesn’t eve load anything just crashes",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "comment-4019826469",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-4019826469",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772997793000,
-          "issueNumber": 41,
-          "excerpt": "The game crashes as soon as I launch it.",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-41",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/41",
-          "author": "xenios-jp",
-          "createdAt": "2026-02-28",
-          "createdAtMs": 1772273998000,
-          "issueNumber": 41,
-          "excerpt": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "MacBook Pro M4 Pro/Max",
-            "platform": "macOS",
-            "osVersion": "macOS 15.3",
-            "gpuBackend": "MSC"
           }
         }
       ]
