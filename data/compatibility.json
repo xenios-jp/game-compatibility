@@ -2331,6 +2331,154 @@
     }
   },
   {
+    "slug": "crysis-3-ipad-pro-m5",
+    "title": "Crysis 3 (iPad Pro M5)",
+    "titleId": "4541098E",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro M5",
+      "platform": "ios",
+      "osVersion": "iPadOS 26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "Game boots but is stuck on an infinite loading screen",
+    "reports": [
+      {
+        "device": "iPad Pro M5",
+        "platform": "ios",
+        "osVersion": "iPadOS 26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-09",
+        "notes": "Game boots but is stuck on an infinite loading screen",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 150,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/150",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Game boots but is stuck on an infinite loading screen",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro M5",
+          "platform": "ios",
+          "osVersion": "iPadOS 26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "Game boots but is stuck on an infinite loading screen",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro M5",
+          "platform": "ios",
+          "osVersion": "iPadOS 26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "Game boots but is stuck on an infinite loading screen",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Game boots but is stuck on an infinite loading screen",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro M5",
+          "platform": "ios",
+          "osVersion": "iPadOS 26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "Game boots but is stuck on an infinite loading screen",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro M5",
+          "platform": "ios",
+          "osVersion": "iPadOS 26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "Game boots but is stuck on an infinite loading screen",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "dark-souls-ii",
     "title": "DARK SOULS II",
     "titleId": "465307E4",
@@ -8742,6 +8890,242 @@
     }
   },
   {
+    "slug": "pes-2013-we-2013",
+    "title": "PES 2013/WE 2013",
+    "titleId": "4B4E084C",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "Glitches",
+    "reports": [
+      {
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-09",
+        "notes": "Glitches",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Glitches",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-09",
+          "notes": "Glitches",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-09",
+          "notes": "Glitches",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 148,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/148"
+  },
+  {
+    "slug": "pes-2016",
+    "title": "PES 2016",
+    "titleId": "4B4E0861",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "Glitchis",
+    "reports": [
+      {
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-09",
+        "notes": "Glitchis",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Glitchis",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-09",
+          "notes": "Glitchis",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-09",
+          "notes": "Glitchis",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 147,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/147"
+  },
+  {
     "slug": "popcap-collection",
     "title": "PopCap Collection",
     "titleId": "504787D8",
@@ -11471,241 +11855,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "pes-2016",
-    "title": "PES 2016",
-    "titleId": "4B4E0861",
-    "status": "ingame",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 14",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "Glitchis",
-    "reports": [
-      {
-        "device": "iPhone 14",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-09",
-        "notes": "Glitchis",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Glitchis",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 14",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Glitchis",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 14",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Glitchis",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 147,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/147"
-  },
-  {
-    "slug": "pes-2013-we-2013",
-    "title": "PES 2013/WE 2013",
-    "titleId": "4B4E084C",
-    "status": "ingame",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 14",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "Glitches",
-    "reports": [
-      {
-        "device": "iPhone 14",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-09",
-        "notes": "Glitches",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Glitches",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 14",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Glitches",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 14",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Glitches",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 148,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/148"
   }
 ]
