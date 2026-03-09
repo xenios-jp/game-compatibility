@@ -5353,22 +5353,43 @@
     "slug": "grand-theft-auto-v",
     "title": "Grand Theft Auto V",
     "titleId": "545408A7",
-    "status": "intro",
-    "perf": "poor",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPad Pro 12.9 inch 6th Gen",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "16.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-09",
-    "notes": "It shows the start then goes black the audio is a bit bugged too",
+    "notes": "Not working on iOS 16.2",
     "reports": [
+      {
+        "device": "iPad Pro 12.9 inch 6th Gen",
+        "platform": "ios",
+        "osVersion": "16.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-09",
+        "notes": "Not working on iOS 16.2",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -5438,27 +5459,28 @@
         "channel": "all",
         "status": "intro",
         "perf": "poor",
-        "notes": "It shows the start then goes black the audio is a bit bugged too",
+        "notes": "Not working on iOS 16.2",
         "updatedAt": "2026-03-09",
-        "reportCount": 2,
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 17",
+          "device": "iPad Pro 12.9 inch 6th Gen",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "16.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
+          "status": "nothing",
+          "perf": "n/a",
           "date": "2026-03-09",
-          "notes": "It shows the start then goes black the audio is a bit bugged too",
+          "notes": "Not working on iOS 16.2",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
