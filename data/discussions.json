@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T17:43:21.208Z",
+  "generatedAt": "2026-03-09T17:46:25.998Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -717,6 +717,28 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "454107E3": {
+      "titleId": "454107E3",
+      "issueNumber": 146,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/146",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-146",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/146",
+          "author": "NardoKrazy",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773078341000,
+          "issueNumber": 146,
+          "excerpt": "Games boots up, and Goes in game but textures are black and audio don’t work once goes in game",
+          "images": [
+            "https://github.com/user-attachments/assets/72c35ae3-4636-4bf6-ae6d-a616df285364"
+          ],
+          "meta": {}
         }
       ]
     },

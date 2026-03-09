@@ -1,5 +1,117 @@
 [
   {
+    "slug": "nba-street-homecourt",
+    "title": "[NBA Street Homecourt]",
+    "titleId": "454107E3",
+    "status": "ingame",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "1.0.0-9280",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "Games boots up, and Goes in game but textures are black and audio don’t work once goes in game",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "1.0.0-9280",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "great",
+        "date": "2026-03-09",
+        "notes": "Games boots up, and Goes in game but textures are black and audio don’t work once goes in game",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0-9280",
+          "buildNumber": "9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 146,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/146",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "great",
+        "notes": "Games boots up, and Goes in game but textures are black and audio don’t work once goes in game",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "1.0.0-9280",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-03-09",
+          "notes": "Games boots up, and Goes in game but textures are black and audio don’t work once goes in game",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0-9280",
+            "buildNumber": "9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "1.0.0-9280",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-03-09",
+          "notes": "Games boots up, and Goes in game but textures are black and audio don’t work once goes in game",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0-9280",
+            "buildNumber": "9280"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "prototype",
     "title": "[Prototype]™",
     "titleId": "4156084E",
