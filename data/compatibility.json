@@ -6403,6 +6403,113 @@
     }
   },
   {
+    "slug": "lollipop-chainsaw",
+    "title": "Lollipop Chainsaw",
+    "titleId": "565707D0",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone18,2",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
+    "reports": [
+      {
+        "device": "iPhone18,2",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-03",
+        "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
+        "source": "app",
+        "build": null
+      },
+      {
+        "device": "iPhone18,2",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-02",
+        "notes": "First and second time You’ll see a black rectangle you’re running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+        "source": "app",
+        "build": null
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 36,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/36",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
+        "updatedAt": "2026-03-03",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "iPhone18,2",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-03",
+          "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
+          "source": "app",
+          "build": null
+        },
+        "bestReport": {
+          "device": "iPhone18,2",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-03",
+          "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
+          "source": "app",
+          "build": null
+        }
+      }
+    }
+  },
+  {
     "slug": "lost-odyssey",
     "title": "Lost Odyssey",
     "titleId": "4D5307FA",
@@ -10067,113 +10174,6 @@
             "buildNumber": "9280",
             "commitShort": "2633e8177"
           }
-        }
-      }
-    }
-  },
-  {
-    "slug": "title-565707d0",
-    "title": "Title 565707D0",
-    "titleId": "565707D0",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone18,2",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
-    "reports": [
-      {
-        "device": "iPhone18,2",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-03",
-        "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
-        "source": "app",
-        "build": null
-      },
-      {
-        "device": "iPhone18,2",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-02",
-        "notes": "First and second time You’ll see a black rectangle you’re running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
-        "source": "app",
-        "build": null
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 36,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/36",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
-        "updatedAt": "2026-03-03",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "iPhone18,2",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-03",
-          "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone18,2",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-03",
-          "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
-          "source": "app",
-          "build": null
         }
       }
     }
