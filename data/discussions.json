@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T17:46:25.998Z",
+  "generatedAt": "2026-03-09T17:47:50.889Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -736,7 +736,7 @@
           "issueNumber": 146,
           "excerpt": "Games boots up, and Goes in game but textures are black and audio don’t work once goes in game",
           "images": [
-            "https://github.com/user-attachments/assets/72c35ae3-4636-4bf6-ae6d-a616df285364"
+            "https://github.com/user-attachments/assets/d9acdd0a-699f-42d7-b020-a88ce3e39e91"
           ],
           "meta": {}
         }
