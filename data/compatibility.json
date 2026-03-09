@@ -1,192 +1,5 @@
 [
   {
-    "slug": "angry-birds-trilogy",
-    "title": "[Angry Birds Trilogy]",
-    "titleId": "415608E4",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad 11th Gen",
-      "platform": "ios",
-      "osVersion": "18.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "Runs perfectly",
-    "reports": [
-      {
-        "device": "iPad 11th Gen",
-        "platform": "ios",
-        "osVersion": "18.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-09",
-        "notes": "Runs perfectly",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280"
-        }
-      },
-      {
-        "device": "iPad 11th Gen",
-        "platform": "ios",
-        "osVersion": "18.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-09",
-        "notes": "Runs Perfectly",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280"
-        }
-      },
-      {
-        "device": "iPhone 14 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "Crashes on boot",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 47,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/47",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Runs perfectly",
-        "updatedAt": "2026-03-09",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "18.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-09",
-          "notes": "Runs perfectly",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "18.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-09",
-          "notes": "Runs perfectly",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Runs perfectly",
-        "updatedAt": "2026-03-09",
-        "reportCount": 3,
-        "latestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "18.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-09",
-          "notes": "Runs perfectly",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "18.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-09",
-          "notes": "Runs perfectly",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "prototype",
     "title": "[Prototype]™",
     "titleId": "4156084E",
@@ -333,19 +146,20 @@
         "notes": "This is a challenging 3D game that pushes the boundaries. Game Hangs or freezes a few times after starting and selecting Dark/Brightness setting, before you can get in game. Menu text is blurred and not readable making navigation challenging. The trick that seemed to allow it to load in game is navigating to Settings and manually changing the Brightness settings before trying to start. Then back out and start the game. When you first get in game it takes a few seconds for the world to load in, causing colorful or blank areas. In game the FPS is low average around 10-15 FPS. However despite these issues the game does run and is playable.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530805/1773063452621-1.jpg"
     ],
+    "issueNumber": 136,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/136",
     "summaries": {
       "release": {
         "channel": "release",
@@ -386,13 +200,12 @@
           "notes": "This is a challenging 3D game that pushes the boundaries. Game Hangs or freezes a few times after starting and selecting Dark/Brightness setting, before you can get in game. Menu text is blurred and not readable making navigation challenging. The trick that seemed to allow it to load in game is navigating to Settings and manually changing the Brightness settings before trying to start. Then back out and start the game. When you first get in game it takes a few seconds for the world to load in, causing colorful or blank areas. In game the FPS is low average around 10-15 FPS. However despite these issues the game does run and is playable.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -407,19 +220,203 @@
           "notes": "This is a challenging 3D game that pushes the boundaries. Game Hangs or freezes a few times after starting and selecting Dark/Brightness setting, before you can get in game. Menu text is blurred and not readable making navigation challenging. The trick that seemed to allow it to load in game is navigating to Settings and manually changing the Brightness settings before trying to start. Then back out and start the game. When you first get in game it takes a few seconds for the world to load in, causing colorful or blank areas. In game the FPS is low average around 10-15 FPS. However despite these issues the game does run and is playable.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
+    }
+  },
+  {
+    "slug": "angry-birds-trilogy",
+    "title": "Angry Birds Trilogy",
+    "titleId": "415608E4",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad 11th Gen",
+      "platform": "ios",
+      "osVersion": "18.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
     },
-    "issueNumber": 136,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/136"
+    "updatedAt": "2026-03-09",
+    "notes": "Runs Perfectly",
+    "reports": [
+      {
+        "device": "iPad 11th Gen",
+        "platform": "ios",
+        "osVersion": "18.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-09",
+        "notes": "Runs Perfectly",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280"
+        }
+      },
+      {
+        "device": "iPad 11th Gen",
+        "platform": "ios",
+        "osVersion": "18.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-09",
+        "notes": "Runs perfectly",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280"
+        }
+      },
+      {
+        "device": "iPhone 14 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "Crashes on boot",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 47,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/47",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Runs Perfectly",
+        "updatedAt": "2026-03-09",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "iPad 11th Gen",
+          "platform": "ios",
+          "osVersion": "18.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-09",
+          "notes": "Runs Perfectly",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPad 11th Gen",
+          "platform": "ios",
+          "osVersion": "18.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-09",
+          "notes": "Runs Perfectly",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Runs Perfectly",
+        "updatedAt": "2026-03-09",
+        "reportCount": 3,
+        "latestReport": {
+          "device": "iPad 11th Gen",
+          "platform": "ios",
+          "osVersion": "18.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-09",
+          "notes": "Runs Perfectly",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPad 11th Gen",
+          "platform": "ios",
+          "osVersion": "18.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-09",
+          "notes": "Runs Perfectly",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        }
+      }
+    }
   },
   {
     "slug": "banjo-kazooie-nuts-bolts",
@@ -739,17 +736,18 @@
         "notes": "Intro is messed up, but loads.\n\nCrashes occasionally (upon new game, and certain heavy scene changes)\n\nSlows down occasionally, lights also visible through geometry, and models sometimes appear and disappear.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 137,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/137",
     "summaries": {
       "release": {
         "channel": "release",
@@ -790,13 +788,12 @@
           "notes": "Intro is messed up, but loads.\n\nCrashes occasionally (upon new game, and certain heavy scene changes)\n\nSlows down occasionally, lights also visible through geometry, and models sometimes appear and disappear.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -811,19 +808,16 @@
           "notes": "Intro is messed up, but loads.\n\nCrashes occasionally (upon new game, and certain heavy scene changes)\n\nSlows down occasionally, lights also visible through geometry, and models sometimes appear and disappear.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 137,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/137"
+    }
   },
   {
     "slug": "bayonetta",
@@ -3604,19 +3598,20 @@
         "notes": "Graphical glitch, dont playable",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/464507D6/1773059378871-1.jpg"
     ],
+    "issueNumber": 135,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/135",
     "summaries": {
       "release": {
         "channel": "release",
@@ -3657,13 +3652,12 @@
           "notes": "Graphical glitch, dont playable",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -3678,19 +3672,16 @@
           "notes": "Graphical glitch, dont playable",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 135,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/135"
+    }
   },
   {
     "slug": "doa5-ultimate",
@@ -3936,17 +3927,18 @@
         "notes": "Crash after 2min, a lot of bug graphic",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 133,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/133",
     "summaries": {
       "release": {
         "channel": "release",
@@ -3987,13 +3979,12 @@
           "notes": "Crash after 2min, a lot of bug graphic",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -4008,19 +3999,16 @@
           "notes": "Crash after 2min, a lot of bug graphic",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 133,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/133"
+    }
   },
   {
     "slug": "fable-ii",
@@ -6777,159 +6765,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9820",
             "commitShort": "2633E8177"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "lego-star-wars-tcs",
-    "title": "LEGO Star Wars: TCS",
-    "titleId": "4C4107D7",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad 11th Gen",
-      "platform": "ios",
-      "osVersion": "18.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "For me I encountered Few Bug and Crashes around the first 4-5 boots then the game runs good after.",
-    "reports": [
-      {
-        "device": "iPad 11th Gen",
-        "platform": "ios",
-        "osVersion": "18.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-09",
-        "notes": "For me I encountered Few Bug and Crashes around the first 4-5 boots then the game runs good after.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 140,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/140",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "For me I encountered Few Bug and Crashes around the first 4-5 boots then the game runs good after.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "18.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "For me I encountered Few Bug and Crashes around the first 4-5 boots then the game runs good after.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        },
-        "bestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "18.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "For me I encountered Few Bug and Crashes around the first 4-5 boots then the game runs good after.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "For me I encountered Few Bug and Crashes around the first 4-5 boots then the game runs good after.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "18.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "For me I encountered Few Bug and Crashes around the first 4-5 boots then the game runs good after.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        },
-        "bestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "18.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "For me I encountered Few Bug and Crashes around the first 4-5 boots then the game runs good after.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
           }
         }
       }
@@ -9943,13 +9778,12 @@
         "notes": "Game loads up, intros are still not really working.\n\nUpon moving past the intro, it will usually appear as a black screen, with the time vortex being the only thing showing, however on some instances, it attempts to render geometry, but it’s all blue. \n\nGame technically functions and can start, move and fight, but there are no visuals aside from text and the pause menu.\n\nLoading screen seems to be fine.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
@@ -9960,6 +9794,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608B2/1773064759220-4.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608B2/1773064759220-5.jpg"
     ],
+    "issueNumber": 138,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/138",
     "summaries": {
       "release": {
         "channel": "release",
@@ -10000,13 +9836,12 @@
           "notes": "Game loads up, intros are still not really working.\n\nUpon moving past the intro, it will usually appear as a black screen, with the time vortex being the only thing showing, however on some instances, it attempts to render geometry, but it’s all blue. \n\nGame technically functions and can start, move and fight, but there are no visuals aside from text and the pause menu.\n\nLoading screen seems to be fine.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -10021,19 +9856,16 @@
           "notes": "Game loads up, intros are still not really working.\n\nUpon moving past the intro, it will usually appear as a black screen, with the time vortex being the only thing showing, however on some instances, it attempts to render geometry, but it’s all blue. \n\nGame technically functions and can start, move and fight, but there are no visuals aside from text and the pause menu.\n\nLoading screen seems to be fine.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 138,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/138"
+    }
   },
   {
     "slug": "star-ocean-tlh",
@@ -11237,19 +11069,20 @@
         "notes": "Graphical glitch and not playable",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/535007D4/1773059200712-1.jpg"
     ],
+    "issueNumber": 134,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/134",
     "summaries": {
       "release": {
         "channel": "release",
@@ -11290,13 +11123,12 @@
           "notes": "Graphical glitch and not playable",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -11311,19 +11143,16 @@
           "notes": "Graphical glitch and not playable",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 134,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/134"
+    }
   },
   {
     "slug": "virtua-fighter-5-final-showdown",
