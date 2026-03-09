@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T17:14:04.532Z",
+  "generatedAt": "2026-03-09T17:19:11.500Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -717,6 +717,26 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "4156091D": {
+      "titleId": "4156091D",
+      "issueNumber": 143,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/143",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-143",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/143",
+          "author": "afonsolindim-prog",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773076715000,
+          "issueNumber": 143,
+          "excerpt": "black ops logo shows for half a second then stuck on black screen,",
+          "images": [],
+          "meta": {}
         }
       ]
     },
