@@ -1,153 +1,5 @@
 [
   {
-    "slug": "minecraft-xbox-360-edition",
-    "title": "[Minecraft: Xbox 360 Edition]",
-    "titleId": "584111F7",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro",
-      "platform": "ios",
-      "osVersion": "26.0",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "Game runs and is playable. Saves also work as expected. If black screen on launch restart and relaunch.",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "26.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-09",
-        "notes": "Game runs and is playable. Saves also work as expected. If black screen on launch restart and relaunch.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 156,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/156",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Game runs and is playable. Saves also work as expected. If black screen on launch restart and relaunch.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "26.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Game runs and is playable. Saves also work as expected. If black screen on launch restart and relaunch.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "26.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Game runs and is playable. Saves also work as expected. If black screen on launch restart and relaunch.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Game runs and is playable. Saves also work as expected. If black screen on launch restart and relaunch.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "26.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Game runs and is playable. Saves also work as expected. If black screen on launch restart and relaunch.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "26.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Game runs and is playable. Saves also work as expected. If black screen on launch restart and relaunch.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "prototype",
     "title": "[Prototype]™",
     "titleId": "4156084E",
@@ -598,17 +450,18 @@
         "notes": "Makes it to initial loading then blank screen",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 153,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/153",
     "summaries": {
       "release": {
         "channel": "release",
@@ -649,13 +502,12 @@
           "notes": "Makes it to initial loading then blank screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -670,19 +522,16 @@
           "notes": "Makes it to initial loading then blank screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 153,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/153"
+    }
   },
   {
     "slug": "banjo-kazooie-nuts-bolts",
@@ -5643,7 +5492,6 @@
     "perf": "poor",
     "tags": [],
     "platforms": [
-      "macos",
       "ios"
     ],
     "lastReport": {
@@ -5668,46 +5516,6 @@
         "notes": "It’s not bad but it’s expected the game is playable the graphics poor we just need LOTS of optimization but it’s playable was able to complete the fist mission on 15-15 fps but lights and buildings really nothing loads",
         "source": "app",
         "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      },
-      {
-        "device": "MacBook Air M1",
-        "platform": "macos",
-        "osVersion": "macOS 26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-09",
-        "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "The game crashes as soon as I launch it.",
-        "source": "app",
-        "build": {
           "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
@@ -5715,98 +5523,6 @@
           "buildNumber": "9280",
           "commitShort": "2633e8177"
         }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.0.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "Doesn’t eve load anything just crashes",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "M2 Mac mini",
-        "platform": "macos",
-        "osVersion": "macOS 26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Game opens, intros play as expected. Cannot load into gameplay as the loading screen for the first mission never finishes.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633E8177"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "game crashes as soon as it’s launched",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "MacBook Pro M4 Pro/Max",
-        "platform": "macos",
-        "osVersion": "15.3",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-02-28",
-        "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
-        "source": "discord",
-        "build": null
       }
     ],
     "screenshots": [
@@ -5818,49 +5534,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 3,
-        "latestReport": {
-          "device": "MacBook Air M1",
-          "platform": "macos",
-          "osVersion": "macOS 26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -5878,7 +5558,7 @@
         "perf": "poor",
         "notes": "It’s not bad but it’s expected the game is playable the graphics poor we just need LOTS of optimization but it’s playable was able to complete the fist mission on 15-15 fps but lights and buildings really nothing loads",
         "updatedAt": "2026-03-09",
-        "reportCount": 8,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 15 Pro",
           "platform": "ios",
@@ -5891,13 +5571,12 @@
           "notes": "It’s not bad but it’s expected the game is playable the graphics poor we just need LOTS of optimization but it’s playable was able to complete the fist mission on 15-15 fps but lights and buildings really nothing loads",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -5912,13 +5591,12 @@
           "notes": "It’s not bad but it’s expected the game is playable the graphics poor we just need LOTS of optimization but it’s playable was able to complete the fist mission on 15-15 fps but lights and buildings really nothing loads",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -8251,17 +7929,18 @@
         "notes": "Runs smooth getting like 20-30 fps super smooth also here’s a tip boot the game like 10 times it will make the shader cache run smoothly",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 155,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/155",
     "summaries": {
       "release": {
         "channel": "release",
@@ -8302,13 +7981,12 @@
           "notes": "Runs smooth getting like 20-30 fps super smooth also here’s a tip boot the game like 10 times it will make the shader cache run smoothly",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -8323,19 +8001,16 @@
           "notes": "Runs smooth getting like 20-30 fps super smooth also here’s a tip boot the game like 10 times it will make the shader cache run smoothly",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 155,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/155"
+    }
   },
   {
     "slug": "naruto-storm-3",

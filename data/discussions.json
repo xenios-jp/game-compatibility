@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T21:38:21.018Z",
+  "generatedAt": "2026-03-09T21:39:14.734Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -765,7 +765,7 @@
           "createdAt": "2026-03-09",
           "createdAtMs": 1773092266000,
           "issueNumber": 156,
-          "excerpt": "Game runs and is playable. Saves also work as expected. If black screen on launch restart and relaunch.",
+          "excerpt": "Game runs and is playable. Saves also work as expected. Installed title update and performance was unchanged. If black screen on launch restart and relaunch.",
           "images": [],
           "meta": {}
         }
