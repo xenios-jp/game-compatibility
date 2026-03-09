@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T20:35:23.686Z",
+  "generatedAt": "2026-03-09T21:04:01.721Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -153,6 +153,37 @@
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "43430817": {
+      "titleId": "43430817",
+      "issueNumber": 153,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/153",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-153",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/153",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773090216000,
+          "issueNumber": 153,
+          "excerpt": "Makes it to initial loading then blank screen",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.2",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
