@@ -1,266 +1,5 @@
 [
   {
-    "slug": "gta-iv",
-    "title": "[Grand Theft Auto IV]",
-    "titleId": "545407F2",
-    "status": "loads",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios",
-      "macos"
-    ],
-    "lastReport": {
-      "device": "MacBook Air M1",
-      "platform": "macos",
-      "osVersion": "macOS 26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
-    "reports": [
-      {
-        "device": "MacBook Air M1",
-        "platform": "macos",
-        "osVersion": "macOS 26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-09",
-        "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "The game crashes as soon as I launch it.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.0.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "Doesn’t eve load anything just crashes",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "M2 Mac mini",
-        "platform": "macos",
-        "osVersion": "macOS 26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Game opens, intros play as expected. Cannot load into gameplay as the loading screen for the first mission never finishes.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633E8177"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "game crashes as soon as it’s launched",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "MacBook Pro M4 Pro/Max",
-        "platform": "macos",
-        "osVersion": "15.3",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-02-28",
-        "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
-        "source": "discord",
-        "build": null
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 41,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 3,
-        "latestReport": {
-          "device": "MacBook Air M1",
-          "platform": "macos",
-          "osVersion": "macOS 26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 7,
-        "latestReport": {
-          "device": "MacBook Air M1",
-          "platform": "macos",
-          "osVersion": "macOS 26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "prototype",
     "title": "[Prototype]™",
     "titleId": "4156084E",
@@ -1907,47 +1646,13 @@
         "notes": "I’d recon that this game is playable but not enjoyable many gotches when first loading the game and when playing the gam. Like random textures spreading around and blue flashing on the screen. To the developer please fix the issue where I can’t report games that are iso I’ve been able to report games that are in GOD format. Also mw1 has pretty alright fps but does start to stutter in combat. Like full fps when doing the training course but on the boat it fluctuates.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-08",
-        "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633E8177"
-        }
-      },
-      {
-        "device": "iPhone18,3",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-01",
-        "notes": "Loads into game but experiences severe graphical issues.",
-        "source": "app",
-        "build": null
       }
     ],
     "screenshots": [
@@ -1958,51 +1663,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -2020,7 +1687,7 @@
         "perf": "ok",
         "notes": "I’d recon that this game is playable but not enjoyable many gotches when first loading the game and when playing the gam. Like random textures spreading around and blue flashing on the screen. To the developer please fix the issue where I can’t report games that are iso I’ve been able to report games that are in GOD format. Also mw1 has pretty alright fps but does start to stutter in combat. Like full fps when doing the training course but on the boat it fluctuates.",
         "updatedAt": "2026-03-09",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
@@ -2033,13 +1700,12 @@
           "notes": "I’d recon that this game is playable but not enjoyable many gotches when first loading the game and when playing the gam. Like random textures spreading around and blue flashing on the screen. To the developer please fix the issue where I can’t report games that are iso I’ve been able to report games that are in GOD format. Also mw1 has pretty alright fps but does start to stutter in combat. Like full fps when doing the training course but on the boat it fluctuates.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -2054,13 +1720,12 @@
           "notes": "I’d recon that this game is playable but not enjoyable many gotches when first loading the game and when playing the gam. Like random textures spreading around and blue flashing on the screen. To the developer please fix the issue where I can’t report games that are iso I’ve been able to report games that are in GOD format. Also mw1 has pretty alright fps but does start to stutter in combat. Like full fps when doing the training course but on the boat it fluctuates.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -2319,154 +1984,6 @@
     }
   },
   {
-    "slug": "call-of-duty-black-ops-iii",
-    "title": "Call of Duty: Black Ops III",
-    "titleId": "4156091D",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro M5",
-      "platform": "ios",
-      "osVersion": "iPadOS 26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "black ops logo shows for half a second then stuck on black screen,",
-    "reports": [
-      {
-        "device": "iPad Pro M5",
-        "platform": "ios",
-        "osVersion": "iPadOS 26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-09",
-        "notes": "black ops logo shows for half a second then stuck on black screen,",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 143,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/143",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "black ops logo shows for half a second then stuck on black screen,",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro M5",
-          "platform": "ios",
-          "osVersion": "iPadOS 26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "black ops logo shows for half a second then stuck on black screen,",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro M5",
-          "platform": "ios",
-          "osVersion": "iPadOS 26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "black ops logo shows for half a second then stuck on black screen,",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "black ops logo shows for half a second then stuck on black screen,",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro M5",
-          "platform": "ios",
-          "osVersion": "iPadOS 26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "black ops logo shows for half a second then stuck on black screen,",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro M5",
-          "platform": "ios",
-          "osVersion": "iPadOS 26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "black ops logo shows for half a second then stuck on black screen,",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "civilization-revolut-n",
     "title": "Civilization Revolut'n",
     "titleId": "545407E5",
@@ -2498,17 +2015,18 @@
         "notes": "Nothing",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 142,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/142",
     "summaries": {
       "release": {
         "channel": "release",
@@ -2549,13 +2067,12 @@
           "notes": "Nothing",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -2570,19 +2087,16 @@
           "notes": "Nothing",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 142,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/142"
+    }
   },
   {
     "slug": "cod-world-at-war",
@@ -5810,6 +5324,267 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "gta-iv",
+    "title": "GTA IV",
+    "titleId": "545407F2",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "macos",
+      "ios"
+    ],
+    "lastReport": {
+      "device": "MacBook Air M1",
+      "platform": "macos",
+      "osVersion": "macOS 26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
+    "reports": [
+      {
+        "device": "MacBook Air M1",
+        "platform": "macos",
+        "osVersion": "macOS 26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-09",
+        "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280"
+        }
+      },
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "The game crashes as soon as I launch it.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280"
+        }
+      },
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "26.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "Doesn’t eve load anything just crashes",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
+      {
+        "device": "M2 Mac mini",
+        "platform": "macos",
+        "osVersion": "macOS 26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "Game opens, intros play as expected. Cannot load into gameplay as the loading screen for the first mission never finishes.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
+        }
+      },
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "game crashes as soon as it’s launched",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
+      {
+        "device": "MacBook Pro M4 Pro/Max",
+        "platform": "macos",
+        "osVersion": "15.3",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-02-28",
+        "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
+        "source": "discord",
+        "build": null
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 41,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
+        "updatedAt": "2026-03-09",
+        "reportCount": 3,
+        "latestReport": {
+          "device": "MacBook Air M1",
+          "platform": "macos",
+          "osVersion": "macOS 26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
+        "updatedAt": "2026-03-09",
+        "reportCount": 7,
+        "latestReport": {
+          "device": "MacBook Air M1",
+          "platform": "macos",
+          "osVersion": "macOS 26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "The game launches successfully and boots to the main menu without issues. I was able to start the first mission (\"Off the Boat\").\n\nHowever, there are significant graphical glitches throughout, and visual quality needs substantial improvement. Despite these issues, the game remains functional and is somewhat playable.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
           }
         }
       }
