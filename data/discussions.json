@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T17:19:11.500Z",
+  "generatedAt": "2026-03-09T17:28:49.559Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -720,6 +720,58 @@
         }
       ]
     },
+    "415607E6": {
+      "titleId": "415607E6",
+      "issueNumber": 144,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/144",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-144",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/144",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773077300000,
+          "issueNumber": 144,
+          "excerpt": "I’d recon that this game is playable but not enjoyable many gotches when first loading the game and when playing the gam. Like random textures spreading around and blue flashing on the screen. To the developer please fix the issue where I can’t report games that are iso I’ve been able to report games that are in GOD format. Also mw1 has pretty alright fps but does start to stutter in combat. Like full fps when doing the training course but on the boat it fluctuates.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607E6/1773077297584-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-37",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/37",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-01",
+          "createdAtMs": 1772347531000,
+          "issueNumber": 37,
+          "excerpt": "Loads into game but experiences severe graphical issues.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone18,3",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
     "4156091D": {
       "titleId": "4156091D",
       "issueNumber": 143,
@@ -730,7 +782,7 @@
           "id": "issue-143",
           "type": "issue",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/143",
-          "author": "afonsolindim-prog",
+          "author": "fonsooooooo9",
           "createdAt": "2026-03-09",
           "createdAtMs": 1773076715000,
           "issueNumber": 143,
@@ -3859,33 +3911,6 @@
             "status": "playable",
             "perf": "great",
             "device": "iPhone18,2",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
-    "415607E6": {
-      "titleId": "415607E6",
-      "issueNumber": 37,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/37",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "issue-37",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/37",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-01",
-          "createdAtMs": 1772347531000,
-          "issueNumber": 37,
-          "excerpt": "Loads into game but experiences severe graphical issues.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone18,3",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL"
