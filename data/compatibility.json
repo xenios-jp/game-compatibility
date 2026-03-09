@@ -3142,6 +3142,121 @@
     }
   },
   {
+    "slug": "grand-theft-auto-v",
+    "title": "Grand Theft Auto V",
+    "titleId": "545408A7",
+    "status": "intro",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "It shows the start then goes black the audio is a bit bugged too",
+    "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-03-09",
+        "notes": "It shows the start then goes black the audio is a bit bugged too",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 62,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "intro",
+        "perf": "poor",
+        "notes": "It shows the start then goes black the audio is a bit bugged too",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "It shows the start then goes black the audio is a bit bugged too",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "It shows the start then goes black the audio is a bit bugged too",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "gta-iv",
     "title": "GTA IV",
     "titleId": "545407F2",
@@ -8743,122 +8858,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "2633e8177"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "grand-theft-auto-v",
-    "title": "Grand Theft Auto V",
-    "titleId": "545408A7",
-    "status": "intro",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "It shows the start then goes black the audio is a bit bugged too",
-    "reports": [
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-03-09",
-        "notes": "It shows the start then goes black the audio is a bit bugged too",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "intro",
-        "perf": "poor",
-        "notes": "It shows the start then goes black the audio is a bit bugged too",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "It shows the start then goes black the audio is a bit bugged too",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "It shows the start then goes black the audio is a bit bugged too",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
           }
         }
       }
