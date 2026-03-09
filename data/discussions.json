@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T19:05:54.748Z",
+  "generatedAt": "2026-03-09T19:26:46.719Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -711,6 +711,37 @@
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "454107D9": {
+      "titleId": "454107D9",
+      "issueNumber": 151,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/151",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-151",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/151",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773084382000,
+          "issueNumber": 151,
+          "excerpt": "Stuck sen tried to strt a quick race",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "ok",
+            "device": "iPad 11th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
