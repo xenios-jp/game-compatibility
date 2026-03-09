@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T00:50:02.719Z",
+  "generatedAt": "2026-03-09T01:08:37.783Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -565,6 +565,37 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "465307E4": {
+      "titleId": "465307E4",
+      "issueNumber": 110,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/110",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-110",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/110",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773018487000,
+          "issueNumber": 110,
+          "excerpt": "Crashes after pressing start button.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
