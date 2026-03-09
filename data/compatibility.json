@@ -1,7 +1,122 @@
 [
   {
-    "slug": "title-415608e4",
-    "title": "[Angry Birds Trilogy]",
+    "slug": "prototype",
+    "title": "[Prototype]™",
+    "titleId": "4156084E",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 12 Pro Max",
+      "platform": "ios",
+      "osVersion": "18.6.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Black screen and didn’t load even into menu",
+    "reports": [
+      {
+        "device": "iPhone 12 Pro Max",
+        "platform": "ios",
+        "osVersion": "18.6.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "Black screen and didn’t load even into menu",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 44,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/44",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Black screen and didn’t load even into menu",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 12 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.6.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "Black screen and didn’t load even into menu",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 12 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.6.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "Black screen and didn’t load even into menu",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "angry-birds-trilogy",
+    "title": "Angry Birds Trilogy",
     "titleId": "415608E4",
     "status": "playable",
     "perf": "great",
@@ -168,35 +283,35 @@
     }
   },
   {
-    "slug": "prototype",
-    "title": "[Prototype]™",
-    "titleId": "4156084E",
-    "status": "nothing",
-    "perf": "n/a",
+    "slug": "banjo-kazooie-nuts-bolts",
+    "title": "Banjo Kazooie: Nuts & Bolts",
+    "titleId": "4D5307ED",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 12 Pro Max",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "18.6.2",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-08",
-    "notes": "Black screen and didn’t load even into menu",
+    "notes": "Requires dedicated XMA core enabled",
     "reports": [
       {
-        "device": "iPhone 12 Pro Max",
+        "device": "iPhone 15 Pro Max",
         "platform": "ios",
-        "osVersion": "18.6.2",
+        "osVersion": "26.1",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
+        "status": "playable",
+        "perf": "poor",
         "date": "2026-03-08",
-        "notes": "Black screen and didn’t load even into menu",
+        "notes": "Requires dedicated XMA core enabled",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.0-9280",
@@ -206,11 +321,47 @@
           "buildNumber": "9280",
           "commitShort": "2633e8177"
         }
+      },
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "Runs",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-05",
+        "notes": "Crashes",
+        "source": "app",
+        "build": null
       }
     ],
-    "screenshots": [],
-    "issueNumber": 44,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/44",
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307ED/1772994379832-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307ED/1772994379832-2.jpg"
+    ],
+    "issueNumber": 7,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/7",
     "summaries": {
       "release": {
         "channel": "release",
@@ -234,21 +385,21 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen and didn’t load even into menu",
+        "status": "playable",
+        "perf": "poor",
+        "notes": "Requires dedicated XMA core enabled",
         "updatedAt": "2026-03-08",
-        "reportCount": 1,
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 12 Pro Max",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "18.6.2",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "playable",
+          "perf": "poor",
           "date": "2026-03-08",
-          "notes": "Black screen and didn’t load even into menu",
+          "notes": "Requires dedicated XMA core enabled",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-1.0.0-9280",
@@ -260,15 +411,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 12 Pro Max",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "18.6.2",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "playable",
+          "perf": "poor",
           "date": "2026-03-08",
-          "notes": "Black screen and didn’t load even into menu",
+          "notes": "Requires dedicated XMA core enabled",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-1.0.0-9280",
@@ -1129,17 +1280,18 @@
         "notes": "crashes",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 130,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/130",
     "summaries": {
       "release": {
         "channel": "release",
@@ -1180,13 +1332,12 @@
           "notes": "crashes",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -1201,19 +1352,16 @@
           "notes": "crashes",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 130,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/130"
+    }
   },
   {
     "slug": "call-of-duty-4",
@@ -1376,6 +1524,141 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "2633E8177"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "call-of-duty-black-ops",
+    "title": "Call of Duty: Black Ops",
+    "titleId": "41560855",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "Black screen",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-09",
+        "notes": "Black screen",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
+      {
+        "device": "iPad Pro 12.9 inch 6th Gen",
+        "platform": "ios",
+        "osVersion": "17.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 45,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/45",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Black screen",
+        "updatedAt": "2026-03-09",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-09",
+          "notes": "Black screen",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-09",
+          "notes": "Black screen",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -3546,17 +3829,18 @@
         "notes": "iPhone 17 Pro, not playable, runs at about 10-15 fps, texture shredding / graphic issues",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 129,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/129",
     "summaries": {
       "release": {
         "channel": "release",
@@ -3597,13 +3881,12 @@
           "notes": "iPhone 17 Pro, not playable, runs at about 10-15 fps, texture shredding / graphic issues",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -3618,19 +3901,16 @@
           "notes": "iPhone 17 Pro, not playable, runs at about 10-15 fps, texture shredding / graphic issues",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 129,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/129"
+    }
   },
   {
     "slug": "fh2-fast-furious",
@@ -7180,6 +7460,121 @@
     }
   },
   {
+    "slug": "ninja-gaiden-ii",
+    "title": "Ninja Gaiden II",
+    "titleId": "544307D5",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Absolutely nothing when trying to load game",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "Absolutely nothing when trying to load game",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 73,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/73",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Absolutely nothing when trying to load game",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "Absolutely nothing when trying to load game",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "Absolutely nothing when trying to load game",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "oblivion",
     "title": "Oblivion",
     "titleId": "425307D1",
@@ -7845,6 +8240,121 @@
           "perf": "great",
           "date": "2026-03-08",
           "notes": "Perfect",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "rise-of-the-tomb-raider",
+    "title": "Rise of the Tomb Raider",
+    "titleId": "53510823",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 13 Mini",
+      "platform": "ios",
+      "osVersion": "16.6.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "Does not load, crashes app immediately on launch",
+    "reports": [
+      {
+        "device": "iPhone 13 Mini",
+        "platform": "ios",
+        "osVersion": "16.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-09",
+        "notes": "Does not load, crashes app immediately on launch",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 119,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/119",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Does not load, crashes app immediately on launch",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 13 Mini",
+          "platform": "ios",
+          "osVersion": "16.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-09",
+          "notes": "Does not load, crashes app immediately on launch",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 13 Mini",
+          "platform": "ios",
+          "osVersion": "16.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-09",
+          "notes": "Does not load, crashes app immediately on launch",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-1.0.0-9280",
@@ -9562,616 +10072,6 @@
     }
   },
   {
-    "slug": "title-41560855",
-    "title": "Title 41560855",
-    "titleId": "41560855",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "Black screen",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-09",
-        "notes": "Black screen",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPad Pro 12.9 inch 6th Gen",
-        "platform": "ios",
-        "osVersion": "17.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 45,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/45",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-03-09",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Black screen",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Black screen",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "title-4d5307ed",
-    "title": "Title 4D5307ED",
-    "titleId": "4D5307ED",
-    "status": "playable",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-08",
-    "notes": "Requires dedicated XMA core enabled",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Requires dedicated XMA core enabled",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Runs",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-05",
-        "notes": "Crashes",
-        "source": "app",
-        "build": null
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307ED/1772994379832-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307ED/1772994379832-2.jpg"
-    ],
-    "issueNumber": 7,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/7",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "poor",
-        "notes": "Requires dedicated XMA core enabled",
-        "updatedAt": "2026-03-08",
-        "reportCount": 3,
-        "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "Requires dedicated XMA core enabled",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "Requires dedicated XMA core enabled",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "title-534507ee",
-    "title": "Title 534507EE",
-    "titleId": "534507EE",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-03",
-        "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
-        "source": "app",
-        "build": null
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 20,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/20",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-03",
-          "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-03",
-          "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
-          "source": "app",
-          "build": null
-        }
-      }
-    }
-  },
-  {
-    "slug": "title-53510823",
-    "title": "Title 53510823",
-    "titleId": "53510823",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 13 Mini",
-      "platform": "ios",
-      "osVersion": "16.6.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "Does not load, crashes app immediately on launch",
-    "reports": [
-      {
-        "device": "iPhone 13 Mini",
-        "platform": "ios",
-        "osVersion": "16.6.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-09",
-        "notes": "Does not load, crashes app immediately on launch",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 119,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/119",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Does not load, crashes app immediately on launch",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 13 Mini",
-          "platform": "ios",
-          "osVersion": "16.6.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Does not load, crashes app immediately on launch",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 13 Mini",
-          "platform": "ios",
-          "osVersion": "16.6.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Does not load, crashes app immediately on launch",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "title-544307d5",
-    "title": "Title 544307D5",
-    "titleId": "544307D5",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-08",
-    "notes": "Absolutely nothing when trying to load game",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "Absolutely nothing when trying to load game",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 73,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/73",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Absolutely nothing when trying to load game",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "Absolutely nothing when trying to load game",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "Absolutely nothing when trying to load game",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "title-565707d0",
     "title": "Title 565707D0",
     "titleId": "565707D0",
@@ -10529,6 +10429,100 @@
             "buildNumber": "9280",
             "commitShort": "2633e8177"
           }
+        }
+      }
+    }
+  },
+  {
+    "slug": "virtua-fighter-5-final-showdown",
+    "title": "Virtua Fighter 5: Final Showdown",
+    "titleId": "534507EE",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-03",
+        "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
+        "source": "app",
+        "build": null
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 20,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/20",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
+        "updatedAt": "2026-03-03",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-03",
+          "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
+          "source": "app",
+          "build": null
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-03",
+          "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
+          "source": "app",
+          "build": null
         }
       }
     }
