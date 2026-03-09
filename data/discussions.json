@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T21:39:14.734Z",
+  "generatedAt": "2026-03-09T22:19:53.414Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -748,6 +748,26 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "5752084B": {
+      "titleId": "5752084B",
+      "issueNumber": 157,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/157",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-157",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/157",
+          "author": "xtr1232",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773094766000,
+          "issueNumber": 157,
+          "excerpt": "The game boots but instantly freezes on the first few seconds.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
