@@ -5007,21 +5007,42 @@
     "title": "Forza Horizon",
     "titleId": "4D5309C9",
     "status": "ingame",
-    "perf": "poor",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 14",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-09",
-    "notes": "Distortions and is unplayable experience",
+    "notes": "Glitches",
     "reports": [
+      {
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-09",
+        "notes": "Glitches",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -5070,48 +5091,50 @@
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "poor",
-        "notes": "Distortions and is unplayable experience",
+        "perf": "ok",
+        "notes": "Glitches",
         "updatedAt": "2026-03-09",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 14",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
+          "perf": "ok",
           "date": "2026-03-09",
-          "notes": "Distortions and is unplayable experience",
+          "notes": "Glitches",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 14",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
+          "perf": "ok",
           "date": "2026-03-09",
-          "notes": "Distortions and is unplayable experience",
+          "notes": "Glitches",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         }
       }
