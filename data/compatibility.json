@@ -4006,21 +4006,42 @@
     "title": "DOA5 Ultimate",
     "titleId": "4B5607E8",
     "status": "playable",
-    "perf": "great",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 13",
       "platform": "ios",
-      "osVersion": "26.2",
+      "osVersion": "18.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "notes": "Game has some graphical bugs during intro screen, after shader compilation, fps increases and game runs 30-57 fps.",
+    "updatedAt": "2026-03-10",
+    "notes": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
     "reports": [
+      {
+        "device": "iPhone 13",
+        "platform": "ios",
+        "osVersion": "18.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-10",
+        "notes": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -4043,6 +4064,8 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E8/1773119681320-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E8/1773119681320-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E8/1773020742635-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E8/1773020742635-2.jpg"
     ],
@@ -4072,48 +4095,50 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "Game has some graphical bugs during intro screen, after shader compilation, fps increases and game runs 30-57 fps.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
+        "perf": "ok",
+        "notes": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
+        "updatedAt": "2026-03-10",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "18.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-03-09",
-          "notes": "Game has some graphical bugs during intro screen, after shader compilation, fps increases and game runs 30-57 fps.",
+          "perf": "ok",
+          "date": "2026-03-10",
+          "notes": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "18.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-03-09",
-          "notes": "Game has some graphical bugs during intro screen, after shader compilation, fps increases and game runs 30-57 fps.",
+          "perf": "ok",
+          "date": "2026-03-10",
+          "notes": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         }
       }
