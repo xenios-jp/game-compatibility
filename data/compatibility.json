@@ -9212,6 +9212,121 @@
     }
   },
   {
+    "slug": "nba-street-homecourt",
+    "title": "NBA STREET Homecourt",
+    "titleId": "454107F7",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-10",
+    "notes": "Everything loads almost perfectly but when you actually play a game the screen is black",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-10",
+        "notes": "Everything loads almost perfectly but when you actually play a game the screen is black",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 175,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/175",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Everything loads almost perfectly but when you actually play a game the screen is black",
+        "updatedAt": "2026-03-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-10",
+          "notes": "Everything loads almost perfectly but when you actually play a game the screen is black",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-10",
+          "notes": "Everything loads almost perfectly but when you actually play a game the screen is black",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "nfs-most-wanted",
     "title": "NFS Most Wanted",
     "titleId": "454107D9",
@@ -12880,8 +12995,8 @@
     "slug": "title-5454087a",
     "title": "Title 5454087A",
     "titleId": "5454087A",
-    "status": "ingame",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
@@ -12894,29 +13009,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-10",
-    "notes": "Right before the first game loads in after u press start the game crashes",
+    "notes": "Black Screen",
     "reports": [
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-10",
-        "notes": "Right before the first game loads in after u press start the game crashes",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -12947,6 +13041,26 @@
         "perf": "poor",
         "date": "2026-03-10",
         "notes": "It gets to the NBA Credit screen but doesn’t get past it",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-10",
+        "notes": "Right before the first game loads in after u press start the game crashes",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.0-9280",
@@ -12988,7 +13102,7 @@
         "channel": "all",
         "status": "ingame",
         "perf": "ok",
-        "notes": "Right before the first game loads in after u press start the game crashes",
+        "notes": "Black Screen",
         "updatedAt": "2026-03-10",
         "reportCount": 3,
         "latestReport": {
@@ -12997,19 +13111,18 @@
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
+          "status": "nothing",
+          "perf": "n/a",
           "date": "2026-03-10",
-          "notes": "Right before the first game loads in after u press start the game crashes",
+          "notes": "Black Screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -13024,13 +13137,12 @@
           "notes": "Right before the first game loads in after u press start the game crashes",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -13501,123 +13613,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "nba-street-homecourt",
-    "title": "NBA STREET Homecourt",
-    "titleId": "454107F7",
-    "status": "ingame",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16e",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-10",
-    "notes": "Everything loads almost perfectly but when you actually play a game the screen is black",
-    "reports": [
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-10",
-        "notes": "Everything loads almost perfectly but when you actually play a game the screen is black",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Everything loads almost perfectly but when you actually play a game the screen is black",
-        "updatedAt": "2026-03-10",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16e",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "Everything loads almost perfectly but when you actually play a game the screen is black",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16e",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "Everything loads almost perfectly but when you actually play a game the screen is black",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 175,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/175"
   }
 ]
