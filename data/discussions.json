@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T03:51:10.409Z",
+  "generatedAt": "2026-03-10T04:19:58.244Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -777,6 +777,32 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/160",
       "updatedAt": "2026-03-10",
       "entries": [
+        {
+          "id": "comment-4028555288",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/160#issuecomment-4028555288",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773116361000,
+          "issueNumber": 160,
+          "excerpt": "Loads up to the into page then goes to about 5fps with heavy audio distortion and graphical glitches, after hitting start the pre-rendered cut scene freezes and doesn’t continue",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773116358648-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773116358648-2.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "`:(`"
+          }
+        },
         {
           "id": "issue-160",
           "type": "issue",
