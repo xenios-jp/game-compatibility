@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T01:27:51.313Z",
+  "generatedAt": "2026-03-10T01:41:37.620Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1522,7 +1522,7 @@
       "titleId": "4D5309C9",
       "issueNumber": 125,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
-      "updatedAt": "2026-03-09",
+      "updatedAt": "2026-03-10",
       "entries": [
         {
           "id": "comment-4025874034",
