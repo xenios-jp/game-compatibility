@@ -13072,5 +13072,123 @@
     },
     "issueNumber": 171,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/171"
+  },
+  {
+    "slug": "pinball-arcade",
+    "title": "Pinball Arcade",
+    "titleId": "5841121D",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 13",
+      "platform": "ios",
+      "osVersion": "18.0.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-10",
+    "notes": "Sometimes the game will freeze before you can even access the menu. Once you do get in-game the FPS and speed is too low for an enjoyable experience.",
+    "reports": [
+      {
+        "device": "iPhone 13",
+        "platform": "ios",
+        "osVersion": "18.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-10",
+        "notes": "Sometimes the game will freeze before you can even access the menu. Once you do get in-game the FPS and speed is too low for an enjoyable experience.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5841121D/1773164725590-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Sometimes the game will freeze before you can even access the menu. Once you do get in-game the FPS and speed is too low for an enjoyable experience.",
+        "updatedAt": "2026-03-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 13",
+          "platform": "ios",
+          "osVersion": "18.0.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-10",
+          "notes": "Sometimes the game will freeze before you can even access the menu. Once you do get in-game the FPS and speed is too low for an enjoyable experience.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 13",
+          "platform": "ios",
+          "osVersion": "18.0.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-10",
+          "notes": "Sometimes the game will freeze before you can even access the menu. Once you do get in-game the FPS and speed is too low for an enjoyable experience.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    }
   }
 ]
