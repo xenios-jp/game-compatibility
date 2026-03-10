@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T01:41:37.620Z",
+  "generatedAt": "2026-03-10T03:51:10.409Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1170,8 +1170,31 @@
       "titleId": "415607E6",
       "issueNumber": 144,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/144",
-      "updatedAt": "2026-03-09",
+      "updatedAt": "2026-03-10",
       "entries": [
+        {
+          "id": "comment-4028468601",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/144#issuecomment-4028468601",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773114624000,
+          "issueNumber": 144,
+          "excerpt": "The game is awesome runs super good it’s chefs kiss. Overall: spectacular",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-144",
           "type": "issue",

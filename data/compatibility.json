@@ -1,199 +1,5 @@
 [
   {
-    "slug": "forza-horizon",
-    "title": "[FORZA_HORIZON]",
-    "titleId": "4D5309C9",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios",
-      "macos"
-    ],
-    "lastReport": {
-      "device": "Macbook Air M1",
-      "platform": "macos",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-03-10",
-    "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
-    "reports": [
-      {
-        "device": "Macbook Air M1",
-        "platform": "macos",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-10",
-        "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633E8177"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-09",
-        "notes": "Distortions and is unplayable experience",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPhone 14",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-09",
-        "notes": "Glitches",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 125,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
-        "updatedAt": "2026-03-10",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "Macbook Air M1",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        },
-        "bestReport": {
-          "device": "Macbook Air M1",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
-        "updatedAt": "2026-03-10",
-        "reportCount": 3,
-        "latestReport": {
-          "device": "Macbook Air M1",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        },
-        "bestReport": {
-          "device": "Macbook Air M1",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "prototype",
     "title": "[Prototype]™",
     "titleId": "4156084E",
@@ -1955,13 +1761,12 @@
         "notes": "The game is awesome runs super good it’s chefs kiss. Overall: spectacular",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       },
       {
@@ -2030,13 +1835,12 @@
           "notes": "The game is awesome runs super good it’s chefs kiss. Overall: spectacular",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -2051,13 +1855,12 @@
           "notes": "The game is awesome runs super good it’s chefs kiss. Overall: spectacular",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -5330,6 +5133,200 @@
           "notes": "-Graphics: minor glitches like hair transparency \n-Performance: full speed on higher end devices with minor dips.\n-Sound: No sound…\n-Menus: Perfect \n-Videos: work\n\n*Tested for an hour with no crash",
           "source": "app",
           "build": null
+        }
+      }
+    }
+  },
+  {
+    "slug": "forza-horizon",
+    "title": "Forza Horizon",
+    "titleId": "4D5309C9",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "macos",
+      "ios"
+    ],
+    "lastReport": {
+      "device": "Macbook Air M1",
+      "platform": "macos",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-03-10",
+    "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
+    "reports": [
+      {
+        "device": "Macbook Air M1",
+        "platform": "macos",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-10",
+        "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
+        }
+      },
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-09",
+        "notes": "Distortions and is unplayable experience",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
+      {
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-09",
+        "notes": "Glitches",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 125,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
+        "updatedAt": "2026-03-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Macbook Air M1",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-10",
+          "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Air M1",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-10",
+          "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
+        "updatedAt": "2026-03-10",
+        "reportCount": 3,
+        "latestReport": {
+          "device": "Macbook Air M1",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-10",
+          "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Air M1",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-10",
+          "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
         }
       }
     }
