@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T00:52:03.689Z",
+  "generatedAt": "2026-03-10T01:27:13.542Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -748,6 +748,26 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "545107D1": {
+      "titleId": "545107D1",
+      "issueNumber": 161,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/161",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-161",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/161",
+          "author": "tracylovesu",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773106004000,
+          "issueNumber": 161,
+          "excerpt": "Game start & gets through intro screens & lets you access the menu (the menu has music but for some reason it doesn't play on this emulator.) but infinitely loads when trying to start a new game.",
+          "images": [],
+          "meta": {}
         }
       ]
     },

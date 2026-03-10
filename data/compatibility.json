@@ -115,6 +115,118 @@
     }
   },
   {
+    "slug": "saints-row",
+    "title": "[Saints Row}",
+    "titleId": "545107D1",
+    "status": "loads",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "Macbook Pro M4 Max",
+      "platform": "macos",
+      "osVersion": "Sequoia 15.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-10",
+    "notes": "Game start & gets through intro screens & lets you access the menu (the menu has music but for some reason it doesn't play on this emulator.) but infinitely loads when trying to start a new game.",
+    "reports": [
+      {
+        "device": "Macbook Pro M4 Max",
+        "platform": "macos",
+        "osVersion": "Sequoia 15.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "great",
+        "date": "2026-03-10",
+        "notes": "Game start & gets through intro screens & lets you access the menu (the menu has music but for some reason it doesn't play on this emulator.) but infinitely loads when trying to start a new game.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.0-9280-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0-9280",
+          "buildNumber": "9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 161,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/161",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "great",
+        "notes": "Game start & gets through intro screens & lets you access the menu (the menu has music but for some reason it doesn't play on this emulator.) but infinitely loads when trying to start a new game.",
+        "updatedAt": "2026-03-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Macbook Pro M4 Max",
+          "platform": "macos",
+          "osVersion": "Sequoia 15.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-10",
+          "notes": "Game start & gets through intro screens & lets you access the menu (the menu has music but for some reason it doesn't play on this emulator.) but infinitely loads when trying to start a new game.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9280-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0-9280",
+            "buildNumber": "9280"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Pro M4 Max",
+          "platform": "macos",
+          "osVersion": "Sequoia 15.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-10",
+          "notes": "Game start & gets through intro screens & lets you access the menu (the menu has music but for some reason it doesn't play on this emulator.) but infinitely loads when trying to start a new game.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9280-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0-9280",
+            "buildNumber": "9280"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "alan-wake",
     "title": "Alan Wake",
     "titleId": "4D530805",
@@ -11228,6 +11340,129 @@
     }
   },
   {
+    "slug": "the-force-unleashed",
+    "title": "The Force Unleashed",
+    "titleId": "4C4107D2",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-10",
+    "notes": "Game is alright on first mission but after first mission the game runs awesome and gameplay is super good. Just watch out on first mission cause it’s laggy because it starts outside so there’s the sun and there’s shadows. Overall: Amazing",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-10",
+        "notes": "Game is alright on first mission but after first mission the game runs awesome and gameplay is super good. Just watch out on first mission cause it’s laggy because it starts outside so there’s the sun and there’s shadows. Overall: Amazing",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4C4107D2/1773103497258-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4C4107D2/1773103497258-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4C4107D2/1773103497258-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4C4107D2/1773103497258-4.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game is alright on first mission but after first mission the game runs awesome and gameplay is super good. Just watch out on first mission cause it’s laggy because it starts outside so there’s the sun and there’s shadows. Overall: Amazing",
+        "updatedAt": "2026-03-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-10",
+          "notes": "Game is alright on first mission but after first mission the game runs awesome and gameplay is super good. Just watch out on first mission cause it’s laggy because it starts outside so there’s the sun and there’s shadows. Overall: Amazing",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-10",
+          "notes": "Game is alright on first mission but after first mission the game runs awesome and gameplay is super good. Just watch out on first mission cause it’s laggy because it starts outside so there’s the sun and there’s shadows. Overall: Amazing",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 159,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/159"
+  },
+  {
     "slug": "the-godfather",
     "title": "The Godfather™",
     "titleId": "454107E9",
@@ -11647,6 +11882,124 @@
         }
       }
     }
+  },
+  {
+    "slug": "title-545407f8",
+    "title": "Title 545407F8",
+    "titleId": "545407F8",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-10",
+    "notes": "\"playable\" is really generous. the meuns load just fine, and the game actually does get to full speed when in the pause menu but the textures pop in, the audio is so stuttery it hurts to listen to, and the game is running at like 20% speed. even in prerendered cutscenes.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-10",
+        "notes": "\"playable\" is really generous. the meuns load just fine, and the game actually does get to full speed when in the pause menu but the textures pop in, the audio is so stuttery it hurts to listen to, and the game is running at like 20% speed. even in prerendered cutscenes.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "\"playable\" is really generous. the meuns load just fine, and the game actually does get to full speed when in the pause menu but the textures pop in, the audio is so stuttery it hurts to listen to, and the game is running at like 20% speed. even in prerendered cutscenes.",
+        "updatedAt": "2026-03-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-10",
+          "notes": "\"playable\" is really generous. the meuns load just fine, and the game actually does get to full speed when in the pause menu but the textures pop in, the audio is so stuttery it hurts to listen to, and the game is running at like 20% speed. even in prerendered cutscenes.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-10",
+          "notes": "\"playable\" is really generous. the meuns load just fine, and the game actually does get to full speed when in the pause menu but the textures pop in, the audio is so stuttery it hurts to listen to, and the game is running at like 20% speed. even in prerendered cutscenes.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 160,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/160"
   },
   {
     "slug": "toy-story-3",
@@ -12113,246 +12466,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "the-force-unleashed",
-    "title": "The Force Unleashed",
-    "titleId": "4C4107D2",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-10",
-    "notes": "Game is alright on first mission but after first mission the game runs awesome and gameplay is super good. Just watch out on first mission cause it’s laggy because it starts outside so there’s the sun and there’s shadows. Overall: Amazing",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-10",
-        "notes": "Game is alright on first mission but after first mission the game runs awesome and gameplay is super good. Just watch out on first mission cause it’s laggy because it starts outside so there’s the sun and there’s shadows. Overall: Amazing",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4C4107D2/1773103497258-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4C4107D2/1773103497258-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4C4107D2/1773103497258-3.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4C4107D2/1773103497258-4.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Game is alright on first mission but after first mission the game runs awesome and gameplay is super good. Just watch out on first mission cause it’s laggy because it starts outside so there’s the sun and there’s shadows. Overall: Amazing",
-        "updatedAt": "2026-03-10",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-10",
-          "notes": "Game is alright on first mission but after first mission the game runs awesome and gameplay is super good. Just watch out on first mission cause it’s laggy because it starts outside so there’s the sun and there’s shadows. Overall: Amazing",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-10",
-          "notes": "Game is alright on first mission but after first mission the game runs awesome and gameplay is super good. Just watch out on first mission cause it’s laggy because it starts outside so there’s the sun and there’s shadows. Overall: Amazing",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 159,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/159"
-  },
-  {
-    "slug": "title-545407f8",
-    "title": "Title 545407F8",
-    "titleId": "545407F8",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-10",
-    "notes": "\"playable\" is really generous. the meuns load just fine, and the game actually does get to full speed when in the pause menu but the textures pop in, the audio is so stuttery it hurts to listen to, and the game is running at like 20% speed. even in prerendered cutscenes.",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-10",
-        "notes": "\"playable\" is really generous. the meuns load just fine, and the game actually does get to full speed when in the pause menu but the textures pop in, the audio is so stuttery it hurts to listen to, and the game is running at like 20% speed. even in prerendered cutscenes.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "\"playable\" is really generous. the meuns load just fine, and the game actually does get to full speed when in the pause menu but the textures pop in, the audio is so stuttery it hurts to listen to, and the game is running at like 20% speed. even in prerendered cutscenes.",
-        "updatedAt": "2026-03-10",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "\"playable\" is really generous. the meuns load just fine, and the game actually does get to full speed when in the pause menu but the textures pop in, the audio is so stuttery it hurts to listen to, and the game is running at like 20% speed. even in prerendered cutscenes.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "\"playable\" is really generous. the meuns load just fine, and the game actually does get to full speed when in the pause menu but the textures pop in, the audio is so stuttery it hurts to listen to, and the game is running at like 20% speed. even in prerendered cutscenes.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 160,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/160"
   }
 ]
