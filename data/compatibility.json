@@ -12880,8 +12880,8 @@
     "slug": "title-5454087a",
     "title": "Title 5454087A",
     "titleId": "5454087A",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
@@ -12894,8 +12894,29 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-10",
-    "notes": "Black Screen",
+    "notes": "Right before the first game loads in after u press start the game crashes",
     "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-10",
+        "notes": "Right before the first game loads in after u press start the game crashes",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -12965,29 +12986,30 @@
       },
       "all": {
         "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Black Screen",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Right before the first game loads in after u press start the game crashes",
         "updatedAt": "2026-03-10",
-        "reportCount": 2,
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 16e",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "ingame",
+          "perf": "ok",
           "date": "2026-03-10",
-          "notes": "Black Screen",
+          "notes": "Right before the first game loads in after u press start the game crashes",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
@@ -12996,18 +13018,19 @@
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
+          "status": "ingame",
+          "perf": "ok",
           "date": "2026-03-10",
-          "notes": "It gets to the NBA Credit screen but doesn’t get past it",
+          "notes": "Right before the first game loads in after u press start the game crashes",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         }
       }
