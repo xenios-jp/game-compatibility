@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T00:45:27.304Z",
+  "generatedAt": "2026-03-10T00:52:03.689Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -742,6 +742,37 @@
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "545407F8": {
+      "titleId": "545407F8",
+      "issueNumber": 160,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/160",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-160",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/160",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773103883000,
+          "issueNumber": 160,
+          "excerpt": "\"playable\" is really generous. the meuns load just fine, and the game actually does get to full speed when in the pause menu but the textures pop in, the audio is so stuttery it hurts to listen to, and the game is running at like 20% speed. even in prerendered cutscenes.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
