@@ -12472,5 +12472,125 @@
         }
       }
     }
+  },
+  {
+    "slug": "mortal-kombat",
+    "title": "Mortal Kombat",
+    "titleId": "575207FD",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-10",
+    "notes": "Game starts with opening screen and graphical glitches during open screen and audio issues after game opening screen is done, stays on a black screen. Re-launching the game a few times fixes the black screen but audio is unbearably loud/with cracking, performance wise game runs good. Dips between full speed and 40 ish fps.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-10",
+        "notes": "Game starts with opening screen and graphical glitches during open screen and audio issues after game opening screen is done, stays on a black screen. Re-launching the game a few times fixes the black screen but audio is unbearably loud/with cracking, performance wise game runs good. Dips between full speed and 40 ish fps.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/575207FD/1773122291255-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/575207FD/1773122291255-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/575207FD/1773122291255-3.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game starts with opening screen and graphical glitches during open screen and audio issues after game opening screen is done, stays on a black screen. Re-launching the game a few times fixes the black screen but audio is unbearably loud/with cracking, performance wise game runs good. Dips between full speed and 40 ish fps.",
+        "updatedAt": "2026-03-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-10",
+          "notes": "Game starts with opening screen and graphical glitches during open screen and audio issues after game opening screen is done, stays on a black screen. Re-launching the game a few times fixes the black screen but audio is unbearably loud/with cracking, performance wise game runs good. Dips between full speed and 40 ish fps.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-10",
+          "notes": "Game starts with opening screen and graphical glitches during open screen and audio issues after game opening screen is done, stays on a black screen. Re-launching the game a few times fixes the black screen but audio is unbearably loud/with cracking, performance wise game runs good. Dips between full speed and 40 ish fps.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    }
   }
 ]
