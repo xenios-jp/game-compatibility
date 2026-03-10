@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T23:09:27.166Z",
+  "generatedAt": "2026-03-10T00:40:25.279Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1724,8 +1724,31 @@
       "titleId": "4C4107F3",
       "issueNumber": 114,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/114",
-      "updatedAt": "2026-03-09",
+      "updatedAt": "2026-03-10",
       "entries": [
+        {
+          "id": "comment-4027826791",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/114#issuecomment-4027826791",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773103190000,
+          "issueNumber": 114,
+          "excerpt": "You have to reload the game like 7 times to get passed the screen that says “a long time ago in a galaxy far far away” and it stays on a cutscene overall not recommended",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "ok",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-114",
           "type": "issue",
