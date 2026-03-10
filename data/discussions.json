@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T00:40:25.279Z",
+  "generatedAt": "2026-03-10T00:45:27.304Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -740,6 +740,42 @@
             "status": "ingame",
             "perf": "ok",
             "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "4C4107D2": {
+      "titleId": "4C4107D2",
+      "issueNumber": 159,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/159",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-159",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/159",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773103501000,
+          "issueNumber": 159,
+          "excerpt": "Game is alright on first mission but after first mission the game runs awesome and gameplay is super good. Just watch out on first mission cause it’s laggy because it starts outside so there’s the sun and there’s shadows. Overall: Amazing",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4C4107D2/1773103497258-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4C4107D2/1773103497258-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4C4107D2/1773103497258-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4C4107D2/1773103497258-4.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15 Pro",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
