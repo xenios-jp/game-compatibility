@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T08:21:31.135Z",
+  "generatedAt": "2026-03-11T09:21:36.637Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3227,8 +3227,54 @@
       "titleId": "4B5607E8",
       "issueNumber": 115,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/115",
-      "updatedAt": "2026-03-10",
+      "updatedAt": "2026-03-11",
       "entries": [
+        {
+          "id": "comment-4037699738",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/115#issuecomment-4037699738",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773220837000,
+          "issueNumber": 115,
+          "excerpt": "Well done on iPad Air m3",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad Air 11-inch 7th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "comment-4037698432",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/115#issuecomment-4037698432",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773220827000,
+          "issueNumber": 115,
+          "excerpt": "Well done on iPad Air m3",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad Air 11-inch 7th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
         {
           "id": "comment-4028748967",
           "type": "comment",
