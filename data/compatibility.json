@@ -15068,7 +15068,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 102,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/102"
   },
   {
     "slug": "def-jam-icon",
@@ -15184,6 +15186,8 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 188,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/188"
   }
 ]
