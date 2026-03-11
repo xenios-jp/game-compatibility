@@ -4715,21 +4715,42 @@
     "title": "DOA5 Ultimate",
     "titleId": "4B5607E8",
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13",
+      "device": "iPad Air 11-inch 7th Gen",
       "platform": "ios",
-      "osVersion": "18.0.1",
+      "osVersion": "18.7.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-10",
-    "notes": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
+    "updatedAt": "2026-03-11",
+    "notes": "Well done on iPad Air m3",
     "reports": [
+      {
+        "device": "iPad Air 11-inch 7th Gen",
+        "platform": "ios",
+        "osVersion": "18.7.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-11",
+        "notes": "Well done on iPad Air m3",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "stage": "stable",
+          "commitShort": "ab2ca341a",
+          "buildId": "ios-self-built-1.0.0-9296"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -4803,48 +4824,50 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
-        "updatedAt": "2026-03-10",
-        "reportCount": 2,
+        "perf": "great",
+        "notes": "Well done on iPad Air m3",
+        "updatedAt": "2026-03-11",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 13",
+          "device": "iPad Air 11-inch 7th Gen",
           "platform": "ios",
-          "osVersion": "18.0.1",
+          "osVersion": "18.7.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
+          "perf": "great",
+          "date": "2026-03-11",
+          "notes": "Well done on iPad Air m3",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
           }
         },
         "bestReport": {
-          "device": "iPhone 13",
+          "device": "iPad Air 11-inch 7th Gen",
           "platform": "ios",
-          "osVersion": "18.0.1",
+          "osVersion": "18.7.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
+          "perf": "great",
+          "date": "2026-03-11",
+          "notes": "Well done on iPad Air m3",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
           }
         }
       }
