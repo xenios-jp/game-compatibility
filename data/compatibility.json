@@ -7251,22 +7251,43 @@
     "title": "Halo 3",
     "titleId": "4D5307E6",
     "status": "ingame",
-    "perf": "n/a",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "macos",
       "ios"
     ],
     "lastReport": {
-      "device": "Macbook Pro M4",
-      "platform": "macos",
-      "osVersion": "26.1",
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "notes": "Crashes immediately on load.",
+    "updatedAt": "2026-03-11",
+    "notes": "Boots fine and loads into game with the initial cutscene loop workaround.",
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-11",
+        "notes": "Boots fine and loads into game with the initial cutscene loop workaround.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "stage": "stable",
+          "commitShort": "ab2ca341a",
+          "buildId": "ios-self-built-1.0.0-9296"
+        }
+      },
       {
         "device": "Macbook Pro M4",
         "platform": "macos",
@@ -7546,27 +7567,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "Crashes immediately on load.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 15,
+        "notes": "Boots fine and loads into game with the initial cutscene loop workaround.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 16,
         "latestReport": {
-          "device": "Macbook Pro M4",
-          "platform": "macos",
-          "osVersion": "26.1",
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Crashes immediately on load.",
-          "source": "github",
+          "perf": "poor",
+          "date": "2026-03-11",
+          "notes": "Boots fine and loads into game with the initial cutscene loop workaround.",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
           }
         },
         "bestReport": {
