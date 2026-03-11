@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T16:41:38.475Z",
+  "generatedAt": "2026-03-11T16:49:15.675Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1030,6 +1030,37 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "4B4D07DF": {
+      "titleId": "4B4D07DF",
+      "issueNumber": 205,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/205",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-205",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/205",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773247710000,
+          "issueNumber": 205,
+          "excerpt": "Black distortion on side of screen but works great",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
           }
         }
       ]
