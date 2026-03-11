@@ -15555,22 +15555,43 @@
     "slug": "quantum-of-solace",
     "title": "Quantum of Solace",
     "titleId": "415607FF",
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPad Pro 12.9 inch 6th Gen",
       "platform": "ios",
-      "osVersion": "18.6",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-11",
-    "notes": "Game loads into home screen easily, after a few attempts I was able to get past the difficulty selection. Pre-rendered Intro scene played at full speed; once gameplay started there were graphical glitches until most things were rendered in; game only runs between 9-17fps during gameplay; crashes at random points",
+    "notes": "No audio issues, there is some artifacts during gameplay due to shader compilation, textures take few moments to load, and has frame drops during heavy scenes. Overall it runs fine",
     "reports": [
+      {
+        "device": "iPad Pro 12.9 inch 6th Gen",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-11",
+        "notes": "No audio issues, there is some artifacts during gameplay due to shader compilation, textures take few moments to load, and has frame drops during heavy scenes. Overall it runs fine",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -15594,6 +15615,8 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607FF/1773203471363-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607FF/1773203471363-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607FF/1773203160616-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607FF/1773203160616-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607FF/1773203160616-3.jpg"
@@ -15621,21 +15644,21 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Game loads into home screen easily, after a few attempts I was able to get past the difficulty selection. Pre-rendered Intro scene played at full speed; once gameplay started there were graphical glitches until most things were rendered in; game only runs between 9-17fps during gameplay; crashes at random points",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "No audio issues, there is some artifacts during gameplay due to shader compilation, textures take few moments to load, and has frame drops during heavy scenes. Overall it runs fine",
         "updatedAt": "2026-03-11",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPad Pro 12.9 inch 6th Gen",
           "platform": "ios",
-          "osVersion": "18.6",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
+          "status": "playable",
+          "perf": "ok",
           "date": "2026-03-11",
-          "notes": "Game loads into home screen easily, after a few attempts I was able to get past the difficulty selection. Pre-rendered Intro scene played at full speed; once gameplay started there were graphical glitches until most things were rendered in; game only runs between 9-17fps during gameplay; crashes at random points",
+          "notes": "No audio issues, there is some artifacts during gameplay due to shader compilation, textures take few moments to load, and has frame drops during heavy scenes. Overall it runs fine",
           "source": "app",
           "build": {
             "channel": "self-built",
@@ -15648,15 +15671,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPad Pro 12.9 inch 6th Gen",
           "platform": "ios",
-          "osVersion": "18.6",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
+          "status": "playable",
+          "perf": "ok",
           "date": "2026-03-11",
-          "notes": "Game loads into home screen easily, after a few attempts I was able to get past the difficulty selection. Pre-rendered Intro scene played at full speed; once gameplay started there were graphical glitches until most things were rendered in; game only runs between 9-17fps during gameplay; crashes at random points",
+          "notes": "No audio issues, there is some artifacts during gameplay due to shader compilation, textures take few moments to load, and has frame drops during heavy scenes. Overall it runs fine",
           "source": "app",
           "build": {
             "channel": "self-built",
