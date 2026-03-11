@@ -401,13 +401,12 @@
         "notes": "Game loads up, and runs decently with moderate slowdown and audio hiccups.\n\nOn initial run, the main menu may load weirdly, but is usually fixed in subsequent runs.\n\nVideos work fine, but lack any form of audio, and some in-engine cutscenes may also have issues with audio. \n\nVisual glitches occur, especially with the lower body of the player character when standing still.\n\nGame crashes occasionally, usually when entering new sections of the story. Intro runs decently, leading up to the first memory.\n\nGame also crashes at a specific point in the tutorial,(screenshot attached where Ezio is looking at Altair’s ghost on the wooden brackets) \n\nSo far, using a save from later on doesn’t seem to work well as later areas induce massive slowdowns with the increasing number of buildings and NPCS.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
@@ -418,6 +417,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530879/1773197309578-4.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530879/1773197309578-5.jpg"
     ],
+    "issueNumber": 190,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/190",
     "summaries": {
       "release": {
         "channel": "release",
@@ -458,13 +459,12 @@
           "notes": "Game loads up, and runs decently with moderate slowdown and audio hiccups.\n\nOn initial run, the main menu may load weirdly, but is usually fixed in subsequent runs.\n\nVideos work fine, but lack any form of audio, and some in-engine cutscenes may also have issues with audio. \n\nVisual glitches occur, especially with the lower body of the player character when standing still.\n\nGame crashes occasionally, usually when entering new sections of the story. Intro runs decently, leading up to the first memory.\n\nGame also crashes at a specific point in the tutorial,(screenshot attached where Ezio is looking at Altair’s ghost on the wooden brackets) \n\nSo far, using a save from later on doesn’t seem to work well as later areas induce massive slowdowns with the increasing number of buildings and NPCS.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -479,19 +479,16 @@
           "notes": "Game loads up, and runs decently with moderate slowdown and audio hiccups.\n\nOn initial run, the main menu may load weirdly, but is usually fixed in subsequent runs.\n\nVideos work fine, but lack any form of audio, and some in-engine cutscenes may also have issues with audio. \n\nVisual glitches occur, especially with the lower body of the player character when standing still.\n\nGame crashes occasionally, usually when entering new sections of the story. Intro runs decently, leading up to the first memory.\n\nGame also crashes at a specific point in the tutorial,(screenshot attached where Ezio is looking at Altair’s ghost on the wooden brackets) \n\nSo far, using a save from later on doesn’t seem to work well as later areas induce massive slowdowns with the increasing number of buildings and NPCS.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 190,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/190"
+    }
   },
   {
     "slug": "alan-wake",
@@ -1464,19 +1461,20 @@
         "notes": "freezes when trying to load a new campaign",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410950/1773191354675-2.jpg"
     ],
+    "issueNumber": 187,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/187",
     "summaries": {
       "release": {
         "channel": "release",
@@ -1517,13 +1515,12 @@
           "notes": "freezes when trying to load a new campaign",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -1538,19 +1535,16 @@
           "notes": "freezes when trying to load a new campaign",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 187,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/187"
+    }
   },
   {
     "slug": "bayonetta",
@@ -2737,118 +2731,6 @@
     }
   },
   {
-    "slug": "castle-crashers",
-    "title": "Castle Crashers",
-    "titleId": "584108B7",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "Iphone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "iOS 26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-11",
-    "notes": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
-    "reports": [
-      {
-        "device": "Iphone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "iOS 26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-11",
-        "notes": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9290",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9290"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 192,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/192",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
-        "updatedAt": "2026-03-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "Iphone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "iOS 26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9290",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9290"
-          }
-        },
-        "bestReport": {
-          "device": "Iphone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "iOS 26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9290",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9290"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "civilization-revolut-n",
     "title": "Civilization Revolut'n",
     "titleId": "545407E5",
@@ -3544,43 +3426,22 @@
     "slug": "dbz-budokai-hd",
     "title": "DBZ Budokai HD",
     "titleId": "4E4D0856",
-    "status": "ingame",
-    "perf": "great",
+    "status": "loads",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPad 11th Gen",
       "platform": "ios",
-      "osVersion": "26.2",
+      "osVersion": "18.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-11",
-    "notes": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears.  For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush.  Overall, both games run very well, with Budokai 3 having fewer issues.",
+    "notes": "Loads into game selection and crashes.",
     "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "great",
-        "date": "2026-03-11",
-        "notes": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears.  For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush.  Overall, both games run very well, with Budokai 3 having fewer issues.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      },
       {
         "device": "iPad 11th Gen",
         "platform": "ios",
@@ -3593,13 +3454,32 @@
         "notes": "Loads into game selection and crashes.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
+        }
+      },
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "great",
+        "date": "2026-03-11",
+        "notes": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears.  For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush.  Overall, both games run very well, with Budokai 3 having fewer issues.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
         }
       }
     ],
@@ -3610,6 +3490,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-4.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-5.jpg"
     ],
+    "issueNumber": 186,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/186",
     "summaries": {
       "release": {
         "channel": "release",
@@ -3635,28 +3517,27 @@
         "channel": "all",
         "status": "ingame",
         "perf": "great",
-        "notes": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears.  For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush.  Overall, both games run very well, with Budokai 3 having fewer issues.",
+        "notes": "Loads into game selection and crashes.",
         "updatedAt": "2026-03-11",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPad 11th Gen",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "18.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
+          "status": "loads",
+          "perf": "poor",
           "date": "2026-03-11",
-          "notes": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears.  For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush.  Overall, both games run very well, with Budokai 3 having fewer issues.",
+          "notes": "Loads into game selection and crashes.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -3671,19 +3552,16 @@
           "notes": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears.  For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush.  Overall, both games run very well, with Budokai 3 having fewer issues.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 186,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/186"
+    }
   },
   {
     "slug": "dbz-burst-limit",
@@ -4399,17 +4277,18 @@
         "notes": "Everything but the player models load. The fps is a little slow & audio is bad",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 188,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/188",
     "summaries": {
       "release": {
         "channel": "release",
@@ -4450,13 +4329,12 @@
           "notes": "Everything but the player models load. The fps is a little slow & audio is bad",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -4471,19 +4349,16 @@
           "notes": "Everything but the player models load. The fps is a little slow & audio is bad",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 188,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/188"
+    }
   },
   {
     "slug": "diablo-iii",
@@ -5762,17 +5637,18 @@
         "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 184,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/184",
     "summaries": {
       "release": {
         "channel": "release",
@@ -5813,13 +5689,12 @@
           "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -5834,19 +5709,16 @@
           "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 184,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/184"
+    }
   },
   {
     "slug": "fallout-new-vegas",
@@ -6866,13 +6738,12 @@
         "notes": "game runs fine with great graphics but low framerate",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
@@ -6880,6 +6751,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307EA/1773183486826-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307EA/1773183486826-2.jpg"
     ],
+    "issueNumber": 185,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/185",
     "summaries": {
       "release": {
         "channel": "release",
@@ -6920,13 +6793,12 @@
           "notes": "game runs fine with great graphics but low framerate",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -6941,19 +6813,16 @@
           "notes": "game runs fine with great graphics but low framerate",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 185,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/185"
+    }
   },
   {
     "slug": "gears-of-war",
@@ -10925,6 +10794,126 @@
     }
   },
   {
+    "slug": "need-for-speed-prostreet",
+    "title": "Need for Speed: ProStreet",
+    "titleId": "45410822",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-11",
+    "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-11",
+        "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410822/1773195289208-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410822/1773195289208-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410822/1773195289208-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410822/1773195289208-4.jpg"
+    ],
+    "issueNumber": 102,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/102",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-11",
+          "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-11",
+          "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "nfs-most-wanted",
     "title": "NFS Most Wanted",
     "titleId": "454107D9",
@@ -11038,129 +11027,6 @@
         }
       }
     }
-  },
-  {
-    "slug": "nfs-prostreet",
-    "title": "NFS ProStreet",
-    "titleId": "45410822",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro",
-      "platform": "ios",
-      "osVersion": "26.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-11",
-    "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-11",
-        "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410822/1773195289208-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410822/1773195289208-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410822/1773195289208-3.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410822/1773195289208-4.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
-        "updatedAt": "2026-03-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-11",
-          "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-11",
-          "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 102,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/102"
   },
   {
     "slug": "nfs-undercover",
@@ -14133,19 +13999,20 @@
         "notes": "Game loads and boots fine, cutscenes have graphical glitches, game play is below full speed.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4343080F/1773198412364-1.jpg"
     ],
+    "issueNumber": 191,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/191",
     "summaries": {
       "release": {
         "channel": "release",
@@ -14186,13 +14053,12 @@
           "notes": "Game loads and boots fine, cutscenes have graphical glitches, game play is below full speed.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -14207,19 +14073,16 @@
           "notes": "Game loads and boots fine, cutscenes have graphical glitches, game play is below full speed.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 191,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/191"
+    }
   },
   {
     "slug": "tales-of-vesperia",
@@ -15605,17 +15468,18 @@
         "notes": "Game won’t boot.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 189,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/189",
     "summaries": {
       "release": {
         "channel": "release",
@@ -15656,13 +15520,12 @@
           "notes": "Game won’t boot.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -15677,18 +15540,15 @@
           "notes": "Game won’t boot.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 189,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/189"
+    }
   }
 ]
