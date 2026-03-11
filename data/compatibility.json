@@ -6828,22 +6828,44 @@
     "slug": "gears-of-war",
     "title": "Gears of War",
     "titleId": "4D5307D5",
-    "status": "ingame",
+    "status": "intro",
     "perf": "ok",
     "tags": [],
     "platforms": [
-      "macos"
+      "macos",
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro M4 Pro/Max",
-      "platform": "macos",
-      "osVersion": "26.3",
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-02-28",
-    "notes": "Runs well but with pretty severe intermittent graphical issues.",
+    "updatedAt": "2026-03-11",
+    "notes": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "ok",
+        "date": "2026-03-11",
+        "notes": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9294",
+          "stage": "stable",
+          "commitShort": "3f7efcbfb",
+          "buildId": "ios-self-built-1.0.0-9294"
+        }
+      },
       {
         "device": "MacBook Pro M4 Pro/Max",
         "platform": "macos",
@@ -6887,22 +6909,29 @@
         "channel": "all",
         "status": "ingame",
         "perf": "ok",
-        "notes": "Runs well but with pretty severe intermittent graphical issues.",
-        "updatedAt": "2026-02-28",
-        "reportCount": 1,
+        "notes": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 2,
         "latestReport": {
-          "device": "MacBook Pro M4 Pro/Max",
-          "platform": "macos",
-          "osVersion": "26.3",
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
+          "gpuBackend": "msl",
+          "status": "intro",
           "perf": "ok",
-          "date": "2026-02-28",
-          "notes": "Runs well but with pretty severe intermittent graphical issues.",
-          "source": "discord",
-          "submittedBy": "reality111",
-          "build": null
+          "date": "2026-03-11",
+          "notes": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9294",
+            "stage": "stable",
+            "commitShort": "3f7efcbfb",
+            "buildId": "ios-self-built-1.0.0-9294"
+          }
         },
         "bestReport": {
           "device": "MacBook Pro M4 Pro/Max",
