@@ -3544,22 +3544,43 @@
     "slug": "dbz-budokai-hd",
     "title": "DBZ Budokai HD",
     "titleId": "4E4D0856",
-    "status": "loads",
-    "perf": "poor",
+    "status": "ingame",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 11th Gen",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "18.3",
+      "osVersion": "26.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-11",
-    "notes": "Loads into game selection and crashes.",
+    "notes": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears.  For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush.  Overall, both games run very well, with Budokai 3 having fewer issues.",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "great",
+        "date": "2026-03-11",
+        "notes": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears.  For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush.  Overall, both games run very well, with Budokai 3 having fewer issues.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPad 11th Gen",
         "platform": "ios",
@@ -3582,7 +3603,13 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-5.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -3606,21 +3633,21 @@
       },
       "all": {
         "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Loads into game selection and crashes.",
+        "status": "ingame",
+        "perf": "great",
+        "notes": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears.  For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush.  Overall, both games run very well, with Budokai 3 having fewer issues.",
         "updatedAt": "2026-03-11",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "18.3",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
+          "status": "ingame",
+          "perf": "great",
           "date": "2026-03-11",
-          "notes": "Loads into game selection and crashes.",
+          "notes": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears.  For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush.  Overall, both games run very well, with Budokai 3 having fewer issues.",
           "source": "app",
           "build": {
             "channel": "self-built",
@@ -3633,15 +3660,15 @@
           }
         },
         "bestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "18.3",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
+          "status": "ingame",
+          "perf": "great",
           "date": "2026-03-11",
-          "notes": "Loads into game selection and crashes.",
+          "notes": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears.  For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush.  Overall, both games run very well, with Budokai 3 having fewer issues.",
           "source": "app",
           "build": {
             "channel": "self-built",
