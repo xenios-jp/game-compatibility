@@ -17686,5 +17686,124 @@
         }
       }
     }
+  },
+  {
+    "slug": "mafia-ii",
+    "title": "Mafia II",
+    "titleId": "545407E6",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Plus",
+      "platform": "ios",
+      "osVersion": "26.0.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-12",
+    "notes": "The game on my device currently runs at around 20 FPS, with some graphical flickering in lighting areas; the sound is unrecognizable, but it works.\n\nThe version of xenios that I used is 1.0.0 from CI #35: Commit d8c1019 pushed by xenios-jp in the actions section",
+    "reports": [
+      {
+        "device": "iPhone 15 Plus",
+        "platform": "ios",
+        "osVersion": "26.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-12",
+        "notes": "The game on my device currently runs at around 20 FPS, with some graphical flickering in lighting areas; the sound is unrecognizable, but it works.\n\nThe version of xenios that I used is 1.0.0 from CI #35: Commit d8c1019 pushed by xenios-jp in the actions section",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9299",
+          "stage": "stable",
+          "commitShort": "d8c101905",
+          "buildId": "ios-self-built-1.0.0-9299"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E6/1773350853348-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E6/1773350853348-2.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "The game on my device currently runs at around 20 FPS, with some graphical flickering in lighting areas; the sound is unrecognizable, but it works.\n\nThe version of xenios that I used is 1.0.0 from CI #35: Commit d8c1019 pushed by xenios-jp in the actions section",
+        "updatedAt": "2026-03-12",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Plus",
+          "platform": "ios",
+          "osVersion": "26.0.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-12",
+          "notes": "The game on my device currently runs at around 20 FPS, with some graphical flickering in lighting areas; the sound is unrecognizable, but it works.\n\nThe version of xenios that I used is 1.0.0 from CI #35: Commit d8c1019 pushed by xenios-jp in the actions section",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905",
+            "buildId": "ios-self-built-1.0.0-9299"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Plus",
+          "platform": "ios",
+          "osVersion": "26.0.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-12",
+          "notes": "The game on my device currently runs at around 20 FPS, with some graphical flickering in lighting areas; the sound is unrecognizable, but it works.\n\nThe version of xenios that I used is 1.0.0 from CI #35: Commit d8c1019 pushed by xenios-jp in the actions section",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905",
+            "buildId": "ios-self-built-1.0.0-9299"
+          }
+        }
+      }
+    }
   }
 ]
