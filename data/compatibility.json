@@ -11780,6 +11780,154 @@
     }
   },
   {
+    "slug": "need-for-speed-most-wanted-2005",
+    "title": "Need for Speed Most Wanted (2005)",
+    "titleId": "454107D9",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Air M4",
+      "platform": "macos",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-12",
+    "notes": "Gameplay almost perfect but pre rendered cutscenes have major graphical and audio issues, as well the rearview mirror does not work",
+    "reports": [
+      {
+        "device": "MacBook Air M4",
+        "platform": "macos",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-12",
+        "notes": "Gameplay almost perfect but pre rendered cutscenes have major graphical and audio issues, as well the rearview mirror does not work",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.0-9299",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9299"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 151,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/151",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Gameplay almost perfect but pre rendered cutscenes have major graphical and audio issues, as well the rearview mirror does not work",
+        "updatedAt": "2026-03-12",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Air M4",
+          "platform": "macos",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-12",
+          "notes": "Gameplay almost perfect but pre rendered cutscenes have major graphical and audio issues, as well the rearview mirror does not work",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9299",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Air M4",
+          "platform": "macos",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-12",
+          "notes": "Gameplay almost perfect but pre rendered cutscenes have major graphical and audio issues, as well the rearview mirror does not work",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9299",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Gameplay almost perfect but pre rendered cutscenes have major graphical and audio issues, as well the rearview mirror does not work",
+        "updatedAt": "2026-03-12",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Air M4",
+          "platform": "macos",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-12",
+          "notes": "Gameplay almost perfect but pre rendered cutscenes have major graphical and audio issues, as well the rearview mirror does not work",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9299",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Air M4",
+          "platform": "macos",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-12",
+          "notes": "Gameplay almost perfect but pre rendered cutscenes have major graphical and audio issues, as well the rearview mirror does not work",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9299",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "need-for-speed-prostreet",
     "title": "Need for Speed: ProStreet",
     "titleId": "45410822",
