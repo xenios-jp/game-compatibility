@@ -5597,13 +5597,34 @@
     "lastReport": {
       "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "notes": "Nothing happens",
+    "updatedAt": "2026-03-12",
+    "notes": "It crash right at start without opening iPhone 15 pro max from a iso",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-12",
+        "notes": "It crash right at start without opening iPhone 15 pro max from a iso",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "stage": "stable",
+          "commitShort": "ab2ca341a",
+          "buildId": "ios-self-built-1.0.0-9296"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -5673,47 +5694,49 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Nothing happens",
-        "updatedAt": "2026-03-09",
-        "reportCount": 2,
+        "notes": "It crash right at start without opening iPhone 15 pro max from a iso",
+        "updatedAt": "2026-03-12",
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Nothing happens",
+          "date": "2026-03-12",
+          "notes": "It crash right at start without opening iPhone 15 pro max from a iso",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
           }
         },
         "bestReport": {
           "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Nothing happens",
+          "date": "2026-03-12",
+          "notes": "It crash right at start without opening iPhone 15 pro max from a iso",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
           }
         }
       }
