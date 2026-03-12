@@ -5980,22 +5980,43 @@
     "slug": "fallout-new-vegas",
     "title": "Fallout: New Vegas",
     "titleId": "425307E0",
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13",
+      "device": "iPhone 16e",
       "platform": "ios",
       "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-10",
-    "notes": "Loads only to menu but froze when trying to create save",
+    "updatedAt": "2026-03-12",
+    "notes": "Was able to load save from my console you fall though map when you enter places but outside is playable some places on floor is buggy as well",
     "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-12",
+        "notes": "Was able to load save from my console you fall though map when you enter places but outside is playable some places on floor is buggy as well",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9299",
+          "stage": "stable",
+          "commitShort": "d8c101905",
+          "buildId": "ios-self-built-1.0.0-9299"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -6037,7 +6058,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307E0/1773340129130-1.jpg"
+    ],
     "issueNumber": 56,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/56",
     "summaries": {
@@ -6063,49 +6086,51 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
+        "status": "playable",
         "perf": "ok",
-        "notes": "Loads only to menu but froze when trying to create save",
-        "updatedAt": "2026-03-10",
-        "reportCount": 2,
+        "notes": "Was able to load save from my console you fall though map when you enter places but outside is playable some places on floor is buggy as well",
+        "updatedAt": "2026-03-12",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 16e",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "Loads only to menu but froze when trying to create save",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-12",
+          "notes": "Was able to load save from my console you fall though map when you enter places but outside is playable some places on floor is buggy as well",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905",
+            "buildId": "ios-self-built-1.0.0-9299"
           }
         },
         "bestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 16e",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
+          "date": "2026-03-12",
+          "notes": "Was able to load save from my console you fall though map when you enter places but outside is playable some places on floor is buggy as well",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905",
+            "buildId": "ios-self-built-1.0.0-9299"
           }
         }
       }
