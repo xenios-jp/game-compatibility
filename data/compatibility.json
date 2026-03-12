@@ -10568,7 +10568,7 @@
   },
   {
     "slug": "minecraft",
-    "title": "Minecraft",
+    "title": "Minecraft Xbox 360 Edition",
     "titleId": "584111F7",
     "status": "playable",
     "perf": "ok",
@@ -10577,15 +10577,35 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro Max",
+      "device": "iPhone Air",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-10",
-    "notes": "Plays really well, but no audio in any part of the game. Low fps but playable. (USING XBLA VERSION WITH NO TITLE UPDATE!)",
+    "updatedAt": "2026-03-12",
+    "notes": "So surprisingly you can definitely get Minecraft running it's a good 20-30FPS but the fact it runs at all is insane i mean it's the 1.0.0 version or XBLA version but this is amazing and i'm so happy to see Minecraft running it's definitely playable and if the owner can get the latest version of minecraft running then someone can beat minecraft 360 version on iphone!?",
     "reports": [
+      {
+        "device": "iPhone Air",
+        "platform": "ios",
+        "osVersion": "26.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-12",
+        "notes": "So surprisingly you can definitely get Minecraft running it's a good 20-30FPS but the fact it runs at all is insane i mean it's the 1.0.0 version or XBLA version but this is amazing and i'm so happy to see Minecraft running it's definitely playable and if the owner can get the latest version of minecraft running then someone can beat minecraft 360 version on iphone!?",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9299-9299",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0-9299",
+          "buildNumber": "9299",
+          "commitShort": "D8C101905"
+        }
+      },
       {
         "device": "iPhone 14 Pro Max",
         "platform": "ios",
@@ -10659,47 +10679,47 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Plays really well, but no audio in any part of the game. Low fps but playable. (USING XBLA VERSION WITH NO TITLE UPDATE!)",
-        "updatedAt": "2026-03-10",
-        "reportCount": 2,
+        "notes": "So surprisingly you can definitely get Minecraft running it's a good 20-30FPS but the fact it runs at all is insane i mean it's the 1.0.0 version or XBLA version but this is amazing and i'm so happy to see Minecraft running it's definitely playable and if the owner can get the latest version of minecraft running then someone can beat minecraft 360 version on iphone!?",
+        "updatedAt": "2026-03-12",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "iPhone Air",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "Plays really well, but no audio in any part of the game. Low fps but playable. (USING XBLA VERSION WITH NO TITLE UPDATE!)",
-          "source": "app",
+          "date": "2026-03-12",
+          "notes": "So surprisingly you can definitely get Minecraft running it's a good 20-30FPS but the fact it runs at all is insane i mean it's the 1.0.0 version or XBLA version but this is amazing and i'm so happy to see Minecraft running it's definitely playable and if the owner can get the latest version of minecraft running then someone can beat minecraft 360 version on iphone!?",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildId": "ios-release-1.0.0-9299-9299",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0-9299",
+            "buildNumber": "9299",
+            "commitShort": "D8C101905"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "iPhone Air",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "Plays really well, but no audio in any part of the game. Low fps but playable. (USING XBLA VERSION WITH NO TITLE UPDATE!)",
-          "source": "app",
+          "date": "2026-03-12",
+          "notes": "So surprisingly you can definitely get Minecraft running it's a good 20-30FPS but the fact it runs at all is insane i mean it's the 1.0.0 version or XBLA version but this is amazing and i'm so happy to see Minecraft running it's definitely playable and if the owner can get the latest version of minecraft running then someone can beat minecraft 360 version on iphone!?",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildId": "ios-release-1.0.0-9299-9299",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0-9299",
+            "buildNumber": "9299",
+            "commitShort": "D8C101905"
           }
         }
       }
