@@ -2099,19 +2099,20 @@
         "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9299",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9299",
-          "stage": "stable",
-          "commitShort": "d8c101905",
-          "buildId": "ios-self-built-1.0.0-9299"
+          "commitShort": "d8c101905"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E7/1773398208451-1.jpg"
     ],
+    "issueNumber": 241,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/241",
     "summaries": {
       "release": {
         "channel": "release",
@@ -2152,13 +2153,12 @@
           "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
+            "commitShort": "d8c101905"
           }
         },
         "bestReport": {
@@ -2173,19 +2173,16 @@
           "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
+            "commitShort": "d8c101905"
           }
         }
       }
-    },
-    "issueNumber": 241,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/241"
+    }
   },
   {
     "slug": "burnout-paradise",
@@ -2676,43 +2673,22 @@
     "slug": "call-of-duty-4",
     "title": "Call of Duty 4",
     "titleId": "415607E6",
-    "status": "playable",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9 inch 7th Gen",
+      "device": "iPad Pro 13-inch (M4)",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-13",
-    "notes": "Shader compilation is buggy but 100% playable on IPad Pro M4 13in 1TB 16GB Ram on iOS 16.3.1 MAKE SURE TO DOWNLOAD REQUIRE STICK DEBUG SCRIPT! I previously posted game crashes comment. Please ignore.",
+    "notes": "I am on IPad os 26.3.1 this could obv be the reason the game doesnt load. It is important to note that i ripped directly from RGH in .XEX format. I will try a different format to see if game will load. Obv my M4 is powerful enough to load and play the game.",
     "reports": [
-      {
-        "device": "iPad Pro 12.9 inch 7th Gen",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-13",
-        "notes": "Shader compilation is buggy but 100% playable on IPad Pro M4 13in 1TB 16GB Ram on iOS 16.3.1 MAKE SURE TO DOWNLOAD REQUIRE STICK DEBUG SCRIPT! I previously posted game crashes comment. Please ignore.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
-        }
-      },
       {
         "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
@@ -2723,6 +2699,26 @@
         "perf": "n/a",
         "date": "2026-03-13",
         "notes": "I am on IPad os 26.3.1 this could obv be the reason the game doesnt load. It is important to note that i ripped directly from RGH in .XEX format. I will try a different format to see if game will load. Obv my M4 is powerful enough to load and play the game.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "commitShort": "ab2ca341a"
+        }
+      },
+      {
+        "device": "iPad Pro 13-inch (M4)",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-13",
+        "notes": "Shader compilation is buggy but 100% playable on IPad Pro M4 13in 1TB 16GB Ram on iOS 16.3.1 MAKE SURE TO DOWNLOAD REQUIRE STICK DEBUG SCRIPT! I previously posted game crashes comment. Please ignore.",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.0-9296",
@@ -2804,32 +2800,31 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Shader compilation is buggy but 100% playable on IPad Pro M4 13in 1TB 16GB Ram on iOS 16.3.1 MAKE SURE TO DOWNLOAD REQUIRE STICK DEBUG SCRIPT! I previously posted game crashes comment. Please ignore.",
+        "notes": "I am on IPad os 26.3.1 this could obv be the reason the game doesnt load. It is important to note that i ripped directly from RGH in .XEX format. I will try a different format to see if game will load. Obv my M4 is powerful enough to load and play the game.",
         "updatedAt": "2026-03-13",
         "reportCount": 4,
         "latestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
+          "status": "nothing",
+          "perf": "n/a",
           "date": "2026-03-13",
-          "notes": "Shader compilation is buggy but 100% playable on IPad Pro M4 13in 1TB 16GB Ram on iOS 16.3.1 MAKE SURE TO DOWNLOAD REQUIRE STICK DEBUG SCRIPT! I previously posted game crashes comment. Please ignore.",
+          "notes": "I am on IPad os 26.3.1 this could obv be the reason the game doesnt load. It is important to note that i ripped directly from RGH in .XEX format. I will try a different format to see if game will load. Obv my M4 is powerful enough to load and play the game.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -2840,13 +2835,12 @@
           "notes": "Shader compilation is buggy but 100% playable on IPad Pro M4 13in 1TB 16GB Ram on iOS 16.3.1 MAKE SURE TO DOWNLOAD REQUIRE STICK DEBUG SCRIPT! I previously posted game crashes comment. Please ignore.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         }
       }
@@ -3251,33 +3245,12 @@
         "notes": "just a black screen",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9299",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9299",
-          "stage": "stable",
-          "commitShort": "d8c101905",
-          "buildId": "ios-self-built-1.0.0-9299"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-09",
-        "notes": "Crashes at boot, get the initial loading screen then nothing",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "commitShort": "d8c101905"
         }
       }
     ],
@@ -3309,11 +3282,11 @@
       },
       "all": {
         "channel": "all",
-        "status": "loads",
-        "perf": "poor",
+        "status": "nothing",
+        "perf": "n/a",
         "notes": "just a black screen",
         "updatedAt": "2026-03-13",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 15 Pro Max",
           "platform": "ios",
@@ -3326,33 +3299,32 @@
           "notes": "just a black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
+            "commitShort": "d8c101905"
           }
         },
         "bestReport": {
           "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "18.7.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Crashes at boot, get the initial loading screen then nothing",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-13",
+          "notes": "just a black screen",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9299",
+            "commitShort": "d8c101905"
           }
         }
       }
@@ -6453,7 +6425,7 @@
   },
   {
     "slug": "family-guy-bttm",
-    "title": "Family Guy: Back to the Multiverse",
+    "title": "Family Guy: BTTM",
     "titleId": "415608C5",
     "status": "playable",
     "perf": "ok",
@@ -7122,17 +7094,18 @@
         "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9296",
-          "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
+          "commitShort": "ab2ca341a"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 235,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/235",
     "summaries": {
       "release": {
         "channel": "release",
@@ -7173,13 +7146,12 @@
           "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         },
         "bestReport": {
@@ -7194,19 +7166,16 @@
           "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         }
       }
-    },
-    "issueNumber": 235,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/235"
+    }
   },
   {
     "slug": "fight-night-champion",
@@ -11650,53 +11619,12 @@
         "notes": "Unplayable but it boots",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9296",
-          "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Unusable but it boots and intro works.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Unusable but boots",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "commitShort": "ab2ca341a"
         }
       }
     ],
@@ -11730,7 +11658,7 @@
         "perf": "poor",
         "notes": "Unplayable but it boots",
         "updatedAt": "2026-03-13",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 15 Pro Max",
           "platform": "ios",
@@ -11743,13 +11671,12 @@
           "notes": "Unplayable but it boots",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         },
         "bestReport": {
@@ -11764,13 +11691,12 @@
           "notes": "Unplayable but it boots",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         }
       }
@@ -12270,17 +12196,18 @@
         "notes": "Black screen",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9299",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9299",
-          "stage": "stable",
-          "commitShort": "d8c101905",
-          "buildId": "ios-self-built-1.0.0-9299"
+          "commitShort": "d8c101905"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 242,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/242",
     "summaries": {
       "release": {
         "channel": "release",
@@ -12321,13 +12248,12 @@
           "notes": "Black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
+            "commitShort": "d8c101905"
           }
         },
         "bestReport": {
@@ -12342,19 +12268,16 @@
           "notes": "Black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
+            "commitShort": "d8c101905"
           }
         }
       }
-    },
-    "issueNumber": 242,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/242"
+    }
   },
   {
     "slug": "ncaa-basketball-10",
@@ -15259,17 +15182,18 @@
         "notes": "Everything works just has low frame rate",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9296",
-          "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
+          "commitShort": "ab2ca341a"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 236,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/236",
     "summaries": {
       "release": {
         "channel": "release",
@@ -15310,13 +15234,12 @@
           "notes": "Everything works just has low frame rate",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         },
         "bestReport": {
@@ -15331,19 +15254,16 @@
           "notes": "Everything works just has low frame rate",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         }
       }
-    },
-    "issueNumber": 236,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/236"
+    }
   },
   {
     "slug": "sonic-generations",
@@ -17041,67 +16961,13 @@
         "notes": "Requires Dedicated XMA core enabled",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9296",
-          "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
+          "commitShort": "ab2ca341a"
         }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Requires dedicated XMA core",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Requires Dedicated XMA core",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-05",
-        "notes": "Crashes",
-        "source": "app",
-        "build": null
       }
     ],
     "screenshots": [
@@ -17139,7 +17005,7 @@
         "perf": "poor",
         "notes": "Requires Dedicated XMA core enabled",
         "updatedAt": "2026-03-13",
-        "reportCount": 4,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 15 Pro Max",
           "platform": "ios",
@@ -17152,13 +17018,12 @@
           "notes": "Requires Dedicated XMA core enabled",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         },
         "bestReport": {
@@ -17173,13 +17038,12 @@
           "notes": "Requires Dedicated XMA core enabled",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         }
       }
@@ -17332,19 +17196,20 @@
         "notes": "Cutscenes shown correctly, no audio corruption.\nGameplay:\nFPS a bit low - around 10-12 FPS at the time of testing\nAudio does not cause ear bleeding.\nAs expected, at the beginning game loads assets and things are rendered black for some time until before fully stabilizing.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9299",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9299",
-          "stage": "stable",
-          "commitShort": "d8c101905",
-          "buildId": "ios-self-built-1.0.0-9299"
+          "commitShort": "d8c101905"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507DA/1773397492970-1.jpg"
     ],
+    "issueNumber": 240,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/240",
     "summaries": {
       "release": {
         "channel": "release",
@@ -17385,13 +17250,12 @@
           "notes": "Cutscenes shown correctly, no audio corruption.\nGameplay:\nFPS a bit low - around 10-12 FPS at the time of testing\nAudio does not cause ear bleeding.\nAs expected, at the beginning game loads assets and things are rendered black for some time until before fully stabilizing.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
+            "commitShort": "d8c101905"
           }
         },
         "bestReport": {
@@ -17406,19 +17270,16 @@
           "notes": "Cutscenes shown correctly, no audio corruption.\nGameplay:\nFPS a bit low - around 10-12 FPS at the time of testing\nAudio does not cause ear bleeding.\nAs expected, at the beginning game loads assets and things are rendered black for some time until before fully stabilizing.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
+            "commitShort": "d8c101905"
           }
         }
       }
-    },
-    "issueNumber": 240,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/240"
+    }
   },
   {
     "slug": "title-5454087a",
