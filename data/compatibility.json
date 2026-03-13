@@ -603,7 +603,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 11th Gen",
+      "device": "iPad (A16)",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
@@ -613,7 +613,7 @@
     "notes": "This is a challenging 3D game that pushes the boundaries. Game Hangs or freezes a few times after starting and selecting Dark/Brightness setting, before you can get in game. Menu text is blurred and not readable making navigation challenging. The trick that seemed to allow it to load in game is navigating to Settings and manually changing the Brightness settings before trying to start. Then back out and start the game. When you first get in game it takes a few seconds for the world to load in, causing colorful or blank areas. In game the FPS is low average around 10-15 FPS. However despite these issues the game does run and is playable.",
     "reports": [
       {
-        "device": "iPad 11th Gen",
+        "device": "iPad (A16)",
         "platform": "ios",
         "osVersion": "26.3",
         "arch": "arm64",
@@ -667,7 +667,7 @@
         "updatedAt": "2026-03-09",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
@@ -687,7 +687,7 @@
           }
         },
         "bestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
@@ -720,7 +720,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 11th Gen",
+      "device": "iPad (A16)",
       "platform": "ios",
       "osVersion": "18.3",
       "arch": "arm64",
@@ -730,7 +730,7 @@
     "notes": "Runs Perfectly",
     "reports": [
       {
-        "device": "iPad 11th Gen",
+        "device": "iPad (A16)",
         "platform": "ios",
         "osVersion": "18.3",
         "arch": "arm64",
@@ -749,7 +749,7 @@
         }
       },
       {
-        "device": "iPad 11th Gen",
+        "device": "iPad (A16)",
         "platform": "ios",
         "osVersion": "18.3",
         "arch": "arm64",
@@ -820,7 +820,7 @@
         "updatedAt": "2026-03-09",
         "reportCount": 3,
         "latestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "18.3",
           "arch": "arm64",
@@ -839,7 +839,7 @@
           }
         },
         "bestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "18.3",
           "arch": "arm64",
@@ -1867,7 +1867,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
       "osVersion": "18.5",
       "arch": "arm64",
@@ -1877,7 +1877,7 @@
     "notes": "Game boots and loads quickly and smoothly with some graphical glitches during cutscenes. This game has experienced a regression from previous version and now freezes at varying points after loading the menu where as I was able to get into and play the game at about 3/4 speed on initial version.",
     "reports": [
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -1922,7 +1922,7 @@
         "updatedAt": "2026-03-05",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -1935,7 +1935,7 @@
           "build": null
         },
         "bestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -2563,7 +2563,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9 inch 7th Gen",
+      "device": "iPad Pro 13-inch (M4)",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -2573,7 +2573,7 @@
     "notes": "I am on IPad os 26.3.1 this could obv be the reason the game doesnt load. It is important to note that i ripped directly from RGH in .XEX format. I will try a different format to see if game will load. Obv my M4 is powerful enough to load and play the game.",
     "reports": [
       {
-        "device": "iPad Pro 12.9 inch 7th Gen",
+        "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -2667,7 +2667,7 @@
         "updatedAt": "2026-03-13",
         "reportCount": 3,
         "latestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -2750,7 +2750,7 @@
         }
       },
       {
-        "device": "iPad Pro 12.9 inch 6th Gen",
+        "device": "iPad Pro 12.9-inch (M2)",
         "platform": "ios",
         "osVersion": "17.0",
         "arch": "arm64",
@@ -3202,7 +3202,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 11th Gen",
+      "device": "iPad (A16)",
       "platform": "ios",
       "osVersion": "18.3",
       "arch": "arm64",
@@ -3212,7 +3212,7 @@
     "notes": "Only boots the game on Loading Screen.",
     "reports": [
       {
-        "device": "iPad 11th Gen",
+        "device": "iPad (A16)",
         "platform": "ios",
         "osVersion": "18.3",
         "arch": "arm64",
@@ -3266,7 +3266,7 @@
         "updatedAt": "2026-03-08",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "18.3",
           "arch": "arm64",
@@ -3286,7 +3286,7 @@
           }
         },
         "bestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "18.3",
           "arch": "arm64",
@@ -3781,7 +3781,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 11th Gen",
+      "device": "iPad (A16)",
       "platform": "ios",
       "osVersion": "18.3",
       "arch": "arm64",
@@ -3791,7 +3791,7 @@
     "notes": "Loads into game selection and crashes.",
     "reports": [
       {
-        "device": "iPad 11th Gen",
+        "device": "iPad (A16)",
         "platform": "ios",
         "osVersion": "18.3",
         "arch": "arm64",
@@ -3869,7 +3869,7 @@
         "updatedAt": "2026-03-11",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "18.3",
           "arch": "arm64",
@@ -4152,7 +4152,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
       "osVersion": "18.5",
       "arch": "arm64",
@@ -4162,7 +4162,7 @@
     "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
     "reports": [
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -4220,7 +4220,7 @@
         "updatedAt": "2026-03-05",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -4233,7 +4233,7 @@
           "build": null
         },
         "bestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -4259,7 +4259,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad15,7",
+      "device": "iPad (A16)",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
@@ -4269,7 +4269,7 @@
     "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
     "reports": [
       {
-        "device": "iPad15,7",
+        "device": "iPad (A16)",
         "platform": "ios",
         "osVersion": "26.3",
         "arch": "arm64",
@@ -4314,7 +4314,7 @@
         "updatedAt": "2026-03-04",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad15,7",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
@@ -4327,7 +4327,7 @@
           "build": null
         },
         "bestReport": {
-          "device": "iPad15,7",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
@@ -4353,7 +4353,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
       "osVersion": "18.5",
       "arch": "arm64",
@@ -4363,7 +4363,7 @@
     "notes": "Runs and can play the campaign, a few minor graphical glitches and drops in FPS",
     "reports": [
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -4376,7 +4376,7 @@
         "build": null
       },
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -4434,7 +4434,7 @@
         "updatedAt": "2026-03-03",
         "reportCount": 3,
         "latestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -4447,7 +4447,7 @@
           "build": null
         },
         "bestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -4473,7 +4473,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 11th Gen",
+      "device": "iPad (A16)",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
@@ -4483,7 +4483,7 @@
     "notes": "Compatibility update with the release version. Audio effects and music work well. FPS speed is usually between 15 -20. The XeniOS 1.0 release is stable for this game, once you get it launched in game with audio it works great.",
     "reports": [
       {
-        "device": "iPad 11th Gen",
+        "device": "iPad (A16)",
         "platform": "ios",
         "osVersion": "26.3",
         "arch": "arm64",
@@ -4503,7 +4503,7 @@
         }
       },
       {
-        "device": "iPad15,7",
+        "device": "iPad (A16)",
         "platform": "ios",
         "osVersion": "26.3",
         "arch": "arm64",
@@ -4551,7 +4551,7 @@
         "updatedAt": "2026-03-09",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
@@ -4571,7 +4571,7 @@
           }
         },
         "bestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
@@ -4950,7 +4950,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "Macbook Pro M4",
+      "device": "MacBook Pro (M4)",
       "platform": "macos",
       "osVersion": "26.1",
       "arch": "arm64",
@@ -4960,7 +4960,7 @@
     "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
     "reports": [
       {
-        "device": "Macbook Pro M4",
+        "device": "MacBook Pro (M4)",
         "platform": "macos",
         "osVersion": "26.1",
         "arch": "arm64",
@@ -5027,7 +5027,7 @@
         "updatedAt": "2026-03-09",
         "reportCount": 2,
         "latestReport": {
-          "device": "Macbook Pro M4",
+          "device": "MacBook Pro (M4)",
           "platform": "macos",
           "osVersion": "26.1",
           "arch": "arm64",
@@ -5425,7 +5425,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
       "osVersion": "18.5",
       "arch": "arm64",
@@ -5435,7 +5435,7 @@
     "notes": "Doom 3 boots perfectly through logos and menu with no visual distortion and perfect audio except for loud hiss at the beginning. When beginning campaign cutscene plays perfects but hangs after maybe 20 seconds or so.",
     "reports": [
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -5480,7 +5480,7 @@
         "updatedAt": "2026-03-03",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -5493,7 +5493,7 @@
           "build": null
         },
         "bestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -6645,7 +6645,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 10th Gen",
+      "device": "iPad 10",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
@@ -6655,7 +6655,7 @@
     "notes": "When I try to boot I just get a black screen",
     "reports": [
       {
-        "device": "iPad 10th Gen",
+        "device": "iPad 10",
         "platform": "ios",
         "osVersion": "26.3",
         "arch": "arm64",
@@ -6707,7 +6707,7 @@
         "updatedAt": "2026-03-08",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad 10th Gen",
+          "device": "iPad 10",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
@@ -6727,7 +6727,7 @@
           }
         },
         "bestReport": {
-          "device": "iPad 10th Gen",
+          "device": "iPad 10",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
@@ -8319,7 +8319,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
       "osVersion": "18.5",
       "arch": "arm64",
@@ -8329,7 +8329,7 @@
     "notes": "Game boots however menu loads very distorted with heavy graphic bugs. Campaign loads intro scene but gets stuck in a loop. Could not navigate menu successfully to bypass loop.",
     "reports": [
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -8342,7 +8342,7 @@
         "build": null
       },
       {
-        "device": "iPhone18,3",
+        "device": "iPhone 17",
         "platform": "ios",
         "osVersion": "26.3",
         "arch": "arm64",
@@ -8387,7 +8387,7 @@
         "updatedAt": "2026-03-03",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -8400,7 +8400,7 @@
           "build": null
         },
         "bestReport": {
-          "device": "iPhone18,3",
+          "device": "iPhone 17",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
@@ -8426,7 +8426,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9 inch 6th Gen",
+      "device": "iPad Pro 12.9-inch (M2)",
       "platform": "ios",
       "osVersion": "18.7.2",
       "arch": "arm64",
@@ -8436,7 +8436,7 @@
     "notes": "After those images just black screen, sadly",
     "reports": [
       {
-        "device": "iPad Pro 12.9 inch 6th Gen",
+        "device": "iPad Pro 12.9-inch (M2)",
         "platform": "ios",
         "osVersion": "18.7.2",
         "arch": "arm64",
@@ -8511,7 +8511,7 @@
         "updatedAt": "2026-03-10",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
           "osVersion": "18.7.2",
           "arch": "arm64",
@@ -8531,7 +8531,7 @@
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
           "osVersion": "18.7.2",
           "arch": "arm64",
@@ -8887,7 +8887,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9 inch 6th Gen",
+      "device": "iPad Pro 12.9-inch (M2)",
       "platform": "ios",
       "osVersion": "26.1",
       "arch": "arm64",
@@ -8897,7 +8897,7 @@
     "notes": "It has audio & rendering issues,also the game crashes after few seconds into the first mission",
     "reports": [
       {
-        "device": "iPad Pro 12.9 inch 6th Gen",
+        "device": "iPad Pro 12.9-inch (M2)",
         "platform": "ios",
         "osVersion": "26.1",
         "arch": "arm64",
@@ -8949,7 +8949,7 @@
         "updatedAt": "2026-03-11",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
@@ -8969,7 +8969,7 @@
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
@@ -9002,7 +9002,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
       "osVersion": "18.5",
       "arch": "arm64",
@@ -9012,7 +9012,7 @@
     "notes": "Boots quickly and smoothly but hangs on initial loading screen past logos.",
     "reports": [
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -9057,7 +9057,7 @@
         "updatedAt": "2026-03-05",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -9070,7 +9070,7 @@
           "build": null
         },
         "bestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -9371,7 +9371,7 @@
         }
       },
       {
-        "device": "iPhone18,2",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
         "osVersion": "26.3",
         "arch": "arm64",
@@ -9469,7 +9469,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 11th Gen",
+      "device": "iPad (A16)",
       "platform": "ios",
       "osVersion": "18.3",
       "arch": "arm64",
@@ -9479,7 +9479,7 @@
     "notes": "For me I encountered Few Bug and Crashes around the first 4-5 boots then the game runs good after.",
     "reports": [
       {
-        "device": "iPad 11th Gen",
+        "device": "iPad (A16)",
         "platform": "ios",
         "osVersion": "18.3",
         "arch": "arm64",
@@ -9531,7 +9531,7 @@
         "updatedAt": "2026-03-09",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "18.3",
           "arch": "arm64",
@@ -9551,7 +9551,7 @@
           }
         },
         "bestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "18.3",
           "arch": "arm64",
@@ -9719,7 +9719,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone18,2",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
@@ -9729,7 +9729,7 @@
     "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
     "reports": [
       {
-        "device": "iPhone18,2",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
         "osVersion": "26.3",
         "arch": "arm64",
@@ -9742,7 +9742,7 @@
         "build": null
       },
       {
-        "device": "iPhone18,2",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
         "osVersion": "26.3",
         "arch": "arm64",
@@ -9787,7 +9787,7 @@
         "updatedAt": "2026-03-03",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPhone18,2",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
@@ -9800,7 +9800,7 @@
           "build": null
         },
         "bestReport": {
-          "device": "iPhone18,2",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
@@ -9827,7 +9827,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "Mac14,3",
+      "device": "Mac mini (M2)",
       "platform": "macos",
       "osVersion": "15.7",
       "arch": "arm64",
@@ -9837,7 +9837,7 @@
     "notes": "",
     "reports": [
       {
-        "device": "Mac14,3",
+        "device": "Mac mini (M2)",
         "platform": "macos",
         "osVersion": "15.7",
         "arch": "arm64",
@@ -9849,7 +9849,7 @@
         "build": null
       },
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -9894,7 +9894,7 @@
         "updatedAt": "2026-03-11",
         "reportCount": 2,
         "latestReport": {
-          "device": "Mac14,3",
+          "device": "Mac mini (M2)",
           "platform": "macos",
           "osVersion": "15.7",
           "arch": "arm64",
@@ -9906,7 +9906,7 @@
           "build": null
         },
         "bestReport": {
-          "device": "Mac14,3",
+          "device": "Mac mini (M2)",
           "platform": "macos",
           "osVersion": "15.7",
           "arch": "arm64",
@@ -13430,7 +13430,7 @@
         }
       },
       {
-        "device": "iPad Pro 12.9 inch 6th Gen",
+        "device": "iPad Pro 12.9-inch (M2)",
         "platform": "ios",
         "osVersion": "26.1",
         "arch": "arm64",
@@ -13508,7 +13508,7 @@
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
@@ -13541,7 +13541,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
       "osVersion": "18.5",
       "arch": "arm64",
@@ -13551,7 +13551,7 @@
     "notes": "RE5 currently fails to boot",
     "reports": [
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -13596,7 +13596,7 @@
         "updatedAt": "2026-03-03",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -13609,7 +13609,7 @@
           "build": null
         },
         "bestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -13897,7 +13897,7 @@
         }
       },
       {
-        "device": "iPhone 13 Mini",
+        "device": "iPhone 13 mini",
         "platform": "ios",
         "osVersion": "16.6.1",
         "arch": "arm64",
@@ -14808,7 +14808,7 @@
         }
       },
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -14905,7 +14905,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
       "osVersion": "18.5",
       "arch": "arm64",
@@ -14915,7 +14915,7 @@
     "notes": "The game flashes a quick random color pattern and fails to load or boot.",
     "reports": [
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -14960,7 +14960,7 @@
         "updatedAt": "2026-03-05",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -14973,7 +14973,7 @@
           "build": null
         },
         "bestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -15462,7 +15462,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
       "osVersion": "18.5",
       "arch": "arm64",
@@ -15472,7 +15472,7 @@
     "notes": "Star ocean fails to boot.",
     "reports": [
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -15517,7 +15517,7 @@
         "updatedAt": "2026-03-03",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -15530,7 +15530,7 @@
           "build": null
         },
         "bestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -15885,7 +15885,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
       "osVersion": "18.5",
       "arch": "arm64",
@@ -15895,7 +15895,7 @@
     "notes": "Game boots and loads to menu flawlessly. Heavy graphic distortion during unskippable cutscene leads to app crash after several minutes.",
     "reports": [
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -15940,7 +15940,7 @@
         "updatedAt": "2026-03-03",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -15953,7 +15953,7 @@
           "build": null
         },
         "bestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -15979,7 +15979,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
       "osVersion": "18.5",
       "arch": "arm64",
@@ -15989,7 +15989,7 @@
     "notes": "Game does not boot.",
     "reports": [
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -16034,7 +16034,7 @@
         "updatedAt": "2026-03-03",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -16047,7 +16047,7 @@
           "build": null
         },
         "bestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -17776,7 +17776,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9 inch 7th Gen",
+      "device": "iPad Pro 13-inch (M4)",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -17786,7 +17786,7 @@
     "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
     "reports": [
       {
-        "device": "iPad Pro 12.9 inch 7th Gen",
+        "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -17837,7 +17837,7 @@
         "updatedAt": "2026-03-13",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -17858,7 +17858,7 @@
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",

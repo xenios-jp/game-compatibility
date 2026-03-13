@@ -1,10 +1,13 @@
 import { promises as fs } from "node:fs";
+import { createRequire } from "node:module";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const repoRoot = path.resolve(__dirname, "..");
+const require = createRequire(import.meta.url);
+const DEVICE_NAMES = require("../data/device-names.json");
 
 const COMPAT_PATH = path.join(repoRoot, "data", "compatibility.json");
 const DISCUSSIONS_PATH = path.join(repoRoot, "data", "discussions.json");
@@ -20,6 +23,32 @@ const repo =
   process.env.GITHUB_REPOSITORY?.split("/")[1] ||
   DEFAULT_REPO;
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
+const NORMALIZED_DEVICE_NAMES = new Map();
+
+function normalizeDeviceLookupKey(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "");
+}
+
+for (const [input, output] of Object.entries(DEVICE_NAMES)) {
+  NORMALIZED_DEVICE_NAMES.set(normalizeDeviceLookupKey(input), output);
+  NORMALIZED_DEVICE_NAMES.set(normalizeDeviceLookupKey(output), output);
+}
+
+function canonicalizeDeviceName(raw) {
+  const trimmed = String(raw || "").trim();
+  if (!trimmed) {
+    return trimmed;
+  }
+
+  return (
+    DEVICE_NAMES[trimmed] ||
+    NORMALIZED_DEVICE_NAMES.get(normalizeDeviceLookupKey(trimmed)) ||
+    trimmed
+  );
+}
 
 function githubHeaders() {
   const headers = {
@@ -143,12 +172,13 @@ function extractReportMeta(markdown) {
     const regex = new RegExp(`\\|\\s*\\*\\*${label}\\*\\*\\s*\\|\\s*(.+?)\\s*\\|`);
     const match = markdown.match(regex);
     if (match) {
-      meta[key] = match[1]
+      const value = match[1]
         .replace(
           /^[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\u{2700}-\u{27BF}✅🔴🟡🟢🟠🟤🟣🔵🟦🟧🟨]\s*/u,
           ""
         )
         .trim();
+      meta[key] = key === "device" ? canonicalizeDeviceName(value) : value;
     }
   }
 

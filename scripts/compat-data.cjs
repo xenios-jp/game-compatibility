@@ -1,5 +1,7 @@
 "use strict";
 
+const DEVICE_NAMES = require("../data/device-names.json");
+
 const STATUS_RANK = {
   playable: 4,
   ingame: 3,
@@ -19,6 +21,32 @@ const SOURCE_FOOTERS = {
   discord: "*Submitted via Discord /report*",
   github: "*Submitted via GitHub issue*",
 };
+const NORMALIZED_DEVICE_NAMES = new Map();
+
+function normalizeDeviceLookupKey(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "");
+}
+
+for (const [input, output] of Object.entries(DEVICE_NAMES)) {
+  NORMALIZED_DEVICE_NAMES.set(normalizeDeviceLookupKey(input), output);
+  NORMALIZED_DEVICE_NAMES.set(normalizeDeviceLookupKey(output), output);
+}
+
+function canonicalizeDeviceName(raw) {
+  const trimmed = String(raw || "").trim();
+  if (!trimmed) {
+    return trimmed;
+  }
+
+  return (
+    DEVICE_NAMES[trimmed] ||
+    NORMALIZED_DEVICE_NAMES.get(normalizeDeviceLookupKey(trimmed)) ||
+    trimmed
+  );
+}
 
 function slugify(title) {
   return String(title || "")
@@ -259,7 +287,7 @@ function parseReportFromMarkdown(text, createdAt) {
   const fields = parseMarkdownTableFields(text);
   const status = normalizeStatus(fields["Status"] || "");
   const platform = normalizePlatform(fields["Platform"] || "");
-  const device = fields["Device"] || "";
+  const device = canonicalizeDeviceName(fields["Device"] || "");
   if (!status || !platform || !device) {
     return null;
   }
@@ -432,7 +460,7 @@ function buildMarkdownReportBody(report, source, screenshotUrls = [], submittedB
     `| **Status** | ${statusEmoji[report.status]} ${report.status} |`,
     `| **Performance** | ${report.perf} |`,
     `| **Platform** | ${platformDisplay} |`,
-    `| **Device** | ${report.device} |`,
+    `| **Device** | ${canonicalizeDeviceName(report.device)} |`,
     `| **OS Version** | ${platformDisplay} ${report.osVersion} |`,
     `| **Architecture** | ${report.arch} |`,
     `| **GPU Backend** | ${String(report.gpuBackend || "").toUpperCase()} |`,
@@ -515,7 +543,7 @@ function normalizeIssueFormReport(issue, sections) {
     status,
     perf,
     platform,
-    device: String(sections["Device"] || "").trim(),
+    device: canonicalizeDeviceName(sections["Device"] || ""),
     osVersion: String(sections["OS Version"] || "").trim(),
     arch,
     gpuBackend,
