@@ -14736,22 +14736,43 @@
     "slug": "skate-3",
     "title": "Skate 3",
     "titleId": "454108E6",
-    "status": "loads",
+    "status": "playable",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Pro",
+      "device": "iPad Pro 12.9 inch 7th Gen",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "notes": "Runs pretty low fps and anytime I teleport to another location, the game crashes",
+    "updatedAt": "2026-03-13",
+    "notes": "FPS hovers around 15-25fps… many stating teleporting causes crash. My game did not crash at all and in fact it seems to stabilize fps the more i play it but it doesnt exceed 24fps. It’s honestly good enough for me to feel confident playing. But i am on extremely expensive hardware. It’s a IPad Pro 13in M4 1TB 16GB Ram. This alone feels like it should be running at at 40+ fps but im going to assume new updates to the emulator will fix this over time.",
     "reports": [
+      {
+        "device": "iPad Pro 12.9 inch 7th Gen",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-13",
+        "notes": "FPS hovers around 15-25fps… many stating teleporting causes crash. My game did not crash at all and in fact it seems to stabilize fps the more i play it but it doesnt exceed 24fps. It’s honestly good enough for me to feel confident playing. But i am on extremely expensive hardware. It’s a IPad Pro 13in M4 1TB 16GB Ram. This alone feels like it should be running at at 40+ fps but im going to assume new updates to the emulator will fix this over time.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "stage": "stable",
+          "commitShort": "ab2ca341a",
+          "buildId": "ios-self-built-1.0.0-9296"
+        }
+      },
       {
         "device": "iPhone 13 Pro",
         "platform": "ios",
@@ -14873,49 +14894,51 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
+        "status": "playable",
         "perf": "poor",
-        "notes": "Runs pretty low fps and anytime I teleport to another location, the game crashes",
-        "updatedAt": "2026-03-09",
-        "reportCount": 5,
+        "notes": "FPS hovers around 15-25fps… many stating teleporting causes crash. My game did not crash at all and in fact it seems to stabilize fps the more i play it but it doesnt exceed 24fps. It’s honestly good enough for me to feel confident playing. But i am on extremely expensive hardware. It’s a IPad Pro 13in M4 1TB 16GB Ram. This alone feels like it should be running at at 40+ fps but im going to assume new updates to the emulator will fix this over time.",
+        "updatedAt": "2026-03-13",
+        "reportCount": 6,
         "latestReport": {
-          "device": "iPhone 13 Pro",
+          "device": "iPad Pro 12.9 inch 7th Gen",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "playable",
           "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Runs pretty low fps and anytime I teleport to another location, the game crashes",
+          "date": "2026-03-13",
+          "notes": "FPS hovers around 15-25fps… many stating teleporting causes crash. My game did not crash at all and in fact it seems to stabilize fps the more i play it but it doesnt exceed 24fps. It’s honestly good enough for me to feel confident playing. But i am on extremely expensive hardware. It’s a IPad Pro 13in M4 1TB 16GB Ram. This alone feels like it should be running at at 40+ fps but im going to assume new updates to the emulator will fix this over time.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPad Pro 12.9 inch 7th Gen",
           "platform": "ios",
-          "osVersion": "26.1 (23B85)",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
-          "source": "github",
+          "date": "2026-03-13",
+          "notes": "FPS hovers around 15-25fps… many stating teleporting causes crash. My game did not crash at all and in fact it seems to stabilize fps the more i play it but it doesnt exceed 24fps. It’s honestly good enough for me to feel confident playing. But i am on extremely expensive hardware. It’s a IPad Pro 13in M4 1TB 16GB Ram. This alone feels like it should be running at at 40+ fps but im going to assume new updates to the emulator will fix this over time.",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
           }
         }
       }
