@@ -18368,5 +18368,123 @@
         }
       }
     }
+  },
+  {
+    "slug": "f-e-a-r",
+    "title": "F.E.A.R.",
+    "titleId": "565507D9",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-13",
+    "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-13",
+        "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9299",
+          "stage": "stable",
+          "commitShort": "d8c101905",
+          "buildId": "ios-self-built-1.0.0-9299"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507D9/1773415475070-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
+        "updatedAt": "2026-03-13",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905",
+            "buildId": "ios-self-built-1.0.0-9299"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905",
+            "buildId": "ios-self-built-1.0.0-9299"
+          }
+        }
+      }
+    }
   }
 ]
