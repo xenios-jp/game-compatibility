@@ -8002,15 +8002,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 16",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "notes": "It’s not bad but it’s expected the game is playable the graphics poor we just need LOTS of optimization but it’s playable was able to complete the fist mission on 15-15 fps but lights and buildings really nothing loads",
+    "updatedAt": "2026-03-13",
+    "notes": "Low framerate, audio doesn’t seem to be working",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-13",
+        "notes": "Low framerate, audio doesn’t seem to be working",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -8033,6 +8054,10 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-4.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773088492970-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773088492970-2.jpg"
     ],
@@ -8063,47 +8088,49 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "It’s not bad but it’s expected the game is playable the graphics poor we just need LOTS of optimization but it’s playable was able to complete the fist mission on 15-15 fps but lights and buildings really nothing loads",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
+        "notes": "Low framerate, audio doesn’t seem to be working",
+        "updatedAt": "2026-03-13",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 16",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "It’s not bad but it’s expected the game is playable the graphics poor we just need LOTS of optimization but it’s playable was able to complete the fist mission on 15-15 fps but lights and buildings really nothing loads",
+          "date": "2026-03-13",
+          "notes": "Low framerate, audio doesn’t seem to be working",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 16",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "It’s not bad but it’s expected the game is playable the graphics poor we just need LOTS of optimization but it’s playable was able to complete the fist mission on 15-15 fps but lights and buildings really nothing loads",
+          "date": "2026-03-13",
+          "notes": "Low framerate, audio doesn’t seem to be working",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
