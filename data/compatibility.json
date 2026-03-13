@@ -2068,6 +2068,126 @@
     }
   },
   {
+    "slug": "borderlands",
+    "title": "Borderlands",
+    "titleId": "545407E7",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-13",
+    "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-13",
+        "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9299",
+          "stage": "stable",
+          "commitShort": "d8c101905",
+          "buildId": "ios-self-built-1.0.0-9299"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E7/1773398208451-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
+        "updatedAt": "2026-03-13",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905",
+            "buildId": "ios-self-built-1.0.0-9299"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905",
+            "buildId": "ios-self-built-1.0.0-9299"
+          }
+        }
+      }
+    },
+    "issueNumber": 241,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/241"
+  },
+  {
     "slug": "burnout-paradise",
     "title": "Burnout Paradise",
     "titleId": "45410806",
@@ -6310,24 +6430,43 @@
   },
   {
     "slug": "family-guy-bttm",
-    "title": "Family Guy: BTTM",
+    "title": "Family Guy: Back to the Multiverse",
     "titleId": "415608C5",
-    "status": "loads",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPad Mini (A17 Pro)",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-12",
-    "notes": "Stuck on the loading into the game to get to main menu",
+    "updatedAt": "2026-03-13",
+    "notes": "Use old XMA Decoder to get past opening screen, characters are rendered with weird grey particles, and cutscenes are incredibly slow and loud.",
     "reports": [
+      {
+        "device": "iPad Mini (A17 Pro)",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-13",
+        "notes": "Use old XMA Decoder to get past opening screen, characters are rendered with weird grey particles, and cutscenes are incredibly slow and loud.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9299",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9299"
+        }
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -6357,13 +6496,49 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Use old XMA Decoder to get past opening screen, characters are rendered with weird grey particles, and cutscenes are incredibly slow and loud.",
+        "updatedAt": "2026-03-13",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Mini (A17 Pro)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "Use old XMA Decoder to get past opening screen, characters are rendered with weird grey particles, and cutscenes are incredibly slow and loud.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9299",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Mini (A17 Pro)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "Use old XMA Decoder to get past opening screen, characters are rendered with weird grey particles, and cutscenes are incredibly slow and loud.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9299",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299"
+          }
+        }
       },
       "preview": {
         "channel": "preview",
@@ -6377,49 +6552,47 @@
       },
       "all": {
         "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Stuck on the loading into the game to get to main menu",
-        "updatedAt": "2026-03-12",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Use old XMA Decoder to get past opening screen, characters are rendered with weird grey particles, and cutscenes are incredibly slow and loud.",
+        "updatedAt": "2026-03-13",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17",
+          "device": "iPad Mini (A17 Pro)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-12",
-          "notes": "Stuck on the loading into the game to get to main menu",
-          "source": "app",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "Use old XMA Decoder to get past opening screen, characters are rendered with weird grey particles, and cutscenes are incredibly slow and loud.",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "ios-release-1.0.0-9299",
+            "channel": "release",
+            "official": true,
             "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "buildNumber": "9299"
           }
         },
         "bestReport": {
-          "device": "iPhone 17",
+          "device": "iPad Mini (A17 Pro)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-12",
-          "notes": "Stuck on the loading into the game to get to main menu",
-          "source": "app",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "Use old XMA Decoder to get past opening screen, characters are rendered with weird grey particles, and cutscenes are incredibly slow and loud.",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "ios-release-1.0.0-9299",
+            "channel": "release",
+            "official": true,
             "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "buildNumber": "9299"
           }
         }
       }
@@ -6893,6 +7066,124 @@
         }
       }
     }
+  },
+  {
+    "slug": "fifazf-tmp-dll",
+    "title": "fifazf.tmp.dll",
+    "titleId": "454109DB",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 13-inch (M4)",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-13",
+    "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
+    "reports": [
+      {
+        "device": "iPad Pro 13-inch (M4)",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-13",
+        "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "stage": "stable",
+          "commitShort": "ab2ca341a",
+          "buildId": "ios-self-built-1.0.0-9296"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
+        "updatedAt": "2026-03-13",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 13-inch (M4)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-13",
+          "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 13-inch (M4)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-13",
+          "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
+          }
+        }
+      }
+    },
+    "issueNumber": 235,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/235"
   },
   {
     "slug": "fight-night-champion",
@@ -11925,6 +12216,124 @@
     }
   },
   {
+    "slug": "nba-clean-opt-target-xex",
+    "title": "nba_clean_opt.target.xex",
+    "titleId": "54540894",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-13",
+    "notes": "Black screen",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-13",
+        "notes": "Black screen",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9299",
+          "stage": "stable",
+          "commitShort": "d8c101905",
+          "buildId": "ios-self-built-1.0.0-9299"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Black screen",
+        "updatedAt": "2026-03-13",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-13",
+          "notes": "Black screen",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905",
+            "buildId": "ios-self-built-1.0.0-9299"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-13",
+          "notes": "Black screen",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905",
+            "buildId": "ios-self-built-1.0.0-9299"
+          }
+        }
+      }
+    },
+    "issueNumber": 242,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/242"
+  },
+  {
     "slug": "ncaa-basketball-10",
     "title": "NCAA® Basketball 10",
     "titleId": "454108C3",
@@ -14796,6 +15205,124 @@
     }
   },
   {
+    "slug": "smackdown-vs-raw-2008",
+    "title": "SmackDown vs RAW 2008",
+    "titleId": "5451080B",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-13",
+    "notes": "Everything works just has low frame rate",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-13",
+        "notes": "Everything works just has low frame rate",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "stage": "stable",
+          "commitShort": "ab2ca341a",
+          "buildId": "ios-self-built-1.0.0-9296"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Everything works just has low frame rate",
+        "updatedAt": "2026-03-13",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "Everything works just has low frame rate",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "Everything works just has low frame rate",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
+          }
+        }
+      }
+    },
+    "issueNumber": 236,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/236"
+  },
+  {
     "slug": "sonic-generations",
     "title": "SONIC GENERATIONS",
     "titleId": "53450848",
@@ -16751,6 +17278,126 @@
     }
   },
   {
+    "slug": "timeshift",
+    "title": "TimeShift",
+    "titleId": "565507DA",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-13",
+    "notes": "Cutscenes shown correctly, no audio corruption.\nGameplay:\nFPS a bit low - around 10-12 FPS at the time of testing\nAudio does not cause ear bleeding.\nAs expected, at the beginning game loads assets and things are rendered black for some time until before fully stabilizing.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-13",
+        "notes": "Cutscenes shown correctly, no audio corruption.\nGameplay:\nFPS a bit low - around 10-12 FPS at the time of testing\nAudio does not cause ear bleeding.\nAs expected, at the beginning game loads assets and things are rendered black for some time until before fully stabilizing.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9299",
+          "stage": "stable",
+          "commitShort": "d8c101905",
+          "buildId": "ios-self-built-1.0.0-9299"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507DA/1773397492970-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Cutscenes shown correctly, no audio corruption.\nGameplay:\nFPS a bit low - around 10-12 FPS at the time of testing\nAudio does not cause ear bleeding.\nAs expected, at the beginning game loads assets and things are rendered black for some time until before fully stabilizing.",
+        "updatedAt": "2026-03-13",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "Cutscenes shown correctly, no audio corruption.\nGameplay:\nFPS a bit low - around 10-12 FPS at the time of testing\nAudio does not cause ear bleeding.\nAs expected, at the beginning game loads assets and things are rendered black for some time until before fully stabilizing.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905",
+            "buildId": "ios-self-built-1.0.0-9299"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "Cutscenes shown correctly, no audio corruption.\nGameplay:\nFPS a bit low - around 10-12 FPS at the time of testing\nAudio does not cause ear bleeding.\nAs expected, at the beginning game loads assets and things are rendered black for some time until before fully stabilizing.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905",
+            "buildId": "ios-self-built-1.0.0-9299"
+          }
+        }
+      }
+    },
+    "issueNumber": 240,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/240"
+  },
+  {
     "slug": "title-5454087a",
     "title": "Title 5454087A",
     "titleId": "5454087A",
@@ -17834,599 +18481,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "fifazf-tmp-dll",
-    "title": "fifazf.tmp.dll",
-    "titleId": "454109DB",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro 13-inch (M4)",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-13",
-    "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
-    "reports": [
-      {
-        "device": "iPad Pro 13-inch (M4)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-13",
-        "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
-        "updatedAt": "2026-03-13",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro 13-inch (M4)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro 13-inch (M4)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
-          }
-        }
-      }
-    },
-    "issueNumber": 235,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/235"
-  },
-  {
-    "slug": "smackdown-vs-raw-2008",
-    "title": "SmackDown vs RAW 2008",
-    "titleId": "5451080B",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16e",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-13",
-    "notes": "Everything works just has low frame rate",
-    "reports": [
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-13",
-        "notes": "Everything works just has low frame rate",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Everything works just has low frame rate",
-        "updatedAt": "2026-03-13",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16e",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-13",
-          "notes": "Everything works just has low frame rate",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16e",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-13",
-          "notes": "Everything works just has low frame rate",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
-          }
-        }
-      }
-    },
-    "issueNumber": 236,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/236"
-  },
-  {
-    "slug": "timeshift",
-    "title": "TimeShift",
-    "titleId": "565507DA",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-13",
-    "notes": "Cutscenes shown correctly, no audio corruption.\nGameplay:\nFPS a bit low - around 10-12 FPS at the time of testing\nAudio does not cause ear bleeding.\nAs expected, at the beginning game loads assets and things are rendered black for some time until before fully stabilizing.",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-13",
-        "notes": "Cutscenes shown correctly, no audio corruption.\nGameplay:\nFPS a bit low - around 10-12 FPS at the time of testing\nAudio does not cause ear bleeding.\nAs expected, at the beginning game loads assets and things are rendered black for some time until before fully stabilizing.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "stage": "stable",
-          "commitShort": "d8c101905",
-          "buildId": "ios-self-built-1.0.0-9299"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507DA/1773397492970-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Cutscenes shown correctly, no audio corruption.\nGameplay:\nFPS a bit low - around 10-12 FPS at the time of testing\nAudio does not cause ear bleeding.\nAs expected, at the beginning game loads assets and things are rendered black for some time until before fully stabilizing.",
-        "updatedAt": "2026-03-13",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-13",
-          "notes": "Cutscenes shown correctly, no audio corruption.\nGameplay:\nFPS a bit low - around 10-12 FPS at the time of testing\nAudio does not cause ear bleeding.\nAs expected, at the beginning game loads assets and things are rendered black for some time until before fully stabilizing.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-13",
-          "notes": "Cutscenes shown correctly, no audio corruption.\nGameplay:\nFPS a bit low - around 10-12 FPS at the time of testing\nAudio does not cause ear bleeding.\nAs expected, at the beginning game loads assets and things are rendered black for some time until before fully stabilizing.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
-          }
-        }
-      }
-    },
-    "issueNumber": 240,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/240"
-  },
-  {
-    "slug": "borderlands",
-    "title": "Borderlands",
-    "titleId": "545407E7",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-13",
-    "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-13",
-        "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "stage": "stable",
-          "commitShort": "d8c101905",
-          "buildId": "ios-self-built-1.0.0-9299"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E7/1773398208451-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
-        "updatedAt": "2026-03-13",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-13",
-          "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-13",
-          "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
-          }
-        }
-      }
-    },
-    "issueNumber": 241,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/241"
-  },
-  {
-    "slug": "nba-clean-opt-target-xex",
-    "title": "nba_clean_opt.target.xex",
-    "titleId": "54540894",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-13",
-    "notes": "Black screen",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-13",
-        "notes": "Black screen",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "stage": "stable",
-          "commitShort": "d8c101905",
-          "buildId": "ios-self-built-1.0.0-9299"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-03-13",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "Black screen",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "Black screen",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
-          }
-        }
-      }
-    },
-    "issueNumber": 242,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/242"
   }
 ]
