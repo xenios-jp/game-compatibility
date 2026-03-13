@@ -5745,6 +5745,123 @@
     }
   },
   {
+    "slug": "f-e-a-r",
+    "title": "F.E.A.R.",
+    "titleId": "565507D9",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-13",
+    "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-13",
+        "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9299",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9299",
+          "commitShort": "d8c101905"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507D9/1773415475070-1.jpg"
+    ],
+    "issueNumber": 245,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/245",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
+        "updatedAt": "2026-03-13",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9299",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "d8c101905"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9299",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "d8c101905"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "fable-anniversary",
     "title": "Fable Anniversary",
     "titleId": "4D530A87",
@@ -6471,49 +6588,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Use old XMA Decoder to get past opening screen, characters are rendered with weird grey particles, and cutscenes are incredibly slow and loud.",
-        "updatedAt": "2026-03-13",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-13",
-          "notes": "Use old XMA Decoder to get past opening screen, characters are rendered with weird grey particles, and cutscenes are incredibly slow and loud.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9299",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-13",
-          "notes": "Use old XMA Decoder to get past opening screen, characters are rendered with weird grey particles, and cutscenes are incredibly slow and loud.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9299",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -8023,13 +8104,12 @@
         "notes": "Low framerate, audio doesn’t seem to be working",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -8103,13 +8183,12 @@
           "notes": "Low framerate, audio doesn’t seem to be working",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -8124,13 +8203,12 @@
           "notes": "Low framerate, audio doesn’t seem to be working",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -9767,6 +9845,121 @@
             "appVersion": "1.0.0",
             "buildNumber": "9820",
             "commitShort": "2633E8177"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "left-4-dead-2",
+    "title": "Left 4 Dead 2",
+    "titleId": "454108D4",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Air 4",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-13",
+    "notes": "Not playable yet on iPad Air 4th Gen",
+    "reports": [
+      {
+        "device": "iPad Air 4",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-13",
+        "notes": "Not playable yet on iPad Air 4th Gen",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9299",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9299",
+          "commitShort": "d8c101905"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 246,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/246",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Not playable yet on iPad Air 4th Gen",
+        "updatedAt": "2026-03-13",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Air 4",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-13",
+          "notes": "Not playable yet on iPad Air 4th Gen",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9299",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "d8c101905"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Air 4",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-13",
+          "notes": "Not playable yet on iPad Air 4th Gen",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9299",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "d8c101905"
           }
         }
       }
@@ -14770,7 +14963,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9 inch 7th Gen",
+      "device": "iPad Pro 13-inch (M4)",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -14780,7 +14973,7 @@
     "notes": "FPS hovers around 15-25fps… many stating teleporting causes crash. My game did not crash at all and in fact it seems to stabilize fps the more i play it but it doesnt exceed 24fps. It’s honestly good enough for me to feel confident playing. But i am on extremely expensive hardware. It’s a IPad Pro 13in M4 1TB 16GB Ram. This alone feels like it should be running at at 40+ fps but im going to assume new updates to the emulator will fix this over time.",
     "reports": [
       {
-        "device": "iPad Pro 12.9 inch 7th Gen",
+        "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -14791,106 +14984,13 @@
         "notes": "FPS hovers around 15-25fps… many stating teleporting causes crash. My game did not crash at all and in fact it seems to stabilize fps the more i play it but it doesnt exceed 24fps. It’s honestly good enough for me to feel confident playing. But i am on extremely expensive hardware. It’s a IPad Pro 13in M4 1TB 16GB Ram. This alone feels like it should be running at at 40+ fps but im going to assume new updates to the emulator will fix this over time.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9296",
-          "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
+          "commitShort": "ab2ca341a"
         }
-      },
-      {
-        "device": "iPhone 13 Pro",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-09",
-        "notes": "Runs pretty low fps and anytime I teleport to another location, the game crashes",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "Black screen",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1 (23B85)",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633E8177"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Menu boots, heavy graphical artifacts/issues on loading screens or cutscenes. \nUpon loading into gameplay game speed is about 50%. Upon trying to load into a mission and/or teleport the game will crash.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9820",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9820"
-        }
-      },
-      {
-        "device": "iPad Pro (M2)",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-02",
-        "notes": "The intro has some graphical issues and the game crashes after the intro",
-        "source": "app",
-        "build": null
       }
     ],
     "screenshots": [
@@ -14925,9 +15025,9 @@
         "perf": "poor",
         "notes": "FPS hovers around 15-25fps… many stating teleporting causes crash. My game did not crash at all and in fact it seems to stabilize fps the more i play it but it doesnt exceed 24fps. It’s honestly good enough for me to feel confident playing. But i am on extremely expensive hardware. It’s a IPad Pro 13in M4 1TB 16GB Ram. This alone feels like it should be running at at 40+ fps but im going to assume new updates to the emulator will fix this over time.",
         "updatedAt": "2026-03-13",
-        "reportCount": 6,
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -14938,17 +15038,16 @@
           "notes": "FPS hovers around 15-25fps… many stating teleporting causes crash. My game did not crash at all and in fact it seems to stabilize fps the more i play it but it doesnt exceed 24fps. It’s honestly good enough for me to feel confident playing. But i am on extremely expensive hardware. It’s a IPad Pro 13in M4 1TB 16GB Ram. This alone feels like it should be running at at 40+ fps but im going to assume new updates to the emulator will fix this over time.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -14959,13 +15058,12 @@
           "notes": "FPS hovers around 15-25fps… many stating teleporting causes crash. My game did not crash at all and in fact it seems to stabilize fps the more i play it but it doesnt exceed 24fps. It’s honestly good enough for me to feel confident playing. But i am on extremely expensive hardware. It’s a IPad Pro 13in M4 1TB 16GB Ram. This alone feels like it should be running at at 40+ fps but im going to assume new updates to the emulator will fix this over time.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         }
       }
@@ -18395,243 +18493,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "f-e-a-r",
-    "title": "F.E.A.R.",
-    "titleId": "565507D9",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-13",
-    "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-13",
-        "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "stage": "stable",
-          "commitShort": "d8c101905",
-          "buildId": "ios-self-built-1.0.0-9299"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507D9/1773415475070-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
-        "updatedAt": "2026-03-13",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-13",
-          "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-13",
-          "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
-          }
-        }
-      }
-    },
-    "issueNumber": 245,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/245"
-  },
-  {
-    "slug": "left-4-dead-2",
-    "title": "Left 4 Dead 2",
-    "titleId": "454108D4",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Air 4th Gen",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-13",
-    "notes": "Not playable yet on iPad Air 4th Gen",
-    "reports": [
-      {
-        "device": "iPad Air 4th Gen",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-13",
-        "notes": "Not playable yet on iPad Air 4th Gen",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "stage": "stable",
-          "commitShort": "d8c101905",
-          "buildId": "ios-self-built-1.0.0-9299"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Not playable yet on iPad Air 4th Gen",
-        "updatedAt": "2026-03-13",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Air 4th Gen",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "Not playable yet on iPad Air 4th Gen",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Air 4th Gen",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "Not playable yet on iPad Air 4th Gen",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
-          }
-        }
-      }
-    },
-    "issueNumber": 246,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/246"
   }
 ]
