@@ -2676,22 +2676,43 @@
     "slug": "call-of-duty-4",
     "title": "Call of Duty 4",
     "titleId": "415607E6",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 13-inch (M4)",
+      "device": "iPad Pro 12.9 inch 7th Gen",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-13",
-    "notes": "I am on IPad os 26.3.1 this could obv be the reason the game doesnt load. It is important to note that i ripped directly from RGH in .XEX format. I will try a different format to see if game will load. Obv my M4 is powerful enough to load and play the game.",
+    "notes": "Shader compilation is buggy but 100% playable on IPad Pro M4 13in 1TB 16GB Ram on iOS 16.3.1 MAKE SURE TO DOWNLOAD REQUIRE STICK DEBUG SCRIPT! I previously posted game crashes comment. Please ignore.",
     "reports": [
+      {
+        "device": "iPad Pro 12.9 inch 7th Gen",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-13",
+        "notes": "Shader compilation is buggy but 100% playable on IPad Pro M4 13in 1TB 16GB Ram on iOS 16.3.1 MAKE SURE TO DOWNLOAD REQUIRE STICK DEBUG SCRIPT! I previously posted game crashes comment. Please ignore.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "stage": "stable",
+          "commitShort": "ab2ca341a",
+          "buildId": "ios-self-built-1.0.0-9296"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
@@ -2782,48 +2803,50 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "I am on IPad os 26.3.1 this could obv be the reason the game doesnt load. It is important to note that i ripped directly from RGH in .XEX format. I will try a different format to see if game will load. Obv my M4 is powerful enough to load and play the game.",
+        "perf": "ok",
+        "notes": "Shader compilation is buggy but 100% playable on IPad Pro M4 13in 1TB 16GB Ram on iOS 16.3.1 MAKE SURE TO DOWNLOAD REQUIRE STICK DEBUG SCRIPT! I previously posted game crashes comment. Please ignore.",
         "updatedAt": "2026-03-13",
-        "reportCount": 3,
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPad Pro 13-inch (M4)",
+          "device": "iPad Pro 12.9 inch 7th Gen",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "playable",
+          "perf": "ok",
           "date": "2026-03-13",
-          "notes": "I am on IPad os 26.3.1 this could obv be the reason the game doesnt load. It is important to note that i ripped directly from RGH in .XEX format. I will try a different format to see if game will load. Obv my M4 is powerful enough to load and play the game.",
+          "notes": "Shader compilation is buggy but 100% playable on IPad Pro M4 13in 1TB 16GB Ram on iOS 16.3.1 MAKE SURE TO DOWNLOAD REQUIRE STICK DEBUG SCRIPT! I previously posted game crashes comment. Please ignore.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPad Pro 12.9 inch 7th Gen",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-03-10",
-          "notes": "The game is awesome runs super good it’s chefs kiss. Overall: spectacular",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "Shader compilation is buggy but 100% playable on IPad Pro M4 13in 1TB 16GB Ram on iOS 16.3.1 MAKE SURE TO DOWNLOAD REQUIRE STICK DEBUG SCRIPT! I previously posted game crashes comment. Please ignore.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
           }
         }
       }
