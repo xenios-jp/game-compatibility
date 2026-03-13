@@ -2556,22 +2556,43 @@
     "slug": "call-of-duty-4",
     "title": "Call of Duty 4",
     "titleId": "415607E6",
-    "status": "playable",
-    "perf": "great",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPad Pro 12.9 inch 7th Gen",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-10",
-    "notes": "The game is awesome runs super good it’s chefs kiss. Overall: spectacular",
+    "updatedAt": "2026-03-13",
+    "notes": "I am on IPad os 26.3.1 this could obv be the reason the game doesnt load. It is important to note that i ripped directly from RGH in .XEX format. I will try a different format to see if game will load. Obv my M4 is powerful enough to load and play the game.",
     "reports": [
+      {
+        "device": "iPad Pro 12.9 inch 7th Gen",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-13",
+        "notes": "I am on IPad os 26.3.1 this could obv be the reason the game doesnt load. It is important to note that i ripped directly from RGH in .XEX format. I will try a different format to see if game will load. Obv my M4 is powerful enough to load and play the game.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "stage": "stable",
+          "commitShort": "ab2ca341a",
+          "buildId": "ios-self-built-1.0.0-9296"
+        }
+      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -2643,27 +2664,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "The game is awesome runs super good it’s chefs kiss. Overall: spectacular",
-        "updatedAt": "2026-03-10",
-        "reportCount": 2,
+        "notes": "I am on IPad os 26.3.1 this could obv be the reason the game doesnt load. It is important to note that i ripped directly from RGH in .XEX format. I will try a different format to see if game will load. Obv my M4 is powerful enough to load and play the game.",
+        "updatedAt": "2026-03-13",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPad Pro 12.9 inch 7th Gen",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-10",
-          "notes": "The game is awesome runs super good it’s chefs kiss. Overall: spectacular",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-13",
+          "notes": "I am on IPad os 26.3.1 this could obv be the reason the game doesnt load. It is important to note that i ripped directly from RGH in .XEX format. I will try a different format to see if game will load. Obv my M4 is powerful enough to load and play the game.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
           }
         },
         "bestReport": {
