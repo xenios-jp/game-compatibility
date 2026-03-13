@@ -18190,5 +18190,123 @@
     },
     "issueNumber": 240,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/240"
+  },
+  {
+    "slug": "borderlands",
+    "title": "Borderlands",
+    "titleId": "545407E7",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-13",
+    "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-13",
+        "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9299",
+          "stage": "stable",
+          "commitShort": "d8c101905",
+          "buildId": "ios-self-built-1.0.0-9299"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E7/1773398208451-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
+        "updatedAt": "2026-03-13",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905",
+            "buildId": "ios-self-built-1.0.0-9299"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-13",
+          "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905",
+            "buildId": "ios-self-built-1.0.0-9299"
+          }
+        }
+      }
+    }
   }
 ]
