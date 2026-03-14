@@ -6819,22 +6819,43 @@
     "slug": "far-cry-3",
     "title": "Far Cry® 3",
     "titleId": "5553088C",
-    "status": "ingame",
+    "status": "playable",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro",
+      "device": "iPhone 16",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "notes": "iPhone 17 Pro, not playable, runs at about 10-15 fps, texture shredding / graphic issues",
+    "updatedAt": "2026-03-14",
+    "notes": "Graphics are almost perfect, but still too demanding.",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-14",
+        "notes": "Graphics are almost perfect, but still too demanding.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 17 Pro",
         "platform": "ios",
@@ -6856,7 +6877,11 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5553088C/1773452803534-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5553088C/1773452803534-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5553088C/1773452803534-3.jpg"
+    ],
     "issueNumber": 129,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/129",
     "summaries": {
@@ -6882,49 +6907,51 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
+        "status": "playable",
         "perf": "poor",
-        "notes": "iPhone 17 Pro, not playable, runs at about 10-15 fps, texture shredding / graphic issues",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
+        "notes": "Graphics are almost perfect, but still too demanding.",
+        "updatedAt": "2026-03-14",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro",
+          "device": "iPhone 16",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "iPhone 17 Pro, not playable, runs at about 10-15 fps, texture shredding / graphic issues",
+          "date": "2026-03-14",
+          "notes": "Graphics are almost perfect, but still too demanding.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro",
+          "device": "iPhone 16",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "iPhone 17 Pro, not playable, runs at about 10-15 fps, texture shredding / graphic issues",
+          "date": "2026-03-14",
+          "notes": "Graphics are almost perfect, but still too demanding.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
