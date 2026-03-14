@@ -3083,8 +3083,8 @@
     "slug": "civilization-revolut-n",
     "title": "Civilization Revolut'n",
     "titleId": "545407E5",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
@@ -3096,9 +3096,30 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-13",
-    "notes": "Instant crash on boot after Metal shaders rendering",
+    "updatedAt": "2026-03-14",
+    "notes": "Game needs the following config:\nprotect_zero = false\n\nUse 50Hz PAL Timing helps with stutters.\n\nGame ended up crashing after like 30 minutes, keep saving if you plan to play from start to end.",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "18.6.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-14",
+        "notes": "Game needs the following config:\nprotect_zero = false\n\nUse 50Hz PAL Timing helps with stutters.\n\nGame ended up crashing after like 30 minutes, keep saving if you plan to play from start to end.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -3140,7 +3161,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E5/1773462436599-1.jpg"
+    ],
     "issueNumber": 142,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/142",
     "summaries": {
@@ -3166,29 +3189,30 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Instant crash on boot after Metal shaders rendering",
-        "updatedAt": "2026-03-13",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game needs the following config:\nprotect_zero = false\n\nUse 50Hz PAL Timing helps with stutters.\n\nGame ended up crashing after like 30 minutes, keep saving if you plan to play from start to end.",
+        "updatedAt": "2026-03-14",
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "18.6.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "Instant crash on boot after Metal shaders rendering",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-14",
+          "notes": "Game needs the following config:\nprotect_zero = false\n\nUse 50Hz PAL Timing helps with stutters.\n\nGame ended up crashing after like 30 minutes, keep saving if you plan to play from start to end.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
@@ -3197,18 +3221,19 @@
           "osVersion": "18.6.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "Instant crash on boot after Metal shaders rendering",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-14",
+          "notes": "Game needs the following config:\nprotect_zero = false\n\nUse 50Hz PAL Timing helps with stutters.\n\nGame ended up crashing after like 30 minutes, keep saving if you plan to play from start to end.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
