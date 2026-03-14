@@ -2972,15 +2972,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.0.1",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "notes": "Boots into a cyan screen after like 5 seconds. Tried changing settings and booted like over 10 times.",
+    "updatedAt": "2026-03-14",
+    "notes": "cyan 👍",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-14",
+        "notes": "cyan 👍",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -3003,6 +3024,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C3/1773453853718-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C3/1773074330525-1.jpg"
     ],
     "issueNumber": 92,
@@ -3032,47 +3054,49 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Boots into a cyan screen after like 5 seconds. Tried changing settings and booted like over 10 times.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
+        "notes": "cyan 👍",
+        "updatedAt": "2026-03-14",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.0.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Boots into a cyan screen after like 5 seconds. Tried changing settings and booted like over 10 times.",
+          "date": "2026-03-14",
+          "notes": "cyan 👍",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.0.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Boots into a cyan screen after like 5 seconds. Tried changing settings and booted like over 10 times.",
+          "date": "2026-03-14",
+          "notes": "cyan 👍",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
