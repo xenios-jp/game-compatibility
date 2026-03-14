@@ -123,154 +123,6 @@
     }
   },
   {
-    "slug": "project-gotham-racing-4",
-    "title": "[Project Gotham Racing 4]",
-    "titleId": "4D5307F9",
-    "status": "loads",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "MacBook Pro (M4 Max)",
-      "platform": "macos",
-      "osVersion": "15.3.1 (for MacOS)",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-14",
-    "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
-    "reports": [
-      {
-        "device": "MacBook Pro (M4 Max)",
-        "platform": "macos",
-        "osVersion": "15.3.1 (for MacOS)",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "great",
-        "date": "2026-03-14",
-        "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 255,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/255",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "loads",
-        "perf": "great",
-        "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
-        "updatedAt": "2026-03-14",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4 Max)",
-          "platform": "macos",
-          "osVersion": "15.3.1 (for MacOS)",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4 Max)",
-          "platform": "macos",
-          "osVersion": "15.3.1 (for MacOS)",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "great",
-        "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
-        "updatedAt": "2026-03-14",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4 Max)",
-          "platform": "macos",
-          "osVersion": "15.3.1 (for MacOS)",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4 Max)",
-          "platform": "macos",
-          "osVersion": "15.3.1 (for MacOS)",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "prototype",
     "title": "[Prototype]™",
     "titleId": "4156084E",
@@ -3259,53 +3111,12 @@
         "notes": "Game needs the following config:\nprotect_zero = false\n\nUse 50Hz PAL Timing helps with stutters.\n\nGame ended up crashing after like 30 minutes, keep saving if you plan to play from start to end.",
         "source": "app",
         "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "18.6.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-13",
-        "notes": "Instant crash on boot after Metal shaders rendering",
-        "source": "app",
-        "build": {
           "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "18.6.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-09",
-        "notes": "Nothing",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
         }
       }
     ],
@@ -3341,7 +3152,7 @@
         "perf": "great",
         "notes": "Game needs the following config:\nprotect_zero = false\n\nUse 50Hz PAL Timing helps with stutters.\n\nGame ended up crashing after like 30 minutes, keep saving if you plan to play from start to end.",
         "updatedAt": "2026-03-14",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -3354,13 +3165,12 @@
           "notes": "Game needs the following config:\nprotect_zero = false\n\nUse 50Hz PAL Timing helps with stutters.\n\nGame ended up crashing after like 30 minutes, keep saving if you plan to play from start to end.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -3375,13 +3185,12 @@
           "notes": "Game needs the following config:\nprotect_zero = false\n\nUse 50Hz PAL Timing helps with stutters.\n\nGame ended up crashing after like 30 minutes, keep saving if you plan to play from start to end.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -6311,121 +6120,6 @@
     }
   },
   {
-    "slug": "fable-ii",
-    "title": "Fable II",
-    "titleId": "4D5307F1",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-12",
-    "notes": "It crash right at start without opening iPhone 15 pro max from a iso",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-12",
-        "notes": "It crash right at start without opening iPhone 15 pro max from a iso",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 219,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/219",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "It crash right at start without opening iPhone 15 pro max from a iso",
-        "updatedAt": "2026-03-12",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-12",
-          "notes": "It crash right at start without opening iPhone 15 pro max from a iso",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-12",
-          "notes": "It crash right at start without opening iPhone 15 pro max from a iso",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "fable-iii",
     "title": "Fable III",
     "titleId": "4D5308D6",
@@ -7725,27 +7419,13 @@
         "notes": "Black Screen.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-03",
-        "notes": "-Graphics: minor glitches like hair transparency \n-Performance: full speed on higher end devices with minor dips.\n-Sound: No sound…\n-Menus: Perfect \n-Videos: work\n\n*Tested for an hour with no crash",
-        "source": "app",
-        "build": null
       }
     ],
     "screenshots": [],
@@ -7774,11 +7454,11 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "great",
+        "status": "nothing",
+        "perf": "n/a",
         "notes": "Black Screen.",
         "updatedAt": "2026-03-14",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 12 Pro Max",
           "platform": "ios",
@@ -7791,27 +7471,33 @@
           "notes": "Black Screen.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 12 Pro Max",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-03",
-          "notes": "-Graphics: minor glitches like hair transparency \n-Performance: full speed on higher end devices with minor dips.\n-Sound: No sound…\n-Menus: Perfect \n-Videos: work\n\n*Tested for an hour with no crash",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-14",
+          "notes": "Black Screen.",
           "source": "app",
-          "build": null
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
         }
       }
     }
