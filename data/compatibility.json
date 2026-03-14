@@ -3228,17 +3228,18 @@
         "notes": "Black screen",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 261,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/261",
     "summaries": {
       "release": {
         "channel": "release",
@@ -3279,13 +3280,12 @@
           "notes": "Black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -3300,19 +3300,16 @@
           "notes": "Black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
-    },
-    "issueNumber": 261,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/261"
+    }
   },
   {
     "slug": "cod-world-at-war",
@@ -7319,6 +7316,123 @@
   {
     "slug": "fifazf-tmp-dll",
     "title": "fifazf.tmp.dll",
+    "titleId": "454109C3",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-14",
+    "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-14",
+        "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454109C3/1773520263462-1.jpg"
+    ],
+    "issueNumber": 264,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/264",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
+        "updatedAt": "2026-03-14",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-14",
+          "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-14",
+          "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "fifazf-tmp-dll",
+    "title": "fifazf.tmp.dll",
     "titleId": "454109DB",
     "status": "nothing",
     "perf": "n/a",
@@ -10325,17 +10439,18 @@
         "notes": "At the time of the gameplay he congeal in the part of loading",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 260,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/260",
     "summaries": {
       "release": {
         "channel": "release",
@@ -10376,13 +10491,12 @@
           "notes": "At the time of the gameplay he congeal in the part of loading",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -10397,61 +10511,37 @@
           "notes": "At the time of the gameplay he congeal in the part of loading",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
-    },
-    "issueNumber": 260,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/260"
+    }
   },
   {
     "slug": "lego-harry-potter",
     "title": "LEGO® Harry Potter™",
     "titleId": "575207E6",
     "status": "playable",
-    "perf": "great",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 13",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-14",
-    "notes": "There are graphical glitches, but it is playable",
+    "notes": "Graphical glitches and drop performance",
     "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-14",
-        "notes": "There are graphical glitches, but it is playable",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -10464,17 +10554,38 @@
         "notes": "Graphical glitches and drop performance",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-14",
+        "notes": "There are graphical glitches, but it is playable",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 259,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/259",
     "summaries": {
       "release": {
         "channel": "release",
@@ -10499,56 +10610,52 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "There are graphical glitches, but it is playable",
+        "perf": "poor",
+        "notes": "Graphical glitches and drop performance",
         "updatedAt": "2026-03-14",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
+          "perf": "poor",
           "date": "2026-03-14",
-          "notes": "There are graphical glitches, but it is playable",
+          "notes": "Graphical glitches and drop performance",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
+          "perf": "poor",
           "date": "2026-03-14",
-          "notes": "There are graphical glitches, but it is playable",
+          "notes": "Graphical glitches and drop performance",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
-    },
-    "issueNumber": 259,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/259"
+    }
   },
   {
     "slug": "lego-indiana-jones-2",
@@ -14055,154 +14162,6 @@
     }
   },
   {
-    "slug": "peggle-2",
-    "title": "Peggle 2",
-    "titleId": "58411436",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Mini (A17 Pro)",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-14",
-    "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-    "reports": [
-      {
-        "device": "iPad Mini (A17 Pro)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-14",
-        "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 263,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/263",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-        "updatedAt": "2026-03-14",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-        "updatedAt": "2026-03-14",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "pes-2012-we-2012",
     "title": "PES 2012/WE 2012",
     "titleId": "4B4E0837",
@@ -15306,17 +15265,18 @@
         "notes": "Performance drop",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 262,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/262",
     "summaries": {
       "release": {
         "channel": "release",
@@ -15357,13 +15317,12 @@
           "notes": "Performance drop",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -15378,19 +15337,16 @@
           "notes": "Performance drop",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
-    },
-    "issueNumber": 262,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/262"
+    }
   },
   {
     "slug": "resident-evil-rev",
@@ -19659,125 +19615,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "fifazf-tmp-dll",
-    "title": "fifazf.tmp.dll",
-    "titleId": "454109C3",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-14",
-    "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-14",
-        "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454109C3/1773520263462-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
-        "updatedAt": "2026-03-14",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 264,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/264"
   }
 ]
