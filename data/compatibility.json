@@ -8132,21 +8132,42 @@
     "title": "GTA IV",
     "titleId": "545407F2",
     "status": "playable",
-    "perf": "poor",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-13",
-    "notes": "Low framerate, audio doesn’t seem to be working",
+    "updatedAt": "2026-03-14",
+    "notes": "There is a lag in a all playing but I can play well\nThe sound is completely broken",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-14",
+        "notes": "There is a lag in a all playing but I can play well\nThe sound is completely broken",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -8222,48 +8243,50 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "poor",
-        "notes": "Low framerate, audio doesn’t seem to be working",
-        "updatedAt": "2026-03-13",
-        "reportCount": 2,
+        "perf": "ok",
+        "notes": "There is a lag in a all playing but I can play well\nThe sound is completely broken",
+        "updatedAt": "2026-03-14",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-13",
-          "notes": "Low framerate, audio doesn’t seem to be working",
+          "perf": "ok",
+          "date": "2026-03-14",
+          "notes": "There is a lag in a all playing but I can play well\nThe sound is completely broken",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-13",
-          "notes": "Low framerate, audio doesn’t seem to be working",
+          "perf": "ok",
+          "date": "2026-03-14",
+          "notes": "There is a lag in a all playing but I can play well\nThe sound is completely broken",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
