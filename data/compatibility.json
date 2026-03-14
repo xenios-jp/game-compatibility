@@ -10416,21 +10416,42 @@
     "title": "LEGO® Harry Potter™",
     "titleId": "575207E6",
     "status": "playable",
-    "perf": "poor",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-14",
-    "notes": "Graphical glitches and drop performance",
+    "notes": "There are graphical glitches, but it is playable",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-14",
+        "notes": "There are graphical glitches, but it is playable",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -10478,20 +10499,20 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "poor",
-        "notes": "Graphical glitches and drop performance",
+        "perf": "great",
+        "notes": "There are graphical glitches, but it is playable",
         "updatedAt": "2026-03-14",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
+          "perf": "great",
           "date": "2026-03-14",
-          "notes": "Graphical glitches and drop performance",
+          "notes": "There are graphical glitches, but it is playable",
           "source": "app",
           "build": {
             "channel": "self-built",
@@ -10504,15 +10525,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
+          "perf": "great",
           "date": "2026-03-14",
-          "notes": "Graphical glitches and drop performance",
+          "notes": "There are graphical glitches, but it is playable",
           "source": "app",
           "build": {
             "channel": "self-built",
