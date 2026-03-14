@@ -123,6 +123,154 @@
     }
   },
   {
+    "slug": "project-gotham-racing-4",
+    "title": "[Project Gotham Racing 4]",
+    "titleId": "4D5307F9",
+    "status": "loads",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro (M4 Max)",
+      "platform": "macos",
+      "osVersion": "15.3.1 (for MacOS)",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-14",
+    "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
+    "reports": [
+      {
+        "device": "MacBook Pro (M4 Max)",
+        "platform": "macos",
+        "osVersion": "15.3.1 (for MacOS)",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "great",
+        "date": "2026-03-14",
+        "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 255,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/255",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "loads",
+        "perf": "great",
+        "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
+        "updatedAt": "2026-03-14",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M4 Max)",
+          "platform": "macos",
+          "osVersion": "15.3.1 (for MacOS)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-14",
+          "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4 Max)",
+          "platform": "macos",
+          "osVersion": "15.3.1 (for MacOS)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-14",
+          "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "great",
+        "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
+        "updatedAt": "2026-03-14",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M4 Max)",
+          "platform": "macos",
+          "osVersion": "15.3.1 (for MacOS)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-14",
+          "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4 Max)",
+          "platform": "macos",
+          "osVersion": "15.3.1 (for MacOS)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-14",
+          "notes": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "prototype",
     "title": "[Prototype]™",
     "titleId": "4156084E",
