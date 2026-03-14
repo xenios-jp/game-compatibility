@@ -11672,22 +11672,43 @@
     "slug": "mortal-kombat",
     "title": "Mortal Kombat",
     "titleId": "575207FD",
-    "status": "playable",
-    "perf": "great",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.2",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-10",
-    "notes": "Game starts with opening screen and graphical glitches during open screen and audio issues after game opening screen is done, stays on a black screen. Re-launching the game a few times fixes the black screen but audio is unbearably loud/with cracking, performance wise game runs good. Dips between full speed and 40 ish fps.",
+    "updatedAt": "2026-03-14",
+    "notes": "Black screen",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-14",
+        "notes": "Black screen",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -11741,27 +11762,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Game starts with opening screen and graphical glitches during open screen and audio issues after game opening screen is done, stays on a black screen. Re-launching the game a few times fixes the black screen but audio is unbearably loud/with cracking, performance wise game runs good. Dips between full speed and 40 ish fps.",
-        "updatedAt": "2026-03-10",
-        "reportCount": 1,
+        "notes": "Black screen",
+        "updatedAt": "2026-03-14",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-10",
-          "notes": "Game starts with opening screen and graphical glitches during open screen and audio issues after game opening screen is done, stays on a black screen. Re-launching the game a few times fixes the black screen but audio is unbearably loud/with cracking, performance wise game runs good. Dips between full speed and 40 ish fps.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-14",
+          "notes": "Black screen",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
