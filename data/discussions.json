@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T01:55:10.792Z",
+  "generatedAt": "2026-03-14T01:57:07.487Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3770,8 +3770,37 @@
       "titleId": "4E4D0856",
       "issueNumber": 186,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/186",
-      "updatedAt": "2026-03-11",
+      "updatedAt": "2026-03-14",
       "entries": [
+        {
+          "id": "comment-4059144056",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/186#issuecomment-4059144056",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773453372000,
+          "issueNumber": 186,
+          "excerpt": "As of the new update, Budokai 3’s Dragon Universe mode no longer shows a black screen. Enemy characters are now visible. Budokai 3 runs great. In Budokai 1, the character select screen still has texture glitches, but the game is no longer a black screen during battles.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-5.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4036261342",
           "type": "comment",
