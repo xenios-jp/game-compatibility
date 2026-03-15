@@ -14164,118 +14164,6 @@
     }
   },
   {
-    "slug": "peggle",
-    "title": "Peggle",
-    "titleId": "58410889",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro Max",
-      "platform": "ios",
-      "osVersion": "18.6.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-15",
-    "notes": "Intro video is very glitchy, but visuals look as intended from then on. Menus experience a little slow-down from time to time, and at the end of a level the effects can make it slower than full speed",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "18.6.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-15",
-        "notes": "Intro video is very glitchy, but visuals look as intended from then on. Menus experience a little slow-down from time to time, and at the end of a level the effects can make it slower than full speed",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.1-9288-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1-9288",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 269,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/269",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Intro video is very glitchy, but visuals look as intended from then on. Menus experience a little slow-down from time to time, and at the end of a level the effects can make it slower than full speed",
-        "updatedAt": "2026-03-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "18.6.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-15",
-          "notes": "Intro video is very glitchy, but visuals look as intended from then on. Menus experience a little slow-down from time to time, and at the end of a level the effects can make it slower than full speed",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1-9288",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "18.6.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-15",
-          "notes": "Intro video is very glitchy, but visuals look as intended from then on. Menus experience a little slow-down from time to time, and at the end of a level the effects can make it slower than full speed",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1-9288",
-            "buildNumber": "9288"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "pes-2012-we-2012",
     "title": "PES 2012/WE 2012",
     "titleId": "4B4E0837",
@@ -14307,33 +14195,12 @@
         "notes": "It only shows blue loading screen and then goes black completely",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9299",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9299",
-          "stage": "stable",
-          "commitShort": "d8c101905",
-          "buildId": "ios-self-built-1.0.0-9299"
-        }
-      },
-      {
-        "device": "iPhone 14 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-08",
-        "notes": "Playable, little graphical errors but not much. No audio in game (only training tested for now). Video glitch in menu video.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "commitShort": "d8c101905"
         }
       }
     ],
@@ -14368,11 +14235,11 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "ok",
+        "status": "nothing",
+        "perf": "n/a",
         "notes": "It only shows blue loading screen and then goes black completely",
         "updatedAt": "2026-03-15",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 17",
           "platform": "ios",
@@ -14385,33 +14252,32 @@
           "notes": "It only shows blue loading screen and then goes black completely",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
+            "commitShort": "d8c101905"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Playable, little graphical errors but not much. No audio in game (only training tested for now). Video glitch in menu video.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-15",
+          "notes": "It only shows blue loading screen and then goes black completely",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9299",
+            "commitShort": "d8c101905"
           }
         }
       }
@@ -15631,13 +15497,12 @@
         "notes": "FPS: 18-22. artefacts: no",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -15707,13 +15572,12 @@
           "notes": "FPS: 18-22. artefacts: no",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -15728,13 +15592,12 @@
           "notes": "FPS: 18-22. artefacts: no",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -16945,66 +16808,13 @@
         "notes": "Performance drops, low fps, runs well certain areas.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
-      },
-      {
-        "device": "iPhone 13 Pro",
-        "platform": "ios",
-        "osVersion": "18.6",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "Black screen",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "iOS 26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-08",
-        "notes": "Playable, but will drop in the 10-20 fps range sometimes. Some graphical glitches mainly upon starting up but it eventually clears up.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.00-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.00",
-          "buildNumber": "9280"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-05",
-        "notes": "Does not boot, no visible attempt.",
-        "source": "app",
-        "build": null
       }
     ],
     "screenshots": [],
@@ -17037,7 +16847,7 @@
         "perf": "poor",
         "notes": "Performance drops, low fps, runs well certain areas.",
         "updatedAt": "2026-03-15",
-        "reportCount": 4,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
@@ -17050,13 +16860,12 @@
           "notes": "Performance drops, low fps, runs well certain areas.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -17071,13 +16880,12 @@
           "notes": "Performance drops, low fps, runs well certain areas.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -17188,7 +16996,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 11 inch 6th Gen",
+      "device": "iPad Air 11-inch (M2)",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -17198,7 +17006,7 @@
     "notes": "It can be playable but sometimes there are FPS drops or even just get freeze",
     "reports": [
       {
-        "device": "iPad Air 11 inch 6th Gen",
+        "device": "iPad Air 11-inch (M2)",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -17209,40 +17017,13 @@
         "notes": "It can be playable but sometimes there are FPS drops or even just get freeze",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-06",
-        "notes": "Gets into game without issue, relatively steady frame rate, 20-25fps.",
-        "source": "app",
-        "build": null
-      },
-      {
-        "device": "iPad Pro (M2)",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-03-05",
-        "notes": "Game Boots but can’t load the First Level it seems.",
-        "source": "app",
-        "build": null
       }
     ],
     "screenshots": [
@@ -17277,9 +17058,9 @@
         "perf": "poor",
         "notes": "It can be playable but sometimes there are FPS drops or even just get freeze",
         "updatedAt": "2026-03-15",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPad Air 11 inch 6th Gen",
+          "device": "iPad Air 11-inch (M2)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -17290,17 +17071,16 @@
           "notes": "It can be playable but sometimes there are FPS drops or even just get freeze",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad Air 11 inch 6th Gen",
+          "device": "iPad Air 11-inch (M2)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -17311,13 +17091,12 @@
           "notes": "It can be playable but sometimes there are FPS drops or even just get freeze",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -17672,154 +17451,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "2633e8177"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "spongebob-squarepants-underpants-slam",
-    "title": "SpongeBob SquarePants: Underpants Slam",
-    "titleId": "5841089F",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Mini (A17 Pro)",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-15",
-    "notes": "Black screen of death",
-    "reports": [
-      {
-        "device": "iPad Mini (A17 Pro)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-15",
-        "notes": "Black screen of death",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 270,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/270",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen of death",
-        "updatedAt": "2026-03-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-15",
-          "notes": "Black screen of death",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-15",
-          "notes": "Black screen of death",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen of death",
-        "updatedAt": "2026-03-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-15",
-          "notes": "Black screen of death",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-15",
-          "notes": "Black screen of death",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
           }
         }
       }
