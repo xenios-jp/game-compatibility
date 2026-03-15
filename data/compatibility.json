@@ -8313,13 +8313,12 @@
         "notes": "was able to get in-game after hours of trial and error using the latest build. Also, it needs specific settings otherwise the game loads forever. The performance ranged from 20 to 30 fps surprisingly and it actually takes 4 seconds to load to in game. Sound is manufactured by a forgotten demon from purgatory and will burn your eardrums. Control is amazing with vibrations. The graphics are actually nice because all textures are rendered but the graphical glitches are only matched by the effect of the heaviest drugs known to mankind. Amazing that it even runs on an iPhone and that it doesn’t overheat my phone that much.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9320",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9320",
-          "stage": "stable",
-          "commitShort": "3d70b7b41a",
-          "buildId": "ios-self-built-1.0.1-9320"
+          "commitShort": "3d70b7b41a"
         }
       },
       {
@@ -8394,13 +8393,12 @@
           "notes": "was able to get in-game after hours of trial and error using the latest build. Also, it needs specific settings otherwise the game loads forever. The performance ranged from 20 to 30 fps surprisingly and it actually takes 4 seconds to load to in game. Sound is manufactured by a forgotten demon from purgatory and will burn your eardrums. Control is amazing with vibrations. The graphics are actually nice because all textures are rendered but the graphical glitches are only matched by the effect of the heaviest drugs known to mankind. Amazing that it even runs on an iPhone and that it doesn’t overheat my phone that much.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9320",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9320",
-            "stage": "stable",
-            "commitShort": "3d70b7b41a",
-            "buildId": "ios-self-built-1.0.1-9320"
+            "commitShort": "3d70b7b41a"
           }
         },
         "bestReport": {
@@ -8415,13 +8413,12 @@
           "notes": "was able to get in-game after hours of trial and error using the latest build. Also, it needs specific settings otherwise the game loads forever. The performance ranged from 20 to 30 fps surprisingly and it actually takes 4 seconds to load to in game. Sound is manufactured by a forgotten demon from purgatory and will burn your eardrums. Control is amazing with vibrations. The graphics are actually nice because all textures are rendered but the graphical glitches are only matched by the effect of the heaviest drugs known to mankind. Amazing that it even runs on an iPhone and that it doesn’t overheat my phone that much.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9320",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9320",
-            "stage": "stable",
-            "commitShort": "3d70b7b41a",
-            "buildId": "ios-self-built-1.0.1-9320"
+            "commitShort": "3d70b7b41a"
           }
         }
       }
