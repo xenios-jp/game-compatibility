@@ -1,5 +1,153 @@
 [
   {
+    "slug": "dragon-age-origins",
+    "title": "[Dragon Age: Origins]",
+    "titleId": "454108C0",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "Mac mini (M4)",
+      "platform": "macos",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-15",
+    "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
+    "reports": [
+      {
+        "device": "Mac mini (M4)",
+        "platform": "macos",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-15",
+        "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 274,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/274",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
+        "updatedAt": "2026-03-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Mac mini (M4)",
+          "platform": "macos",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-15",
+          "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "Mac mini (M4)",
+          "platform": "macos",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-15",
+          "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
+        "updatedAt": "2026-03-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Mac mini (M4)",
+          "platform": "macos",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-15",
+          "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "Mac mini (M4)",
+          "platform": "macos",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-15",
+          "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "midnight-club-los-angeles",
     "title": "[Midnight Club: Los Angeles]",
     "titleId": "545407F8",
