@@ -16869,22 +16869,43 @@
     "slug": "sonic-generations",
     "title": "SONIC GENERATIONS",
     "titleId": "53450848",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Pro",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "18.6",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
-    "notes": "Black screen",
+    "updatedAt": "2026-03-15",
+    "notes": "Performance drops, low fps, runs well certain areas.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-15",
+        "notes": "Performance drops, low fps, runs well certain areas.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 13 Pro",
         "platform": "ios",
@@ -16965,47 +16986,50 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "Black screen",
-        "updatedAt": "2026-03-08",
-        "reportCount": 3,
+        "perf": "poor",
+        "notes": "Performance drops, low fps, runs well certain areas.",
+        "updatedAt": "2026-03-15",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 13 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "18.6",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "Black screen",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro",
-          "platform": "ios",
-          "osVersion": "iOS 26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Playable, but will drop in the 10-20 fps range sometimes. Some graphical glitches mainly upon starting up but it eventually clears up.",
-          "source": "github",
+          "perf": "poor",
+          "date": "2026-03-15",
+          "notes": "Performance drops, low fps, runs well certain areas.",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-1.00-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.00",
-            "buildNumber": "9280"
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-15",
+          "notes": "Performance drops, low fps, runs well certain areas.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
