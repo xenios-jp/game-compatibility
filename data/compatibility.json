@@ -19025,22 +19025,43 @@
     "slug": "toy-story-3",
     "title": "Toy Story 3",
     "titleId": "425607E5",
-    "status": "ingame",
+    "status": "intro",
     "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro Max",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "18.6.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
-    "notes": "Audio is ok, everything works great but some corruptions in game.",
+    "updatedAt": "2026-03-15",
+    "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "18.6.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "ok",
+        "date": "2026-03-15",
+        "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 14 Pro Max",
         "platform": "ios",
@@ -19112,27 +19133,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Audio is ok, everything works great but some corruptions in game.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 2,
+        "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
+        "updatedAt": "2026-03-15",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "18.6.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "intro",
           "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Audio is ok, everything works great but some corruptions in game.",
+          "date": "2026-03-15",
+          "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
