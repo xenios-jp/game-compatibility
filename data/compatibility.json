@@ -17569,6 +17569,154 @@
     }
   },
   {
+    "slug": "spongebob-squarepants-underpants-slam",
+    "title": "SpongeBob SquarePants: Underpants Slam",
+    "titleId": "5841089F",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Mini (A17 Pro)",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-15",
+    "notes": "Black screen of death",
+    "reports": [
+      {
+        "device": "iPad Mini (A17 Pro)",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-15",
+        "notes": "Black screen of death",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 270,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/270",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Black screen of death",
+        "updatedAt": "2026-03-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Mini (A17 Pro)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-15",
+          "notes": "Black screen of death",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Mini (A17 Pro)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-15",
+          "notes": "Black screen of death",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Black screen of death",
+        "updatedAt": "2026-03-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Mini (A17 Pro)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-15",
+          "notes": "Black screen of death",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Mini (A17 Pro)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-15",
+          "notes": "Black screen of death",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "star-ocean-tlh",
     "title": "Star Ocean: TLH",
     "titleId": "535107DD",
