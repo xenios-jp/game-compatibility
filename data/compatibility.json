@@ -8285,22 +8285,43 @@
     "slug": "grand-theft-auto-v",
     "title": "Grand Theft Auto V",
     "titleId": "545408A7",
-    "status": "loads",
-    "perf": "poor",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-12",
-    "notes": "Game gets stuck on a black screen when it should be loading the game. If you try to touch the screen to open the XeniOS menu, nothing happens. But if you touch the screen before the black screen, then you’re trapped at the XeniOS menu.",
+    "updatedAt": "2026-03-15",
+    "notes": "was able to get in-game after hours of trial and error using the latest build. Also, it needs specific settings otherwise the game loads forever. The performance ranged from 20 to 30 fps surprisingly and it actually takes 4 seconds to load to in game. Sound is manufactured by a forgotten demon from purgatory and will burn your eardrums. Control is amazing with vibrations. The graphics are actually nice because all textures are rendered but the graphical glitches are only matched by the effect of the heaviest drugs known to mankind. Amazing that it even runs on an iPhone and that it doesn’t overheat my phone that much.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-15",
+        "notes": "was able to get in-game after hours of trial and error using the latest build. Also, it needs specific settings otherwise the game loads forever. The performance ranged from 20 to 30 fps surprisingly and it actually takes 4 seconds to load to in game. Sound is manufactured by a forgotten demon from purgatory and will burn your eardrums. Control is amazing with vibrations. The graphics are actually nice because all textures are rendered but the graphical glitches are only matched by the effect of the heaviest drugs known to mankind. Amazing that it even runs on an iPhone and that it doesn’t overheat my phone that much.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9320",
+          "stage": "stable",
+          "commitShort": "3d70b7b41a",
+          "buildId": "ios-self-built-1.0.1-9320"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -8323,6 +8344,9 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-3.jpg",
@@ -8353,49 +8377,51 @@
       },
       "all": {
         "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Game gets stuck on a black screen when it should be loading the game. If you try to touch the screen to open the XeniOS menu, nothing happens. But if you touch the screen before the black screen, then you’re trapped at the XeniOS menu.",
-        "updatedAt": "2026-03-12",
-        "reportCount": 1,
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "was able to get in-game after hours of trial and error using the latest build. Also, it needs specific settings otherwise the game loads forever. The performance ranged from 20 to 30 fps surprisingly and it actually takes 4 seconds to load to in game. Sound is manufactured by a forgotten demon from purgatory and will burn your eardrums. Control is amazing with vibrations. The graphics are actually nice because all textures are rendered but the graphical glitches are only matched by the effect of the heaviest drugs known to mankind. Amazing that it even runs on an iPhone and that it doesn’t overheat my phone that much.",
+        "updatedAt": "2026-03-15",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-12",
-          "notes": "Game gets stuck on a black screen when it should be loading the game. If you try to touch the screen to open the XeniOS menu, nothing happens. But if you touch the screen before the black screen, then you’re trapped at the XeniOS menu.",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-15",
+          "notes": "was able to get in-game after hours of trial and error using the latest build. Also, it needs specific settings otherwise the game loads forever. The performance ranged from 20 to 30 fps surprisingly and it actually takes 4 seconds to load to in game. Sound is manufactured by a forgotten demon from purgatory and will burn your eardrums. Control is amazing with vibrations. The graphics are actually nice because all textures are rendered but the graphical glitches are only matched by the effect of the heaviest drugs known to mankind. Amazing that it even runs on an iPhone and that it doesn’t overheat my phone that much.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9320",
+            "stage": "stable",
+            "commitShort": "3d70b7b41a",
+            "buildId": "ios-self-built-1.0.1-9320"
           }
         },
         "bestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-12",
-          "notes": "Game gets stuck on a black screen when it should be loading the game. If you try to touch the screen to open the XeniOS menu, nothing happens. But if you touch the screen before the black screen, then you’re trapped at the XeniOS menu.",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-15",
+          "notes": "was able to get in-game after hours of trial and error using the latest build. Also, it needs specific settings otherwise the game loads forever. The performance ranged from 20 to 30 fps surprisingly and it actually takes 4 seconds to load to in game. Sound is manufactured by a forgotten demon from purgatory and will burn your eardrums. Control is amazing with vibrations. The graphics are actually nice because all textures are rendered but the graphical glitches are only matched by the effect of the heaviest drugs known to mankind. Amazing that it even runs on an iPhone and that it doesn’t overheat my phone that much.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9320",
+            "stage": "stable",
+            "commitShort": "3d70b7b41a",
+            "buildId": "ios-self-built-1.0.1-9320"
           }
         }
       }
