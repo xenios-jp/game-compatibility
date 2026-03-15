@@ -17134,21 +17134,42 @@
     "title": "SONIC UNLEASHED",
     "titleId": "53450812",
     "status": "ingame",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPad Air 11 inch 6th Gen",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-06",
-    "notes": "Gets into game without issue, relatively steady frame rate, 20-25fps.",
+    "updatedAt": "2026-03-15",
+    "notes": "It can be playable but sometimes there are FPS drops or even just get freeze",
     "reports": [
+      {
+        "device": "iPad Air 11 inch 6th Gen",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-15",
+        "notes": "It can be playable but sometimes there are FPS drops or even just get freeze",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -17205,35 +17226,51 @@
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "ok",
-        "notes": "Gets into game without issue, relatively steady frame rate, 20-25fps.",
-        "updatedAt": "2026-03-06",
-        "reportCount": 2,
+        "perf": "poor",
+        "notes": "It can be playable but sometimes there are FPS drops or even just get freeze",
+        "updatedAt": "2026-03-15",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 17",
+          "device": "iPad Air 11 inch 6th Gen",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-06",
-          "notes": "Gets into game without issue, relatively steady frame rate, 20-25fps.",
+          "perf": "poor",
+          "date": "2026-03-15",
+          "notes": "It can be playable but sometimes there are FPS drops or even just get freeze",
           "source": "app",
-          "build": null
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
+          }
         },
         "bestReport": {
-          "device": "iPhone 17",
+          "device": "iPad Air 11 inch 6th Gen",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-06",
-          "notes": "Gets into game without issue, relatively steady frame rate, 20-25fps.",
+          "perf": "poor",
+          "date": "2026-03-15",
+          "notes": "It can be playable but sometimes there are FPS drops or even just get freeze",
           "source": "app",
-          "build": null
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
+          }
         }
       }
     }
