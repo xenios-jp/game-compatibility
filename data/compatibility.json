@@ -8406,42 +8406,21 @@
     "title": "GTA IV",
     "titleId": "545407F2",
     "status": "playable",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 11 inch 5th Gen",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
       "osVersion": "26.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-15",
-    "notes": "Playable but some stutters and low fps",
+    "notes": "5-12FPS",
     "reports": [
-      {
-        "device": "iPad Pro 11 inch 5th Gen",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-15",
-        "notes": "Playable but some stutters and low fps",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -8452,6 +8431,26 @@
         "perf": "poor",
         "date": "2026-03-15",
         "notes": "5-12FPS",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
+        "device": "iPad Pro 11 inch 5th Gen",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-15",
+        "notes": "Playable but some stutters and low fps",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.1-9288",
@@ -8497,50 +8496,48 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "Playable but some stutters and low fps",
+        "perf": "poor",
+        "notes": "5-12FPS",
         "updatedAt": "2026-03-15",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 11 inch 5th Gen",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
           "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-15",
-          "notes": "Playable but some stutters and low fps",
+          "notes": "5-12FPS",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 11 inch 5th Gen",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
           "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-15",
-          "notes": "Playable but some stutters and low fps",
+          "notes": "5-12FPS",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -19191,53 +19188,12 @@
         "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
-      {
-        "device": "iPhone 14 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-08",
-        "notes": "Audio is ok, everything works great but some corruptions in game.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-08",
-        "notes": "Game doesn’t fully load at start graphical  issues.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -19269,11 +19225,11 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
+        "status": "intro",
         "perf": "ok",
         "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
         "updatedAt": "2026-03-15",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -19286,33 +19242,32 @@
           "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "18.6.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "intro",
           "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Game doesn’t fully load at start graphical  issues.",
+          "date": "2026-03-15",
+          "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
