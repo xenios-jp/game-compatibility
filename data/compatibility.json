@@ -1,153 +1,5 @@
 [
   {
-    "slug": "dragon-age-origins",
-    "title": "[Dragon Age: Origins]",
-    "titleId": "454108C0",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "Mac mini (M4)",
-      "platform": "macos",
-      "osVersion": "26.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-15",
-    "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
-    "reports": [
-      {
-        "device": "Mac mini (M4)",
-        "platform": "macos",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-15",
-        "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 274,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/274",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
-        "updatedAt": "2026-03-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "Mac mini (M4)",
-          "platform": "macos",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-15",
-          "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "Mac mini (M4)",
-          "platform": "macos",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-15",
-          "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
-        "updatedAt": "2026-03-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "Mac mini (M4)",
-          "platform": "macos",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-15",
-          "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "Mac mini (M4)",
-          "platform": "macos",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-15",
-          "notes": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "midnight-club-los-angeles",
     "title": "[Midnight Club: Los Angeles]",
     "titleId": "545407F8",
@@ -8583,36 +8435,15 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-15",
-    "notes": "A little low frame，and also some small lags.\n\nhttps://youtu.be/r6mT1ZWSEDs?si=6GgUYY9NpLXJIEkK",
+    "notes": "5-12FPS",
     "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-15",
-        "notes": "A little low frame，and also some small lags.\n\nhttps://youtu.be/r6mT1ZWSEDs?si=6GgUYY9NpLXJIEkK",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -8643,6 +8474,26 @@
         "perf": "ok",
         "date": "2026-03-15",
         "notes": "Playable but some stutters and low fps",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-15",
+        "notes": "A little low frame，and also some small lags.\n\nhttps://youtu.be/r6mT1ZWSEDs?si=6GgUYY9NpLXJIEkK",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.1-9288",
@@ -8689,49 +8540,47 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "A little low frame，and also some small lags.\n\nhttps://youtu.be/r6mT1ZWSEDs?si=6GgUYY9NpLXJIEkK",
+        "notes": "5-12FPS",
         "updatedAt": "2026-03-15",
         "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "poor",
           "date": "2026-03-15",
-          "notes": "A little low frame，and also some small lags.\n\nhttps://youtu.be/r6mT1ZWSEDs?si=6GgUYY9NpLXJIEkK",
+          "notes": "5-12FPS",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "poor",
           "date": "2026-03-15",
-          "notes": "A little low frame，and also some small lags.\n\nhttps://youtu.be/r6mT1ZWSEDs?si=6GgUYY9NpLXJIEkK",
+          "notes": "5-12FPS",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
