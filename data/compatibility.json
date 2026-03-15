@@ -15604,21 +15604,42 @@
     "title": "Resident Evil Rev.",
     "titleId": "43430833",
     "status": "playable",
-    "perf": "great",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPhone 16",
       "platform": "ios",
       "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-12",
-    "notes": "Only glitches in cut scenes game plays just fine no lags",
+    "updatedAt": "2026-03-15",
+    "notes": "FPS: 18-22. artefacts: no",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-15",
+        "notes": "FPS: 18-22. artefacts: no",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -15640,7 +15661,10 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/43430833/1773596337727-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/43430833/1773596337727-2.jpg"
+    ],
     "issueNumber": 218,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/218",
     "summaries": {
@@ -15667,48 +15691,50 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "Only glitches in cut scenes game plays just fine no lags",
-        "updatedAt": "2026-03-12",
-        "reportCount": 1,
+        "perf": "ok",
+        "notes": "FPS: 18-22. artefacts: no",
+        "updatedAt": "2026-03-15",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 16",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-03-12",
-          "notes": "Only glitches in cut scenes game plays just fine no lags",
+          "perf": "ok",
+          "date": "2026-03-15",
+          "notes": "FPS: 18-22. artefacts: no",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "d8c101905"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 16",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-03-12",
-          "notes": "Only glitches in cut scenes game plays just fine no lags",
+          "perf": "ok",
+          "date": "2026-03-15",
+          "notes": "FPS: 18-22. artefacts: no",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "d8c101905"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
