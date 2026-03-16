@@ -20256,6 +20256,27 @@
           "commitShort": "2633e8177",
           "buildId": "ios-self-built-1.0.0-9280"
         }
+      },
+      {
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "18.6.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-16",
+        "notes": "Didn’t load at all, this is due to lack of RAM available",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
       }
     ],
     "screenshots": [],
@@ -20286,7 +20307,7 @@
         "perf": "n/a",
         "notes": "Didn’t load at all, this is due to lack of RAM available",
         "updatedAt": "2026-03-16",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 14",
           "platform": "ios",
