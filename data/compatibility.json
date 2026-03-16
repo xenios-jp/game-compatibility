@@ -8497,13 +8497,12 @@
         "notes": "Playable with decent frame rate. Sound has issues",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9320",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9320",
-          "stage": "stable",
-          "commitShort": "3d70b7b41a",
-          "buildId": "ios-self-built-1.0.1-9320"
+          "commitShort": "3d70b7b41a"
         }
       },
       {
@@ -8620,13 +8619,12 @@
           "notes": "Playable with decent frame rate. Sound has issues",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9320",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9320",
-            "stage": "stable",
-            "commitShort": "3d70b7b41a",
-            "buildId": "ios-self-built-1.0.1-9320"
+            "commitShort": "3d70b7b41a"
           }
         },
         "bestReport": {
@@ -8641,13 +8639,12 @@
           "notes": "Playable with decent frame rate. Sound has issues",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9320",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9320",
-            "stage": "stable",
-            "commitShort": "3d70b7b41a",
-            "buildId": "ios-self-built-1.0.1-9320"
+            "commitShort": "3d70b7b41a"
           }
         }
       }
