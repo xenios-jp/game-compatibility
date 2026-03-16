@@ -20616,7 +20616,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 281,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/281"
   },
   {
     "slug": "smackdown-vs-raw-2011",
@@ -20732,6 +20734,8 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 282,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/282"
   }
 ]
