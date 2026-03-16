@@ -3578,15 +3578,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPhone 16e",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-12",
-    "notes": "Cant get past this page",
+    "updatedAt": "2026-03-16",
+    "notes": "Can’t get past loading page",
     "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-16",
+        "notes": "Can’t get past loading page",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -3609,6 +3630,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D083A/1773620645247-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D083A/1773341138380-1.jpg"
     ],
     "issueNumber": 229,
@@ -3638,47 +3660,49 @@
         "channel": "all",
         "status": "loads",
         "perf": "poor",
-        "notes": "Cant get past this page",
-        "updatedAt": "2026-03-12",
-        "reportCount": 1,
+        "notes": "Can’t get past loading page",
+        "updatedAt": "2026-03-16",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 16e",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "loads",
           "perf": "poor",
-          "date": "2026-03-12",
-          "notes": "Cant get past this page",
+          "date": "2026-03-16",
+          "notes": "Can’t get past loading page",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 16e",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "loads",
           "perf": "poor",
-          "date": "2026-03-12",
-          "notes": "Cant get past this page",
+          "date": "2026-03-16",
+          "notes": "Can’t get past loading page",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
