@@ -8470,21 +8470,42 @@
     "title": "GTA IV",
     "titleId": "545407F2",
     "status": "playable",
-    "perf": "poor",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.2",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-15",
-    "notes": "5-12FPS",
+    "updatedAt": "2026-03-16",
+    "notes": "Playable with decent frame rate. Sound has issues",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-16",
+        "notes": "Playable with decent frame rate. Sound has issues",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9320",
+          "stage": "stable",
+          "commitShort": "3d70b7b41a",
+          "buildId": "ios-self-built-1.0.1-9320"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -8547,6 +8568,9 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773669019358-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773669019358-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773669019358-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-3.jpg",
@@ -8580,48 +8604,50 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "poor",
-        "notes": "5-12FPS",
-        "updatedAt": "2026-03-15",
-        "reportCount": 3,
+        "perf": "great",
+        "notes": "Playable with decent frame rate. Sound has issues",
+        "updatedAt": "2026-03-16",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-15",
-          "notes": "5-12FPS",
+          "perf": "great",
+          "date": "2026-03-16",
+          "notes": "Playable with decent frame rate. Sound has issues",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildNumber": "9320",
+            "stage": "stable",
+            "commitShort": "3d70b7b41a",
+            "buildId": "ios-self-built-1.0.1-9320"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-15",
-          "notes": "5-12FPS",
+          "perf": "great",
+          "date": "2026-03-16",
+          "notes": "Playable with decent frame rate. Sound has issues",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildNumber": "9320",
+            "stage": "stable",
+            "commitShort": "3d70b7b41a",
+            "buildId": "ios-self-built-1.0.1-9320"
           }
         }
       }
