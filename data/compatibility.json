@@ -16729,22 +16729,43 @@
     "slug": "smackdown-vs-raw-2008",
     "title": "SmackDown vs RAW 2008",
     "titleId": "5451080B",
-    "status": "playable",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPhone 14",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-13",
-    "notes": "Everything works just has low frame rate",
+    "updatedAt": "2026-03-16",
+    "notes": "NO SOUND NO NOTHING JUST BLACK SCREEN",
     "reports": [
+      {
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-16",
+        "notes": "NO SOUND NO NOTHING JUST BLACK SCREEN",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -16794,27 +16815,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Everything works just has low frame rate",
-        "updatedAt": "2026-03-13",
-        "reportCount": 1,
+        "notes": "NO SOUND NO NOTHING JUST BLACK SCREEN",
+        "updatedAt": "2026-03-16",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 14",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-13",
-          "notes": "Everything works just has low frame rate",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-16",
+          "notes": "NO SOUND NO NOTHING JUST BLACK SCREEN",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
