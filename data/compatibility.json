@@ -13650,6 +13650,123 @@
     }
   },
   {
+    "slug": "need-for-speed-rivals",
+    "title": "Need for Speed™ Rivals",
+    "titleId": "454109C6",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 12.9-inch (M2)",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-16",
+    "notes": "The world isn’t rendered correctly, basically all black. Took several attempts to get it working",
+    "reports": [
+      {
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-16",
+        "notes": "The world isn’t rendered correctly, basically all black. Took several attempts to get it working",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9320",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9320",
+          "commitShort": "3d70b7b41a"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454109C6/1773638857904-1.jpg"
+    ],
+    "issueNumber": 277,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/277",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "The world isn’t rendered correctly, basically all black. Took several attempts to get it working",
+        "updatedAt": "2026-03-16",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-16",
+          "notes": "The world isn’t rendered correctly, basically all black. Took several attempts to get it working",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9320",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9320",
+            "commitShort": "3d70b7b41a"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-16",
+          "notes": "The world isn’t rendered correctly, basically all black. Took several attempts to get it working",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9320",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9320",
+            "commitShort": "3d70b7b41a"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "nfs-undercover",
     "title": "NFS Undercover",
     "titleId": "45410876",
@@ -16757,13 +16874,12 @@
         "notes": "NO SOUND NO NOTHING JUST BLACK SCREEN",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -16830,13 +16946,12 @@
           "notes": "NO SOUND NO NOTHING JUST BLACK SCREEN",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -20037,125 +20152,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "need-for-speed-rivals",
-    "title": "Need for Speed™ Rivals",
-    "titleId": "454109C6",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro 12.9 inch 6th Gen",
-      "platform": "ios",
-      "osVersion": "26.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-16",
-    "notes": "The world isn’t rendered correctly, basically all black. Took several attempts to get it working",
-    "reports": [
-      {
-        "device": "iPad Pro 12.9 inch 6th Gen",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-16",
-        "notes": "The world isn’t rendered correctly, basically all black. Took several attempts to get it working",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9320",
-          "stage": "stable",
-          "commitShort": "3d70b7b41a",
-          "buildId": "ios-self-built-1.0.1-9320"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454109C6/1773638857904-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "The world isn’t rendered correctly, basically all black. Took several attempts to get it working",
-        "updatedAt": "2026-03-16",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-16",
-          "notes": "The world isn’t rendered correctly, basically all black. Took several attempts to get it working",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9320",
-            "stage": "stable",
-            "commitShort": "3d70b7b41a",
-            "buildId": "ios-self-built-1.0.1-9320"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-16",
-          "notes": "The world isn’t rendered correctly, basically all black. Took several attempts to get it working",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9320",
-            "stage": "stable",
-            "commitShort": "3d70b7b41a",
-            "buildId": "ios-self-built-1.0.1-9320"
-          }
-        }
-      }
-    },
-    "issueNumber": 277,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/277"
   }
 ]
