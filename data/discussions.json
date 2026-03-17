@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T03:21:56.048Z",
+  "generatedAt": "2026-03-17T05:14:14.003Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1588,6 +1588,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4B5607DA": {
+      "titleId": "4B5607DA",
+      "issueNumber": 288,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/288",
+      "updatedAt": "2026-03-17",
+      "entries": [
+        {
+          "id": "issue-288",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/288",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-17",
+          "createdAtMs": 1773724400000,
+          "issueNumber": 288,
+          "excerpt": "Story mode is somewhat playable, but cutscenes are completely messed up.\n\nTrying to start an arcade or versus match causes the game to crash after you pick a character.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
