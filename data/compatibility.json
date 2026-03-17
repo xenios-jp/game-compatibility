@@ -16632,7 +16632,7 @@
     "title": "Skate 2",
     "titleId": "4541087F",
     "status": "playable",
-    "perf": "poor",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
@@ -16644,9 +16644,30 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-12",
-    "notes": "Low fps & graphic issues as seen in screenshot.",
+    "updatedAt": "2026-03-17",
+    "notes": "Patches make the game run faster",
     "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-17",
+        "notes": "Patches make the game run faster",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -16697,10 +16718,10 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "poor",
-        "notes": "Low fps & graphic issues as seen in screenshot.",
-        "updatedAt": "2026-03-12",
-        "reportCount": 1,
+        "perf": "ok",
+        "notes": "Patches make the game run faster",
+        "updatedAt": "2026-03-17",
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 16e",
           "platform": "ios",
@@ -16708,17 +16729,18 @@
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-12",
-          "notes": "Low fps & graphic issues as seen in screenshot.",
+          "perf": "ok",
+          "date": "2026-03-17",
+          "notes": "Patches make the game run faster",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
@@ -16728,17 +16750,18 @@
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-12",
-          "notes": "Low fps & graphic issues as seen in screenshot.",
+          "perf": "ok",
+          "date": "2026-03-17",
+          "notes": "Patches make the game run faster",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
