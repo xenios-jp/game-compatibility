@@ -21361,5 +21361,121 @@
         }
       }
     }
+  },
+  {
+    "slug": "alice-madness-returns",
+    "title": "Alice: Madness Returns",
+    "titleId": "45410916",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Plus",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-17",
+    "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
+    "reports": [
+      {
+        "device": "iPhone 16 Plus",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-17",
+        "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
+        "updatedAt": "2026-03-17",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Plus",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-17",
+          "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Plus",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-17",
+          "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
+          }
+        }
+      }
+    }
   }
 ]
