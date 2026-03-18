@@ -9177,22 +9177,43 @@
     "slug": "gta-iv",
     "title": "GTA IV",
     "titleId": "545407F2",
-    "status": "intro",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone11,6",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "16.4",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-18",
-    "notes": "Stuck at loading intro mission",
+    "notes": "App crashiing",
     "reports": [
+      {
+        "device": "iPhone11,6",
+        "platform": "ios",
+        "osVersion": "16.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-18",
+        "notes": "App crashiing",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -9332,27 +9353,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Stuck at loading intro mission",
+        "notes": "App crashiing",
         "updatedAt": "2026-03-18",
-        "reportCount": 5,
+        "reportCount": 6,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone11,6",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "16.4",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
+          "status": "nothing",
+          "perf": "n/a",
           "date": "2026-03-18",
-          "notes": "Stuck at loading intro mission",
+          "notes": "App crashiing",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
