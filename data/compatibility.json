@@ -9157,22 +9157,43 @@
     "slug": "gta-iv",
     "title": "GTA IV",
     "titleId": "545407F2",
-    "status": "playable",
-    "perf": "great",
+    "status": "intro",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-16",
-    "notes": "Playable with decent frame rate. Sound has issues",
+    "updatedAt": "2026-03-18",
+    "notes": "Stuck at loading intro mission",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "ok",
+        "date": "2026-03-18",
+        "notes": "Stuck at loading intro mission",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -9292,27 +9313,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Playable with decent frame rate. Sound has issues",
-        "updatedAt": "2026-03-16",
-        "reportCount": 4,
+        "notes": "Stuck at loading intro mission",
+        "updatedAt": "2026-03-18",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-16",
-          "notes": "Playable with decent frame rate. Sound has issues",
+          "status": "intro",
+          "perf": "ok",
+          "date": "2026-03-18",
+          "notes": "Stuck at loading intro mission",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9320",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9320",
-            "commitShort": "3d70b7b41a"
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
