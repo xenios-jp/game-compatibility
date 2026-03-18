@@ -14737,22 +14737,43 @@
     "slug": "need-for-speed-prostreet",
     "title": "Need for Speed: ProStreet",
     "titleId": "45410822",
-    "status": "playable",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "16.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-11",
-    "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
+    "updatedAt": "2026-03-18",
+    "notes": "Doesn‘t start at all",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "16.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-18",
+        "notes": "Doesn‘t start at all",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -14807,27 +14828,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
-        "updatedAt": "2026-03-11",
-        "reportCount": 1,
+        "notes": "Doesn‘t start at all",
+        "updatedAt": "2026-03-18",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "16.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-11",
-          "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-18",
+          "notes": "Doesn‘t start at all",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
