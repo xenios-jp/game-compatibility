@@ -10423,7 +10423,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9 inch 6th Gen",
+      "device": "iPad Pro 12.9-inch (M2)",
       "platform": "ios",
       "osVersion": "26.1",
       "arch": "arm64",
@@ -10433,7 +10433,7 @@
     "notes": "The new build fixed all graphical issues, also it doesn’t crash anymore",
     "reports": [
       {
-        "device": "iPad Pro 12.9 inch 6th Gen",
+        "device": "iPad Pro 12.9-inch (M2)",
         "platform": "ios",
         "osVersion": "26.1",
         "arch": "arm64",
@@ -10444,13 +10444,12 @@
         "notes": "The new build fixed all graphical issues, also it doesn’t crash anymore",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9299",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9299",
-          "stage": "stable",
-          "commitShort": "d8c101905",
-          "buildId": "ios-self-built-1.0.0-9299"
+          "commitShort": "d8c101905"
         }
       },
       {
@@ -10508,7 +10507,7 @@
         "updatedAt": "2026-03-18",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
@@ -10519,17 +10518,16 @@
           "notes": "The new build fixed all graphical issues, also it doesn’t crash anymore",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
+            "commitShort": "d8c101905"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
@@ -10540,13 +10538,12 @@
           "notes": "The new build fixed all graphical issues, also it doesn’t crash anymore",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9299",
-            "stage": "stable",
-            "commitShort": "d8c101905",
-            "buildId": "ios-self-built-1.0.0-9299"
+            "commitShort": "d8c101905"
           }
         }
       }
