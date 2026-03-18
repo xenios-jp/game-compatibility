@@ -9177,43 +9177,22 @@
     "slug": "gta-iv",
     "title": "GTA IV",
     "titleId": "545407F2",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone11,6",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "16.4",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-18",
-    "notes": "App crashiing",
+    "notes": "Stuck at loading intro mission",
     "reports": [
-      {
-        "device": "iPhone11,6",
-        "platform": "ios",
-        "osVersion": "16.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-18",
-        "notes": "App crashiing",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -9224,6 +9203,26 @@
         "perf": "ok",
         "date": "2026-03-18",
         "notes": "Stuck at loading intro mission",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
+        "device": "iPhone11,6",
+        "platform": "ios",
+        "osVersion": "16.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-18",
+        "notes": "App crashiing",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.1-9288",
@@ -9353,28 +9352,27 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "App crashiing",
+        "notes": "Stuck at loading intro mission",
         "updatedAt": "2026-03-18",
         "reportCount": 6,
         "latestReport": {
-          "device": "iPhone11,6",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "16.4",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "intro",
+          "perf": "ok",
           "date": "2026-03-18",
-          "notes": "App crashiing",
+          "notes": "Stuck at loading intro mission",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
