@@ -752,6 +752,121 @@
     }
   },
   {
+    "slug": "alice-madness-returns",
+    "title": "Alice: Madness Returns",
+    "titleId": "45410916",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Plus",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-17",
+    "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
+    "reports": [
+      {
+        "device": "iPhone 16 Plus",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-17",
+        "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 289,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/289",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
+        "updatedAt": "2026-03-17",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Plus",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-17",
+          "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Plus",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-17",
+          "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "angry-birds-trilogy",
     "title": "Angry Birds Trilogy",
     "titleId": "415608E4",
@@ -8233,13 +8348,12 @@
         "notes": "Performance is good after shaders have compiled, 20-25 FPS in-game and up to 35 FPS in replay mode, trees don’t load properly in-game, however they do load in replay mode.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -8254,13 +8368,12 @@
         "notes": "Performance is good after shaders have compiled, 20-25 FPS in-game and up to 35 FPS in replay mode, trees don’t load properly in-game, however they do load in replay mode.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -8333,13 +8446,12 @@
           "notes": "Performance is good after shaders have compiled, 20-25 FPS in-game and up to 35 FPS in replay mode, trees don’t load properly in-game, however they do load in replay mode.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -8354,13 +8466,12 @@
           "notes": "Performance is good after shaders have compiled, 20-25 FPS in-game and up to 35 FPS in replay mode, trees don’t load properly in-game, however they do load in replay mode.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -12928,6 +13039,121 @@
           "source": "discord",
           "submittedBy": "reality111",
           "build": null
+        }
+      }
+    }
+  },
+  {
+    "slug": "mgs-peace-walker-hd",
+    "title": "MGS PEACE WALKER HD",
+    "titleId": "4B4E083C",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Plus",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-18",
+    "notes": "cutscenes have this weird green purple and black color covering it and the audio is garbled",
+    "reports": [
+      {
+        "device": "iPhone 16 Plus",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-18",
+        "notes": "cutscenes have this weird green purple and black color covering it and the audio is garbled",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 291,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/291",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "cutscenes have this weird green purple and black color covering it and the audio is garbled",
+        "updatedAt": "2026-03-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Plus",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-18",
+          "notes": "cutscenes have this weird green purple and black color covering it and the audio is garbled",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Plus",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-18",
+          "notes": "cutscenes have this weird green purple and black color covering it and the audio is garbled",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
         }
       }
     }
@@ -21178,6 +21404,125 @@
     }
   },
   {
+    "slug": "wrc-5-fia-world-rally-championship",
+    "title": "WRC 5: FIA WORLD RALLY CHAMPIONSHIP",
+    "titleId": "573607E2",
+    "status": "playable",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-17",
+    "notes": "stable high frame\n\nno graphic errors, except that the screen becomes very dark when starting the engine. If it can be fixed, this game is very playable",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-17",
+        "notes": "stable high frame\n\nno graphic errors, except that the screen becomes very dark when starting the engine. If it can be fixed, this game is very playable",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/573607E2/1773791565732-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/573607E2/1773791565732-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/573607E2/1773791565732-3.jpg"
+    ],
+    "issueNumber": 290,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/290",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "poor",
+        "notes": "stable high frame\n\nno graphic errors, except that the screen becomes very dark when starting the engine. If it can be fixed, this game is very playable",
+        "updatedAt": "2026-03-17",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-17",
+          "notes": "stable high frame\n\nno graphic errors, except that the screen becomes very dark when starting the engine. If it can be fixed, this game is very playable",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-17",
+          "notes": "stable high frame\n\nno graphic errors, except that the screen becomes very dark when starting the engine. If it can be fixed, this game is very playable",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "wwe-12",
     "title": "WWE '12",
     "titleId": "54510890",
@@ -21408,363 +21753,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "alice-madness-returns",
-    "title": "Alice: Madness Returns",
-    "titleId": "45410916",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Plus",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-17",
-    "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
-    "reports": [
-      {
-        "device": "iPhone 16 Plus",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-17",
-        "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
-        "updatedAt": "2026-03-17",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Plus",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-17",
-          "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Plus",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-17",
-          "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 289,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/289"
-  },
-  {
-    "slug": "wrc-5-fia-world-rally-championship",
-    "title": "WRC 5: FIA WORLD RALLY CHAMPIONSHIP",
-    "titleId": "573607E2",
-    "status": "playable",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-17",
-    "notes": "stable high frame\n\nno graphic errors, except that the screen becomes very dark when starting the engine. If it can be fixed, this game is very playable",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-17",
-        "notes": "stable high frame\n\nno graphic errors, except that the screen becomes very dark when starting the engine. If it can be fixed, this game is very playable",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/573607E2/1773791565732-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/573607E2/1773791565732-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/573607E2/1773791565732-3.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "poor",
-        "notes": "stable high frame\n\nno graphic errors, except that the screen becomes very dark when starting the engine. If it can be fixed, this game is very playable",
-        "updatedAt": "2026-03-17",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-17",
-          "notes": "stable high frame\n\nno graphic errors, except that the screen becomes very dark when starting the engine. If it can be fixed, this game is very playable",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-17",
-          "notes": "stable high frame\n\nno graphic errors, except that the screen becomes very dark when starting the engine. If it can be fixed, this game is very playable",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 290,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/290"
-  },
-  {
-    "slug": "mgs-peace-walker-hd",
-    "title": "MGS PEACE WALKER HD",
-    "titleId": "4B4E083C",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Plus",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-18",
-    "notes": "cutscenes have this weird green purple and black color covering it and the audio is garbled",
-    "reports": [
-      {
-        "device": "iPhone 16 Plus",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-18",
-        "notes": "cutscenes have this weird green purple and black color covering it and the audio is garbled",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "cutscenes have this weird green purple and black color covering it and the audio is garbled",
-        "updatedAt": "2026-03-18",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Plus",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-18",
-          "notes": "cutscenes have this weird green purple and black color covering it and the audio is garbled",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Plus",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-18",
-          "notes": "cutscenes have this weird green purple and black color covering it and the audio is garbled",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 291,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/291"
   }
 ]
