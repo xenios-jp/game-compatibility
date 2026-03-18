@@ -2118,7 +2118,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Mini",
+      "device": "iPhone 13 mini",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -2128,7 +2128,7 @@
     "notes": "App crashes as soon as I launch the game :/",
     "reports": [
       {
-        "device": "iPhone 13 Mini",
+        "device": "iPhone 13 mini",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -2139,13 +2139,12 @@
         "notes": "App crashes as soon as I launch the game :/",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -2203,7 +2202,7 @@
         "updatedAt": "2026-03-18",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 13 Mini",
+          "device": "iPhone 13 mini",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -2214,13 +2213,12 @@
           "notes": "App crashes as soon as I launch the game :/",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
