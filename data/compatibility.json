@@ -8070,22 +8070,42 @@
     "slug": "final-fantasy-xiii",
     "title": "FINAL FANTASY XIII",
     "titleId": "535107E4",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 12 Pro Max",
+      "device": "iPhone 17",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-14",
-    "notes": "Black Screen.",
+    "updatedAt": "2026-03-18",
+    "notes": "I’d rate performance ok, however in my opinion locked 30fps doesn’t really seem to be a strict requirement for this game to be totally playable. Ranges from about 18-25, with higher framerate especially in combat. Minor transparency rendering issues with characters hair. Other than that, nothing noticeable. \n\nDo note that there are severe audio issues in cutscenes and no audio in game.",
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-18",
+        "notes": "I’d rate performance ok, however in my opinion locked 30fps doesn’t really seem to be a strict requirement for this game to be totally playable. Ranges from about 18-25, with higher framerate especially in combat. Minor transparency rendering issues with characters hair. Other than that, nothing noticeable. \n\nDo note that there are severe audio issues in cutscenes and no audio in game.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9334",
+          "commitShort": "cf76b3baaa",
+          "buildId": "ios-self-built-1.0.1-9334"
+        }
+      },
       {
         "device": "iPhone 12 Pro Max",
         "platform": "ios",
@@ -8107,7 +8127,11 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/535107E4/1773807257305-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/535107E4/1773807257305-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/535107E4/1773807257305-3.jpg"
+    ],
     "issueNumber": 256,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/256",
     "summaries": {
@@ -8133,49 +8157,49 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black Screen.",
-        "updatedAt": "2026-03-14",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "I’d rate performance ok, however in my opinion locked 30fps doesn’t really seem to be a strict requirement for this game to be totally playable. Ranges from about 18-25, with higher framerate especially in combat. Minor transparency rendering issues with characters hair. Other than that, nothing noticeable. \n\nDo note that there are severe audio issues in cutscenes and no audio in game.",
+        "updatedAt": "2026-03-18",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 12 Pro Max",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "Black Screen.",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-18",
+          "notes": "I’d rate performance ok, however in my opinion locked 30fps doesn’t really seem to be a strict requirement for this game to be totally playable. Ranges from about 18-25, with higher framerate especially in combat. Minor transparency rendering issues with characters hair. Other than that, nothing noticeable. \n\nDo note that there are severe audio issues in cutscenes and no audio in game.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildNumber": "9334",
+            "commitShort": "cf76b3baaa",
+            "buildId": "ios-self-built-1.0.1-9334"
           }
         },
         "bestReport": {
-          "device": "iPhone 12 Pro Max",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "Black Screen.",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-18",
+          "notes": "I’d rate performance ok, however in my opinion locked 30fps doesn’t really seem to be a strict requirement for this game to be totally playable. Ranges from about 18-25, with higher framerate especially in combat. Minor transparency rendering issues with characters hair. Other than that, nothing noticeable. \n\nDo note that there are severe audio issues in cutscenes and no audio in game.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildNumber": "9334",
+            "commitShort": "cf76b3baaa",
+            "buildId": "ios-self-built-1.0.1-9334"
           }
         }
       }
