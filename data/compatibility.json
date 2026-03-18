@@ -12352,22 +12352,43 @@
     "slug": "marathon-exe",
     "title": "marathon.exe",
     "titleId": "534507D6",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-16",
-    "notes": "NO SOUND NO NOTHING JUST BLACK SCREEN",
+    "updatedAt": "2026-03-18",
+    "notes": "Was able to get into the game after initially turning off compile metal shaders in background. Before turning that off I would get a black screen after choosing the character to start story missions.Has some graphical errors but and plays slow at times. Tested on IPhone 16 pro max",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-18",
+        "notes": "Was able to get into the game after initially turning off compile metal shaders in background. Before turning that off I would get a black screen after choosing the character to start story missions.Has some graphical errors but and plays slow at times. Tested on IPhone 16 pro max",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 14",
         "platform": "ios",
@@ -12449,7 +12470,11 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-3.jpg"
+    ],
     "issueNumber": 204,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/204",
     "summaries": {
@@ -12477,27 +12502,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "NO SOUND NO NOTHING JUST BLACK SCREEN",
-        "updatedAt": "2026-03-16",
-        "reportCount": 4,
+        "notes": "Was able to get into the game after initially turning off compile metal shaders in background. Before turning that off I would get a black screen after choosing the character to start story missions.Has some graphical errors but and plays slow at times. Tested on IPhone 16 pro max",
+        "updatedAt": "2026-03-18",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone 14",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-16",
-          "notes": "NO SOUND NO NOTHING JUST BLACK SCREEN",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-18",
+          "notes": "Was able to get into the game after initially turning off compile metal shaders in background. Before turning that off I would get a black screen after choosing the character to start story missions.Has some graphical errors but and plays slow at times. Tested on IPhone 16 pro max",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
