@@ -9317,21 +9317,42 @@
     "title": "GTA IV",
     "titleId": "545407F2",
     "status": "intro",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 13",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "18.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-18",
-    "notes": "Stuck at loading intro mission",
+    "updatedAt": "2026-03-19",
+    "notes": "Loads first mission endlessly",
     "reports": [
+      {
+        "device": "iPhone 13",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-03-19",
+        "notes": "Loads first mission endlessly",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -9491,27 +9512,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Stuck at loading intro mission",
-        "updatedAt": "2026-03-18",
-        "reportCount": 6,
+        "notes": "Loads first mission endlessly",
+        "updatedAt": "2026-03-19",
+        "reportCount": 7,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "18.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-18",
-          "notes": "Stuck at loading intro mission",
+          "perf": "poor",
+          "date": "2026-03-19",
+          "notes": "Loads first mission endlessly",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
