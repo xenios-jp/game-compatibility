@@ -31,13 +31,12 @@
         "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -116,13 +115,12 @@
           "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -137,13 +135,12 @@
           "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -1269,6 +1266,121 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "avatar-tla-tbe",
+    "title": "Avatar: TLA: TBE",
+    "titleId": "545107E1",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-19",
+    "notes": "This game loads and is playable in sorts but has major graphical issues and stuttering. Can’t see bending due to graphical issues. The game also has some sound issues.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-19",
+        "notes": "This game loads and is playable in sorts but has major graphical issues and stuttering. Can’t see bending due to graphical issues. The game also has some sound issues.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 296,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/296",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "This game loads and is playable in sorts but has major graphical issues and stuttering. Can’t see bending due to graphical issues. The game also has some sound issues.",
+        "updatedAt": "2026-03-19",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-19",
+          "notes": "This game loads and is playable in sorts but has major graphical issues and stuttering. Can’t see bending due to graphical issues. The game also has some sound issues.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-19",
+          "notes": "This game loads and is playable in sorts but has major graphical issues and stuttering. Can’t see bending due to graphical issues. The game also has some sound issues.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -14131,6 +14243,127 @@
     }
   },
   {
+    "slug": "naruto-storm-g",
+    "title": "NARUTO STORM G",
+    "titleId": "4E4D0842",
+    "status": "playable",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-19",
+    "notes": "Graphical issues on intro when the game is loading up. Playing normally the game is playable but Iphone gets a little hot. When playing in power saver mode the game has really bad fps but it’s playable just bad frames.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-19",
+        "notes": "Graphical issues on intro when the game is loading up. Playing normally the game is playable but Iphone gets a little hot. When playing in power saver mode the game has really bad fps but it’s playable just bad frames.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-5.jpg"
+    ],
+    "issueNumber": 297,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/297",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "poor",
+        "notes": "Graphical issues on intro when the game is loading up. Playing normally the game is playable but Iphone gets a little hot. When playing in power saver mode the game has really bad fps but it’s playable just bad frames.",
+        "updatedAt": "2026-03-19",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-19",
+          "notes": "Graphical issues on intro when the game is loading up. Playing normally the game is playable but Iphone gets a little hot. When playing in power saver mode the game has really bad fps but it’s playable just bad frames.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-19",
+          "notes": "Graphical issues on intro when the game is loading up. Playing normally the game is playable but Iphone gets a little hot. When playing in power saver mode the game has really bad fps but it’s playable just bad frames.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "nba-2k10",
     "title": "NBA 2K10",
     "titleId": "54540852",
@@ -18239,13 +18472,12 @@
         "notes": "The game is essentially unplayable. Some assets on the character selection do not load. The game is full of visual glitches, and switching maps caused the game and whole app to crash.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -18316,13 +18548,12 @@
           "notes": "The game is essentially unplayable. Some assets on the character selection do not load. The game is full of visual glitches, and switching maps caused the game and whole app to crash.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -22337,247 +22568,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "avatar-tla-tbe",
-    "title": "Avatar: TLA: TBE",
-    "titleId": "545107E1",
-    "status": "loads",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-19",
-    "notes": "This game loads and is playable in sorts but has major graphical issues and stuttering. Can’t see bending due to graphical issues. The game also has some sound issues.",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-19",
-        "notes": "This game loads and is playable in sorts but has major graphical issues and stuttering. Can’t see bending due to graphical issues. The game also has some sound issues.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "This game loads and is playable in sorts but has major graphical issues and stuttering. Can’t see bending due to graphical issues. The game also has some sound issues.",
-        "updatedAt": "2026-03-19",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-19",
-          "notes": "This game loads and is playable in sorts but has major graphical issues and stuttering. Can’t see bending due to graphical issues. The game also has some sound issues.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-19",
-          "notes": "This game loads and is playable in sorts but has major graphical issues and stuttering. Can’t see bending due to graphical issues. The game also has some sound issues.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 296,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/296"
-  },
-  {
-    "slug": "naruto-storm-g",
-    "title": "NARUTO STORM G",
-    "titleId": "4E4D0842",
-    "status": "playable",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-19",
-    "notes": "Graphical issues on intro when the game is loading up. Playing normally the game is playable but Iphone gets a little hot. When playing in power saver mode the game has really bad fps but it’s playable just bad frames.",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-19",
-        "notes": "Graphical issues on intro when the game is loading up. Playing normally the game is playable but Iphone gets a little hot. When playing in power saver mode the game has really bad fps but it’s playable just bad frames.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-3.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-4.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-5.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "poor",
-        "notes": "Graphical issues on intro when the game is loading up. Playing normally the game is playable but Iphone gets a little hot. When playing in power saver mode the game has really bad fps but it’s playable just bad frames.",
-        "updatedAt": "2026-03-19",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-19",
-          "notes": "Graphical issues on intro when the game is loading up. Playing normally the game is playable but Iphone gets a little hot. When playing in power saver mode the game has really bad fps but it’s playable just bad frames.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-19",
-          "notes": "Graphical issues on intro when the game is loading up. Playing normally the game is playable but Iphone gets a little hot. When playing in power saver mode the game has really bad fps but it’s playable just bad frames.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 297,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/297"
   }
 ]
