@@ -1,117 +1,5 @@
 [
   {
-    "slug": "frontlines-fuel-of-war",
-    "title": "[Frontlines:Fuel of War]",
-    "titleId": "545107D8",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "Macbook Neo A18 Pro",
-      "platform": "macos",
-      "osVersion": "26.3.2",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-03-19",
-    "notes": "Campaign playable up to second act, audio is broken in gameplay but works fine in cutscenes, performance was not the best with slow downs quite often",
-    "reports": [
-      {
-        "device": "Macbook Neo A18 Pro",
-        "platform": "macos",
-        "osVersion": "26.3.2",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-19",
-        "notes": "Campaign playable up to second act, audio is broken in gameplay but works fine in cutscenes, performance was not the best with slow downs quite often",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1-9288",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 299,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/299",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Campaign playable up to second act, audio is broken in gameplay but works fine in cutscenes, performance was not the best with slow downs quite often",
-        "updatedAt": "2026-03-19",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "Macbook Neo A18 Pro",
-          "platform": "macos",
-          "osVersion": "26.3.2",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-19",
-          "notes": "Campaign playable up to second act, audio is broken in gameplay but works fine in cutscenes, performance was not the best with slow downs quite often",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1-9288",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "Macbook Neo A18 Pro",
-          "platform": "macos",
-          "osVersion": "26.3.2",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-19",
-          "notes": "Campaign playable up to second act, audio is broken in gameplay but works fine in cutscenes, performance was not the best with slow downs quite often",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1-9288",
-            "buildNumber": "9288"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "midnight-club-los-angeles",
     "title": "[Midnight Club: Los Angeles]",
     "titleId": "545407F8",
@@ -9069,8 +8957,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 195,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/195",
+    "issueNumber": 300,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/300",
     "summaries": {
       "release": {
         "channel": "release",
