@@ -9153,22 +9153,43 @@
     "slug": "grand-theft-auto-v",
     "title": "Grand Theft Auto V",
     "titleId": "545408A7",
-    "status": "playable",
+    "status": "intro",
     "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPhone 15",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-18",
-    "notes": "You need to fix lots of things before it works audio is bugged though.",
+    "updatedAt": "2026-03-19",
+    "notes": "The game loads but the when the rolling loading animation comes the screen goes black and XeniOS locks up. The audio artifacts, frame rate looks fine, no stutter, at least when its running.",
     "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "ok",
+        "date": "2026-03-19",
+        "notes": "The game loads but the when the rolling loading animation comes the screen goes black and XeniOS locks up. The audio artifacts, frame rate looks fine, no stutter, at least when its running.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -9266,27 +9287,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "You need to fix lots of things before it works audio is bugged though.",
-        "updatedAt": "2026-03-18",
-        "reportCount": 3,
+        "notes": "The game loads but the when the rolling loading animation comes the screen goes black and XeniOS locks up. The audio artifacts, frame rate looks fine, no stutter, at least when its running.",
+        "updatedAt": "2026-03-19",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 15",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "intro",
           "perf": "ok",
-          "date": "2026-03-18",
-          "notes": "You need to fix lots of things before it works audio is bugged though.",
+          "date": "2026-03-19",
+          "notes": "The game loads but the when the rolling loading animation comes the screen goes black and XeniOS locks up. The audio artifacts, frame rate looks fine, no stutter, at least when its running.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
