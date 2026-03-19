@@ -10,15 +10,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-12",
-    "notes": "Must try booting the game a couple of times before actually loading in-game",
+    "updatedAt": "2026-03-19",
+    "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-19",
+        "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -41,6 +62,10 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-4.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773333739686-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773333739686-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773333739686-3.jpg",
@@ -76,47 +101,49 @@
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
-        "notes": "Must try booting the game a couple of times before actually loading in-game",
-        "updatedAt": "2026-03-12",
-        "reportCount": 1,
+        "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
+        "updatedAt": "2026-03-19",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
           "perf": "poor",
-          "date": "2026-03-12",
-          "notes": "Must try booting the game a couple of times before actually loading in-game",
+          "date": "2026-03-19",
+          "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
           "perf": "poor",
-          "date": "2026-03-12",
-          "notes": "Must try booting the game a couple of times before actually loading in-game",
+          "date": "2026-03-19",
+          "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
