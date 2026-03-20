@@ -8627,7 +8627,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 11-inch 7th Gen",
+      "device": "iPad Air 11-inch (M3)",
       "platform": "ios",
       "osVersion": "26.2.1",
       "arch": "arm64",
@@ -8637,7 +8637,7 @@
     "notes": "Game runs great with occasional stutters",
     "reports": [
       {
-        "device": "iPad Air 11-inch 7th Gen",
+        "device": "iPad Air 11-inch (M3)",
         "platform": "ios",
         "osVersion": "26.2.1",
         "arch": "arm64",
@@ -8648,73 +8648,12 @@
         "notes": "Game runs great with occasional stutters",
         "source": "app",
         "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-18",
-        "notes": "Performance is good after shaders have compiled, 20-25 FPS in-game and up to 35 FPS in replay mode, trees don’t load properly in-game, however they do load in replay mode.",
-        "source": "app",
-        "build": {
           "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-18",
-        "notes": "Performance is good after shaders have compiled, 20-25 FPS in-game and up to 35 FPS in replay mode, trees don’t load properly in-game, however they do load in replay mode.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-10",
-        "notes": "game runs fine with great graphics but low framerate",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
         }
       }
     ],
@@ -8754,9 +8693,9 @@
         "perf": "great",
         "notes": "Game runs great with occasional stutters",
         "updatedAt": "2026-03-20",
-        "reportCount": 4,
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPad Air 11-inch 7th Gen",
+          "device": "iPad Air 11-inch (M3)",
           "platform": "ios",
           "osVersion": "26.2.1",
           "arch": "arm64",
@@ -8767,17 +8706,16 @@
           "notes": "Game runs great with occasional stutters",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad Air 11-inch 7th Gen",
+          "device": "iPad Air 11-inch (M3)",
           "platform": "ios",
           "osVersion": "26.2.1",
           "arch": "arm64",
@@ -8788,13 +8726,12 @@
           "notes": "Game runs great with occasional stutters",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -9321,13 +9258,12 @@
         "notes": "Audio artifacts when game is booting. After intro and the game goes into a black screen",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -9482,13 +9418,12 @@
           "notes": "Audio artifacts when game is booting. After intro and the game goes into a black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
