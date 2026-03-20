@@ -3125,43 +3125,22 @@
     "slug": "call-of-duty-4",
     "title": "Call of Duty 4",
     "titleId": "415607E6",
-    "status": "loads",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 11-inch 7th Gen",
+      "device": "iPad Air 5",
       "platform": "ios",
-      "osVersion": "26.2.1",
+      "osVersion": "26.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-20",
-    "notes": "Loads into main menu but freezes when new game/level select is pressed",
+    "notes": "Blacked screen",
     "reports": [
-      {
-        "device": "iPad Air 11-inch 7th Gen",
-        "platform": "ios",
-        "osVersion": "26.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "ok",
-        "date": "2026-03-20",
-        "notes": "Loads into main menu but freezes when new game/level select is pressed",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
       {
         "device": "iPad Air 5",
         "platform": "ios",
@@ -3172,6 +3151,26 @@
         "perf": "n/a",
         "date": "2026-03-20",
         "notes": "Blacked screen",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
+        "device": "iPad Air 11-inch (M3)",
+        "platform": "ios",
+        "osVersion": "26.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "ok",
+        "date": "2026-03-20",
+        "notes": "Loads into main menu but freezes when new game/level select is pressed",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.1-9288",
@@ -3213,32 +3212,31 @@
         "channel": "all",
         "status": "loads",
         "perf": "ok",
-        "notes": "Loads into main menu but freezes when new game/level select is pressed",
+        "notes": "Blacked screen",
         "updatedAt": "2026-03-20",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPad Air 11-inch 7th Gen",
+          "device": "iPad Air 5",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "26.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "ok",
+          "status": "nothing",
+          "perf": "n/a",
           "date": "2026-03-20",
-          "notes": "Loads into main menu but freezes when new game/level select is pressed",
+          "notes": "Blacked screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad Air 11-inch 7th Gen",
+          "device": "iPad Air 11-inch (M3)",
           "platform": "ios",
           "osVersion": "26.2.1",
           "arch": "arm64",
@@ -3249,13 +3247,12 @@
           "notes": "Loads into main menu but freezes when new game/level select is pressed",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
