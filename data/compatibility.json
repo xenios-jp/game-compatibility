@@ -17844,22 +17844,43 @@
     "slug": "resident-evil-6",
     "title": "RESIDENT EVIL 6",
     "titleId": "43430819",
-    "status": "loads",
+    "status": "ingame",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-14",
-    "notes": "Performance drop",
+    "updatedAt": "2026-03-20",
+    "notes": "It’s slow. And buggy. After changing FPS it could be playable little bit. But still needs little optimisation",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-20",
+        "notes": "It’s slow. And buggy. After changing FPS it could be playable little bit. But still needs little optimisation",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -17881,7 +17902,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/43430819/1773965973026-1.jpg"
+    ],
     "issueNumber": 262,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/262",
     "summaries": {
@@ -17907,49 +17930,51 @@
       },
       "all": {
         "channel": "all",
-        "status": "loads",
+        "status": "ingame",
         "perf": "poor",
-        "notes": "Performance drop",
-        "updatedAt": "2026-03-14",
-        "reportCount": 1,
+        "notes": "It’s slow. And buggy. After changing FPS it could be playable little bit. But still needs little optimisation",
+        "updatedAt": "2026-03-20",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "ingame",
           "perf": "poor",
-          "date": "2026-03-14",
-          "notes": "Performance drop",
+          "date": "2026-03-20",
+          "notes": "It’s slow. And buggy. After changing FPS it could be playable little bit. But still needs little optimisation",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "ingame",
           "perf": "poor",
-          "date": "2026-03-14",
-          "notes": "Performance drop",
+          "date": "2026-03-20",
+          "notes": "It’s slow. And buggy. After changing FPS it could be playable little bit. But still needs little optimisation",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
