@@ -13302,22 +13302,43 @@
     "slug": "metal-gear-rising",
     "title": "METAL GEAR RISING",
     "titleId": "4B4E080A",
-    "status": "playable",
-    "perf": "great",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "26.0.1",
+      "osVersion": "18.6.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-10",
-    "notes": "Gameplay runs great some audio issues during heavy gameplay and for sure no sound during cutscenes as well as graphical glitches during cutscenes. Running at 30FPS",
+    "updatedAt": "2026-03-20",
+    "notes": "Game stares at a black screen",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.6.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-20",
+        "notes": "Game stares at a black screen",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -13390,27 +13411,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Gameplay runs great some audio issues during heavy gameplay and for sure no sound during cutscenes as well as graphical glitches during cutscenes. Running at 30FPS",
-        "updatedAt": "2026-03-10",
-        "reportCount": 2,
+        "notes": "Game stares at a black screen",
+        "updatedAt": "2026-03-20",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.0.1",
+          "osVersion": "18.6.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-10",
-          "notes": "Gameplay runs great some audio issues during heavy gameplay and for sure no sound during cutscenes as well as graphical glitches during cutscenes. Running at 30FPS",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-20",
+          "notes": "Game stares at a black screen",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
