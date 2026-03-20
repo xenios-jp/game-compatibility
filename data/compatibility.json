@@ -3125,22 +3125,43 @@
     "slug": "call-of-duty-4",
     "title": "Call of Duty 4",
     "titleId": "415607E6",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 5",
+      "device": "iPad Air 11-inch 7th Gen",
       "platform": "ios",
-      "osVersion": "26.0.1",
+      "osVersion": "26.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-20",
-    "notes": "Blacked screen",
+    "notes": "Loads into main menu but freezes when new game/level select is pressed",
     "reports": [
+      {
+        "device": "iPad Air 11-inch 7th Gen",
+        "platform": "ios",
+        "osVersion": "26.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "ok",
+        "date": "2026-03-20",
+        "notes": "Loads into main menu but freezes when new game/level select is pressed",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPad Air 5",
         "platform": "ios",
@@ -3190,49 +3211,51 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Blacked screen",
+        "status": "loads",
+        "perf": "ok",
+        "notes": "Loads into main menu but freezes when new game/level select is pressed",
         "updatedAt": "2026-03-20",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Air 5",
+          "device": "iPad Air 11-inch 7th Gen",
           "platform": "ios",
-          "osVersion": "26.0.1",
+          "osVersion": "26.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "loads",
+          "perf": "ok",
           "date": "2026-03-20",
-          "notes": "Blacked screen",
+          "notes": "Loads into main menu but freezes when new game/level select is pressed",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPad Air 5",
+          "device": "iPad Air 11-inch 7th Gen",
           "platform": "ios",
-          "osVersion": "26.0.1",
+          "osVersion": "26.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "loads",
+          "perf": "ok",
           "date": "2026-03-20",
-          "notes": "Blacked screen",
+          "notes": "Loads into main menu but freezes when new game/level select is pressed",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
