@@ -1,5 +1,158 @@
 [
   {
+    "slug": "grid",
+    "title": "[GRID]",
+    "titleId": "434D07FF",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Air M1",
+      "platform": "macos",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-03-21",
+    "notes": "It displays the game logo for 1 second and then crashes/black screen loop.",
+    "reports": [
+      {
+        "device": "MacBook Air M1",
+        "platform": "macos",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-21",
+        "notes": "It displays the game logo for 1 second and then crashes/black screen loop.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056D2F64D"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 310,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/310",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "It displays the game logo for 1 second and then crashes/black screen loop.",
+        "updatedAt": "2026-03-21",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Air M1",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-21",
+          "notes": "It displays the game logo for 1 second and then crashes/black screen loop.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056D2F64D"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Air M1",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-21",
+          "notes": "It displays the game logo for 1 second and then crashes/black screen loop.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056D2F64D"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "It displays the game logo for 1 second and then crashes/black screen loop.",
+        "updatedAt": "2026-03-21",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Air M1",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-21",
+          "notes": "It displays the game logo for 1 second and then crashes/black screen loop.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056D2F64D"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Air M1",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-21",
+          "notes": "It displays the game logo for 1 second and then crashes/black screen loop.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056D2F64D"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "midnight-club-los-angeles",
     "title": "[Midnight Club: Los Angeles]",
     "titleId": "545407F8",
