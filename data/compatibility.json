@@ -9258,13 +9258,12 @@
         "notes": "I upload the tutorial\n\n【【教程】Xenia Canary双盘GTAV教程[附iOS端Xenios部分教程]-哔哩哔哩】 https://b23.tv/GPJuNY3\n\nhttps://youtu.be/DgoWlWnKTho?si=11RAGbt_AmAuB7Y1\n\nIf you are not Chinese, please translate the tutorial content yourself.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -9442,13 +9441,12 @@
           "notes": "I upload the tutorial\n\n【【教程】Xenia Canary双盘GTAV教程[附iOS端Xenios部分教程]-哔哩哔哩】 https://b23.tv/GPJuNY3\n\nhttps://youtu.be/DgoWlWnKTho?si=11RAGbt_AmAuB7Y1\n\nIf you are not Chinese, please translate the tutorial content yourself.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -9463,13 +9461,12 @@
           "notes": "I upload the tutorial\n\n【【教程】Xenia Canary双盘GTAV教程[附iOS端Xenios部分教程]-哔哩哔哩】 https://b23.tv/GPJuNY3\n\nhttps://youtu.be/DgoWlWnKTho?si=11RAGbt_AmAuB7Y1\n\nIf you are not Chinese, please translate the tutorial content yourself.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
