@@ -9230,8 +9230,8 @@
     "slug": "grand-theft-auto-v",
     "title": "Grand Theft Auto V",
     "titleId": "545408A7",
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
@@ -9243,9 +9243,30 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-20",
-    "notes": "Audio artifacts when game is booting. After intro and the game goes into a black screen",
+    "updatedAt": "2026-03-21",
+    "notes": "I upload the tutorial\n\n【【教程】Xenia Canary双盘GTAV教程[附iOS端Xenios部分教程]-哔哩哔哩】 https://b23.tv/GPJuNY3\n\nhttps://youtu.be/DgoWlWnKTho?si=11RAGbt_AmAuB7Y1\n\nIf you are not Chinese, please translate the tutorial content yourself.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-21",
+        "notes": "I upload the tutorial\n\n【【教程】Xenia Canary双盘GTAV教程[附iOS端Xenios部分教程]-哔哩哔哩】 https://b23.tv/GPJuNY3\n\nhttps://youtu.be/DgoWlWnKTho?si=11RAGbt_AmAuB7Y1\n\nIf you are not Chinese, please translate the tutorial content yourself.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -9368,6 +9389,9 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774090937401-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774090937401-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774090937401-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-3.jpg",
@@ -9403,47 +9427,49 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Audio artifacts when game is booting. After intro and the game goes into a black screen",
-        "updatedAt": "2026-03-20",
-        "reportCount": 6,
+        "notes": "I upload the tutorial\n\n【【教程】Xenia Canary双盘GTAV教程[附iOS端Xenios部分教程]-哔哩哔哩】 https://b23.tv/GPJuNY3\n\nhttps://youtu.be/DgoWlWnKTho?si=11RAGbt_AmAuB7Y1\n\nIf you are not Chinese, please translate the tutorial content yourself.",
+        "updatedAt": "2026-03-21",
+        "reportCount": 7,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-20",
-          "notes": "Audio artifacts when game is booting. After intro and the game goes into a black screen",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-21",
+          "notes": "I upload the tutorial\n\n【【教程】Xenia Canary双盘GTAV教程[附iOS端Xenios部分教程]-哔哩哔哩】 https://b23.tv/GPJuNY3\n\nhttps://youtu.be/DgoWlWnKTho?si=11RAGbt_AmAuB7Y1\n\nIf you are not Chinese, please translate the tutorial content yourself.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-18",
-          "notes": "You need to fix lots of things before it works audio is bugged though.",
+          "date": "2026-03-21",
+          "notes": "I upload the tutorial\n\n【【教程】Xenia Canary双盘GTAV教程[附iOS端Xenios部分教程]-哔哩哔哩】 https://b23.tv/GPJuNY3\n\nhttps://youtu.be/DgoWlWnKTho?si=11RAGbt_AmAuB7Y1\n\nIf you are not Chinese, please translate the tutorial content yourself.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
