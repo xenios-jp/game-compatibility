@@ -10271,22 +10271,43 @@
     "slug": "halo-3",
     "title": "Halo 3",
     "titleId": "4D5307E6",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 16 Plus",
       "platform": "ios",
-      "osVersion": "26.0",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-12",
-    "notes": "Halo 3 crashes instantly when opened even with JIT enabled. The game closes but XeniOS remains open.",
+    "updatedAt": "2026-03-22",
+    "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
     "reports": [
+      {
+        "device": "iPhone 16 Plus",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-22",
+        "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -10328,7 +10349,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307E6/1774197362457-1.jpg"
+    ],
     "issueNumber": 197,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/197",
     "summaries": {
@@ -10354,49 +10377,51 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
+        "status": "playable",
         "perf": "poor",
-        "notes": "Halo 3 crashes instantly when opened even with JIT enabled. The game closes but XeniOS remains open.",
-        "updatedAt": "2026-03-12",
-        "reportCount": 2,
+        "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
+        "updatedAt": "2026-03-22",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16 Plus",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-12",
-          "notes": "Halo 3 crashes instantly when opened even with JIT enabled. The game closes but XeniOS remains open.",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-22",
+          "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 16 Plus",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "poor",
-          "date": "2026-03-11",
-          "notes": "Boots fine and loads into game with the initial cutscene loop workaround.",
+          "date": "2026-03-22",
+          "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
