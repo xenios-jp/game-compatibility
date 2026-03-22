@@ -10549,21 +10549,41 @@
     "title": "Guitar Hero Van Halen",
     "titleId": "4156083D",
     "status": "ingame",
-    "perf": "poor",
+    "perf": "ok",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 13 Mini",
-      "platform": "ios",
+      "device": "MacBook Pro (M4)",
+      "platform": "macos",
       "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
     "updatedAt": "2026-03-22",
-    "notes": "Have trouble loading into songs some times Performance very bad on iPhone 13 Mini\nAudio is Glitched",
+    "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
     "reports": [
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-22",
+        "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      },
       {
         "device": "iPhone 13 Mini",
         "platform": "ios",
@@ -10592,13 +10612,49 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
+        "updatedAt": "2026-03-22",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-22",
+          "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-22",
+          "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
       },
       "preview": {
         "channel": "preview",
@@ -10613,50 +10669,46 @@
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "poor",
-        "notes": "Have trouble loading into songs some times Performance very bad on iPhone 13 Mini\nAudio is Glitched",
+        "perf": "ok",
+        "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
         "updatedAt": "2026-03-22",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 13 Mini",
-          "platform": "ios",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "ingame",
-          "perf": "poor",
+          "perf": "ok",
           "date": "2026-03-22",
-          "notes": "Have trouble loading into songs some times Performance very bad on iPhone 13 Mini\nAudio is Glitched",
-          "source": "app",
+          "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
+          "source": "github",
           "build": {
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
             "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "buildNumber": "9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Mini",
-          "platform": "ios",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "ingame",
-          "perf": "poor",
+          "perf": "ok",
           "date": "2026-03-22",
-          "notes": "Have trouble loading into songs some times Performance very bad on iPhone 13 Mini\nAudio is Glitched",
-          "source": "app",
+          "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
+          "source": "github",
           "build": {
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
             "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "buildNumber": "9288"
           }
         }
       }
