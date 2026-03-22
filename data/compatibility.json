@@ -10134,21 +10134,43 @@
     "title": "Guitar Hero 5",
     "titleId": "41560840",
     "status": "ingame",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
-      "macos"
+      "macos",
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
+      "device": "iPhone 13 Mini",
+      "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-22",
-    "notes": "Needs the be rebooted several time for the game to fully load\nThe Intro video sound is glitched and during gameplay only Guitar and Bass Pedal stems plays",
+    "notes": "Game runs very poorly on iPhone 13 Mini\nAudio is Glitched\nMenu text is glitched",
     "reports": [
+      {
+        "device": "iPhone 13 Mini",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-22",
+        "notes": "Game runs very poorly on iPhone 13 Mini\nAudio is Glitched\nMenu text is glitched",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "MacBook Pro (M4)",
         "platform": "macos",
@@ -10169,7 +10191,10 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560840/1774216795265-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560840/1774216795265-2.jpg"
+    ],
     "issueNumber": 326,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/326",
     "summaries": {
@@ -10232,46 +10257,50 @@
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "ok",
-        "notes": "Needs the be rebooted several time for the game to fully load\nThe Intro video sound is glitched and during gameplay only Guitar and Bass Pedal stems plays",
+        "perf": "poor",
+        "notes": "Game runs very poorly on iPhone 13 Mini\nAudio is Glitched\nMenu text is glitched",
         "updatedAt": "2026-03-22",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
+          "device": "iPhone 13 Mini",
+          "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-22",
-          "notes": "Needs the be rebooted several time for the game to fully load\nThe Intro video sound is glitched and during gameplay only Guitar and Bass Pedal stems plays",
-          "source": "github",
+          "notes": "Game runs very poorly on iPhone 13 Mini\nAudio is Glitched\nMenu text is glitched",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
+          "device": "iPhone 13 Mini",
+          "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-22",
-          "notes": "Needs the be rebooted several time for the game to fully load\nThe Intro video sound is glitched and during gameplay only Guitar and Bass Pedal stems plays",
-          "source": "github",
+          "notes": "Game runs very poorly on iPhone 13 Mini\nAudio is Glitched\nMenu text is glitched",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
