@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T05:36:38.587Z",
+  "generatedAt": "2026-03-22T13:27:02.911Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1801,6 +1801,75 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "425307D1": {
+      "titleId": "425307D1",
+      "issueNumber": 314,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/314",
+      "updatedAt": "2026-03-22",
+      "entries": [
+        {
+          "id": "issue-314",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/314",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-22",
+          "createdAtMs": 1774185979000,
+          "issueNumber": 314,
+          "excerpt": "Graphical issues are very common, otherwise it is playable.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307D1/1774185975510-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307D1/1774185975510-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 14 Plus",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-68",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/68",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772998875000,
+          "issueNumber": 68,
+          "excerpt": "After start new game crash in loading.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-46",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/46",
+          "author": "AloneAgainstWorld",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772990762000,
+          "issueNumber": 46,
+          "excerpt": "The game launches but crashes when you start a game.",
           "images": [],
           "meta": {}
         }
@@ -8724,49 +8793,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "425307D1": {
-      "titleId": "425307D1",
-      "issueNumber": 68,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/68",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "issue-68",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/68",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772998875000,
-          "issueNumber": 68,
-          "excerpt": "After start new game crash in loading.",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-46",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/46",
-          "author": "AloneAgainstWorld",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772990762000,
-          "issueNumber": 46,
-          "excerpt": "The game launches but crashes when you start a game.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
