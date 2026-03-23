@@ -18165,15 +18165,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14",
+      "device": "iPhone11,2",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "18.7.6",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "notes": "Glitches",
+    "updatedAt": "2026-03-23",
+    "notes": "Football",
     "reports": [
+      {
+        "device": "iPhone11,2",
+        "platform": "ios",
+        "osVersion": "18.7.6",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-23",
+        "notes": "Football",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 14",
         "platform": "ios",
@@ -18223,47 +18244,49 @@
         "channel": "all",
         "status": "ingame",
         "perf": "ok",
-        "notes": "Glitches",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
+        "notes": "Football",
+        "updatedAt": "2026-03-23",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14",
+          "device": "iPhone11,2",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "18.7.6",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
           "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Glitches",
+          "date": "2026-03-23",
+          "notes": "Football",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 14",
+          "device": "iPhone11,2",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "18.7.6",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
           "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Glitches",
+          "date": "2026-03-23",
+          "notes": "Football",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
