@@ -659,154 +659,6 @@
     }
   },
   {
-    "slug": "ac-dc-live-rock-band",
-    "title": "AC/DC LIVE: Rock Band",
-    "titleId": "45410889",
-    "status": "loads",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-03-23",
-    "notes": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
-    "reports": [
-      {
-        "device": "MacBook Pro (M4)",
-        "platform": "macos",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "loads",
-        "perf": "great",
-        "date": "2026-03-23",
-        "notes": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 336,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/336",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "loads",
-        "perf": "great",
-        "notes": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "great",
-        "notes": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "alan-wake",
     "title": "Alan Wake",
     "titleId": "4D530805",
@@ -15319,13 +15171,12 @@
         "notes": "Boots to a black screen and I let it sit for a while and still nothing. Eventually the app freezes so I just turned off my phone but then my touch screen became unresponsive when I tried to reboot, the buttons didn’t do anything so I had to use Siri. I don’t recommend.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -15392,13 +15243,12 @@
           "notes": "Boots to a black screen and I let it sit for a while and still nothing. Eventually the app freezes so I just turned off my phone but then my touch screen became unresponsive when I tried to reboot, the buttons didn’t do anything so I had to use Siri. I don’t recommend.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -15413,13 +15263,12 @@
           "notes": "Boots to a black screen and I let it sit for a while and still nothing. Eventually the app freezes so I just turned off my phone but then my touch screen became unresponsive when I tried to reboot, the buttons didn’t do anything so I had to use Siri. I don’t recommend.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -19671,6 +19520,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/43430833/1773596337727-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/43430833/1773596337727-2.jpg"
     ],
+    "issueNumber": 218,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/218",
     "summaries": {
       "release": {
         "channel": "release",
@@ -19740,9 +19591,7 @@
           }
         }
       }
-    },
-    "issueNumber": 218,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/218"
+    }
   },
   {
     "slug": "ridge-racer-6",
@@ -20008,8 +19857,8 @@
     "perf": "great",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "macos",
+      "ios"
     ],
     "lastReport": {
       "device": "MacBook Pro (M4)",
@@ -20041,7 +19890,7 @@
         }
       },
       {
-        "device": "iPhone 13 Mini",
+        "device": "iPhone 13 mini",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -20052,19 +19901,20 @@
         "notes": "Sound does not work in game\nSoftlocks when entering in game",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410829/1774223059749-1.jpg"
     ],
+    "issueNumber": 334,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/334",
     "summaries": {
       "release": {
         "channel": "release",
@@ -20168,52 +20018,31 @@
           }
         }
       }
-    },
-    "issueNumber": 334,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/334"
+    }
   },
   {
     "slug": "rock-band-2",
     "title": "Rock Band 2",
     "titleId": "45410869",
-    "status": "playable",
-    "perf": "great",
+    "status": "loads",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
+      "device": "iPhone 13 mini",
+      "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-23",
-    "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
+    "notes": "Game freezes when loading a song on iPhone 13 Mini",
     "reports": [
       {
-        "device": "MacBook Pro (M4)",
-        "platform": "macos",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-23",
-        "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      },
-      {
-        "device": "iPhone 13 Mini",
+        "device": "iPhone 13 mini",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -20224,19 +20053,39 @@
         "notes": "Game freezes when loading a song on iPhone 13 Mini",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-23",
+        "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410869/1774227631407-1.jpg"
     ],
+    "issueNumber": 342,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/342",
     "summaries": {
       "release": {
         "channel": "release",
@@ -20298,26 +20147,27 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
+        "notes": "Game freezes when loading a song on iPhone 13 Mini",
         "updatedAt": "2026-03-23",
         "reportCount": 2,
         "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
+          "device": "iPhone 13 mini",
+          "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
           "date": "2026-03-23",
-          "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
-          "source": "github",
+          "notes": "Game freezes when loading a song on iPhone 13 Mini",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -20330,748 +20180,6 @@
           "perf": "great",
           "date": "2026-03-23",
           "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 342,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/342"
-  },
-  {
-    "slug": "rock-band-classic-rock",
-    "title": "Rock Band Classic Rock",
-    "titleId": "454108B0",
-    "status": "loads",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-03-23",
-    "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
-    "reports": [
-      {
-        "device": "MacBook Pro (M4)",
-        "platform": "macos",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "loads",
-        "perf": "great",
-        "date": "2026-03-23",
-        "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 337,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/337",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "loads",
-        "perf": "great",
-        "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "great",
-        "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "rock-band-country-pack",
-    "title": "Rock Band Country Pack",
-    "titleId": "454108CA",
-    "status": "loads",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-03-23",
-    "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-    "reports": [
-      {
-        "device": "MacBook Pro (M4)",
-        "platform": "macos",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "loads",
-        "perf": "great",
-        "date": "2026-03-23",
-        "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 339,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/339",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "loads",
-        "perf": "great",
-        "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "great",
-        "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "rock-band-country-tp-2",
-    "title": "Rock Band Country TP 2",
-    "titleId": "4541092C",
-    "status": "loads",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-03-23",
-    "notes": "game boots\ncan't go past main menu because it needs a guitar or drum controller",
-    "reports": [
-      {
-        "device": "MacBook Pro (M4)",
-        "platform": "macos",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "loads",
-        "perf": "great",
-        "date": "2026-03-23",
-        "notes": "game boots\ncan't go past main menu because it needs a guitar or drum controller",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 338,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/338",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "loads",
-        "perf": "great",
-        "notes": "game boots\ncan't go past main menu because it needs a guitar or drum controller",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't go past main menu because it needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't go past main menu because it needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "great",
-        "notes": "game boots\ncan't go past main menu because it needs a guitar or drum controller",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't go past main menu because it needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't go past main menu because it needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "rock-band-metal-pack",
-    "title": "Rock Band Metal Pack",
-    "titleId": "454108CD",
-    "status": "loads",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-03-23",
-    "notes": "game boots\ncan't get past main menu because it require a guitar or drum controller",
-    "reports": [
-      {
-        "device": "MacBook Pro (M4)",
-        "platform": "macos",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "loads",
-        "perf": "great",
-        "date": "2026-03-23",
-        "notes": "game boots\ncan't get past main menu because it require a guitar or drum controller",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 340,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/340",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "loads",
-        "perf": "great",
-        "notes": "game boots\ncan't get past main menu because it require a guitar or drum controller",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it require a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it require a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "great",
-        "notes": "game boots\ncan't get past main menu because it require a guitar or drum controller",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it require a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it require a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "rock-band-song-pack-2",
-    "title": "Rock Band Song Pack 2",
-    "titleId": "45410881",
-    "status": "loads",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-03-23",
-    "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-    "reports": [
-      {
-        "device": "MacBook Pro (M4)",
-        "platform": "macos",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "loads",
-        "perf": "great",
-        "date": "2026-03-23",
-        "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 341,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/341",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "loads",
-        "perf": "great",
-        "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "great",
-        "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -25985,17 +25093,18 @@
         "notes": "No visible issues playing",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-0.9.2-9321",
           "channel": "self-built",
           "official": false,
           "appVersion": "0.9.2",
           "buildNumber": "9321",
-          "stage": "stable",
-          "commitShort": "6228dab43",
-          "buildId": "ios-self-built-0.9.2-9321"
+          "commitShort": "6228dab43"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 344,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/344",
     "summaries": {
       "release": {
         "channel": "release",
@@ -26036,13 +25145,12 @@
           "notes": "No visible issues playing",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-0.9.2-9321",
             "channel": "self-built",
             "official": false,
             "appVersion": "0.9.2",
             "buildNumber": "9321",
-            "stage": "stable",
-            "commitShort": "6228dab43",
-            "buildId": "ios-self-built-0.9.2-9321"
+            "commitShort": "6228dab43"
           }
         },
         "bestReport": {
@@ -26057,18 +25165,15 @@
           "notes": "No visible issues playing",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-0.9.2-9321",
             "channel": "self-built",
             "official": false,
             "appVersion": "0.9.2",
             "buildNumber": "9321",
-            "stage": "stable",
-            "commitShort": "6228dab43",
-            "buildId": "ios-self-built-0.9.2-9321"
+            "commitShort": "6228dab43"
           }
         }
       }
-    },
-    "issueNumber": 344,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/344"
+    }
   }
 ]
