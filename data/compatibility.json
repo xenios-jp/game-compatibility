@@ -19500,8 +19500,6 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/43430833/1773596337727-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/43430833/1773596337727-2.jpg"
     ],
-    "issueNumber": 218,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/218",
     "summaries": {
       "release": {
         "channel": "release",
@@ -19828,6 +19826,178 @@
         }
       }
     }
+  },
+  {
+    "slug": "rock-band",
+    "title": "Rock Band",
+    "titleId": "45410829",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios",
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro (M4)",
+      "platform": "macos",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-03-23",
+    "notes": "The game needs to be rebooted multiple time for it to load properly\nDuring gameplay minor frame drops happens but it stays playable",
+    "reports": [
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-23",
+        "notes": "The game needs to be rebooted multiple time for it to load properly\nDuring gameplay minor frame drops happens but it stays playable",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      },
+      {
+        "device": "iPhone 13 Mini",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-22",
+        "notes": "Sound does not work in game\nSoftlocks when entering in game",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410829/1774223059749-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "playable",
+        "perf": "great",
+        "notes": "The game needs to be rebooted multiple time for it to load properly\nDuring gameplay minor frame drops happens but it stays playable",
+        "updatedAt": "2026-03-23",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-23",
+          "notes": "The game needs to be rebooted multiple time for it to load properly\nDuring gameplay minor frame drops happens but it stays playable",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-23",
+          "notes": "The game needs to be rebooted multiple time for it to load properly\nDuring gameplay minor frame drops happens but it stays playable",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "The game needs to be rebooted multiple time for it to load properly\nDuring gameplay minor frame drops happens but it stays playable",
+        "updatedAt": "2026-03-23",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-23",
+          "notes": "The game needs to be rebooted multiple time for it to load properly\nDuring gameplay minor frame drops happens but it stays playable",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-23",
+          "notes": "The game needs to be rebooted multiple time for it to load properly\nDuring gameplay minor frame drops happens but it stays playable",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
+      }
+    },
+    "issueNumber": 334,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/334"
   },
   {
     "slug": "saints-row",
@@ -24697,125 +24867,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "rock-band",
-    "title": "Rock Band",
-    "titleId": "45410829",
-    "status": "loads",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 13 Mini",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-22",
-    "notes": "Sound does not work in game\nSoftlocks when entering in game",
-    "reports": [
-      {
-        "device": "iPhone 13 Mini",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-22",
-        "notes": "Sound does not work in game\nSoftlocks when entering in game",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410829/1774223059749-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Sound does not work in game\nSoftlocks when entering in game",
-        "updatedAt": "2026-03-22",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 13 Mini",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-22",
-          "notes": "Sound does not work in game\nSoftlocks when entering in game",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 13 Mini",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-22",
-          "notes": "Sound does not work in game\nSoftlocks when entering in game",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 334,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/334"
   }
 ]
