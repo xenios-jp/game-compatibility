@@ -17696,33 +17696,12 @@
         "notes": "crashes the app",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "Absolutely nothing when trying to load game",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -17756,7 +17735,7 @@
         "perf": "n/a",
         "notes": "crashes the app",
         "updatedAt": "2026-03-24",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 14",
           "platform": "ios",
@@ -17769,13 +17748,12 @@
           "notes": "crashes the app",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -17790,13 +17768,12 @@
           "notes": "crashes the app",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -18745,43 +18722,22 @@
     "slug": "portal-2",
     "title": "Portal 2",
     "titleId": "45410912",
-    "status": "ingame",
-    "perf": "poor",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Mini",
+      "device": "iPhone12,1",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "17.5.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-24",
-    "notes": "Audio does not work\nGraphics and text are glitched",
+    "notes": "Well, uh. Guessing this fork is still in Alpha, and I do not have an iPhone 14. So, I guess I’ll wait.",
     "reports": [
-      {
-        "device": "iPhone 13 Mini",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-24",
-        "notes": "Audio does not work\nGraphics and text are glitched",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
       {
         "device": "iPhone12,1",
         "platform": "ios",
@@ -18792,6 +18748,26 @@
         "perf": "n/a",
         "date": "2026-03-24",
         "notes": "Well, uh. Guessing this fork is still in Alpha, and I do not have an iPhone 14. So, I guess I’ll wait.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
+        "device": "iPhone 13 mini",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-24",
+        "notes": "Audio does not work\nGraphics and text are glitched",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.1-9288",
@@ -18881,28 +18857,27 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "Audio does not work\nGraphics and text are glitched",
+        "notes": "Well, uh. Guessing this fork is still in Alpha, and I do not have an iPhone 14. So, I guess I’ll wait.",
         "updatedAt": "2026-03-24",
         "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 13 Mini",
+          "device": "iPhone12,1",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "17.5.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
+          "status": "nothing",
+          "perf": "n/a",
           "date": "2026-03-24",
-          "notes": "Audio does not work\nGraphics and text are glitched",
+          "notes": "Well, uh. Guessing this fork is still in Alpha, and I do not have an iPhone 14. So, I guess I’ll wait.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -20905,6 +20880,123 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "serious-sam-hd-tfe",
+    "title": "Serious Sam HD: TFE",
+    "titleId": "584109DA",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-24",
+    "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-24",
+        "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9320",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9320",
+          "commitShort": "3d70b7b41a"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109DA/1774365725251-1.jpg"
+    ],
+    "issueNumber": 355,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/355",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
+        "updatedAt": "2026-03-24",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-24",
+          "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9320",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9320",
+            "commitShort": "3d70b7b41a"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-24",
+          "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9320",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9320",
+            "commitShort": "3d70b7b41a"
           }
         }
       }
@@ -25696,125 +25788,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "serious-sam-hd-tfe",
-    "title": "Serious Sam HD: TFE",
-    "titleId": "584109DA",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-24",
-    "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-24",
-        "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9320",
-          "stage": "stable",
-          "commitShort": "3d70b7b41a",
-          "buildId": "ios-self-built-1.0.1-9320"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109DA/1774365725251-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
-        "updatedAt": "2026-03-24",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-24",
-          "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9320",
-            "stage": "stable",
-            "commitShort": "3d70b7b41a",
-            "buildId": "ios-self-built-1.0.1-9320"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-24",
-          "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9320",
-            "stage": "stable",
-            "commitShort": "3d70b7b41a",
-            "buildId": "ios-self-built-1.0.1-9320"
-          }
-        }
-      }
-    },
-    "issueNumber": 355,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/355"
   }
 ]
