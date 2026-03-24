@@ -1387,6 +1387,121 @@
     }
   },
   {
+    "slug": "back-to-the-future",
+    "title": "Back to the Future",
+    "titleId": "443607D6",
+    "status": "intro",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-24",
+    "notes": "Loads up quickly and smoothly with some audio distortion that sorts out. However the game crashes immediately upon starting.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "great",
+        "date": "2026-03-24",
+        "notes": "Loads up quickly and smoothly with some audio distortion that sorts out. However the game crashes immediately upon starting.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 352,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/352",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "intro",
+        "perf": "great",
+        "notes": "Loads up quickly and smoothly with some audio distortion that sorts out. However the game crashes immediately upon starting.",
+        "updatedAt": "2026-03-24",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "18.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "great",
+          "date": "2026-03-24",
+          "notes": "Loads up quickly and smoothly with some audio distortion that sorts out. However the game crashes immediately upon starting.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "18.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "great",
+          "date": "2026-03-24",
+          "notes": "Loads up quickly and smoothly with some audio distortion that sorts out. However the game crashes immediately upon starting.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "band-hero",
     "title": "Band Hero",
     "titleId": "4156085C",
@@ -15326,47 +15441,13 @@
         "notes": "Doesn’t launch",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
-      },
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "The game crashes as soon as I launch it.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPad Pro (M2)",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-02",
-        "notes": "Games not launching for me",
-        "source": "app",
-        "build": null
       }
     ],
     "screenshots": [],
@@ -15399,7 +15480,7 @@
         "perf": "n/a",
         "notes": "Doesn’t launch",
         "updatedAt": "2026-03-24",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 14 Pro Max",
           "platform": "ios",
@@ -15412,13 +15493,12 @@
           "notes": "Doesn’t launch",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -15433,13 +15513,12 @@
           "notes": "Doesn’t launch",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -22067,36 +22146,15 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPad Pro 13-inch (M4)",
       "platform": "ios",
-      "osVersion": "26.4",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-24",
-    "notes": "Major artifacts on anything pre-rendered (cutscenes, SEGA logo, etc.), but anything in-game looks pretty great. Loading times for assets can vary, and game does crash every once in a while. Hub worlds are stable and day stages are alright if there’s not too much going on",
+    "notes": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
     "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-24",
-        "notes": "Major artifacts on anything pre-rendered (cutscenes, SEGA logo, etc.), but anything in-game looks pretty great. Loading times for assets can vary, and game does crash every once in a while. Hub worlds are stable and day stages are alright if there’s not too much going on",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
       {
         "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
@@ -22107,6 +22165,26 @@
         "perf": "ok",
         "date": "2026-03-24",
         "notes": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-24",
+        "notes": "Major artifacts on anything pre-rendered (cutscenes, SEGA logo, etc.), but anything in-game looks pretty great. Loading times for assets can vary, and game does crash every once in a while. Hub worlds are stable and day stages are alright if there’s not too much going on",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.1-9288",
@@ -22169,49 +22247,47 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Major artifacts on anything pre-rendered (cutscenes, SEGA logo, etc.), but anything in-game looks pretty great. Loading times for assets can vary, and game does crash every once in a while. Hub worlds are stable and day stages are alright if there’s not too much going on",
+        "notes": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
         "updatedAt": "2026-03-24",
         "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
           "date": "2026-03-24",
-          "notes": "Major artifacts on anything pre-rendered (cutscenes, SEGA logo, etc.), but anything in-game looks pretty great. Loading times for assets can vary, and game does crash every once in a while. Hub worlds are stable and day stages are alright if there’s not too much going on",
+          "notes": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
           "date": "2026-03-24",
-          "notes": "Major artifacts on anything pre-rendered (cutscenes, SEGA logo, etc.), but anything in-game looks pretty great. Loading times for assets can vary, and game does crash every once in a while. Hub worlds are stable and day stages are alright if there’s not too much going on",
+          "notes": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -24642,6 +24718,121 @@
     }
   },
   {
+    "slug": "transgame-xereleaseltcg-translated-exe",
+    "title": "TransGame-XeReleaseLTCG-Translated.exe",
+    "titleId": "4156084C",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-24",
+    "notes": "Nothing but a black screen",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-24",
+        "notes": "Nothing but a black screen",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 350,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/350",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Nothing but a black screen",
+        "updatedAt": "2026-03-24",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-24",
+          "notes": "Nothing but a black screen",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-24",
+          "notes": "Nothing but a black screen",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "tron-evolution",
     "title": "Tron: Evolution",
     "titleId": "425607ED",
@@ -25435,241 +25626,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "transgame-xereleaseltcg-translated-exe",
-    "title": "TransGame-XeReleaseLTCG-Translated.exe",
-    "titleId": "4156084C",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro",
-      "platform": "ios",
-      "osVersion": "26.0",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-24",
-    "notes": "Nothing but a black screen",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-24",
-        "notes": "Nothing but a black screen",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Nothing but a black screen",
-        "updatedAt": "2026-03-24",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "26.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-24",
-          "notes": "Nothing but a black screen",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "26.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-24",
-          "notes": "Nothing but a black screen",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 350,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/350"
-  },
-  {
-    "slug": "back-to-the-future",
-    "title": "Back to the Future",
-    "titleId": "443607D6",
-    "status": "intro",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-24",
-    "notes": "Loads up quickly and smoothly with some audio distortion that sorts out. However the game crashes immediately upon starting.",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "great",
-        "date": "2026-03-24",
-        "notes": "Loads up quickly and smoothly with some audio distortion that sorts out. However the game crashes immediately upon starting.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "intro",
-        "perf": "great",
-        "notes": "Loads up quickly and smoothly with some audio distortion that sorts out. However the game crashes immediately upon starting.",
-        "updatedAt": "2026-03-24",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "great",
-          "date": "2026-03-24",
-          "notes": "Loads up quickly and smoothly with some audio distortion that sorts out. However the game crashes immediately upon starting.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "great",
-          "date": "2026-03-24",
-          "notes": "Loads up quickly and smoothly with some audio distortion that sorts out. However the game crashes immediately upon starting.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 352,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/352"
   }
 ]
