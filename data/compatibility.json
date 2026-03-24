@@ -147,6 +147,176 @@
     }
   },
   {
+    "slug": "naruto-rise-of-a-ninja",
+    "title": "[Naruto: Rise Of A Ninja]",
+    "titleId": "555307E5",
+    "status": "loads",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios",
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro (M4)",
+      "platform": "macos",
+      "osVersion": "15.7.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-24",
+    "notes": "It only loads until the Start screen. Then it turns black when pressing start.",
+    "reports": [
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "15.7.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "n/a",
+        "date": "2026-03-24",
+        "notes": "It only loads until the Start screen. Then it turns black when pressing start.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      },
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-09",
+        "notes": "Runs smooth getting like 20-30 fps super smooth also here’s a tip boot the game like 10 times it will make the shader cache run smoothly",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 155,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/155",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "loads",
+        "perf": "n/a",
+        "notes": "It only loads until the Start screen. Then it turns black when pressing start.",
+        "updatedAt": "2026-03-24",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "15.7.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "n/a",
+          "date": "2026-03-24",
+          "notes": "It only loads until the Start screen. Then it turns black when pressing start.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "15.7.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "n/a",
+          "date": "2026-03-24",
+          "notes": "It only loads until the Start screen. Then it turns black when pressing start.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "It only loads until the Start screen. Then it turns black when pressing start.",
+        "updatedAt": "2026-03-24",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "15.7.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "n/a",
+          "date": "2026-03-24",
+          "notes": "It only loads until the Start screen. Then it turns black when pressing start.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-09",
+          "notes": "Runs smooth getting like 20-30 fps super smooth also here’s a tip boot the game like 10 times it will make the shader cache run smoothly",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "prototype",
     "title": "[Prototype]™",
     "titleId": "4156084E",
@@ -15797,121 +15967,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9299",
             "commitShort": "d8c101905"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "naruto-rise-of-a-ninja",
-    "title": "Naruto Rise Of A Ninja",
-    "titleId": "555307E5",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "Runs smooth getting like 20-30 fps super smooth also here’s a tip boot the game like 10 times it will make the shader cache run smoothly",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-09",
-        "notes": "Runs smooth getting like 20-30 fps super smooth also here’s a tip boot the game like 10 times it will make the shader cache run smoothly",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 155,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/155",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Runs smooth getting like 20-30 fps super smooth also here’s a tip boot the game like 10 times it will make the shader cache run smoothly",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-09",
-          "notes": "Runs smooth getting like 20-30 fps super smooth also here’s a tip boot the game like 10 times it will make the shader cache run smoothly",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-09",
-          "notes": "Runs smooth getting like 20-30 fps super smooth also here’s a tip boot the game like 10 times it will make the shader cache run smoothly",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
           }
         }
       }
