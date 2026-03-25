@@ -26199,5 +26199,121 @@
     },
     "issueNumber": 360,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/360"
+  },
+  {
+    "slug": "ducktales-remastered",
+    "title": "DuckTales: Remastered",
+    "titleId": "584113C6",
+    "status": "playable",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14 Pro Max",
+      "platform": "ios",
+      "osVersion": "16.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-25",
+    "notes": "The game works perfectly fine but after the glitchy company logos there is a really loud ringing sound with no stop.",
+    "reports": [
+      {
+        "device": "iPhone 14 Pro Max",
+        "platform": "ios",
+        "osVersion": "16.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-25",
+        "notes": "The game works perfectly fine but after the glitchy company logos there is a really loud ringing sound with no stop.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "0.9.2",
+          "buildNumber": "9321",
+          "stage": "stable",
+          "commitShort": "6228dab43",
+          "buildId": "ios-self-built-0.9.2-9321"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "poor",
+        "notes": "The game works perfectly fine but after the glitchy company logos there is a really loud ringing sound with no stop.",
+        "updatedAt": "2026-03-25",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14 Pro Max",
+          "platform": "ios",
+          "osVersion": "16.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-25",
+          "notes": "The game works perfectly fine but after the glitchy company logos there is a really loud ringing sound with no stop.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "stage": "stable",
+            "commitShort": "6228dab43",
+            "buildId": "ios-self-built-0.9.2-9321"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14 Pro Max",
+          "platform": "ios",
+          "osVersion": "16.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-25",
+          "notes": "The game works perfectly fine but after the glitchy company logos there is a really loud ringing sound with no stop.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "stage": "stable",
+            "commitShort": "6228dab43",
+            "buildId": "ios-self-built-0.9.2-9321"
+          }
+        }
+      }
+    }
   }
 ]
