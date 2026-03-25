@@ -26078,7 +26078,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 269,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/269"
   },
   {
     "slug": "n",
@@ -26194,6 +26196,8 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 360,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/360"
   }
 ]
