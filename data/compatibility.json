@@ -26555,5 +26555,127 @@
     },
     "issueNumber": 363,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/363"
+  },
+  {
+    "slug": "spider-man-dimensions",
+    "title": "Spider-Man™:Dimensions",
+    "titleId": "41560881",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-25",
+    "notes": "The game will allow you to log in and create a profile, and when you start the game, it will froze on the loading screen of the beginning of the game.",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-25",
+        "notes": "The game will allow you to log in and create a profile, and when you start the game, it will froze on the loading screen of the beginning of the game.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560881/1774458159292-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560881/1774458159292-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560881/1774458159292-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560881/1774458159292-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560881/1774458159292-5.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "The game will allow you to log in and create a profile, and when you start the game, it will froze on the loading screen of the beginning of the game.",
+        "updatedAt": "2026-03-25",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-25",
+          "notes": "The game will allow you to log in and create a profile, and when you start the game, it will froze on the loading screen of the beginning of the game.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-25",
+          "notes": "The game will allow you to log in and create a profile, and when you start the game, it will froze on the loading screen of the beginning of the game.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    }
   }
 ]
