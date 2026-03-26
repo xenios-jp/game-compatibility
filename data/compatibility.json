@@ -25651,9 +25651,30 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-24",
-    "notes": "Nothing but a black screen",
+    "updatedAt": "2026-03-26",
+    "notes": "Crashes the app",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-26",
+        "notes": "Crashes the app",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -25703,9 +25724,9 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Nothing but a black screen",
-        "updatedAt": "2026-03-24",
-        "reportCount": 1,
+        "notes": "Crashes the app",
+        "updatedAt": "2026-03-26",
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -25714,16 +25735,17 @@
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-24",
-          "notes": "Nothing but a black screen",
+          "date": "2026-03-26",
+          "notes": "Crashes the app",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
@@ -25734,16 +25756,17 @@
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-24",
-          "notes": "Nothing but a black screen",
+          "date": "2026-03-26",
+          "notes": "Crashes the app",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
