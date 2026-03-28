@@ -2567,53 +2567,12 @@
         "notes": "Playable, occasional drops in framerate",
         "source": "app",
         "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
-      {
-        "device": "iPhone 13 mini",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-18",
-        "notes": "App crashes as soon as I launch the game :/",
-        "source": "app",
-        "build": {
           "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 14",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-11",
-        "notes": "Tuns great! Stable FPS occasionally jitter when loading a new section or fighting multiple enemies. Audio and music is good too.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
         }
       }
     ],
@@ -2649,7 +2608,7 @@
         "perf": "ok",
         "notes": "Playable, occasional drops in framerate",
         "updatedAt": "2026-03-27",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -2662,13 +2621,12 @@
           "notes": "Playable, occasional drops in framerate",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -2683,13 +2641,12 @@
           "notes": "Playable, occasional drops in framerate",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -9963,29 +9920,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-28",
-    "notes": "The game tuns mid, but here are some screenshots",
+    "notes": "The game runs poorly, graphical issues sometimes. Missions run alright but sometimes the npc freezes and you have to go back to the start and continue the mission. Sometimes because of the weather the game becomes nearly unplayable, but by changing the weather it fixes. \n\nOverall it’s really impressive that an iPhone 17 Pro can in fact run GTA V. Very cool!",
     "reports": [
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-28",
-        "notes": "The game tuns mid, but here are some screenshots",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
       {
         "device": "iPhone 17 Pro",
         "platform": "ios",
@@ -9998,27 +9934,6 @@
         "notes": "The game runs poorly, graphical issues sometimes. Missions run alright but sometimes the npc freezes and you have to go back to the start and continue the mission. Sometimes because of the weather the game becomes nearly unplayable, but by changing the weather it fixes. \n\nOverall it’s really impressive that an iPhone 17 Pro can in fact run GTA V. Very cool!",
         "source": "app",
         "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-03-20",
-        "notes": "Audio artifacts when game is booting. After intro and the game goes into a black screen",
-        "source": "app",
-        "build": {
           "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
@@ -10028,55 +9943,15 @@
         }
       },
       {
-        "device": "iPhone 15",
+        "device": "iPhone 17 Pro",
         "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "ok",
-        "date": "2026-03-19",
-        "notes": "The game loads but the when the rolling loading animation comes the screen goes black and XeniOS locks up. The audio artifacts, frame rate looks fine, no stutter, at least when its running.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPad Pro 13-inch (M4)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-03-19",
-        "notes": "Game loads into then black screens. I have extra ram entitlement, Jit, and i am using the custom script recommended by the developers of xenios. I am on a 13in 5G M4 iPad Pro 1TB 16gigs of ram. People saying they got it to run on iPhones but didn’t share how. Ridiculous on their part.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "26.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-18",
-        "notes": "You need to fix lots of things before it works audio is bugged though.",
+        "perf": "poor",
+        "date": "2026-03-28",
+        "notes": "The game tuns mid, but here are some screenshots",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.1-9288",
@@ -10085,46 +9960,6 @@
           "appVersion": "1.0.1",
           "buildNumber": "9288",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-15",
-        "notes": "was able to get in-game after hours of trial and error using the latest build. Also, it needs specific settings otherwise the game loads forever. The performance ranged from 20 to 30 fps surprisingly and it actually takes 4 seconds to load to in game. Sound is manufactured by a forgotten demon from purgatory and will burn your eardrums. Control is amazing with vibrations. The graphics are actually nice because all textures are rendered but the graphical glitches are only matched by the effect of the heaviest drugs known to mankind. Amazing that it even runs on an iPhone and that it doesn’t overheat my phone that much.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9320",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9320",
-          "commitShort": "3d70b7b41a"
-        }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-12",
-        "notes": "Game gets stuck on a black screen when it should be loading the game. If you try to touch the screen to open the XeniOS menu, nothing happens. But if you touch the screen before the black screen, then you’re trapped at the XeniOS menu.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
         }
       }
     ],
@@ -10171,9 +10006,9 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "The game tuns mid, but here are some screenshots",
+        "notes": "The game runs poorly, graphical issues sometimes. Missions run alright but sometimes the npc freezes and you have to go back to the start and continue the mission. Sometimes because of the weather the game becomes nearly unplayable, but by changing the weather it fixes. \n\nOverall it’s really impressive that an iPhone 17 Pro can in fact run GTA V. Very cool!",
         "updatedAt": "2026-03-28",
-        "reportCount": 8,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 17 Pro",
           "platform": "ios",
@@ -10183,16 +10018,15 @@
           "status": "playable",
           "perf": "poor",
           "date": "2026-03-28",
-          "notes": "The game tuns mid, but here are some screenshots",
+          "notes": "The game runs poorly, graphical issues sometimes. Missions run alright but sometimes the npc freezes and you have to go back to the start and continue the mission. Sometimes because of the weather the game becomes nearly unplayable, but by changing the weather it fixes. \n\nOverall it’s really impressive that an iPhone 17 Pro can in fact run GTA V. Very cool!",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -10204,16 +10038,15 @@
           "status": "playable",
           "perf": "poor",
           "date": "2026-03-28",
-          "notes": "The game tuns mid, but here are some screenshots",
+          "notes": "The game runs poorly, graphical issues sometimes. Missions run alright but sometimes the npc freezes and you have to go back to the start and continue the mission. Sometimes because of the weather the game becomes nearly unplayable, but by changing the weather it fixes. \n\nOverall it’s really impressive that an iPhone 17 Pro can in fact run GTA V. Very cool!",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -24422,6 +24255,127 @@
     }
   },
   {
+    "slug": "test-drive-unlimited",
+    "title": "Test Drive Unlimited",
+    "titleId": "494707D4",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-27",
+    "notes": "Some graphical artifacts occasionally while driving cutscenes works fine no graphical issues in menu’s and maps. Audio works fine very occasional clipping.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-27",
+        "notes": "Some graphical artifacts occasionally while driving cutscenes works fine no graphical issues in menu’s and maps. Audio works fine very occasional clipping.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-5.jpg"
+    ],
+    "issueNumber": 368,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/368",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Some graphical artifacts occasionally while driving cutscenes works fine no graphical issues in menu’s and maps. Audio works fine very occasional clipping.",
+        "updatedAt": "2026-03-27",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-27",
+          "notes": "Some graphical artifacts occasionally while driving cutscenes works fine no graphical issues in menu’s and maps. Audio works fine very occasional clipping.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-27",
+          "notes": "Some graphical artifacts occasionally while driving cutscenes works fine no graphical issues in menu’s and maps. Audio works fine very occasional clipping.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "the-darkness",
     "title": "The Darkness",
     "titleId": "545407EE",
@@ -26924,129 +26878,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "test-drive-unlimited",
-    "title": "Test Drive Unlimited",
-    "titleId": "494707D4",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-27",
-    "notes": "Some graphical artifacts occasionally while driving cutscenes works fine no graphical issues in menu’s and maps. Audio works fine very occasional clipping.",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-27",
-        "notes": "Some graphical artifacts occasionally while driving cutscenes works fine no graphical issues in menu’s and maps. Audio works fine very occasional clipping.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-3.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-4.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-5.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Some graphical artifacts occasionally while driving cutscenes works fine no graphical issues in menu’s and maps. Audio works fine very occasional clipping.",
-        "updatedAt": "2026-03-27",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-27",
-          "notes": "Some graphical artifacts occasionally while driving cutscenes works fine no graphical issues in menu’s and maps. Audio works fine very occasional clipping.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-27",
-          "notes": "Some graphical artifacts occasionally while driving cutscenes works fine no graphical issues in menu’s and maps. Audio works fine very occasional clipping.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 368,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/368"
   }
 ]
