@@ -27408,5 +27408,127 @@
     },
     "issueNumber": 375,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/375"
+  },
+  {
+    "slug": "f1-2010",
+    "title": "F1 2010™",
+    "titleId": "434D082D",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-29",
+    "notes": "Crashes a lot on loading ( it actually freezes) needs to be restarted 4-5 times to achieve boot in game\nIn game you need to progress and restart to compile shaders I guess cause it freezes\nGraphical issues white patches and screens, improper placed game assets\nVery low fps 3min-15max",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-29",
+        "notes": "Crashes a lot on loading ( it actually freezes) needs to be restarted 4-5 times to achieve boot in game\nIn game you need to progress and restart to compile shaders I guess cause it freezes\nGraphical issues white patches and screens, improper placed game assets\nVery low fps 3min-15max",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-5.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Crashes a lot on loading ( it actually freezes) needs to be restarted 4-5 times to achieve boot in game\nIn game you need to progress and restart to compile shaders I guess cause it freezes\nGraphical issues white patches and screens, improper placed game assets\nVery low fps 3min-15max",
+        "updatedAt": "2026-03-29",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-29",
+          "notes": "Crashes a lot on loading ( it actually freezes) needs to be restarted 4-5 times to achieve boot in game\nIn game you need to progress and restart to compile shaders I guess cause it freezes\nGraphical issues white patches and screens, improper placed game assets\nVery low fps 3min-15max",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-29",
+          "notes": "Crashes a lot on loading ( it actually freezes) needs to be restarted 4-5 times to achieve boot in game\nIn game you need to progress and restart to compile shaders I guess cause it freezes\nGraphical issues white patches and screens, improper placed game assets\nVery low fps 3min-15max",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
+          }
+        }
+      }
+    }
   }
 ]
