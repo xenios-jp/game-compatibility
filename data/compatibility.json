@@ -9266,38 +9266,18 @@
     "perf": "poor",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook M2 16GB",
-      "platform": "macos",
-      "osVersion": "MacOS 26.3.1",
+      "device": "iPad Air 11-inch (M3)",
+      "platform": "ios",
+      "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-31",
-    "notes": "Game loads into intro gameplay, however there are significant graphics, audio and gameplay issues, as going off the road causes the game to teleport the vehicle into a grey void which completely soft locks the game forcing you to go back to the menu and start the game again (unless you use a pre-existing save that takes place after the yellow wristband events) and most of the map itself doesn't load with trees floating and there being an endless grey void off the side of the road, and the game runs at about 15FPS with frequent stuttering making it extremely hard to drive.\n\nAdditionally there is major audio issues with the game where the initial splash screens for Playground Games, Turn 10 and Microsoft play this awful static sound, but once it gets to the Dolby splash screen and menu it's fine until you get in game, where audio only plays in the right channel for speakers/headphones and the noise it produces can be best be described as a loud bass heavy static that at louder volumes does run the risk of damaging whatever speaker it's playing out of.\n\nAs of writing this I haven't found any work arounds for any of these issues.",
+    "updatedAt": "2026-03-28",
+    "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
     "reports": [
-      {
-        "device": "MacBook M2 16GB",
-        "platform": "macos",
-        "osVersion": "MacOS 26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-31",
-        "notes": "Game loads into intro gameplay, however there are significant graphics, audio and gameplay issues, as going off the road causes the game to teleport the vehicle into a grey void which completely soft locks the game forcing you to go back to the menu and start the game again (unless you use a pre-existing save that takes place after the yellow wristband events) and most of the map itself doesn't load with trees floating and there being an endless grey void off the side of the road, and the game runs at about 15FPS with frequent stuttering making it extremely hard to drive.\n\nAdditionally there is major audio issues with the game where the initial splash screens for Playground Games, Turn 10 and Microsoft play this awful static sound, but once it gets to the Dolby splash screen and menu it's fine until you get in game, where audio only plays in the right channel for speakers/headphones and the noise it produces can be best be described as a loud bass heavy static that at louder volumes does run the risk of damaging whatever speaker it's playing out of.\n\nAs of writing this I haven't found any work arounds for any of these issues.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      },
       {
         "device": "iPad Air 11-inch (M3)",
         "platform": "ios",
@@ -9325,49 +9305,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Game loads into intro gameplay, however there are significant graphics, audio and gameplay issues, as going off the road causes the game to teleport the vehicle into a grey void which completely soft locks the game forcing you to go back to the menu and start the game again (unless you use a pre-existing save that takes place after the yellow wristband events) and most of the map itself doesn't load with trees floating and there being an endless grey void off the side of the road, and the game runs at about 15FPS with frequent stuttering making it extremely hard to drive.\n\nAdditionally there is major audio issues with the game where the initial splash screens for Playground Games, Turn 10 and Microsoft play this awful static sound, but once it gets to the Dolby splash screen and menu it's fine until you get in game, where audio only plays in the right channel for speakers/headphones and the noise it produces can be best be described as a loud bass heavy static that at louder volumes does run the risk of damaging whatever speaker it's playing out of.\n\nAs of writing this I haven't found any work arounds for any of these issues.",
-        "updatedAt": "2026-03-31",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook M2 16GB",
-          "platform": "macos",
-          "osVersion": "MacOS 26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-31",
-          "notes": "Game loads into intro gameplay, however there are significant graphics, audio and gameplay issues, as going off the road causes the game to teleport the vehicle into a grey void which completely soft locks the game forcing you to go back to the menu and start the game again (unless you use a pre-existing save that takes place after the yellow wristband events) and most of the map itself doesn't load with trees floating and there being an endless grey void off the side of the road, and the game runs at about 15FPS with frequent stuttering making it extremely hard to drive.\n\nAdditionally there is major audio issues with the game where the initial splash screens for Playground Games, Turn 10 and Microsoft play this awful static sound, but once it gets to the Dolby splash screen and menu it's fine until you get in game, where audio only plays in the right channel for speakers/headphones and the noise it produces can be best be described as a loud bass heavy static that at louder volumes does run the risk of damaging whatever speaker it's playing out of.\n\nAs of writing this I haven't found any work arounds for any of these issues.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook M2 16GB",
-          "platform": "macos",
-          "osVersion": "MacOS 26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-31",
-          "notes": "Game loads into intro gameplay, however there are significant graphics, audio and gameplay issues, as going off the road causes the game to teleport the vehicle into a grey void which completely soft locks the game forcing you to go back to the menu and start the game again (unless you use a pre-existing save that takes place after the yellow wristband events) and most of the map itself doesn't load with trees floating and there being an endless grey void off the side of the road, and the game runs at about 15FPS with frequent stuttering making it extremely hard to drive.\n\nAdditionally there is major audio issues with the game where the initial splash screens for Playground Games, Turn 10 and Microsoft play this awful static sound, but once it gets to the Dolby splash screen and menu it's fine until you get in game, where audio only plays in the right channel for speakers/headphones and the noise it produces can be best be described as a loud bass heavy static that at louder volumes does run the risk of damaging whatever speaker it's playing out of.\n\nAs of writing this I haven't found any work arounds for any of these issues.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -9383,45 +9327,47 @@
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
-        "notes": "Game loads into intro gameplay, however there are significant graphics, audio and gameplay issues, as going off the road causes the game to teleport the vehicle into a grey void which completely soft locks the game forcing you to go back to the menu and start the game again (unless you use a pre-existing save that takes place after the yellow wristband events) and most of the map itself doesn't load with trees floating and there being an endless grey void off the side of the road, and the game runs at about 15FPS with frequent stuttering making it extremely hard to drive.\n\nAdditionally there is major audio issues with the game where the initial splash screens for Playground Games, Turn 10 and Microsoft play this awful static sound, but once it gets to the Dolby splash screen and menu it's fine until you get in game, where audio only plays in the right channel for speakers/headphones and the noise it produces can be best be described as a loud bass heavy static that at louder volumes does run the risk of damaging whatever speaker it's playing out of.\n\nAs of writing this I haven't found any work arounds for any of these issues.",
-        "updatedAt": "2026-03-31",
-        "reportCount": 2,
+        "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
+        "updatedAt": "2026-03-28",
+        "reportCount": 1,
         "latestReport": {
-          "device": "MacBook M2 16GB",
-          "platform": "macos",
-          "osVersion": "MacOS 26.3.1",
+          "device": "iPad Air 11-inch (M3)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "ingame",
           "perf": "poor",
-          "date": "2026-03-31",
-          "notes": "Game loads into intro gameplay, however there are significant graphics, audio and gameplay issues, as going off the road causes the game to teleport the vehicle into a grey void which completely soft locks the game forcing you to go back to the menu and start the game again (unless you use a pre-existing save that takes place after the yellow wristband events) and most of the map itself doesn't load with trees floating and there being an endless grey void off the side of the road, and the game runs at about 15FPS with frequent stuttering making it extremely hard to drive.\n\nAdditionally there is major audio issues with the game where the initial splash screens for Playground Games, Turn 10 and Microsoft play this awful static sound, but once it gets to the Dolby splash screen and menu it's fine until you get in game, where audio only plays in the right channel for speakers/headphones and the noise it produces can be best be described as a loud bass heavy static that at louder volumes does run the risk of damaging whatever speaker it's playing out of.\n\nAs of writing this I haven't found any work arounds for any of these issues.",
-          "source": "github",
+          "date": "2026-03-28",
+          "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "MacBook M2 16GB",
-          "platform": "macos",
-          "osVersion": "MacOS 26.3.1",
+          "device": "iPad Air 11-inch (M3)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "ingame",
           "perf": "poor",
-          "date": "2026-03-31",
-          "notes": "Game loads into intro gameplay, however there are significant graphics, audio and gameplay issues, as going off the road causes the game to teleport the vehicle into a grey void which completely soft locks the game forcing you to go back to the menu and start the game again (unless you use a pre-existing save that takes place after the yellow wristband events) and most of the map itself doesn't load with trees floating and there being an endless grey void off the side of the road, and the game runs at about 15FPS with frequent stuttering making it extremely hard to drive.\n\nAdditionally there is major audio issues with the game where the initial splash screens for Playground Games, Turn 10 and Microsoft play this awful static sound, but once it gets to the Dolby splash screen and menu it's fine until you get in game, where audio only plays in the right channel for speakers/headphones and the noise it produces can be best be described as a loud bass heavy static that at louder volumes does run the risk of damaging whatever speaker it's playing out of.\n\nAs of writing this I haven't found any work arounds for any of these issues.",
-          "source": "github",
+          "date": "2026-03-28",
+          "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -14734,33 +14680,12 @@
         "notes": "Disable new to fake",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
-      {
-        "device": "iPhone 15 Plus",
-        "platform": "ios",
-        "osVersion": "26.0.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-12",
-        "notes": "The game on my device currently runs at around 20 FPS, with some graphical flickering in lighting areas; the sound is unrecognizable, but it works.\n\nThe version of xenios that I used is 1.0.0 from CI #35: Commit d8c1019 pushed by xenios-jp in the actions section",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9299",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "commitShort": "d8c101905"
+          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -14800,7 +14725,7 @@
         "perf": "great",
         "notes": "Disable new to fake",
         "updatedAt": "2026-03-30",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 14",
           "platform": "ios",
@@ -14813,13 +14738,12 @@
           "notes": "Disable new to fake",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -14834,13 +14758,12 @@
           "notes": "Disable new to fake",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -23522,13 +23445,12 @@
         "notes": "Artifacts on any pre rendered videos. Playable up until the first hub world where it begins crashing frequently, and reaching the level select leads to an infinite loading screen.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -23639,13 +23561,12 @@
           "notes": "Artifacts on any pre rendered videos. Playable up until the first hub world where it begins crashing frequently, and reaching the level select leads to an infinite loading screen.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
