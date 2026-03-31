@@ -23494,22 +23494,43 @@
     "slug": "sonic-unleashed",
     "title": "SONIC UNLEASHED",
     "titleId": "53450812",
-    "status": "playable",
-    "perf": "ok",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 13-inch (M4)",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-24",
-    "notes": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
+    "updatedAt": "2026-03-31",
+    "notes": "Artifacts on any pre rendered videos. Playable up until the first hub world where it begins crashing frequently, and reaching the level select leads to an infinite loading screen.",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-31",
+        "notes": "Artifacts on any pre rendered videos. Playable up until the first hub world where it begins crashing frequently, and reaching the level select leads to an infinite loading screen.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
@@ -23572,6 +23593,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/53450812/1774981648385-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/53450812/1774335210084-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/53450812/1772815441036-1.jpg"
     ],
@@ -23602,27 +23624,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
-        "updatedAt": "2026-03-24",
-        "reportCount": 3,
+        "notes": "Artifacts on any pre rendered videos. Playable up until the first hub world where it begins crashing frequently, and reaching the level select leads to an infinite loading screen.",
+        "updatedAt": "2026-03-31",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPad Pro 13-inch (M4)",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-24",
-          "notes": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-31",
+          "notes": "Artifacts on any pre rendered videos. Playable up until the first hub world where it begins crashing frequently, and reaching the level select leads to an infinite loading screen.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
