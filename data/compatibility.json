@@ -9617,21 +9617,42 @@
     "title": "Gears of War",
     "titleId": "4D5307D5",
     "status": "intro",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPhone 14 Pro",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-11",
-    "notes": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
+    "updatedAt": "2026-04-02",
+    "notes": "I can't get past the loading screen to start the campaign, and there's no sound in the main menu either.",
     "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-04-02",
+        "notes": "I can't get past the loading screen to start the campaign, and there's no sound in the main menu either.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -9673,7 +9694,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307D5/1775150885735-1.jpg"
+    ],
     "issueNumber": 40,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/40",
     "summaries": {
@@ -9701,27 +9724,28 @@
         "channel": "all",
         "status": "ingame",
         "perf": "ok",
-        "notes": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
-        "updatedAt": "2026-03-11",
-        "reportCount": 2,
+        "notes": "I can't get past the loading screen to start the campaign, and there's no sound in the main menu either.",
+        "updatedAt": "2026-04-02",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-11",
-          "notes": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
+          "perf": "poor",
+          "date": "2026-04-02",
+          "notes": "I can't get past the loading screen to start the campaign, and there's no sound in the main menu either.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9294",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9294",
-            "commitShort": "3f7efcbfb"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
