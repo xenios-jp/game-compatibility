@@ -14797,22 +14797,43 @@
     "slug": "marathon-exe",
     "title": "marathon.exe",
     "titleId": "534507D6",
-    "status": "ingame",
-    "perf": "poor",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 13",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-18",
-    "notes": "Was able to get into the game after initially turning off compile metal shaders in background. Before turning that off I would get a black screen after choosing the character to start story missions.Has some graphical errors but and plays slow at times. Tested on IPhone 16 pro max",
+    "updatedAt": "2026-04-03",
+    "notes": "just crashes immediately when I press play",
     "reports": [
+      {
+        "device": "iPhone 13",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-04-03",
+        "notes": "just crashes immediately when I press play",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -14946,27 +14967,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "Was able to get into the game after initially turning off compile metal shaders in background. Before turning that off I would get a black screen after choosing the character to start story missions.Has some graphical errors but and plays slow at times. Tested on IPhone 16 pro max",
-        "updatedAt": "2026-03-18",
-        "reportCount": 5,
+        "notes": "just crashes immediately when I press play",
+        "updatedAt": "2026-04-03",
+        "reportCount": 6,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-18",
-          "notes": "Was able to get into the game after initially turning off compile metal shaders in background. Before turning that off I would get a black screen after choosing the character to start story missions.Has some graphical errors but and plays slow at times. Tested on IPhone 16 pro max",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-03",
+          "notes": "just crashes immediately when I press play",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
