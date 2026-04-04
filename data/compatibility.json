@@ -28171,5 +28171,121 @@
     },
     "issueNumber": 389,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/389"
+  },
+  {
+    "slug": "rayman-origins",
+    "title": "Rayman Origins",
+    "titleId": "55530884",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 12.9 inch 4th Gen",
+      "platform": "ios",
+      "osVersion": "18.3.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-04",
+    "notes": "It plays well",
+    "reports": [
+      {
+        "device": "iPad Pro 12.9 inch 4th Gen",
+        "platform": "ios",
+        "osVersion": "18.3.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-04-04",
+        "notes": "It plays well",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "It plays well",
+        "updatedAt": "2026-04-04",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 12.9 inch 4th Gen",
+          "platform": "ios",
+          "osVersion": "18.3.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-04-04",
+          "notes": "It plays well",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 12.9 inch 4th Gen",
+          "platform": "ios",
+          "osVersion": "18.3.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-04-04",
+          "notes": "It plays well",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
+          }
+        }
+      }
+    }
   }
 ]
