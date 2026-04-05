@@ -10391,21 +10391,42 @@
     "title": "GTA IV",
     "titleId": "545407F2",
     "status": "ingame",
-    "perf": "poor",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 13 Pro",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "18.7.7",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-28",
-    "notes": "No sound fps stuck at 7",
+    "updatedAt": "2026-04-05",
+    "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
     "reports": [
+      {
+        "device": "iPhone 13 Pro",
+        "platform": "ios",
+        "osVersion": "18.7.7",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-04-05",
+        "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -10605,27 +10626,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "No sound fps stuck at 7",
-        "updatedAt": "2026-03-28",
-        "reportCount": 8,
+        "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
+        "updatedAt": "2026-04-05",
+        "reportCount": 9,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 13 Pro",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "18.7.7",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-28",
-          "notes": "No sound fps stuck at 7",
+          "perf": "ok",
+          "date": "2026-04-05",
+          "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
