@@ -5128,6 +5128,121 @@
     }
   },
   {
+    "slug": "dbz-ultimate-tenkaichi",
+    "title": "DBZ Ultimate Tenkaichi",
+    "titleId": "4E4D0846",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Air 11-inch (M3)",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-04",
+    "notes": "Loads in that’s it",
+    "reports": [
+      {
+        "device": "iPad Air 11-inch (M3)",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-04-04",
+        "notes": "Loads in that’s it",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 389,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/389",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Loads in that’s it",
+        "updatedAt": "2026-04-04",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Air 11-inch (M3)",
+          "platform": "ios",
+          "osVersion": "18.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-04-04",
+          "notes": "Loads in that’s it",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Air 11-inch (M3)",
+          "platform": "ios",
+          "osVersion": "18.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-04-04",
+          "notes": "Loads in that’s it",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "dbz-burst-limit",
     "title": "DBZ: BURST LIMIT",
     "titleId": "424107DC",
@@ -9374,6 +9489,121 @@
     }
   },
   {
+    "slug": "final-fantasy-xiii-2",
+    "title": "FINAL FANTASY XIII-2",
+    "titleId": "53510806",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-05",
+    "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-04-05",
+        "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 391,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/391",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
+        "updatedAt": "2026-04-05",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-04-05",
+          "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-04-05",
+          "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "forza-horizon",
     "title": "Forza Horizon",
     "titleId": "4D5309C9",
@@ -10404,29 +10634,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-04-05",
-    "notes": "Needed to add that the sound is okay when loading and breaks once in gameplay",
+    "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
     "reports": [
-      {
-        "device": "iPhone 13 Pro",
-        "platform": "ios",
-        "osVersion": "18.7.7",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-04-05",
-        "notes": "Needed to add that the sound is okay when loading and breaks once in gameplay",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
       {
         "device": "iPhone 13 Pro",
         "platform": "ios",
@@ -10439,165 +10648,24 @@
         "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
-        "device": "iPhone 16",
+        "device": "iPhone 13 Pro",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "18.7.7",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-28",
-        "notes": "No sound fps stuck at 7",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 13",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-03-19",
-        "notes": "Loads first mission endlessly",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
         "perf": "ok",
-        "date": "2026-03-18",
-        "notes": "Stuck at loading intro mission",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone11,6",
-        "platform": "ios",
-        "osVersion": "16.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-18",
-        "notes": "App crashiing",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-16",
-        "notes": "Playable with decent frame rate. Sound has issues",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9320",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9320",
-          "commitShort": "3d70b7b41a"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-15",
-        "notes": "5-12FPS",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPad Pro 11 inch 5th Gen",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-15",
-        "notes": "Playable but some stutters and low fps",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-15",
-        "notes": "A little low frame，and also some small lags.\n\nhttps://youtu.be/r6mT1ZWSEDs?si=6GgUYY9NpLXJIEkK",
+        "date": "2026-04-05",
+        "notes": "Needed to add that the sound is okay when loading and breaks once in gameplay",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.1-9288",
@@ -10645,11 +10713,11 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Needed to add that the sound is okay when loading and breaks once in gameplay",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
         "updatedAt": "2026-04-05",
-        "reportCount": 10,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 13 Pro",
           "platform": "ios",
@@ -10659,36 +10727,35 @@
           "status": "ingame",
           "perf": "ok",
           "date": "2026-04-05",
-          "notes": "Needed to add that the sound is okay when loading and breaks once in gameplay",
+          "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 13 Pro",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "18.7.7",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-16",
-          "notes": "Playable with decent frame rate. Sound has issues",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-04-05",
+          "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9320",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9320",
-            "commitShort": "3d70b7b41a"
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -14920,6 +14987,121 @@
           "date": "2026-03-11",
           "notes": "",
           "build": null
+        }
+      }
+    }
+  },
+  {
+    "slug": "madden-nfl-17",
+    "title": "Madden NFL 17",
+    "titleId": "454109F2",
+    "status": "intro",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Air 11-inch (M3)",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-04",
+    "notes": "Screen goes black",
+    "reports": [
+      {
+        "device": "iPad Air 11-inch (M3)",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-04-04",
+        "notes": "Screen goes black",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 388,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/388",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "intro",
+        "perf": "poor",
+        "notes": "Screen goes black",
+        "updatedAt": "2026-04-04",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Air 11-inch (M3)",
+          "platform": "ios",
+          "osVersion": "18.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-04-04",
+          "notes": "Screen goes black",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Air 11-inch (M3)",
+          "platform": "ios",
+          "osVersion": "18.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-04-04",
+          "notes": "Screen goes black",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
         }
       }
     }
@@ -20406,6 +20588,121 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "rayman-origins",
+    "title": "Rayman Origins",
+    "titleId": "55530884",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 12.9-inch 4",
+      "platform": "ios",
+      "osVersion": "18.3.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-04",
+    "notes": "It plays well",
+    "reports": [
+      {
+        "device": "iPad Pro 12.9-inch 4",
+        "platform": "ios",
+        "osVersion": "18.3.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-04-04",
+        "notes": "It plays well",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 390,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/390",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "It plays well",
+        "updatedAt": "2026-04-04",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 12.9-inch 4",
+          "platform": "ios",
+          "osVersion": "18.3.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-04-04",
+          "notes": "It plays well",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 12.9-inch 4",
+          "platform": "ios",
+          "osVersion": "18.3.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-04-04",
+          "notes": "It plays well",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -27978,477 +28275,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "madden-nfl-17",
-    "title": "Madden NFL 17",
-    "titleId": "454109F2",
-    "status": "intro",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Air 11-inch 7th Gen",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-04-04",
-    "notes": "Screen goes black",
-    "reports": [
-      {
-        "device": "iPad Air 11-inch 7th Gen",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-04-04",
-        "notes": "Screen goes black",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Screen goes black",
-        "updatedAt": "2026-04-04",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Air 11-inch 7th Gen",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-04-04",
-          "notes": "Screen goes black",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Air 11-inch 7th Gen",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-04-04",
-          "notes": "Screen goes black",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 388,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/388"
-  },
-  {
-    "slug": "dbz-ultimate-tenkaichi",
-    "title": "DBZ Ultimate Tenkaichi",
-    "titleId": "4E4D0846",
-    "status": "loads",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Air 11-inch 7th Gen",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-04-04",
-    "notes": "Loads in that’s it",
-    "reports": [
-      {
-        "device": "iPad Air 11-inch 7th Gen",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-04-04",
-        "notes": "Loads in that’s it",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Loads in that’s it",
-        "updatedAt": "2026-04-04",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Air 11-inch 7th Gen",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-04-04",
-          "notes": "Loads in that’s it",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Air 11-inch 7th Gen",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-04-04",
-          "notes": "Loads in that’s it",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 389,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/389"
-  },
-  {
-    "slug": "rayman-origins",
-    "title": "Rayman Origins",
-    "titleId": "55530884",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro 12.9 inch 4th Gen",
-      "platform": "ios",
-      "osVersion": "18.3.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-04-04",
-    "notes": "It plays well",
-    "reports": [
-      {
-        "device": "iPad Pro 12.9 inch 4th Gen",
-        "platform": "ios",
-        "osVersion": "18.3.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-04-04",
-        "notes": "It plays well",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "It plays well",
-        "updatedAt": "2026-04-04",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro 12.9 inch 4th Gen",
-          "platform": "ios",
-          "osVersion": "18.3.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-04-04",
-          "notes": "It plays well",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro 12.9 inch 4th Gen",
-          "platform": "ios",
-          "osVersion": "18.3.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-04-04",
-          "notes": "It plays well",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 390,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/390"
-  },
-  {
-    "slug": "final-fantasy-xiii-2",
-    "title": "FINAL FANTASY XIII-2",
-    "titleId": "53510806",
-    "status": "loads",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-04-05",
-    "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-04-05",
-        "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
-        "updatedAt": "2026-04-05",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-04-05",
-          "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-04-05",
-          "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 391,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/391"
   }
 ]
