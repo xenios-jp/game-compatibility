@@ -10404,8 +10404,29 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-04-05",
-    "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
+    "notes": "Needed to add that the sound is okay when loading and breaks once in gameplay",
     "reports": [
+      {
+        "device": "iPhone 13 Pro",
+        "platform": "ios",
+        "osVersion": "18.7.7",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-04-05",
+        "notes": "Needed to add that the sound is okay when loading and breaks once in gameplay",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 13 Pro",
         "platform": "ios",
@@ -10626,9 +10647,9 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
+        "notes": "Needed to add that the sound is okay when loading and breaks once in gameplay",
         "updatedAt": "2026-04-05",
-        "reportCount": 9,
+        "reportCount": 10,
         "latestReport": {
           "device": "iPhone 13 Pro",
           "platform": "ios",
@@ -10638,7 +10659,7 @@
           "status": "ingame",
           "perf": "ok",
           "date": "2026-04-05",
-          "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
+          "notes": "Needed to add that the sound is okay when loading and breaks once in gameplay",
           "source": "app",
           "build": {
             "channel": "self-built",
