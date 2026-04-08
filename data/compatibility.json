@@ -3626,22 +3626,43 @@
     "slug": "call-of-duty-4",
     "title": "Call of Duty 4",
     "titleId": "415607E6",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 5",
+      "device": "iPhone 14 Pro",
       "platform": "ios",
-      "osVersion": "26.0.1",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-20",
-    "notes": "Blacked screen",
+    "updatedAt": "2026-04-08",
+    "notes": "freezes in menu if you can’t select new mission fast enough but in game runs like a potato",
     "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-04-08",
+        "notes": "freezes in menu if you can’t select new mission fast enough but in game runs like a potato",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPad Air 5",
         "platform": "ios",
@@ -3711,49 +3732,51 @@
       },
       "all": {
         "channel": "all",
-        "status": "loads",
-        "perf": "ok",
-        "notes": "Blacked screen",
-        "updatedAt": "2026-03-20",
-        "reportCount": 2,
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "freezes in menu if you can’t select new mission fast enough but in game runs like a potato",
+        "updatedAt": "2026-04-08",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPad Air 5",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.0.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-20",
-          "notes": "Blacked screen",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-04-08",
+          "notes": "freezes in menu if you can’t select new mission fast enough but in game runs like a potato",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPad Air 11-inch (M3)",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "ok",
-          "date": "2026-03-20",
-          "notes": "Loads into main menu but freezes when new game/level select is pressed",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-04-08",
+          "notes": "freezes in menu if you can’t select new mission fast enough but in game runs like a potato",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
