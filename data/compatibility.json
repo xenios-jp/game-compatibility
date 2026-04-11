@@ -283,24 +283,45 @@
   },
   {
     "slug": "50-cent-bots",
-    "title": "50 Cent: BotS",
+    "title": "50 Cent: Blood on the Sand",
     "titleId": "5451083B",
-    "status": "playable",
-    "perf": "ok",
+    "status": "ingame",
+    "perf": "great",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
-      "platform": "ios",
-      "osVersion": "26.3.1",
+      "device": "MacBook Pro (M1)",
+      "platform": "macos",
+      "osVersion": "26.4.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-10",
-    "notes": "Audio is good but some graphical issues but it overall loads good. Cutscenes play fully",
+    "updatedAt": "2026-04-11",
+    "notes": "Able to get in-game and play with graphical twitching here (esp with bullet fire).\n\nOnly tried first 5-10 min of gameplay but the graphic issues are intermittent and don't impede progress (not yet).\n\nOne of the few discs (at this time of writing) that don't crash.",
     "reports": [
+      {
+        "device": "MacBook Pro (M1)",
+        "platform": "macos",
+        "osVersion": "26.4.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "great",
+        "date": "2026-04-11",
+        "notes": "Able to get in-game and play with graphical twitching here (esp with bullet fire).\n\nOnly tried first 5-10 min of gameplay but the graphic issues are intermittent and don't impede progress (not yet).\n\nOne of the few discs (at this time of writing) that don't crash.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -330,13 +351,51 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "great",
+        "notes": "Able to get in-game and play with graphical twitching here (esp with bullet fire).\n\nOnly tried first 5-10 min of gameplay but the graphic issues are intermittent and don't impede progress (not yet).\n\nOne of the few discs (at this time of writing) that don't crash.",
+        "updatedAt": "2026-04-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-04-11",
+          "notes": "Able to get in-game and play with graphical twitching here (esp with bullet fire).\n\nOnly tried first 5-10 min of gameplay but the graphic issues are intermittent and don't impede progress (not yet).\n\nOne of the few discs (at this time of writing) that don't crash.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-04-11",
+          "notes": "Able to get in-game and play with graphical twitching here (esp with bullet fire).\n\nOnly tried first 5-10 min of gameplay but the graphic issues are intermittent and don't impede progress (not yet).\n\nOne of the few discs (at this time of writing) that don't crash.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
       },
       "preview": {
         "channel": "preview",
@@ -352,27 +411,27 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Audio is good but some graphical issues but it overall loads good. Cutscenes play fully",
-        "updatedAt": "2026-03-10",
-        "reportCount": 1,
+        "notes": "Able to get in-game and play with graphical twitching here (esp with bullet fire).\n\nOnly tried first 5-10 min of gameplay but the graphic issues are intermittent and don't impede progress (not yet).\n\nOne of the few discs (at this time of writing) that don't crash.",
+        "updatedAt": "2026-04-11",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16e",
-          "platform": "ios",
-          "osVersion": "26.3.1",
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.4.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "Audio is good but some graphical issues but it overall loads good. Cutscenes play fully",
-          "source": "app",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-04-11",
+          "notes": "Able to get in-game and play with graphical twitching here (esp with bullet fire).\n\nOnly tried first 5-10 min of gameplay but the graphic issues are intermittent and don't impede progress (not yet).\n\nOne of the few discs (at this time of writing) that don't crash.",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -21040,8 +21099,6 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 176,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/176",
     "summaries": {
       "release": {
         "channel": "release",
