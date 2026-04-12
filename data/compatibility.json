@@ -21168,7 +21168,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 176,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/176"
   },
   {
     "slug": "resident-evil-4",
@@ -29106,6 +29108,8 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 400,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/400"
   }
 ]
