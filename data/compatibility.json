@@ -29231,7 +29231,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 417,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/417"
   },
   {
     "slug": "game-final-exe",
@@ -29349,6 +29351,8 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 418,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/418"
   }
 ]
