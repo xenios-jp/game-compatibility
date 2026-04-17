@@ -10997,7 +10997,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 10th Gen",
+      "device": "iPad 10",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -11007,7 +11007,7 @@
     "notes": "When I open the game it’s just a black screen",
     "reports": [
       {
-        "device": "iPad 10th Gen",
+        "device": "iPad 10",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -11018,13 +11018,12 @@
         "notes": "When I open the game it’s just a black screen",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -11156,7 +11155,7 @@
         "updatedAt": "2026-04-17",
         "reportCount": 5,
         "latestReport": {
-          "device": "iPad 10th Gen",
+          "device": "iPad 10",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -11167,13 +11166,12 @@
           "notes": "When I open the game it’s just a black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
