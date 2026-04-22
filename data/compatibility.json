@@ -29249,36 +29249,15 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15",
+      "device": "iPhone 12",
       "platform": "ios",
-      "osVersion": "26.4.1",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-04-22",
-    "notes": "nothing but a black or cyan screen",
+    "notes": "Just a black screen",
     "reports": [
-      {
-        "device": "iPhone 15",
-        "platform": "ios",
-        "osVersion": "26.4.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-04-22",
-        "notes": "nothing but a black or cyan screen",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
       {
         "device": "iPhone 12",
         "platform": "ios",
@@ -29289,6 +29268,26 @@
         "perf": "n/a",
         "date": "2026-04-22",
         "notes": "Just a black screen",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "26.4.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-04-22",
+        "notes": "nothing but a black or cyan screen",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.1-9288",
@@ -29368,49 +29367,47 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "nothing but a black or cyan screen",
+        "notes": "Just a black screen",
         "updatedAt": "2026-04-22",
         "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 12",
           "platform": "ios",
-          "osVersion": "26.4.1",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
           "date": "2026-04-22",
-          "notes": "nothing but a black or cyan screen",
+          "notes": "Just a black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 12",
           "platform": "ios",
-          "osVersion": "26.4.1",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
           "date": "2026-04-22",
-          "notes": "nothing but a black or cyan screen",
+          "notes": "Just a black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
