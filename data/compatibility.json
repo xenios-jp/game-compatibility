@@ -3296,7 +3296,7 @@
     "slug": "bully-scholarship-ed",
     "title": "Bully Scholarship Ed.",
     "titleId": "5454081A",
-    "status": "playable",
+    "status": "ingame",
     "perf": "poor",
     "tags": [],
     "platforms": [
@@ -3310,8 +3310,29 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-04-22",
-    "notes": "No issues in audio. Frame rate is choppy/low, missing textures + assets/characters constantly popping in and out, and cutscenes not working at all. The graphics are nice though.\nI will test some more to figure out whether my device is too weak or what exactly.",
+    "notes": "After re-extracting the game just in case my game file was faulty, the same issues still persist; But in addition to what I already mentioned, there’s some weird light flickering that would happen at the start of the game, but I didn’t notice it after that.\nSome pics for reference attached (jimmy’s clothes aren’t supposed to be black):",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-04-22",
+        "notes": "After re-extracting the game just in case my game file was faulty, the same issues still persist; But in addition to what I already mentioned, there’s some weird light flickering that would happen at the start of the game, but I didn’t notice it after that.\nSome pics for reference attached (jimmy’s clothes aren’t supposed to be black):",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -3353,7 +3374,13 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454081A/1776889882711-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454081A/1776889882711-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454081A/1776889882711-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454081A/1776889882711-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454081A/1776889882711-5.jpg"
+    ],
     "issueNumber": 400,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/400",
     "summaries": {
@@ -3381,27 +3408,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "No issues in audio. Frame rate is choppy/low, missing textures + assets/characters constantly popping in and out, and cutscenes not working at all. The graphics are nice though.\nI will test some more to figure out whether my device is too weak or what exactly.",
+        "notes": "After re-extracting the game just in case my game file was faulty, the same issues still persist; But in addition to what I already mentioned, there’s some weird light flickering that would happen at the start of the game, but I didn’t notice it after that.\nSome pics for reference attached (jimmy’s clothes aren’t supposed to be black):",
         "updatedAt": "2026-04-22",
-        "reportCount": 2,
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 15 Pro Max",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "ingame",
           "perf": "poor",
           "date": "2026-04-22",
-          "notes": "No issues in audio. Frame rate is choppy/low, missing textures + assets/characters constantly popping in and out, and cutscenes not working at all. The graphics are nice though.\nI will test some more to figure out whether my device is too weak or what exactly.",
+          "notes": "After re-extracting the game just in case my game file was faulty, the same issues still persist; But in addition to what I already mentioned, there’s some weird light flickering that would happen at the start of the game, but I didn’t notice it after that.\nSome pics for reference attached (jimmy’s clothes aren’t supposed to be black):",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
