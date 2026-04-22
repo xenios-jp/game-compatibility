@@ -3324,13 +3324,12 @@
         "notes": "No issues in audio. Frame rate is choppy/low, missing textures + assets/characters constantly popping in and out, and cutscenes not working at all. The graphics are nice though.\nI will test some more to figure out whether my device is too weak or what exactly.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -3397,13 +3396,12 @@
           "notes": "No issues in audio. Frame rate is choppy/low, missing textures + assets/characters constantly popping in and out, and cutscenes not working at all. The graphics are nice though.\nI will test some more to figure out whether my device is too weak or what exactly.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -3418,13 +3416,12 @@
           "notes": "No issues in audio. Frame rate is choppy/low, missing textures + assets/characters constantly popping in and out, and cutscenes not working at all. The graphics are nice though.\nI will test some more to figure out whether my device is too weak or what exactly.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -4708,6 +4705,121 @@
             "appVersion": "1.0.0",
             "buildNumber": "9299",
             "commitShort": "d8c101905"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "condemned",
+    "title": "Condemned",
+    "titleId": "534507D2",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-22",
+    "notes": "Intros and certain in game videos like the phone screen are rainbow screened. All other cutscenes and gameplay look good though, except for expected frame rate drops.",
+    "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-04-22",
+        "notes": "Intros and certain in game videos like the phone screen are rainbow screened. All other cutscenes and gameplay look good though, except for expected frame rate drops.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 422,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/422",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Intros and certain in game videos like the phone screen are rainbow screened. All other cutscenes and gameplay look good though, except for expected frame rate drops.",
+        "updatedAt": "2026-04-22",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-04-22",
+          "notes": "Intros and certain in game videos like the phone screen are rainbow screened. All other cutscenes and gameplay look good though, except for expected frame rate drops.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-04-22",
+          "notes": "Intros and certain in game videos like the phone screen are rainbow screened. All other cutscenes and gameplay look good though, except for expected frame rate drops.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -29395,123 +29507,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "condemned",
-    "title": "Condemned",
-    "titleId": "534507D2",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-04-22",
-    "notes": "Intros and certain in game videos like the phone screen are rainbow screened. All other cutscenes and gameplay look good though, except for expected frame rate drops.",
-    "reports": [
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-04-22",
-        "notes": "Intros and certain in game videos like the phone screen are rainbow screened. All other cutscenes and gameplay look good though, except for expected frame rate drops.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Intros and certain in game videos like the phone screen are rainbow screened. All other cutscenes and gameplay look good though, except for expected frame rate drops.",
-        "updatedAt": "2026-04-22",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-04-22",
-          "notes": "Intros and certain in game videos like the phone screen are rainbow screened. All other cutscenes and gameplay look good though, except for expected frame rate drops.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-04-22",
-          "notes": "Intros and certain in game videos like the phone screen are rainbow screened. All other cutscenes and gameplay look good though, except for expected frame rate drops.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 422,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/422"
   }
 ]
