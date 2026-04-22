@@ -5718,53 +5718,12 @@
         "notes": "Killswitch’s fork used with on screen controls and gamerscore.\nPlayable but startup/main menu is glitchy (skip through), obviously need to start game as single player\nQuite laggy like 10-20 FPS on my iPhone 17 Pro Max.\nEmulator is in early stages so keen to see major performance and stability improvements as with GTA V.",
         "source": "app",
         "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-14",
-        "notes": "The screen is distorted on startup but there is no problem for playing.\nBlack distortion happens sometime but play absolutely good and there is no lag.\nThe sound is also perfect.\n\nFirst",
-        "source": "app",
-        "build": {
           "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-11",
-        "notes": "Black distortion on side of screen but works great",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
         }
       }
     ],
@@ -5804,7 +5763,7 @@
         "perf": "great",
         "notes": "Killswitch’s fork used with on screen controls and gamerscore.\nPlayable but startup/main menu is glitchy (skip through), obviously need to start game as single player\nQuite laggy like 10-20 FPS on my iPhone 17 Pro Max.\nEmulator is in early stages so keen to see major performance and stability improvements as with GTA V.",
         "updatedAt": "2026-04-20",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
@@ -5817,13 +5776,12 @@
           "notes": "Killswitch’s fork used with on screen controls and gamerscore.\nPlayable but startup/main menu is glitchy (skip through), obviously need to start game as single player\nQuite laggy like 10-20 FPS on my iPhone 17 Pro Max.\nEmulator is in early stages so keen to see major performance and stability improvements as with GTA V.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -5838,13 +5796,12 @@
           "notes": "Killswitch’s fork used with on screen controls and gamerscore.\nPlayable but startup/main menu is glitchy (skip through), obviously need to start game as single player\nQuite laggy like 10-20 FPS on my iPhone 17 Pro Max.\nEmulator is in early stages so keen to see major performance and stability improvements as with GTA V.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -29178,13 +29135,12 @@
         "notes": "Just a black screen",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -29271,13 +29227,12 @@
           "notes": "Just a black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -29292,13 +29247,12 @@
           "notes": "Just a black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
