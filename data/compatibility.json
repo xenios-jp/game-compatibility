@@ -29576,5 +29576,123 @@
         }
       }
     }
+  },
+  {
+    "slug": "red-dead-redemption",
+    "title": "Red Dead Redemption",
+    "titleId": "5454082B",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-23",
+    "notes": "After choosing the difficulty and clicking on start it would always be stuck on this screen, and loading screen is slightly long, around4-6 minutes or so.",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-04-23",
+        "notes": "After choosing the difficulty and clicking on start it would always be stuck on this screen, and loading screen is slightly long, around4-6 minutes or so.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454082B/1776948400530-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "After choosing the difficulty and clicking on start it would always be stuck on this screen, and loading screen is slightly long, around4-6 minutes or so.",
+        "updatedAt": "2026-04-23",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-23",
+          "notes": "After choosing the difficulty and clicking on start it would always be stuck on this screen, and loading screen is slightly long, around4-6 minutes or so.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-23",
+          "notes": "After choosing the difficulty and clicking on start it would always be stuck on this screen, and loading screen is slightly long, around4-6 minutes or so.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
+          }
+        }
+      }
+    }
   }
 ]
