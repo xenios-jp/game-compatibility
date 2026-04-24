@@ -2835,7 +2835,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9 inch 7th Gen",
+      "device": "iPad Pro 13-inch (M4)",
       "platform": "ios",
       "osVersion": "26.4",
       "arch": "arm64",
@@ -2845,7 +2845,7 @@
     "notes": "Works fine on iPad Pro M4 16gb ram",
     "reports": [
       {
-        "device": "iPad Pro 12.9 inch 7th Gen",
+        "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
         "osVersion": "26.4",
         "arch": "arm64",
@@ -2856,13 +2856,12 @@
         "notes": "Works fine on iPad Pro M4 16gb ram",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -2920,7 +2919,7 @@
         "updatedAt": "2026-04-24",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
           "osVersion": "26.4",
           "arch": "arm64",
@@ -2931,17 +2930,16 @@
           "notes": "Works fine on iPad Pro M4 16gb ram",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
           "osVersion": "26.4",
           "arch": "arm64",
@@ -2952,13 +2950,12 @@
           "notes": "Works fine on iPad Pro M4 16gb ram",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -21727,7 +21724,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9 inch 7th Gen",
+      "device": "iPad Pro 13-inch (M4)",
       "platform": "ios",
       "osVersion": "26.4",
       "arch": "arm64",
@@ -21737,7 +21734,7 @@
     "notes": "Horrível",
     "reports": [
       {
-        "device": "iPad Pro 12.9 inch 7th Gen",
+        "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
         "osVersion": "26.4",
         "arch": "arm64",
@@ -21748,13 +21745,12 @@
         "notes": "Horrível",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -21815,7 +21811,7 @@
         "updatedAt": "2026-04-24",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
           "osVersion": "26.4",
           "arch": "arm64",
@@ -21826,17 +21822,16 @@
           "notes": "Horrível",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
           "osVersion": "26.4",
           "arch": "arm64",
@@ -21847,13 +21842,12 @@
           "notes": "Horrível",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
