@@ -13602,22 +13602,43 @@
     "slug": "halo-ce-anniversary",
     "title": "Halo: CE Anniversary",
     "titleId": "4D5309B1",
-    "status": "ingame",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 12",
       "platform": "ios",
-      "osVersion": "26.0",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-23",
-    "notes": "For my tests I have not tried campaign. There are lots of bugs:\n- The initial loading screen has a short and loud static sound that plays when the loading screen is finished loading.\n- There is another of the same sound that plays shortly after during the 343 intro logo.\n- The intro graphics are a green pixelated mess\n- Audio for buttons is messed up.\n- The 3d graphics in the background of the main menu are messed up.\n- Selecting the multiplayer button on the main menu closes the game instantly and goes back to the XeniOS app itself.\n- Some controller inputs are read twice and it is random when any controller input is read once or twice. For example, on the main menu I would press down one time and the selection would have a random chance of going down one time or two times.",
+    "updatedAt": "2026-04-25",
+    "notes": "Just a black screen with no audio. Logs says the game launched successfully but nothing ever happens",
     "reports": [
+      {
+        "device": "iPhone 12",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-04-25",
+        "notes": "Just a black screen with no audio. Logs says the game launched successfully but nothing ever happens",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -13671,27 +13692,28 @@
         "channel": "all",
         "status": "ingame",
         "perf": "ok",
-        "notes": "For my tests I have not tried campaign. There are lots of bugs:\n- The initial loading screen has a short and loud static sound that plays when the loading screen is finished loading.\n- There is another of the same sound that plays shortly after during the 343 intro logo.\n- The intro graphics are a green pixelated mess\n- Audio for buttons is messed up.\n- The 3d graphics in the background of the main menu are messed up.\n- Selecting the multiplayer button on the main menu closes the game instantly and goes back to the XeniOS app itself.\n- Some controller inputs are read twice and it is random when any controller input is read once or twice. For example, on the main menu I would press down one time and the selection would have a random chance of going down one time or two times.",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
+        "notes": "Just a black screen with no audio. Logs says the game launched successfully but nothing ever happens",
+        "updatedAt": "2026-04-25",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 12",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-23",
-          "notes": "For my tests I have not tried campaign. There are lots of bugs:\n- The initial loading screen has a short and loud static sound that plays when the loading screen is finished loading.\n- There is another of the same sound that plays shortly after during the 343 intro logo.\n- The intro graphics are a green pixelated mess\n- Audio for buttons is messed up.\n- The 3d graphics in the background of the main menu are messed up.\n- Selecting the multiplayer button on the main menu closes the game instantly and goes back to the XeniOS app itself.\n- Some controller inputs are read twice and it is random when any controller input is read once or twice. For example, on the main menu I would press down one time and the selection would have a random chance of going down one time or two times.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-25",
+          "notes": "Just a black screen with no audio. Logs says the game launched successfully but nothing ever happens",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "d8c101905"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
