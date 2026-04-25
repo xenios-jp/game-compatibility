@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T20:51:39.172Z",
+  "generatedAt": "2026-04-25T09:42:31.991Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4510,8 +4510,31 @@
       "titleId": "4B4E0861",
       "issueNumber": 377,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/377",
-      "updatedAt": "2026-03-29",
+      "updatedAt": "2026-04-25",
       "entries": [
+        {
+          "id": "comment-4318660643",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/377#issuecomment-4318660643",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-25",
+          "createdAtMs": 1777110021000,
+          "issueNumber": 377,
+          "excerpt": "Graphical glitches",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-377",
           "type": "issue",
