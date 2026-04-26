@@ -137,9 +137,14 @@ function parseIssueTitle(title) {
   if (!match) {
     return null;
   }
+  let gameName = match[2].trim();
+  const wrapped = gameName.match(/^\[(.+)\]$/);
+  if (wrapped) {
+    gameName = wrapped[1].trim();
+  }
   return {
     titleId: match[1].toUpperCase(),
-    gameName: match[2].trim(),
+    gameName,
   };
 }
 
