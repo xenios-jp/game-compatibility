@@ -160,7 +160,10 @@ jobs:
             const canonical = existingIssues
               .filter((item) => !item.pull_request)
               .filter((item) => item.number !== issue.number)
-              .filter((item) => String(item.title || "").startsWith(`${report.titleId} `))
+              .filter((item) => {
+                const parsed = helpers.parseIssueTitle(item.title || "");
+                return parsed && parsed.titleId === report.titleId;
+              })
               .sort((left, right) => left.number - right.number)[0];
 
             let canonicalIssueUrl = issue.html_url;
