@@ -1,152 +1,5 @@
 [
   {
-    "slug": "midnight-club-los-angeles",
-    "title": "[Midnight Club: Los Angeles]",
-    "titleId": "545407F8",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-19",
-    "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-19",
-        "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-12",
-        "notes": "Must try booting the game a couple of times before actually loading in-game",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-3.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-4.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773333739686-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773333739686-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773333739686-3.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773333739686-4.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773333739686-5.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773116358648-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773116358648-2.jpg"
-    ],
-    "issueNumber": 224,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/224",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
-        "updatedAt": "2026-03-19",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-19",
-          "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-19",
-          "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "prototype",
     "title": "[Prototype]™",
     "titleId": "4156084E",
@@ -10131,13 +9984,12 @@
         "notes": "No Racing",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -10162,8 +10014,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 125,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
+    "issueNumber": 371,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/371",
     "summaries": {
       "release": {
         "channel": "release",
@@ -10204,13 +10056,12 @@
           "notes": "No Racing",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -10225,13 +10076,12 @@
           "notes": "No Racing",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -16981,6 +16831,153 @@
     }
   },
   {
+    "slug": "midnight-club-los-angeles",
+    "title": "Midnight Club: Los Angeles",
+    "titleId": "545407F8",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-19",
+    "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-19",
+        "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-12",
+        "notes": "Must try booting the game a couple of times before actually loading in-game",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "commitShort": "ab2ca341a"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773333739686-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773333739686-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773333739686-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773333739686-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773333739686-5.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773116358648-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773116358648-2.jpg"
+    ],
+    "issueNumber": 224,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/224",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
+        "updatedAt": "2026-03-19",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-19",
+          "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-19",
+          "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "minecraft",
     "title": "Minecraft",
     "titleId": "584111F7",
@@ -21777,6 +21774,121 @@
     }
   },
   {
+    "slug": "rayman-raving-rabbids",
+    "title": "Rayman Raving Rabbids",
+    "titleId": "555307F3",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "18.7.7",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-30",
+    "notes": "In-game audio missing",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "18.7.7",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-04-30",
+        "notes": "In-game audio missing",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 433,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/433",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "In-game audio missing",
+        "updatedAt": "2026-04-30",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.7.7",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-04-30",
+          "notes": "In-game audio missing",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.7.7",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-04-30",
+          "notes": "In-game audio missing",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "red-dead-redemption",
     "title": "Red Dead Redemption",
     "titleId": "5454082B",
@@ -25240,7 +25352,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 9th Gen",
+      "device": "iPad 9",
       "platform": "ios",
       "osVersion": "26.2.1",
       "arch": "arm64",
@@ -25250,7 +25362,7 @@
     "notes": "It works has good fps on the M- series iPads on iPad 11 its ok but audio stutters but when it comes to gameplay it takes some time to get used to it but eventually you could say acceptable.",
     "reports": [
       {
-        "device": "iPad 9th Gen",
+        "device": "iPad 9",
         "platform": "ios",
         "osVersion": "26.2.1",
         "arch": "arm64",
@@ -25259,87 +25371,6 @@
         "perf": "ok",
         "date": "2026-04-30",
         "notes": "It works has good fps on the M- series iPads on iPad 11 its ok but audio stutters but when it comes to gameplay it takes some time to get used to it but eventually you could say acceptable.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-31",
-        "notes": "Artifacts on any pre rendered videos. Playable up until the first hub world where it begins crashing frequently, and reaching the level select leads to an infinite loading screen.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPad Pro 13-inch (M4)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-24",
-        "notes": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-24",
-        "notes": "Major artifacts on anything pre-rendered (cutscenes, SEGA logo, etc.), but anything in-game looks pretty great. Loading times for assets can vary, and game does crash every once in a while. Hub worlds are stable and day stages are alright if there’s not too much going on",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPad Air 11-inch (M2)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-15",
-        "notes": "It can be playable but sometimes there are FPS drops or even just get freeze",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.1-9288",
@@ -25385,9 +25416,9 @@
         "perf": "ok",
         "notes": "It works has good fps on the M- series iPads on iPad 11 its ok but audio stutters but when it comes to gameplay it takes some time to get used to it but eventually you could say acceptable.",
         "updatedAt": "2026-04-30",
-        "reportCount": 5,
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPad 9th Gen",
+          "device": "iPad 9",
           "platform": "ios",
           "osVersion": "26.2.1",
           "arch": "arm64",
@@ -25398,17 +25429,16 @@
           "notes": "It works has good fps on the M- series iPads on iPad 11 its ok but audio stutters but when it comes to gameplay it takes some time to get used to it but eventually you could say acceptable.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad 9th Gen",
+          "device": "iPad 9",
           "platform": "ios",
           "osVersion": "26.2.1",
           "arch": "arm64",
@@ -25419,13 +25449,12 @@
           "notes": "It works has good fps on the M- series iPads on iPad 11 its ok but audio stutters but when it comes to gameplay it takes some time to get used to it but eventually you could say acceptable.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -25463,33 +25492,12 @@
         "notes": "Nothing boots",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-11",
-        "notes": "Stuck on cyan screen.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -25523,7 +25531,7 @@
         "perf": "n/a",
         "notes": "Nothing boots",
         "updatedAt": "2026-04-28",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -25536,13 +25544,12 @@
           "notes": "Nothing boots",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -25557,13 +25564,12 @@
           "notes": "Nothing boots",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -26572,7 +26578,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 11th Gen",
+      "device": "iPad (A16)",
       "platform": "ios",
       "osVersion": "26.2.1",
       "arch": "arm64",
@@ -26582,7 +26588,7 @@
     "notes": "Doesn’t boot",
     "reports": [
       {
-        "device": "iPad 11th Gen",
+        "device": "iPad (A16)",
         "platform": "ios",
         "osVersion": "26.2.1",
         "arch": "arm64",
@@ -26593,27 +26599,13 @@
         "notes": "Doesn’t boot",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-03",
-        "notes": "Game does not boot.",
-        "source": "app",
-        "build": null
       }
     ],
     "screenshots": [],
@@ -26646,9 +26638,9 @@
         "perf": "n/a",
         "notes": "Doesn’t boot",
         "updatedAt": "2026-04-28",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "26.2.1",
           "arch": "arm64",
@@ -26659,17 +26651,16 @@
           "notes": "Doesn’t boot",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "26.2.1",
           "arch": "arm64",
@@ -26680,13 +26671,12 @@
           "notes": "Doesn’t boot",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -29860,123 +29850,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "rayman-raving-rabbids",
-    "title": "Rayman Raving Rabbids",
-    "titleId": "555307F3",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "18.7.7",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-04-30",
-    "notes": "In-game audio missing",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "18.7.7",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-04-30",
-        "notes": "In-game audio missing",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "In-game audio missing",
-        "updatedAt": "2026-04-30",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "18.7.7",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-04-30",
-          "notes": "In-game audio missing",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "18.7.7",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-04-30",
-          "notes": "In-game audio missing",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 433,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/433"
   }
 ]
