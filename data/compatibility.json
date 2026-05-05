@@ -29579,8 +29579,29 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-05-05",
-    "notes": "Opens to a loading screen? (Minecraft sandstone tower marketing). Other times produces aforementioned black screens.",
+    "notes": "I’m",
     "reports": [
+      {
+        "device": "iPhone 13",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-05-05",
+        "notes": "I’m",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -29703,7 +29724,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530A81/1778000317017-1.jpg"
+    ],
     "issueNumber": 393,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/393",
     "summaries": {
@@ -29731,9 +29754,9 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Opens to a loading screen? (Minecraft sandstone tower marketing). Other times produces aforementioned black screens.",
+        "notes": "I’m",
         "updatedAt": "2026-05-05",
-        "reportCount": 6,
+        "reportCount": 7,
         "latestReport": {
           "device": "iPhone 13",
           "platform": "ios",
@@ -29743,7 +29766,7 @@
           "status": "nothing",
           "perf": "n/a",
           "date": "2026-05-05",
-          "notes": "Opens to a loading screen? (Minecraft sandstone tower marketing). Other times produces aforementioned black screens.",
+          "notes": "I’m",
           "source": "app",
           "build": {
             "channel": "self-built",
@@ -29764,7 +29787,7 @@
           "status": "nothing",
           "perf": "n/a",
           "date": "2026-05-05",
-          "notes": "Opens to a loading screen? (Minecraft sandstone tower marketing). Other times produces aforementioned black screens.",
+          "notes": "I’m",
           "source": "app",
           "build": {
             "channel": "self-built",
