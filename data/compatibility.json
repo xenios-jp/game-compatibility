@@ -17084,22 +17084,43 @@
     "slug": "midnight-club-los-angeles",
     "title": "Midnight Club: Los Angeles",
     "titleId": "545407F8",
-    "status": "ingame",
+    "status": "loads",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.4.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-19",
-    "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
+    "updatedAt": "2026-05-12",
+    "notes": "Try multiple Times for loading screen, massive lag and stutter",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-05-12",
+        "notes": "Try multiple Times for loading screen, massive lag and stutter",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -17181,27 +17202,28 @@
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
-        "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
-        "updatedAt": "2026-03-19",
-        "reportCount": 2,
+        "notes": "Try multiple Times for loading screen, massive lag and stutter",
+        "updatedAt": "2026-05-12",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.4.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "loads",
           "perf": "poor",
-          "date": "2026-03-19",
-          "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
+          "date": "2026-05-12",
+          "notes": "Try multiple Times for loading screen, massive lag and stutter",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
