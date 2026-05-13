@@ -10091,22 +10091,42 @@
     "slug": "forza-horizon-2",
     "title": "Forza Horizon 2",
     "titleId": "4D530AA4",
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPad Pro 12.9 inch 6th Gen",
       "platform": "ios",
-      "osVersion": "26.4",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-24",
-    "notes": "Got past the profile select and then waited to load for about as long as my phone could handle without blowing up",
+    "updatedAt": "2026-05-13",
+    "notes": "Few artifacts here and there, but it’s playable",
     "reports": [
+      {
+        "device": "iPad Pro 12.9 inch 6th Gen",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-05-13",
+        "notes": "Few artifacts here and there, but it’s playable",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "0",
+          "commitShort": "f9f7b046b",
+          "buildId": "ios-self-built-1.0.0-0"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -10148,7 +10168,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530AA4/1778705572921-1.jpg"
+    ],
     "issueNumber": 415,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/415",
     "summaries": {
@@ -10174,49 +10196,49 @@
       },
       "all": {
         "channel": "all",
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Got past the profile select and then waited to load for about as long as my phone could handle without blowing up",
-        "updatedAt": "2026-04-24",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Few artifacts here and there, but it’s playable",
+        "updatedAt": "2026-05-13",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPad Pro 12.9 inch 6th Gen",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-04-24",
-          "notes": "Got past the profile select and then waited to load for about as long as my phone could handle without blowing up",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-05-13",
+          "notes": "Few artifacts here and there, but it’s playable",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "f9f7b046b",
+            "buildId": "ios-self-built-1.0.0-0"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPad Pro 12.9 inch 6th Gen",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-04-24",
-          "notes": "Got past the profile select and then waited to load for about as long as my phone could handle without blowing up",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-05-13",
+          "notes": "Few artifacts here and there, but it’s playable",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "f9f7b046b",
+            "buildId": "ios-self-built-1.0.0-0"
           }
         }
       }
