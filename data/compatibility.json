@@ -10098,7 +10098,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9 inch 6th Gen",
+      "device": "iPad Pro 12.9-inch (M2)",
       "platform": "ios",
       "osVersion": "26.1",
       "arch": "arm64",
@@ -10108,7 +10108,7 @@
     "notes": "Few artifacts here and there, but it’s playable",
     "reports": [
       {
-        "device": "iPad Pro 12.9 inch 6th Gen",
+        "device": "iPad Pro 12.9-inch (M2)",
         "platform": "ios",
         "osVersion": "26.1",
         "arch": "arm64",
@@ -10119,12 +10119,12 @@
         "notes": "Few artifacts here and there, but it’s playable",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-0",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "0",
-          "commitShort": "f9f7b046b",
-          "buildId": "ios-self-built-1.0.0-0"
+          "commitShort": "f9f7b046b"
         }
       },
       {
@@ -10202,7 +10202,7 @@
         "updatedAt": "2026-05-13",
         "reportCount": 3,
         "latestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
@@ -10213,16 +10213,16 @@
           "notes": "Few artifacts here and there, but it’s playable",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-0",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "0",
-            "commitShort": "f9f7b046b",
-            "buildId": "ios-self-built-1.0.0-0"
+            "commitShort": "f9f7b046b"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
@@ -10233,12 +10233,12 @@
           "notes": "Few artifacts here and there, but it’s playable",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-0",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "0",
-            "commitShort": "f9f7b046b",
-            "buildId": "ios-self-built-1.0.0-0"
+            "commitShort": "f9f7b046b"
           }
         }
       }
@@ -17134,53 +17134,12 @@
         "notes": "Try multiple Times for loading screen, massive lag and stutter",
         "source": "app",
         "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-19",
-        "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
-        "source": "app",
-        "build": {
           "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-12",
-        "notes": "Must try booting the game a couple of times before actually loading in-game",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
         }
       }
     ],
@@ -17222,11 +17181,11 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
+        "status": "loads",
         "perf": "poor",
         "notes": "Try multiple Times for loading screen, massive lag and stutter",
         "updatedAt": "2026-05-12",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -17239,25 +17198,24 @@
           "notes": "Try multiple Times for loading screen, massive lag and stutter",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.4.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "loads",
           "perf": "poor",
-          "date": "2026-03-19",
-          "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
+          "date": "2026-05-12",
+          "notes": "Try multiple Times for loading screen, massive lag and stutter",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-1.0.1-9288",
