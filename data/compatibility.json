@@ -10098,7 +10098,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 4th Gen",
+      "device": "iPad Air 4",
       "platform": "ios",
       "osVersion": "18.0.1",
       "arch": "arm64",
@@ -10108,7 +10108,7 @@
     "notes": "When Booted, it shows the copyright screen after waiting even for a long time, it still hasn’t loaded anything. It may be from the iso but i don’t know honestly.",
     "reports": [
       {
-        "device": "iPad Air 4th Gen",
+        "device": "iPad Air 4",
         "platform": "ios",
         "osVersion": "18.0.1",
         "arch": "arm64",
@@ -10119,13 +10119,12 @@
         "notes": "When Booted, it shows the copyright screen after waiting even for a long time, it still hasn’t loaded anything. It may be from the iso but i don’t know honestly.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -10224,7 +10223,7 @@
         "updatedAt": "2026-05-15",
         "reportCount": 4,
         "latestReport": {
-          "device": "iPad Air 4th Gen",
+          "device": "iPad Air 4",
           "platform": "ios",
           "osVersion": "18.0.1",
           "arch": "arm64",
@@ -10235,13 +10234,12 @@
           "notes": "When Booted, it shows the copyright screen after waiting even for a long time, it still hasn’t loaded anything. It may be from the iso but i don’t know honestly.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
