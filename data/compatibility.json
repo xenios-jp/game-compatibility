@@ -21962,15 +21962,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9-inch 4",
+      "device": "iPhone 17",
       "platform": "ios",
-      "osVersion": "18.3.2",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-04",
-    "notes": "It plays well",
+    "updatedAt": "2026-05-23",
+    "notes": "Works very great, just has some graphic glitches in the beginning but after that it’s all good and great",
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-05-23",
+        "notes": "Works very great, just has some graphic glitches in the beginning but after that it’s all good and great",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPad Pro 12.9-inch 4",
         "platform": "ios",
@@ -22020,47 +22041,49 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "It plays well",
-        "updatedAt": "2026-04-04",
-        "reportCount": 1,
+        "notes": "Works very great, just has some graphic glitches in the beginning but after that it’s all good and great",
+        "updatedAt": "2026-05-23",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 12.9-inch 4",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "18.3.2",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-04-04",
-          "notes": "It plays well",
+          "date": "2026-05-23",
+          "notes": "Works very great, just has some graphic glitches in the beginning but after that it’s all good and great",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9-inch 4",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "18.3.2",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-04-04",
-          "notes": "It plays well",
+          "date": "2026-05-23",
+          "notes": "Works very great, just has some graphic glitches in the beginning but after that it’s all good and great",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
