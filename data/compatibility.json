@@ -571,6 +571,121 @@
     }
   },
   {
+    "slug": "ace-combat-6",
+    "title": "ACE COMBAT 6",
+    "titleId": "4E4D07D1",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 11 inch 5th Gen",
+      "platform": "ios",
+      "osVersion": "26.4.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-05-20",
+    "notes": "blackscreen",
+    "reports": [
+      {
+        "device": "iPad Pro 11 inch 5th Gen",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-05-20",
+        "notes": "blackscreen",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 446,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/446",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "blackscreen",
+        "updatedAt": "2026-05-20",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 11 inch 5th Gen",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-05-20",
+          "notes": "blackscreen",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 11 inch 5th Gen",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-05-20",
+          "notes": "blackscreen",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "afl-live-2",
     "title": "AFL Live 2",
     "titleId": "484507D6",
@@ -904,6 +1019,121 @@
           "perf": "ok",
           "date": "2026-03-17",
           "notes": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "american-wasteland",
+    "title": "American Wasteland",
+    "titleId": "415607D4",
+    "status": "playable",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 13-inch (M4)",
+      "platform": "ios",
+      "osVersion": "26.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-05-21",
+    "notes": "Low fps",
+    "reports": [
+      {
+        "device": "iPad Pro 13-inch (M4)",
+        "platform": "ios",
+        "osVersion": "26.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-05-21",
+        "notes": "Low fps",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 449,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/449",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "poor",
+        "notes": "Low fps",
+        "updatedAt": "2026-05-21",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 13-inch (M4)",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-05-21",
+          "notes": "Low fps",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 13-inch (M4)",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-05-21",
+          "notes": "Low fps",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-1.0.1-9288",
@@ -9373,6 +9603,121 @@
     }
   },
   {
+    "slug": "fifa-19",
+    "title": "FIFA 19",
+    "titleId": "454109F9",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-05-22",
+    "notes": "Groahical issues",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-05-22",
+        "notes": "Groahical issues",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 450,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/450",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Groahical issues",
+        "updatedAt": "2026-05-22",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-05-22",
+          "notes": "Groahical issues",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-05-22",
+          "notes": "Groahical issues",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "fifazf-tmp-dll",
     "title": "fifazf.tmp.dll",
     "titleId": "454109C3",
@@ -10963,6 +11308,123 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "gears-of-war-2",
+    "title": "Gears of War 2",
+    "titleId": "4D53082D",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "26.4.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-05-21",
+    "notes": "Pretty good performance, between 25-40 on iPhone 17.",
+    "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-05-21",
+        "notes": "Pretty good performance, between 25-40 on iPhone 17.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-0",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "0",
+          "commitShort": "19cf9e77d"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D53082D/1779355194588-1.jpg"
+    ],
+    "issueNumber": 448,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/448",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Pretty good performance, between 25-40 on iPhone 17.",
+        "updatedAt": "2026-05-21",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-05-21",
+          "notes": "Pretty good performance, between 25-40 on iPhone 17.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-0",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "19cf9e77d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-05-21",
+          "notes": "Pretty good performance, between 25-40 on iPhone 17.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-0",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "19cf9e77d"
           }
         }
       }
@@ -20653,6 +21115,123 @@
     }
   },
   {
+    "slug": "pes-2011-we-2011",
+    "title": "PES 2011/WE 2011",
+    "titleId": "4B4E081D",
+    "status": "playable",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.4.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-05-20",
+    "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-05-20",
+        "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-0",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "0",
+          "commitShort": "303982db5"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E081D/1779276996771-1.jpg"
+    ],
+    "issueNumber": 447,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/447",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "poor",
+        "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
+        "updatedAt": "2026-05-20",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-05-20",
+          "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-0",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "303982db5"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-05-20",
+          "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-0",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "303982db5"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "pes-2012-we-2012",
     "title": "PES 2012/WE 2012",
     "titleId": "4B4E0837",
@@ -21983,13 +22562,12 @@
         "notes": "Works very great, just has some graphic glitches in the beginning but after that it’s all good and great",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -22056,13 +22634,12 @@
           "notes": "Works very great, just has some graphic glitches in the beginning but after that it’s all good and great",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -22077,13 +22654,12 @@
           "notes": "Works very great, just has some graphic glitches in the beginning but after that it’s all good and great",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -25394,6 +25970,127 @@
           "perf": "n/a",
           "date": "2026-03-16",
           "notes": "Loading only not working",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "sonic-4-episode-ii",
+    "title": "Sonic 4 Episode II",
+    "titleId": "584111F2",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-05-15",
+    "notes": "The game Is ok, it’s playable very well, but when you are in the water, it’s gonna be shining like… 5sec? And it’s gonna be normal dater that.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-05-15",
+        "notes": "The game Is ok, it’s playable very well, but when you are in the water, it’s gonna be shining like… 5sec? And it’s gonna be normal dater that.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-5.jpg"
+    ],
+    "issueNumber": 445,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/445",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "The game Is ok, it’s playable very well, but when you are in the water, it’s gonna be shining like… 5sec? And it’s gonna be normal dater that.",
+        "updatedAt": "2026-05-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-05-15",
+          "notes": "The game Is ok, it’s playable very well, but when you are in the water, it’s gonna be shining like… 5sec? And it’s gonna be normal dater that.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-05-15",
+          "notes": "The game Is ok, it’s playable very well, but when you are in the water, it’s gonna be shining like… 5sec? And it’s gonna be normal dater that.",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-1.0.1-9288",
@@ -30343,717 +31040,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "sonic-4-episode-ii",
-    "title": "Sonic 4 Episode II",
-    "titleId": "584111F2",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-05-15",
-    "notes": "The game Is ok, it’s playable very well, but when you are in the water, it’s gonna be shining like… 5sec? And it’s gonna be normal dater that.",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-05-15",
-        "notes": "The game Is ok, it’s playable very well, but when you are in the water, it’s gonna be shining like… 5sec? And it’s gonna be normal dater that.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-3.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-4.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-5.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "The game Is ok, it’s playable very well, but when you are in the water, it’s gonna be shining like… 5sec? And it’s gonna be normal dater that.",
-        "updatedAt": "2026-05-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-05-15",
-          "notes": "The game Is ok, it’s playable very well, but when you are in the water, it’s gonna be shining like… 5sec? And it’s gonna be normal dater that.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-05-15",
-          "notes": "The game Is ok, it’s playable very well, but when you are in the water, it’s gonna be shining like… 5sec? And it’s gonna be normal dater that.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 445,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/445"
-  },
-  {
-    "slug": "ace-combat-6",
-    "title": "ACE COMBAT 6",
-    "titleId": "4E4D07D1",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro 11 inch 5th Gen",
-      "platform": "ios",
-      "osVersion": "26.4.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-05-20",
-    "notes": "blackscreen",
-    "reports": [
-      {
-        "device": "iPad Pro 11 inch 5th Gen",
-        "platform": "ios",
-        "osVersion": "26.4.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-05-20",
-        "notes": "blackscreen",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "blackscreen",
-        "updatedAt": "2026-05-20",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro 11 inch 5th Gen",
-          "platform": "ios",
-          "osVersion": "26.4.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-05-20",
-          "notes": "blackscreen",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro 11 inch 5th Gen",
-          "platform": "ios",
-          "osVersion": "26.4.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-05-20",
-          "notes": "blackscreen",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 446,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/446"
-  },
-  {
-    "slug": "pes-2011-we-2011",
-    "title": "PES 2011/WE 2011",
-    "titleId": "4B4E081D",
-    "status": "playable",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16e",
-      "platform": "ios",
-      "osVersion": "26.4.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-05-20",
-    "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
-    "reports": [
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.4.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-05-20",
-        "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "0",
-          "commitShort": "303982db5",
-          "buildId": "ios-self-built-1.0.0-0"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E081D/1779276996771-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "poor",
-        "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
-        "updatedAt": "2026-05-20",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16e",
-          "platform": "ios",
-          "osVersion": "26.4.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-05-20",
-          "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "0",
-            "commitShort": "303982db5",
-            "buildId": "ios-self-built-1.0.0-0"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16e",
-          "platform": "ios",
-          "osVersion": "26.4.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-05-20",
-          "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "0",
-            "commitShort": "303982db5",
-            "buildId": "ios-self-built-1.0.0-0"
-          }
-        }
-      }
-    },
-    "issueNumber": 447,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/447"
-  },
-  {
-    "slug": "gears-of-war-2",
-    "title": "Gears of War 2",
-    "titleId": "4D53082D",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17",
-      "platform": "ios",
-      "osVersion": "26.4.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-05-21",
-    "notes": "Pretty good performance, between 25-40 on iPhone 17.",
-    "reports": [
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.4.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-05-21",
-        "notes": "Pretty good performance, between 25-40 on iPhone 17.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "0",
-          "commitShort": "19cf9e77d",
-          "buildId": "ios-self-built-1.0.0-0"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D53082D/1779355194588-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Pretty good performance, between 25-40 on iPhone 17.",
-        "updatedAt": "2026-05-21",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.4.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-05-21",
-          "notes": "Pretty good performance, between 25-40 on iPhone 17.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "0",
-            "commitShort": "19cf9e77d",
-            "buildId": "ios-self-built-1.0.0-0"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.4.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-05-21",
-          "notes": "Pretty good performance, between 25-40 on iPhone 17.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "0",
-            "commitShort": "19cf9e77d",
-            "buildId": "ios-self-built-1.0.0-0"
-          }
-        }
-      }
-    },
-    "issueNumber": 448,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/448"
-  },
-  {
-    "slug": "american-wasteland",
-    "title": "American Wasteland",
-    "titleId": "415607D4",
-    "status": "playable",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro 12.9 inch 7th Gen",
-      "platform": "ios",
-      "osVersion": "26.0",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-05-21",
-    "notes": "Low fps",
-    "reports": [
-      {
-        "device": "iPad Pro 12.9 inch 7th Gen",
-        "platform": "ios",
-        "osVersion": "26.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-05-21",
-        "notes": "Low fps",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "poor",
-        "notes": "Low fps",
-        "updatedAt": "2026-05-21",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
-          "platform": "ios",
-          "osVersion": "26.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-05-21",
-          "notes": "Low fps",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
-          "platform": "ios",
-          "osVersion": "26.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-05-21",
-          "notes": "Low fps",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 449,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/449"
-  },
-  {
-    "slug": "fifa-19",
-    "title": "FIFA 19",
-    "titleId": "454109F9",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-05-22",
-    "notes": "Groahical issues",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-05-22",
-        "notes": "Groahical issues",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Groahical issues",
-        "updatedAt": "2026-05-22",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-05-22",
-          "notes": "Groahical issues",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-05-22",
-          "notes": "Groahical issues",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 450,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/450"
   }
 ]
