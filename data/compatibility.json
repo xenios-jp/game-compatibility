@@ -10301,22 +10301,43 @@
     "slug": "forza-horizon",
     "title": "Forza Horizon",
     "titleId": "4D5309C9",
-    "status": "playable",
+    "status": "loads",
     "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-05-04",
-    "notes": "No Racing",
+    "updatedAt": "2026-05-24",
+    "notes": "Bootd up fine but its all greenish pixels idk whats the issue but texts are fine but renders are just green",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "ok",
+        "date": "2026-05-24",
+        "notes": "Bootd up fine but its all greenish pixels idk whats the issue but texts are fine but renders are just green",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -10386,27 +10407,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "No Racing",
-        "updatedAt": "2026-05-04",
-        "reportCount": 2,
+        "notes": "Bootd up fine but its all greenish pixels idk whats the issue but texts are fine but renders are just green",
+        "updatedAt": "2026-05-24",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "loads",
           "perf": "ok",
-          "date": "2026-05-04",
-          "notes": "No Racing",
+          "date": "2026-05-24",
+          "notes": "Bootd up fine but its all greenish pixels idk whats the issue but texts are fine but renders are just green",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
