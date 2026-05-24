@@ -11690,22 +11690,43 @@
     "slug": "grand-theft-auto-v",
     "title": "Grand Theft Auto V",
     "titleId": "545408A7",
-    "status": "playable",
-    "perf": "poor",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPad Air 4th Gen",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "18.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-19",
-    "notes": "Game runs, however very poorly with stutters and color flickering etc. with 10-15 FPS.\nEmulator is in early stages so I am keen to see major improvements :)",
+    "updatedAt": "2026-05-24",
+    "notes": "Literally a black screen after the rockstar games and rockstar north logos",
     "reports": [
+      {
+        "device": "iPad Air 4th Gen",
+        "platform": "ios",
+        "osVersion": "18.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-05-24",
+        "notes": "Literally a black screen after the rockstar games and rockstar north logos",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -11875,27 +11896,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "Game runs, however very poorly with stutters and color flickering etc. with 10-15 FPS.\nEmulator is in early stages so I am keen to see major improvements :)",
-        "updatedAt": "2026-04-19",
-        "reportCount": 6,
+        "notes": "Literally a black screen after the rockstar games and rockstar north logos",
+        "updatedAt": "2026-05-24",
+        "reportCount": 7,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPad Air 4th Gen",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "18.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-04-19",
-          "notes": "Game runs, however very poorly with stutters and color flickering etc. with 10-15 FPS.\nEmulator is in early stages so I am keen to see major improvements :)",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-05-24",
+          "notes": "Literally a black screen after the rockstar games and rockstar north logos",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
