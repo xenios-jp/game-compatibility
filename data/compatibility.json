@@ -11697,7 +11697,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 4th Gen",
+      "device": "iPad Air 4",
       "platform": "ios",
       "osVersion": "18.0.1",
       "arch": "arm64",
@@ -11707,7 +11707,7 @@
     "notes": "Literally a black screen after the rockstar games and rockstar north logos",
     "reports": [
       {
-        "device": "iPad Air 4th Gen",
+        "device": "iPad Air 4",
         "platform": "ios",
         "osVersion": "18.0.1",
         "arch": "arm64",
@@ -11718,13 +11718,12 @@
         "notes": "Literally a black screen after the rockstar games and rockstar north logos",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -11900,7 +11899,7 @@
         "updatedAt": "2026-05-24",
         "reportCount": 7,
         "latestReport": {
-          "device": "iPad Air 4th Gen",
+          "device": "iPad Air 4",
           "platform": "ios",
           "osVersion": "18.0.1",
           "arch": "arm64",
@@ -11911,13 +11910,12 @@
           "notes": "Literally a black screen after the rockstar games and rockstar north logos",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
