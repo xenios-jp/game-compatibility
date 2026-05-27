@@ -16827,8 +16827,29 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-05-27",
-    "notes": "It boots and plays.",
+    "notes": "It runs okay. It took a couple boots, and I think it only works with Universal.js script (not Amethyst )",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-05-27",
+        "notes": "It runs okay. It took a couple boots, and I think it only works with Universal.js script (not Amethyst )",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -16899,9 +16920,9 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "It boots and plays.",
+        "notes": "It runs okay. It took a couple boots, and I think it only works with Universal.js script (not Amethyst )",
         "updatedAt": "2026-05-27",
-        "reportCount": 2,
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 16 Pro Max",
           "platform": "ios",
@@ -16911,7 +16932,7 @@
           "status": "playable",
           "perf": "ok",
           "date": "2026-05-27",
-          "notes": "It boots and plays.",
+          "notes": "It runs okay. It took a couple boots, and I think it only works with Universal.js script (not Amethyst )",
           "source": "app",
           "build": {
             "channel": "self-built",
@@ -16932,7 +16953,7 @@
           "status": "playable",
           "perf": "ok",
           "date": "2026-05-27",
-          "notes": "It boots and plays.",
+          "notes": "It runs okay. It took a couple boots, and I think it only works with Universal.js script (not Amethyst )",
           "source": "app",
           "build": {
             "channel": "self-built",
