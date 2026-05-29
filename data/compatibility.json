@@ -10554,22 +10554,43 @@
     "slug": "forza-horizon",
     "title": "Forza Horizon",
     "titleId": "4D5309C9",
-    "status": "loads",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Pro Max",
+      "device": "iPhone 14",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-05-24",
-    "notes": "Bootd up fine but its all greenish pixels idk whats the issue but texts are fine but renders are just green",
+    "updatedAt": "2026-05-29",
+    "notes": "Game just shows black screen.",
     "reports": [
+      {
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-05-29",
+        "notes": "Game just shows black screen.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 13 Pro Max",
         "platform": "ios",
@@ -10659,27 +10680,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Bootd up fine but its all greenish pixels idk whats the issue but texts are fine but renders are just green",
-        "updatedAt": "2026-05-24",
-        "reportCount": 3,
+        "notes": "Game just shows black screen.",
+        "updatedAt": "2026-05-29",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 13 Pro Max",
+          "device": "iPhone 14",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "ok",
-          "date": "2026-05-24",
-          "notes": "Bootd up fine but its all greenish pixels idk whats the issue but texts are fine but renders are just green",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-05-29",
+          "notes": "Game just shows black screen.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
