@@ -6329,8 +6329,8 @@
     "perf": "great",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "macos",
+      "ios"
     ],
     "lastReport": {
       "device": "MacBook Pro M1",
@@ -11361,13 +11361,12 @@
         "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -11434,13 +11433,12 @@
           "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -11455,13 +11453,12 @@
           "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         }
       }
