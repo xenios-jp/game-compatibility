@@ -11333,22 +11333,43 @@
     "slug": "geargame-xbox360-shipping-pe",
     "title": "GearGame-Xbox360-Shipping.pe",
     "titleId": "4D5308AB",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15",
+      "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "26.2",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-02",
-    "notes": "crash",
+    "updatedAt": "2026-05-30",
+    "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
     "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-05-30",
+        "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 15",
         "platform": "ios",
@@ -11396,49 +11417,51 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "crash",
-        "updatedAt": "2026-04-02",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "poor",
+        "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
+        "updatedAt": "2026-05-30",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-02",
-          "notes": "crash",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-05-30",
+          "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-02",
-          "notes": "crash",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-05-30",
+          "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         }
       }
