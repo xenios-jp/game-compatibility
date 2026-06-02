@@ -29524,6 +29524,118 @@
     }
   },
   {
+    "slug": "the-simpsons-game",
+    "title": "The Simpsons Game",
+    "titleId": "45410809",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "Macbook Neo",
+      "platform": "macos",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-02",
+    "notes": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
+    "reports": [
+      {
+        "device": "Macbook Neo",
+        "platform": "macos",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-02",
+        "notes": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.01-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.01",
+          "buildNumber": "9288"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 98,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/98",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
+        "updatedAt": "2026-06-02",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Macbook Neo",
+          "platform": "macos",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-02",
+          "notes": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.01-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.01",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Neo",
+          "platform": "macos",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-02",
+          "notes": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.01-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.01",
+            "buildNumber": "9288"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "the-wolf-among-us",
     "title": "The Wolf Among Us",
     "titleId": "443607D5",
