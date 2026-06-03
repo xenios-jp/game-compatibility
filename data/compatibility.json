@@ -32190,5 +32190,123 @@
         }
       }
     }
+  },
+  {
+    "slug": "fifa-street",
+    "title": "FIFA Street",
+    "titleId": "4541097B",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.4.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-03",
+    "notes": "The game loads and is playable on XeniOS. Minor texture inaccuracies, visual artifacts, and occasional graphical errors are present. Performance is poor, with significant lag and extremely low FPS throughout gameplay. Despite these issues, the game remains functional and can be played.",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-03",
+        "notes": "The game loads and is playable on XeniOS. Minor texture inaccuracies, visual artifacts, and occasional graphical errors are present. Performance is poor, with significant lag and extremely low FPS throughout gameplay. Despite these issues, the game remains functional and can be played.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "0",
+          "commitShort": "39be0d65a",
+          "buildId": "ios-self-built-1.0.0-0"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541097B/1780445277556-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541097B/1780445277556-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541097B/1780445277556-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541097B/1780445277556-4.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "The game loads and is playable on XeniOS. Minor texture inaccuracies, visual artifacts, and occasional graphical errors are present. Performance is poor, with significant lag and extremely low FPS throughout gameplay. Despite these issues, the game remains functional and can be played.",
+        "updatedAt": "2026-06-03",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-03",
+          "notes": "The game loads and is playable on XeniOS. Minor texture inaccuracies, visual artifacts, and occasional graphical errors are present. Performance is poor, with significant lag and extremely low FPS throughout gameplay. Despite these issues, the game remains functional and can be played.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "39be0d65a",
+            "buildId": "ios-self-built-1.0.0-0"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-03",
+          "notes": "The game loads and is playable on XeniOS. Minor texture inaccuracies, visual artifacts, and occasional graphical errors are present. Performance is poor, with significant lag and extremely low FPS throughout gameplay. Despite these issues, the game remains functional and can be played.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "39be0d65a",
+            "buildId": "ios-self-built-1.0.0-0"
+          }
+        }
+      }
+    }
   }
 ]
