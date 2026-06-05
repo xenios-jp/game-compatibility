@@ -14800,22 +14800,42 @@
     "slug": "halo-reach",
     "title": "Halo: Reach",
     "titleId": "4D53085B",
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPad17,3",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-06",
-    "notes": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
+    "updatedAt": "2026-06-05",
+    "notes": "Pretty awesome playing Halo Reach on iPad :)",
     "reports": [
+      {
+        "device": "iPad17,3",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-05",
+        "notes": "Pretty awesome playing Halo Reach on iPad :)",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "0",
+          "commitShort": "b2d36f3f1",
+          "buildId": "ios-self-built-1.0.0-0"
+        }
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -14844,6 +14864,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D53085B/1780657069221-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-2.jpg"
     ],
@@ -14872,36 +14893,50 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
-        "updatedAt": "2026-03-06",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Pretty awesome playing Halo Reach on iPad :)",
+        "updatedAt": "2026-06-05",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 17",
+          "device": "iPad17,3",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-06",
-          "notes": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-05",
+          "notes": "Pretty awesome playing Halo Reach on iPad :)",
           "source": "app",
-          "build": null
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "b2d36f3f1",
+            "buildId": "ios-self-built-1.0.0-0"
+          }
         },
         "bestReport": {
-          "device": "iPhone 17",
+          "device": "iPad17,3",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-06",
-          "notes": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-05",
+          "notes": "Pretty awesome playing Halo Reach on iPad :)",
           "source": "app",
-          "build": null
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "b2d36f3f1",
+            "buildId": "ios-self-built-1.0.0-0"
+          }
         }
       }
     }
