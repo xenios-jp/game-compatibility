@@ -32410,5 +32410,123 @@
     },
     "issueNumber": 470,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/470"
+  },
+  {
+    "slug": "castle-crashers",
+    "title": "Castle Crashers",
+    "titleId": "584108B7",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14 Pro",
+      "platform": "ios",
+      "osVersion": "26.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-06",
+    "notes": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
+    "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "26.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-06",
+        "notes": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0",
+          "buildNumber": "9712",
+          "stage": "stable",
+          "commitShort": "358deaee5",
+          "buildId": "ios-self-built-2.0-9712"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584108B7/1780779832434-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
+        "updatedAt": "2026-06-06",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "26.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-06",
+          "notes": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "stage": "stable",
+            "commitShort": "358deaee5",
+            "buildId": "ios-self-built-2.0-9712"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "26.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-06",
+          "notes": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "stage": "stable",
+            "commitShort": "358deaee5",
+            "buildId": "ios-self-built-2.0-9712"
+          }
+        }
+      }
+    }
   }
 ]
