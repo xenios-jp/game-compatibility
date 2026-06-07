@@ -32908,7 +32908,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 476,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/476"
   },
   {
     "slug": "bomberman-live",
@@ -33026,7 +33028,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 477,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/477"
   },
   {
     "slug": "fruit-ninja-kinect",
@@ -33144,7 +33148,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 478,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/478"
   },
   {
     "slug": "sonic-the-hedgehog-3",
@@ -33262,7 +33268,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 479,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/479"
   },
   {
     "slug": "metal-slug-3",
@@ -33378,6 +33386,8 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 480,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/480"
   }
 ]
