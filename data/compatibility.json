@@ -33145,5 +33145,123 @@
         }
       }
     }
+  },
+  {
+    "slug": "sonic-the-hedgehog-3",
+    "title": "Sonic The Hedgehog 3",
+    "titleId": "584109A3",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-07",
+    "notes": "Run full speed with weird color.",
+    "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-07",
+        "notes": "Run full speed with weird color.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0",
+          "buildNumber": "9712",
+          "stage": "stable",
+          "commitShort": "358deaee5",
+          "buildId": "ios-self-built-2.0-9712"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109A3/1780809533131-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Run full speed with weird color.",
+        "updatedAt": "2026-06-07",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-07",
+          "notes": "Run full speed with weird color.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "stage": "stable",
+            "commitShort": "358deaee5",
+            "buildId": "ios-self-built-2.0-9712"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-07",
+          "notes": "Run full speed with weird color.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "stage": "stable",
+            "commitShort": "358deaee5",
+            "buildId": "ios-self-built-2.0-9712"
+          }
+        }
+      }
+    }
   }
 ]
