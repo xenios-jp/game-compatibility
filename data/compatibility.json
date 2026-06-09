@@ -319,51 +319,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "great",
-        "notes": "Able to get in-game and play with graphical twitching here (esp with bullet fire).\n\nOnly tried first 5-10 min of gameplay but the graphic issues are intermittent and don't impede progress (not yet).\n\nOne of the few discs (at this time of writing) that don't crash.",
-        "updatedAt": "2026-04-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "26.4.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-04-11",
-          "notes": "Able to get in-game and play with graphical twitching here (esp with bullet fire).\n\nOnly tried first 5-10 min of gameplay but the graphic issues are intermittent and don't impede progress (not yet).\n\nOne of the few discs (at this time of writing) that don't crash.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "26.4.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-04-11",
-          "notes": "Able to get in-game and play with graphical twitching here (esp with bullet fire).\n\nOnly tried first 5-10 min of gameplay but the graphic issues are intermittent and don't impede progress (not yet).\n\nOne of the few discs (at this time of writing) that don't crash.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -2058,49 +2020,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Intro video sound is glitched\nSome audio tracks don't play during gameplay",
-        "updatedAt": "2026-03-22",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBoo Pro M4",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-22",
-          "notes": "Intro video sound is glitched\nSome audio tracks don't play during gameplay",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBoo Pro M4",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-22",
-          "notes": "Intro video sound is glitched\nSome audio tracks don't play during gameplay",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -3425,19 +3351,20 @@
         "notes": "Good work!",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0-9712",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0",
           "buildNumber": "9712",
-          "stage": "stable",
-          "commitShort": "358deaee5",
-          "buildId": "ios-self-built-2.0-9712"
+          "commitShort": "358deaee5"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5841083F/1780809340330-1.jpg"
     ],
+    "issueNumber": 477,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/477",
     "summaries": {
       "release": {
         "channel": "release",
@@ -3478,13 +3405,12 @@
           "notes": "Good work!",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         },
         "bestReport": {
@@ -3499,19 +3425,16 @@
           "notes": "Good work!",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         }
       }
-    },
-    "issueNumber": 477,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/477"
+    }
   },
   {
     "slug": "borderlands",
@@ -3914,7 +3837,6 @@
     "perf": "poor",
     "tags": [],
     "platforms": [
-      "macos",
       "ios"
     ],
     "lastReport": {
@@ -3939,51 +3861,12 @@
         "notes": "Somewhat playable in game, although performance is poor on iPhone 17 on both GPU backends.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-0",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "0",
-          "commitShort": "796751121",
-          "buildId": "ios-self-built-1.0.0-0"
-        }
-      },
-      {
-        "device": "Mac Mini (M1) (Base Model)",
-        "platform": "macos",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-16",
-        "notes": "Plays audio for intro cinematic, screen is a green mess. Black screen with no sound after intro cinematic ends.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1-9288",
-          "buildNumber": "9288"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-03-09",
-        "notes": "So the game runs but you can not see anything in menus and have to go blind. Also exploding sound. Then in game it’s dead silent. This is very rough and I cannon consider this to be playable or in game even though I can go in game if I guess prompts in menu.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "commitShort": "796751121"
         }
       }
     ],
@@ -4003,13 +3886,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
         "notes": "Somewhat playable in game, although performance is poor on iPhone 17 on both GPU backends.",
         "updatedAt": "2026-06-09",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 17",
           "platform": "ios",
@@ -4022,12 +3915,12 @@
           "notes": "Somewhat playable in game, although performance is poor on iPhone 17 on both GPU backends.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-0",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "0",
-            "commitShort": "796751121",
-            "buildId": "ios-self-built-1.0.0-0"
+            "commitShort": "796751121"
           }
         },
         "bestReport": {
@@ -4042,12 +3935,12 @@
           "notes": "Somewhat playable in game, although performance is poor on iPhone 17 on both GPU backends.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-0",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "0",
-            "commitShort": "796751121",
-            "buildId": "ios-self-built-1.0.0-0"
+            "commitShort": "796751121"
           }
         }
       }
@@ -4788,19 +4681,20 @@
         "notes": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0-9712",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0",
           "buildNumber": "9712",
-          "stage": "stable",
-          "commitShort": "358deaee5",
-          "buildId": "ios-self-built-2.0-9712"
+          "commitShort": "358deaee5"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584108B7/1780779832434-1.jpg"
     ],
+    "issueNumber": 472,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/472",
     "summaries": {
       "release": {
         "channel": "release",
@@ -4841,13 +4735,12 @@
           "notes": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         },
         "bestReport": {
@@ -4862,19 +4755,16 @@
           "notes": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         }
       }
-    },
-    "issueNumber": 472,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/472"
+    }
   },
   {
     "slug": "civilization-revolut-n",
@@ -5372,19 +5262,20 @@
         "notes": "Run fine, without graphic glitches. Good job!",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0-9712",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0",
           "buildNumber": "9712",
-          "stage": "stable",
-          "commitShort": "358deaee5",
-          "buildId": "ios-self-built-2.0-9712"
+          "commitShort": "358deaee5"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410818/1780809255369-1.jpg"
     ],
+    "issueNumber": 476,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/476",
     "summaries": {
       "release": {
         "channel": "release",
@@ -5425,13 +5316,12 @@
           "notes": "Run fine, without graphic glitches. Good job!",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         },
         "bestReport": {
@@ -5446,19 +5336,16 @@
           "notes": "Run fine, without graphic glitches. Good job!",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         }
       }
-    },
-    "issueNumber": 476,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/476"
+    }
   },
   {
     "slug": "crash-of-the-titans",
@@ -6761,54 +6648,18 @@
       }
     ],
     "screenshots": [],
+    "issueNumber": 19,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/19",
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "While there were some slight glitch with the intro, I was able to play through training and 2 matches with no issues. the performance was also very playable and runs smoothly.",
-        "updatedAt": "2026-05-30",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro M1",
-          "platform": "macos",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-05-30",
-          "notes": "While there were some slight glitch with the intro, I was able to play through training and 2 matches with no issues. the performance was also very playable and runs smoothly.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056D2F64D"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro M1",
-          "platform": "macos",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-05-30",
-          "notes": "While there were some slight glitch with the intro, I was able to play through training and 2 matches with no issues. the performance was also very playable and runs smoothly.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056D2F64D"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -6868,9 +6719,7 @@
           }
         }
       }
-    },
-    "issueNumber": 19,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/19"
+    }
   },
   {
     "slug": "dead-or-alive-5",
@@ -7058,49 +6907,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Plays the opening cinematic but with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don't press anything. But then if you press the option to go to the island / play it crashes. Stay strong fellow gooners 👊 will hopefully be fixed soon",
-        "updatedAt": "2026-03-27",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 13 Pro Max",
-          "platform": "ios",
-          "osVersion": "iOS18.6.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-27",
-          "notes": "Plays the opening cinematic but with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don't press anything. But then if you press the option to go to the island / play it crashes. Stay strong fellow gooners 👊 will hopefully be fixed soon",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 13 Pro Max",
-          "platform": "ios",
-          "osVersion": "iOS18.6.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-27",
-          "notes": "Plays the opening cinematic but with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don't press anything. But then if you press the option to go to the island / play it crashes. Stay strong fellow gooners 👊 will hopefully be fixed soon",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -10113,12 +9926,12 @@
         "notes": "Works good didn’t face any crash or specific glitch.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-0",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "0",
-          "commitShort": "39be0d65a",
-          "buildId": "ios-self-built-1.0.0-0"
+          "commitShort": "39be0d65a"
         }
       }
     ],
@@ -10127,6 +9940,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541085B/1780696700800-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541085B/1780696700800-3.jpg"
     ],
+    "issueNumber": 470,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/470",
     "summaries": {
       "release": {
         "channel": "release",
@@ -10167,12 +9982,12 @@
           "notes": "Works good didn’t face any crash or specific glitch.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-0",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "0",
-            "commitShort": "39be0d65a",
-            "buildId": "ios-self-built-1.0.0-0"
+            "commitShort": "39be0d65a"
           }
         },
         "bestReport": {
@@ -10187,18 +10002,16 @@
           "notes": "Works good didn’t face any crash or specific glitch.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-0",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "0",
-            "commitShort": "39be0d65a",
-            "buildId": "ios-self-built-1.0.0-0"
+            "commitShort": "39be0d65a"
           }
         }
       }
-    },
-    "issueNumber": 470,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/470"
+    }
   },
   {
     "slug": "fifa-16",
@@ -10948,8 +10761,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/535107E4/1773807257305-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/535107E4/1773807257305-3.jpg"
     ],
-    "issueNumber": 17,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/17",
+    "issueNumber": 256,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/256",
     "summaries": {
       "release": {
         "channel": "release",
@@ -11760,19 +11573,20 @@
         "notes": "Run full speed but can’t control.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0-9712",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0",
           "buildNumber": "9712",
-          "stage": "stable",
-          "commitShort": "358deaee5",
-          "buildId": "ios-self-built-2.0-9712"
+          "commitShort": "358deaee5"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410B79/1780809443639-1.jpg"
     ],
+    "issueNumber": 478,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/478",
     "summaries": {
       "release": {
         "channel": "release",
@@ -11813,13 +11627,12 @@
           "notes": "Run full speed but can’t control.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         },
         "bestReport": {
@@ -11834,19 +11647,16 @@
           "notes": "Run full speed but can’t control.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         }
       }
-    },
-    "issueNumber": 478,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/478"
+    }
   },
   {
     "slug": "game-final-exe",
@@ -12219,41 +12029,22 @@
     "slug": "gears-of-war",
     "title": "Gears of War",
     "titleId": "4D5307D5",
-    "status": "playable",
+    "status": "intro",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 14 Pro",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-07",
-    "notes": "Some graphical issues with shadows, especially in the first cutscene, but after that it’s playable albeit at a poor frame rate (likely around 20-24fps)",
+    "updatedAt": "2026-04-02",
+    "notes": "I can't get past the loading screen to start the campaign, and there's no sound in the main menu either.",
     "reports": [
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-06-07",
-        "notes": "Some graphical issues with shadows, especially in the first cutscene, but after that it’s playable albeit at a poor frame rate (likely around 20-24fps)",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-2.0.1-9729",
-          "channel": "release",
-          "official": true,
-          "appVersion": "2.0.1",
-          "buildNumber": "9729"
-        }
-      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -12283,49 +12074,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "poor",
-        "notes": "Some graphical issues with shadows, especially in the first cutscene, but after that it’s playable albeit at a poor frame rate (likely around 20-24fps)",
-        "updatedAt": "2026-06-07",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-06-07",
-          "notes": "Some graphical issues with shadows, especially in the first cutscene, but after that it’s playable albeit at a poor frame rate (likely around 20-24fps)",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-2.0.1-9729",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1",
-            "buildNumber": "9729"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-06-07",
-          "notes": "Some graphical issues with shadows, especially in the first cutscene, but after that it’s playable albeit at a poor frame rate (likely around 20-24fps)",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-2.0.1-9729",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1",
-            "buildNumber": "9729"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -12339,47 +12094,49 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
+        "status": "intro",
         "perf": "poor",
-        "notes": "Some graphical issues with shadows, especially in the first cutscene, but after that it’s playable albeit at a poor frame rate (likely around 20-24fps)",
-        "updatedAt": "2026-06-07",
-        "reportCount": 2,
+        "notes": "I can't get past the loading screen to start the campaign, and there's no sound in the main menu either.",
+        "updatedAt": "2026-04-02",
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "intro",
           "perf": "poor",
-          "date": "2026-06-07",
-          "notes": "Some graphical issues with shadows, especially in the first cutscene, but after that it’s playable albeit at a poor frame rate (likely around 20-24fps)",
-          "source": "github",
+          "date": "2026-04-02",
+          "notes": "I can't get past the loading screen to start the campaign, and there's no sound in the main menu either.",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-2.0.1-9729",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1",
-            "buildNumber": "9729"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "intro",
           "perf": "poor",
-          "date": "2026-06-07",
-          "notes": "Some graphical issues with shadows, especially in the first cutscene, but after that it’s playable albeit at a poor frame rate (likely around 20-24fps)",
-          "source": "github",
+          "date": "2026-04-02",
+          "notes": "I can't get past the loading screen to start the campaign, and there's no sound in the main menu either.",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-2.0.1-9729",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1",
-            "buildNumber": "9729"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -12742,41 +12499,22 @@
     "slug": "grand-theft-auto-v",
     "title": "Grand Theft Auto V",
     "titleId": "545408A7",
-    "status": "loads",
+    "status": "nothing",
     "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro M2",
+      "device": "iPad Air 4",
       "platform": "ios",
-      "osVersion": "iPad OS 26.5",
+      "osVersion": "18.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-09",
-    "notes": "I convert game files to ZAR, if i open the game directly, game would infinity loading with blinking screen. If i open the game by select \"Launch Disc\" then choose disc2 ZAR, game will black screen and whole app stuck with no response. I tried many configurations but still the same problem. The game runs on old version of Xenios.\nHere are log files\n\n[xenia(balck screen).log](https://github.com/user-attachments/files/28751293/xenia.balck.screen.log)\n\n[xenia(infinity loading).log](https://github.com/user-attachments/files/28751296/xenia.infinity.loading.log)",
+    "updatedAt": "2026-05-24",
+    "notes": "Literally a black screen after the rockstar games and rockstar north logos",
     "reports": [
-      {
-        "device": "iPad Pro M2",
-        "platform": "ios",
-        "osVersion": "iPad OS 26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "n/a",
-        "date": "2026-06-09",
-        "notes": "I convert game files to ZAR, if i open the game directly, game would infinity loading with blinking screen. If i open the game by select \"Launch Disc\" then choose disc2 ZAR, game will black screen and whole app stuck with no response. I tried many configurations but still the same problem. The game runs on old version of Xenios.\nHere are log files\n\n[xenia(balck screen).log](https://github.com/user-attachments/files/28751293/xenia.balck.screen.log)\n\n[xenia(infinity loading).log](https://github.com/user-attachments/files/28751296/xenia.infinity.loading.log)",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-2.0.1-9730-9730",
-          "channel": "release",
-          "official": true,
-          "appVersion": "2.0.1-9730",
-          "buildNumber": "9730"
-        }
-      },
       {
         "device": "iPad Air 4",
         "platform": "ios",
@@ -12966,26 +12704,27 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "I convert game files to ZAR, if i open the game directly, game would infinity loading with blinking screen. If i open the game by select \"Launch Disc\" then choose disc2 ZAR, game will black screen and whole app stuck with no response. I tried many configurations but still the same problem. The game runs on old version of Xenios.\nHere are log files\n\n[xenia(balck screen).log](https://github.com/user-attachments/files/28751293/xenia.balck.screen.log)\n\n[xenia(infinity loading).log](https://github.com/user-attachments/files/28751296/xenia.infinity.loading.log)",
-        "updatedAt": "2026-06-09",
-        "reportCount": 8,
+        "notes": "Literally a black screen after the rockstar games and rockstar north logos",
+        "updatedAt": "2026-05-24",
+        "reportCount": 7,
         "latestReport": {
-          "device": "iPad Pro M2",
+          "device": "iPad Air 4",
           "platform": "ios",
-          "osVersion": "iPad OS 26.5",
+          "osVersion": "18.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "nothing",
           "perf": "n/a",
-          "date": "2026-06-09",
-          "notes": "I convert game files to ZAR, if i open the game directly, game would infinity loading with blinking screen. If i open the game by select \"Launch Disc\" then choose disc2 ZAR, game will black screen and whole app stuck with no response. I tried many configurations but still the same problem. The game runs on old version of Xenios.\nHere are log files\n\n[xenia(balck screen).log](https://github.com/user-attachments/files/28751293/xenia.balck.screen.log)\n\n[xenia(infinity loading).log](https://github.com/user-attachments/files/28751296/xenia.infinity.loading.log)",
-          "source": "github",
+          "date": "2026-05-24",
+          "notes": "Literally a black screen after the rockstar games and rockstar north logos",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-2.0.1-9730-9730",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1-9730",
-            "buildNumber": "9730"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -13698,49 +13437,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Takes some reboots to load into a song\nAudio is Glitched",
-        "updatedAt": "2026-03-22",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-22",
-          "notes": "Takes some reboots to load into a song\nAudio is Glitched",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-22",
-          "notes": "Takes some reboots to load into a song\nAudio is Glitched",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -13869,49 +13572,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "The intro fmv is glitched and you need to restart the game multiple time to get it to load correctly\nIn game, it runs perfectly with very minor frame drops occasionally",
-        "updatedAt": "2026-03-22",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-22",
-          "notes": "The intro fmv is glitched and you need to restart the game multiple time to get it to load correctly\nIn game, it runs perfectly with very minor frame drops occasionally",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-22",
-          "notes": "The intro fmv is glitched and you need to restart the game multiple time to get it to load correctly\nIn game, it runs perfectly with very minor frame drops occasionally",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -14297,49 +13964,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
-        "updatedAt": "2026-03-22",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-22",
-          "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-22",
-          "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -14470,49 +14101,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Game Audio is glitched\ntakes a couple of reboots before loading a long",
-        "updatedAt": "2026-03-22",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-22",
-          "notes": "Game Audio is glitched\ntakes a couple of reboots before loading a long",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-22",
-          "notes": "Game Audio is glitched\ntakes a couple of reboots before loading a long",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -14641,49 +14236,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Getting 30-50 FPS\nLights might glitch and show though walls",
-        "updatedAt": "2026-03-22",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-22",
-          "notes": "Getting 30-50 FPS\nLights might glitch and show though walls",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-22",
-          "notes": "Getting 30-50 FPS\nLights might glitch and show though walls",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -14873,7 +14432,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 10th Gen",
+      "device": "iPad 10",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
@@ -14883,7 +14442,7 @@
     "notes": "Umm it black screens…",
     "reports": [
       {
-        "device": "iPad 10th Gen",
+        "device": "iPad 10",
         "platform": "ios",
         "osVersion": "26.3",
         "arch": "arm64",
@@ -14892,47 +14451,6 @@
         "perf": "n/a",
         "date": "2026-06-06",
         "notes": "Umm it black screens…",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-23",
-        "notes": "The game works and I was able to start a custom game with the default settings and map. I was also able to move around and do stuff in the map like shoot, throw grenades, use vehicles, etc. However, there are lots of bugs:\n- A lot of text is bugged and replaced with rectangles\n- Audio is very choppy\n- FPS is very low but playable\n- When loading into the custom game map it took several minutes for all the assets/visuals to fully load. I was able to move around while everything was loading in though, it was just the visual stuff that took several minutes to load. Sometimes the game would just freeze for a couple of seconds while I was in the map. Also, it wasn’t just the map assets that took several minutes to fully load, it was also player-related stuff such as the assets on the gun I was holding and the GUI itself.\n\nI have also not tried the campaign yet.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9299",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "commitShort": "d8c101905"
-        }
-      },
-      {
-        "device": "iPhone 16 Plus",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-22",
-        "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.1-9288",
@@ -14972,13 +14490,13 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "ok",
+        "status": "nothing",
+        "perf": "n/a",
         "notes": "Umm it black screens…",
         "updatedAt": "2026-06-06",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPad 10th Gen",
+          "device": "iPad 10",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
@@ -14989,33 +14507,32 @@
           "notes": "Umm it black screens…",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPad 10",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-23",
-          "notes": "The game works and I was able to start a custom game with the default settings and map. I was also able to move around and do stuff in the map like shoot, throw grenades, use vehicles, etc. However, there are lots of bugs:\n- A lot of text is bugged and replaced with rectangles\n- Audio is very choppy\n- FPS is very low but playable\n- When loading into the custom game map it took several minutes for all the assets/visuals to fully load. I was able to move around while everything was loading in though, it was just the visual stuff that took several minutes to load. Sometimes the game would just freeze for a couple of seconds while I was in the map. Also, it wasn’t just the map assets that took several minutes to fully load, it was also player-related stuff such as the assets on the gun I was holding and the GUI itself.\n\nI have also not tried the campaign yet.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-06-06",
+          "notes": "Umm it black screens…",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9299",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "d8c101905"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -15510,7 +15027,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad17,3",
+      "device": "iPad Pro 13-inch (M5)",
       "platform": "ios",
       "osVersion": "26.2",
       "arch": "arm64",
@@ -15520,7 +15037,7 @@
     "notes": "Pretty awesome playing Halo Reach on iPad :)",
     "reports": [
       {
-        "device": "iPad17,3",
+        "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
         "osVersion": "26.2",
         "arch": "arm64",
@@ -15531,39 +15048,13 @@
         "notes": "Pretty awesome playing Halo Reach on iPad :)",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-0",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "0",
-          "commitShort": "b2d36f3f1",
-          "buildId": "ios-self-built-1.0.0-0"
+          "commitShort": "b2d36f3f1"
         }
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-06",
-        "notes": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
-        "source": "app",
-        "build": null
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-06",
-        "notes": "Severe graphical issues rendering the game unplayable. Performance also extremely poor.",
-        "source": "app",
-        "build": null
       }
     ],
     "screenshots": [
@@ -15600,9 +15091,9 @@
         "perf": "great",
         "notes": "Pretty awesome playing Halo Reach on iPad :)",
         "updatedAt": "2026-06-05",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPad17,3",
+          "device": "iPad Pro 13-inch (M5)",
           "platform": "ios",
           "osVersion": "26.2",
           "arch": "arm64",
@@ -15613,16 +15104,16 @@
           "notes": "Pretty awesome playing Halo Reach on iPad :)",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-0",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "0",
-            "commitShort": "b2d36f3f1",
-            "buildId": "ios-self-built-1.0.0-0"
+            "commitShort": "b2d36f3f1"
           }
         },
         "bestReport": {
-          "device": "iPad17,3",
+          "device": "iPad Pro 13-inch (M5)",
           "platform": "ios",
           "osVersion": "26.2",
           "arch": "arm64",
@@ -15633,12 +15124,12 @@
           "notes": "Pretty awesome playing Halo Reach on iPad :)",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-0",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "0",
-            "commitShort": "b2d36f3f1",
-            "buildId": "ios-self-built-1.0.0-0"
+            "commitShort": "b2d36f3f1"
           }
         }
       }
@@ -18709,17 +18200,18 @@
         "notes": "Run full speed with weird color.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0-9712",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0",
           "buildNumber": "9712",
-          "stage": "stable",
-          "commitShort": "358deaee5",
-          "buildId": "ios-self-built-2.0-9712"
+          "commitShort": "358deaee5"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 480,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/480",
     "summaries": {
       "release": {
         "channel": "release",
@@ -18760,13 +18252,12 @@
           "notes": "Run full speed with weird color.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         },
         "bestReport": {
@@ -18781,19 +18272,16 @@
           "notes": "Run full speed with weird color.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         }
       }
-    },
-    "issueNumber": 480,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/480"
+    }
   },
   {
     "slug": "metro-last-light",
@@ -20095,49 +19583,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "loads",
-        "perf": "n/a",
-        "notes": "It only loads until the Start screen. Then it turns black when pressing start.",
-        "updatedAt": "2026-03-24",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "15.7.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "n/a",
-          "date": "2026-03-24",
-          "notes": "It only loads until the Start screen. Then it turns black when pressing start.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "15.7.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "n/a",
-          "date": "2026-03-24",
-          "notes": "It only loads until the Start screen. Then it turns black when pressing start.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -20581,17 +20033,18 @@
         "notes": "The audio is good and no graphical issues when creating character but when you get into a actual game it’s low fps but menus are high fps",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0-9712",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0",
           "buildNumber": "9712",
-          "stage": "stable",
-          "commitShort": "358deaee5",
-          "buildId": "ios-self-built-2.0-9712"
+          "commitShort": "358deaee5"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 473,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/473",
     "summaries": {
       "release": {
         "channel": "release",
@@ -20632,13 +20085,12 @@
           "notes": "The audio is good and no graphical issues when creating character but when you get into a actual game it’s low fps but menus are high fps",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         },
         "bestReport": {
@@ -20653,19 +20105,16 @@
           "notes": "The audio is good and no graphical issues when creating character but when you get into a actual game it’s low fps but menus are high fps",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         }
       }
-    },
-    "issueNumber": 473,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/473"
+    }
   },
   {
     "slug": "nba-live-06",
@@ -20931,33 +20380,12 @@
         "notes": "Last update this couldn’t even load players in a game but now with the new update the game is fully playable with smooth fps",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0-9712",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0",
           "buildNumber": "9712",
-          "stage": "stable",
-          "commitShort": "358deaee5",
-          "buildId": "ios-self-built-2.0-9712"
-        }
-      },
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-10",
-        "notes": "Everything loads almost perfectly but when you actually play a game the screen is black",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "commitShort": "358deaee5"
         }
       }
     ],
@@ -20991,7 +20419,7 @@
         "perf": "great",
         "notes": "Last update this couldn’t even load players in a game but now with the new update the game is fully playable with smooth fps",
         "updatedAt": "2026-06-07",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16e",
           "platform": "ios",
@@ -21004,13 +20432,12 @@
           "notes": "Last update this couldn’t even load players in a game but now with the new update the game is fully playable with smooth fps",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         },
         "bestReport": {
@@ -21025,13 +20452,12 @@
           "notes": "Last update this couldn’t even load players in a game but now with the new update the game is fully playable with smooth fps",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         }
       }
@@ -21422,19 +20848,20 @@
         "notes": "stuck in intro",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0-9712",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0",
           "buildNumber": "9712",
-          "stage": "stable",
-          "commitShort": "358deaee5",
-          "buildId": "ios-self-built-2.0-9712"
+          "commitShort": "358deaee5"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541094A/1780800914179-1.jpg"
     ],
+    "issueNumber": 474,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/474",
     "summaries": {
       "release": {
         "channel": "release",
@@ -21475,13 +20902,12 @@
           "notes": "stuck in intro",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         },
         "bestReport": {
@@ -21496,19 +20922,16 @@
           "notes": "stuck in intro",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         }
       }
-    },
-    "issueNumber": 474,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/474"
+    }
   },
   {
     "slug": "need-for-speed-prostreet",
@@ -25913,49 +25336,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "The game needs to be rebooted multiple time for it to load properly\nDuring gameplay minor frame drops happens but it stays playable",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "The game needs to be rebooted multiple time for it to load properly\nDuring gameplay minor frame drops happens but it stays playable",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "The game needs to be rebooted multiple time for it to load properly\nDuring gameplay minor frame drops happens but it stays playable",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -26084,49 +25471,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -26256,49 +25607,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Game needs a couple of reboots but works fine with minor frame drops",
-        "updatedAt": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-23",
-          "notes": "Game needs a couple of reboots but works fine with minor frame drops",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-23",
-          "notes": "Game needs a couple of reboots but works fine with minor frame drops",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -28319,19 +27634,20 @@
         "notes": "Run full speed with weird color.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0-9712",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0",
           "buildNumber": "9712",
-          "stage": "stable",
-          "commitShort": "358deaee5",
-          "buildId": "ios-self-built-2.0-9712"
+          "commitShort": "358deaee5"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109A3/1780809533131-1.jpg"
     ],
+    "issueNumber": 479,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/479",
     "summaries": {
       "release": {
         "channel": "release",
@@ -28372,13 +27688,12 @@
           "notes": "Run full speed with weird color.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         },
         "bestReport": {
@@ -28393,19 +27708,16 @@
           "notes": "Run full speed with weird color.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         }
       }
-    },
-    "issueNumber": 479,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/479"
+    }
   },
   {
     "slug": "sonic-transformed",
@@ -30250,22 +29562,33 @@
         "notes": "The videos before the title screen load but the game does not render at all besides the tutorial text",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608B5/1780998599029-1.jpg"
     ],
+    "issueNumber": 483,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/483",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -30293,13 +29616,12 @@
           "notes": "The videos before the title screen load but the game does not render at all besides the tutorial text",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -30314,19 +29636,16 @@
           "notes": "The videos before the title screen load but the game does not render at all besides the tutorial text",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 483,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/483"
+    }
   },
   {
     "slug": "the-darkness",
@@ -32267,154 +31586,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "2633e8177"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "ufc-undisputed-2010",
-    "title": "UFC Undisputed 2010",
-    "titleId": "54510851",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16",
-      "platform": "ios",
-      "osVersion": "26.5 (iOS)",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-06-05",
-    "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
-    "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.5 (iOS)",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-06-05",
-        "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 468,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/468",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
-        "updatedAt": "2026-06-05",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "26.5 (iOS)",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-05",
-          "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "26.5 (iOS)",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-05",
-          "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
-        "updatedAt": "2026-06-05",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "26.5 (iOS)",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-05",
-          "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "26.5 (iOS)",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-05",
-          "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
           }
         }
       }
