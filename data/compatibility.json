@@ -3990,8 +3990,8 @@
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1773031857872-1.jpg"
     ],
-    "issueNumber": 120,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/120",
+    "issueNumber": 482,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/482",
     "summaries": {
       "release": {
         "channel": "release",
@@ -6868,7 +6868,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 19,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/19"
   },
   {
     "slug": "dead-or-alive-5",
