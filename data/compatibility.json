@@ -10948,8 +10948,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/535107E4/1773807257305-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/535107E4/1773807257305-3.jpg"
     ],
-    "issueNumber": 256,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/256",
+    "issueNumber": 17,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/17",
     "summaries": {
       "release": {
         "channel": "release",
@@ -12742,22 +12742,41 @@
     "slug": "grand-theft-auto-v",
     "title": "Grand Theft Auto V",
     "titleId": "545408A7",
-    "status": "nothing",
+    "status": "loads",
     "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 4",
+      "device": "iPad Pro M2",
       "platform": "ios",
-      "osVersion": "18.0.1",
+      "osVersion": "iPad OS 26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-05-24",
-    "notes": "Literally a black screen after the rockstar games and rockstar north logos",
+    "updatedAt": "2026-06-09",
+    "notes": "I convert game files to ZAR, if i open the game directly, game would infinity loading with blinking screen. If i open the game by select \"Launch Disc\" then choose disc2 ZAR, game will black screen and whole app stuck with no response. I tried many configurations but still the same problem. The game runs on old version of Xenios.\nHere are log files\n\n[xenia(balck screen).log](https://github.com/user-attachments/files/28751293/xenia.balck.screen.log)\n\n[xenia(infinity loading).log](https://github.com/user-attachments/files/28751296/xenia.infinity.loading.log)",
     "reports": [
+      {
+        "device": "iPad Pro M2",
+        "platform": "ios",
+        "osVersion": "iPad OS 26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "n/a",
+        "date": "2026-06-09",
+        "notes": "I convert game files to ZAR, if i open the game directly, game would infinity loading with blinking screen. If i open the game by select \"Launch Disc\" then choose disc2 ZAR, game will black screen and whole app stuck with no response. I tried many configurations but still the same problem. The game runs on old version of Xenios.\nHere are log files\n\n[xenia(balck screen).log](https://github.com/user-attachments/files/28751293/xenia.balck.screen.log)\n\n[xenia(infinity loading).log](https://github.com/user-attachments/files/28751296/xenia.infinity.loading.log)",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-2.0.1-9730-9730",
+          "channel": "release",
+          "official": true,
+          "appVersion": "2.0.1-9730",
+          "buildNumber": "9730"
+        }
+      },
       {
         "device": "iPad Air 4",
         "platform": "ios",
@@ -12920,8 +12939,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-4.jpg"
     ],
-    "issueNumber": 369,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/369",
+    "issueNumber": 62,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
     "summaries": {
       "release": {
         "channel": "release",
@@ -12947,27 +12966,26 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "Literally a black screen after the rockstar games and rockstar north logos",
-        "updatedAt": "2026-05-24",
-        "reportCount": 7,
+        "notes": "I convert game files to ZAR, if i open the game directly, game would infinity loading with blinking screen. If i open the game by select \"Launch Disc\" then choose disc2 ZAR, game will black screen and whole app stuck with no response. I tried many configurations but still the same problem. The game runs on old version of Xenios.\nHere are log files\n\n[xenia(balck screen).log](https://github.com/user-attachments/files/28751293/xenia.balck.screen.log)\n\n[xenia(infinity loading).log](https://github.com/user-attachments/files/28751296/xenia.infinity.loading.log)",
+        "updatedAt": "2026-06-09",
+        "reportCount": 8,
         "latestReport": {
-          "device": "iPad Air 4",
+          "device": "iPad Pro M2",
           "platform": "ios",
-          "osVersion": "18.0.1",
+          "osVersion": "iPad OS 26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
+          "status": "loads",
           "perf": "n/a",
-          "date": "2026-05-24",
-          "notes": "Literally a black screen after the rockstar games and rockstar north logos",
-          "source": "app",
+          "date": "2026-06-09",
+          "notes": "I convert game files to ZAR, if i open the game directly, game would infinity loading with blinking screen. If i open the game by select \"Launch Disc\" then choose disc2 ZAR, game will black screen and whole app stuck with no response. I tried many configurations but still the same problem. The game runs on old version of Xenios.\nHere are log files\n\n[xenia(balck screen).log](https://github.com/user-attachments/files/28751293/xenia.balck.screen.log)\n\n[xenia(infinity loading).log](https://github.com/user-attachments/files/28751296/xenia.infinity.loading.log)",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildId": "ios-release-2.0.1-9730-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "9730"
           }
         },
         "bestReport": {
@@ -30201,6 +30219,116 @@
     }
   },
   {
+    "slug": "the-amazing-spider-man",
+    "title": "The Amazing Spider-Man",
+    "titleId": "415608B5",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 11-inch (M4)",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-09",
+    "notes": "The videos before the title screen load but the game does not render at all besides the tutorial text",
+    "reports": [
+      {
+        "device": "iPad Pro 11-inch (M4)",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-06-09",
+        "notes": "The videos before the title screen load but the game does not render at all besides the tutorial text",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608B5/1780998599029-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "The videos before the title screen load but the game does not render at all besides the tutorial text",
+        "updatedAt": "2026-06-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 11-inch (M4)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-06-09",
+          "notes": "The videos before the title screen load but the game does not render at all besides the tutorial text",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 11-inch (M4)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-06-09",
+          "notes": "The videos before the title screen load but the game does not render at all besides the tutorial text",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    },
+    "issueNumber": 483,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/483"
+  },
+  {
     "slug": "the-darkness",
     "title": "The Darkness",
     "titleId": "545407EE",
@@ -33453,115 +33581,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "the-amazing-spider-man",
-    "title": "The Amazing Spider-Man",
-    "titleId": "415608B5",
-    "status": "loads",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro 11-inch (M4)",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-06-09",
-    "notes": "The videos before the title screen load but the game does not render at all besides the tutorial text",
-    "reports": [
-      {
-        "device": "iPad Pro 11-inch (M4)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-06-09",
-        "notes": "The videos before the title screen load but the game does not render at all besides the tutorial text",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608B5/1780998599029-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "The videos before the title screen load but the game does not render at all besides the tutorial text",
-        "updatedAt": "2026-06-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro 11-inch (M4)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-06-09",
-          "notes": "The videos before the title screen load but the game does not render at all besides the tutorial text",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro 11-inch (M4)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-06-09",
-          "notes": "The videos before the title screen load but the game does not render at all besides the tutorial text",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 483,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/483"
   }
 ]
