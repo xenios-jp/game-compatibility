@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T05:14:01.572Z",
+  "generatedAt": "2026-06-11T05:25:54.247Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -6331,8 +6331,31 @@
       "titleId": "4E4D0846",
       "issueNumber": 389,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/389",
-      "updatedAt": "2026-04-04",
+      "updatedAt": "2026-06-11",
       "entries": [
+        {
+          "id": "comment-4677446007",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/389#issuecomment-4677446007",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781155415000,
+          "issueNumber": 389,
+          "excerpt": "Runs a little slow but definitely works",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad16,9",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-389",
           "type": "issue",
