@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T03:41:24.828Z",
+  "generatedAt": "2026-06-11T05:14:01.572Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3140,8 +3140,33 @@
       "titleId": "5553080B",
       "issueNumber": 489,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/489",
-      "updatedAt": "2026-06-10",
+      "updatedAt": "2026-06-11",
       "entries": [
+        {
+          "id": "comment-4677382826",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/489#issuecomment-4677382826",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781154686000,
+          "issueNumber": 489,
+          "excerpt": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5553080B/1781154681142-1.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "great",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-489",
           "type": "issue",
