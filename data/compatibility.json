@@ -33787,7 +33787,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 499,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/499"
   },
   {
     "slug": "sroa",
@@ -33893,7 +33895,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 500,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/500"
   },
   {
     "slug": "daytona-usa",
@@ -33999,7 +34003,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 501,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/501"
   },
   {
     "slug": "after-burner-climax",
@@ -34105,6 +34111,8 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 502,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/502"
   }
 ]
