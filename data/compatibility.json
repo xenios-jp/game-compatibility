@@ -6330,22 +6330,43 @@
     "slug": "dbz-ultimate-tenkaichi",
     "title": "DBZ Ultimate Tenkaichi",
     "titleId": "4E4D0846",
-    "status": "loads",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 11-inch (M3)",
+      "device": "iPad16,9",
       "platform": "ios",
-      "osVersion": "18.5",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-04",
-    "notes": "Loads in that’s it",
+    "updatedAt": "2026-06-11",
+    "notes": "Runs a little slow but definitely works",
     "reports": [
+      {
+        "device": "iPad16,9",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-11",
+        "notes": "Runs a little slow but definitely works",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPad Air 11-inch (M3)",
         "platform": "ios",
@@ -6381,61 +6402,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Loads in that’s it",
-        "updatedAt": "2026-04-04",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Runs a little slow but definitely works",
+        "updatedAt": "2026-06-11",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Air 11-inch (M3)",
+          "device": "iPad16,9",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-04-04",
-          "notes": "Loads in that’s it",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-11",
+          "notes": "Runs a little slow but definitely works",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
-          "device": "iPad Air 11-inch (M3)",
+          "device": "iPad16,9",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-04-04",
-          "notes": "Loads in that’s it",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-11",
+          "notes": "Runs a little slow but definitely works",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
