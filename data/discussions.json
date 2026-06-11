@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T00:09:36.611Z",
+  "generatedAt": "2026-06-11T01:43:52.339Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2902,6 +2902,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "415608CB": {
+      "titleId": "415608CB",
+      "issueNumber": 494,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/494",
+      "updatedAt": "2026-06-11",
+      "entries": [
+        {
+          "id": "issue-494",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/494",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781142102000,
+          "issueNumber": 494,
+          "excerpt": "The game runs AMAZINGLY at first there’s graphical issues but just walk around the map and it gets better and better it runs 30-50 fps. it’s up there with sonic unleashed to run 50 fps on A chip devices.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },
