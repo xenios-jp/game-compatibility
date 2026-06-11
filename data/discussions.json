@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T05:25:54.247Z",
+  "generatedAt": "2026-06-11T05:39:42.432Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2902,6 +2902,39 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "555308B6": {
+      "titleId": "555308B6",
+      "issueNumber": 496,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/496",
+      "updatedAt": "2026-06-11",
+      "entries": [
+        {
+          "id": "issue-496",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/496",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781156297000,
+          "issueNumber": 496,
+          "excerpt": "Game loads. HUD is visible. Everything 3D is not rendered",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/555308B6/1781156293096-1.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },
