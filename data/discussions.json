@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T13:24:35.786Z",
+  "generatedAt": "2026-06-12T14:42:18.588Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -268,8 +268,31 @@
       "titleId": "41560845",
       "issueNumber": 441,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/441",
-      "updatedAt": "2026-05-11",
+      "updatedAt": "2026-06-12",
       "entries": [
+        {
+          "id": "comment-4692281856",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/441#issuecomment-4692281856",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-12",
+          "createdAtMs": 1781275164000,
+          "issueNumber": 441,
+          "excerpt": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-441",
           "type": "issue",
