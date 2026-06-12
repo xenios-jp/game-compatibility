@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T11:39:19.702Z",
+  "generatedAt": "2026-06-12T13:24:35.786Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3021,6 +3021,37 @@
         }
       ]
     },
+    "5752082C": {
+      "titleId": "5752082C",
+      "issueNumber": 511,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/511",
+      "updatedAt": "2026-06-12",
+      "entries": [
+        {
+          "id": "issue-511",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/511",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-12",
+          "createdAtMs": 1781270406000,
+          "issueNumber": 511,
+          "excerpt": "No audio, performing well though.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
     "454109D4": {
       "titleId": "454109D4",
       "issueNumber": 510,
@@ -4016,8 +4047,31 @@
       "titleId": "454108E6",
       "issueNumber": 486,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/486",
-      "updatedAt": "2026-06-10",
+      "updatedAt": "2026-06-12",
       "entries": [
+        {
+          "id": "comment-4691642445",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/486#issuecomment-4691642445",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-12",
+          "createdAtMs": 1781270454000,
+          "issueNumber": 486,
+          "excerpt": "Works perfectly",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-4673772798",
           "type": "comment",
@@ -4133,29 +4187,6 @@
             "status": "loads",
             "perf": "poor",
             "device": "iPhone 13 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "comment-4019812206",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/30#issuecomment-4019812206",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772997239000,
-          "issueNumber": 30,
-          "excerpt": "Black screen",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
