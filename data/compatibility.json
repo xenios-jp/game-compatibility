@@ -17220,20 +17220,31 @@
         "notes": "30-45 FPS maintained, some effects take some time to appear",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 513,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/513",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -17261,13 +17272,12 @@
           "notes": "30-45 FPS maintained, some effects take some time to appear",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -17282,19 +17292,16 @@
           "notes": "30-45 FPS maintained, some effects take some time to appear",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 513,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/513"
+    }
   },
   {
     "slug": "lego-star-wars-tcs",
@@ -20242,43 +20249,22 @@
     "slug": "modern-warfare-2",
     "title": "Modern Warfare® 2",
     "titleId": "41560817",
-    "status": "playable",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 13",
       "platform": "ios",
-      "osVersion": "26.4.2",
+      "osVersion": "18.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-06-14",
-    "notes": "campaign and special ops works okay",
+    "notes": "it doesn’t launch",
     "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.4.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-14",
-        "notes": "campaign and special ops works okay",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -20291,53 +20277,32 @@
         "notes": "it doesn’t launch",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       },
       {
-        "device": "iPad Pro 11-inch (M5)",
+        "device": "iPhone 16",
         "platform": "ios",
         "osVersion": "26.4.2",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-05-11",
-        "notes": "Cyan for a split second, then black screen, then crashes back to dashboard. Relaunch stays black. Have to restart app to get back to dashboard.",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-14",
+        "notes": "campaign and special ops works okay",
         "source": "app",
         "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 14 Pro Max",
-        "platform": "ios",
-        "osVersion": "16.4.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-24",
-        "notes": "Doesn’t launch",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
         }
       }
     ],
@@ -20358,32 +20323,41 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "campaign and special ops works okay",
+        "notes": "it doesn’t launch",
         "updatedAt": "2026-06-14",
-        "reportCount": 4,
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "18.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
+          "status": "nothing",
+          "perf": "n/a",
           "date": "2026-06-14",
-          "notes": "campaign and special ops works okay",
+          "notes": "it doesn’t launch",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -20398,13 +20372,12 @@
           "notes": "campaign and special ops works okay",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -29703,142 +29676,6 @@
     }
   },
   {
-    "slug": "spidey-web-of-shadows",
-    "title": "Spider-Man: Web of Shadows",
-    "titleId": "41560815",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios",
-      "macos"
-    ],
-    "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
-      "osVersion": "26.5.1 Tahoe",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-06-14",
-    "notes": "Just a black screen and nothing else.",
-    "reports": [
-      {
-        "device": "MacBook Pro (M4)",
-        "platform": "macos",
-        "osVersion": "26.5.1 Tahoe",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-06-14",
-        "notes": "Just a black screen and nothing else.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-2.0.1-9730-2.0.1",
-          "channel": "release",
-          "official": true,
-          "appVersion": "2.0.1-9730",
-          "buildNumber": "2.0.1",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-29",
-        "notes": "Nothing happened stay on bad screen",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 375,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/375",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Just a black screen and nothing else.",
-        "updatedAt": "2026-06-14",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.5.1 Tahoe",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-14",
-          "notes": "Just a black screen and nothing else.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-2.0.1-9730-2.0.1",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1-9730",
-            "buildNumber": "2.0.1",
-            "commitShort": "57c3ca140"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.5.1 Tahoe",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-14",
-          "notes": "Just a black screen and nothing else.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-2.0.1-9730-2.0.1",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1-9730",
-            "buildNumber": "2.0.1",
-            "commitShort": "57c3ca140"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "spider-man-eot",
     "title": "Spider-Man™: EoT",
     "titleId": "415608B2",
@@ -30075,6 +29912,142 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "spidey-web-of-shadows",
+    "title": "Spidey: Web of Shadows",
+    "titleId": "41560815",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "macos",
+      "ios"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro (M4)",
+      "platform": "macos",
+      "osVersion": "26.5.1 Tahoe",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-14",
+    "notes": "Just a black screen and nothing else.",
+    "reports": [
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "26.5.1 Tahoe",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-06-14",
+        "notes": "Just a black screen and nothing else.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-2.0.1-9730-2.0.1",
+          "channel": "release",
+          "official": true,
+          "appVersion": "2.0.1-9730",
+          "buildNumber": "2.0.1",
+          "commitShort": "57c3ca140"
+        }
+      },
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-29",
+        "notes": "Nothing happened stay on bad screen",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 375,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/375",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Just a black screen and nothing else.",
+        "updatedAt": "2026-06-14",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.5.1 Tahoe",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-06-14",
+          "notes": "Just a black screen and nothing else.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730-2.0.1",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "2.0.1",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.5.1 Tahoe",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-06-14",
+          "notes": "Just a black screen and nothing else.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730-2.0.1",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "2.0.1",
+            "commitShort": "57c3ca140"
           }
         }
       }
