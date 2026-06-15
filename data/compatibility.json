@@ -13453,153 +13453,12 @@
         "notes": "Black screen after R* Logo Xenios 2.0.1",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      },
-      {
-        "device": "iPad Air 4",
-        "platform": "ios",
-        "osVersion": "18.0.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-05-24",
-        "notes": "Literally a black screen after the rockstar games and rockstar north logos",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-04-19",
-        "notes": "Game runs, however very poorly with stutters and color flickering etc. with 10-15 FPS.\nEmulator is in early stages so I am keen to see major improvements :)",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPad 10",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-04-17",
-        "notes": "When I open the game it’s just a black screen",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 13 Pro",
-        "platform": "ios",
-        "osVersion": "18.7.7",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-04-04",
-        "notes": "Black screen after the R* & R* north logos",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-28",
-        "notes": "The game runs poorly, graphical issues sometimes. Missions run alright but sometimes the npc freezes and you have to go back to the start and continue the mission. Sometimes because of the weather the game becomes nearly unplayable, but by changing the weather it fixes. \n\nOverall it’s really impressive that an iPhone 17 Pro can in fact run GTA V. Very cool!",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-28",
-        "notes": "The game tuns mid, but here are some screenshots",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-28",
-        "notes": "No sound fps is good for a game like gta 5",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "commitShort": "57c3ca140"
         }
       }
     ],
@@ -13637,13 +13496,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
-        "status": "playable",
+        "status": "loads",
         "perf": "poor",
         "notes": "Black screen after R* Logo Xenios 2.0.1",
         "updatedAt": "2026-06-15",
-        "reportCount": 8,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 15 Pro",
           "platform": "ios",
@@ -13656,33 +13525,32 @@
           "notes": "Black screen after R* Logo Xenios 2.0.1",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 15 Pro",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "loads",
           "perf": "poor",
-          "date": "2026-04-19",
-          "notes": "Game runs, however very poorly with stutters and color flickering etc. with 10-15 FPS.\nEmulator is in early stages so I am keen to see major improvements :)",
+          "date": "2026-06-15",
+          "notes": "Black screen after R* Logo Xenios 2.0.1",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -20765,6 +20633,121 @@
     }
   },
   {
+    "slug": "mx-vs-atv-reflex",
+    "title": "MX vs ATV Reflex",
+    "titleId": "54510829",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 11-inch (M2)",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-15",
+    "notes": "black screen",
+    "reports": [
+      {
+        "device": "iPad Pro 11-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-06-15",
+        "notes": "black screen",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 517,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/517",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "black screen",
+        "updatedAt": "2026-06-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 11-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-06-15",
+          "notes": "black screen",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 11-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-06-15",
+          "notes": "black screen",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "n",
     "title": "N+",
     "titleId": "5841085C",
@@ -26101,7 +26084,7 @@
   },
   {
     "slug": "resident-evil-5",
-    "title": "RESIDENT EVIL 5",
+    "title": "Resident Evil 5",
     "titleId": "434307D4",
     "status": "nothing",
     "perf": "n/a",
@@ -26131,33 +26114,12 @@
         "notes": "iPhone15pro running Resident Evil 5 black screen",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      },
-      {
-        "device": "iPad Air 13-inch (M3)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-29",
-        "notes": "Well, it is such a shame that RE5 isn’t booting up, well it is a good game and I hope you guys can make it more compatible I support you guys",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "commitShort": "57c3ca140"
         }
       }
     ],
@@ -26181,13 +26143,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
         "notes": "iPhone15pro running Resident Evil 5 black screen",
         "updatedAt": "2026-06-15",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 15 Pro",
           "platform": "ios",
@@ -26200,13 +26172,12 @@
           "notes": "iPhone15pro running Resident Evil 5 black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -26221,13 +26192,12 @@
           "notes": "iPhone15pro running Resident Evil 5 black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -33130,123 +33100,6 @@
     }
   },
   {
-    "slug": "toy-story-3",
-    "title": "Toy Story 3",
-    "titleId": "425607E5",
-    "status": "intro",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro",
-      "platform": "ios",
-      "osVersion": "18.6.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-15",
-    "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "18.6.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "ok",
-        "date": "2026-03-15",
-        "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425607E5/1772994014616-1.jpg"
-    ],
-    "issueNumber": 267,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/267",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "intro",
-        "perf": "ok",
-        "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
-        "updatedAt": "2026-03-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "18.6.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-15",
-          "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "18.6.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-15",
-          "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "transgame-xereleaseltcg-translated-exe",
     "title": "TransGame-XeReleaseLTCG-Translated.exe",
     "titleId": "4156084C",
@@ -34777,113 +34630,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "mx-vs-atv-reflex",
-    "title": "MX vs ATV Reflex",
-    "titleId": "54510829",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro 11-inch (M2)",
-      "platform": "ios",
-      "osVersion": "26.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-06-15",
-    "notes": "black screen",
-    "reports": [
-      {
-        "device": "iPad Pro 11-inch (M2)",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-06-15",
-        "notes": "black screen",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "black screen",
-        "updatedAt": "2026-06-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro 11-inch (M2)",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-15",
-          "notes": "black screen",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro 11-inch (M2)",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-15",
-          "notes": "black screen",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 517,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/517"
   }
 ]
