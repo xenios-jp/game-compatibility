@@ -26110,15 +26110,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 13-inch (M3)",
+      "device": "iPhone 15 Pro",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-29",
-    "notes": "Well, it is such a shame that RE5 isn’t booting up, well it is a good game and I hope you guys can make it more compatible I support you guys",
+    "updatedAt": "2026-06-15",
+    "notes": "iPhone15pro running Resident Evil 5 black screen",
     "reports": [
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-06-15",
+        "notes": "iPhone15pro running Resident Evil 5 black screen",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPad Air 13-inch (M3)",
         "platform": "ios",
@@ -26140,7 +26161,13 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307D4/1781502790113-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307D4/1781502790113-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307D4/1781502790113-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307D4/1781502790113-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307D4/1781502790113-5.jpg"
+    ],
     "issueNumber": 374,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/374",
     "summaries": {
@@ -26154,61 +26181,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Well, it is such a shame that RE5 isn’t booting up, well it is a good game and I hope you guys can make it more compatible I support you guys",
-        "updatedAt": "2026-03-29",
-        "reportCount": 1,
+        "notes": "iPhone15pro running Resident Evil 5 black screen",
+        "updatedAt": "2026-06-15",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Air 13-inch (M3)",
+          "device": "iPhone 15 Pro",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-29",
-          "notes": "Well, it is such a shame that RE5 isn’t booting up, well it is a good game and I hope you guys can make it more compatible I support you guys",
+          "date": "2026-06-15",
+          "notes": "iPhone15pro running Resident Evil 5 black screen",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
-          "device": "iPad Air 13-inch (M3)",
+          "device": "iPhone 15 Pro",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-29",
-          "notes": "Well, it is such a shame that RE5 isn’t booting up, well it is a good game and I hope you guys can make it more compatible I support you guys",
+          "date": "2026-06-15",
+          "notes": "iPhone15pro running Resident Evil 5 black screen",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
