@@ -20382,22 +20382,43 @@
     "slug": "mortal-kombat",
     "title": "Mortal Kombat",
     "titleId": "575207FD",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-14",
-    "notes": "Black screen",
+    "updatedAt": "2026-06-15",
+    "notes": "Game has slight green flashing when on loading screens, and there are slight graphical glitches here and there. Stutters until shaders are fully compiled.  Runs well other than that. Will heat phone up VERY quickly.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-15",
+        "notes": "Game has slight green flashing when on loading screens, and there are slight graphical glitches here and there. Stutters until shaders are fully compiled.  Runs well other than that. Will heat phone up VERY quickly.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9729",
+          "stage": "stable",
+          "commitShort": "d1afdc63d",
+          "buildId": "ios-self-built-2.0.1-9729"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -20457,61 +20478,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Black screen",
-        "updatedAt": "2026-03-14",
-        "reportCount": 2,
+        "notes": "Game has slight green flashing when on loading screens, and there are slight graphical glitches here and there. Stutters until shaders are fully compiled.  Runs well other than that. Will heat phone up VERY quickly.",
+        "updatedAt": "2026-06-15",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "Black screen",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-03-10",
-          "notes": "Game starts with opening screen and graphical glitches during open screen and audio issues after game opening screen is done, stays on a black screen. Re-launching the game a few times fixes the black screen but audio is unbearably loud/with cracking, performance wise game runs good. Dips between full speed and 40 ish fps.",
+          "date": "2026-06-15",
+          "notes": "Game has slight green flashing when on loading screens, and there are slight graphical glitches here and there. Stutters until shaders are fully compiled.  Runs well other than that. Will heat phone up VERY quickly.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.0.1",
+            "buildNumber": "9729",
+            "stage": "stable",
+            "commitShort": "d1afdc63d",
+            "buildId": "ios-self-built-2.0.1-9729"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-15",
+          "notes": "Game has slight green flashing when on loading screens, and there are slight graphical glitches here and there. Stutters until shaders are fully compiled.  Runs well other than that. Will heat phone up VERY quickly.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9729",
+            "stage": "stable",
+            "commitShort": "d1afdc63d",
+            "buildId": "ios-self-built-2.0.1-9729"
           }
         }
       }
