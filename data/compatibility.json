@@ -26365,22 +26365,43 @@
     "slug": "resident-evil-rev",
     "title": "Resident Evil Rev.",
     "titleId": "43430833",
-    "status": "playable",
-    "perf": "ok",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 14 Pro",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "18.1.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-15",
-    "notes": "FPS: 18-22. artefacts: no",
+    "updatedAt": "2026-06-15",
+    "notes": "In game menu  runs fine but app crashes when after loading screen",
     "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "18.1.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-06-15",
+        "notes": "In game menu  runs fine but app crashes when after loading screen",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -26439,41 +26460,32 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "FPS: 18-22. artefacts: no",
-        "updatedAt": "2026-03-15",
-        "reportCount": 2,
+        "notes": "In game menu  runs fine but app crashes when after loading screen",
+        "updatedAt": "2026-06-15",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "18.1.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-15",
-          "notes": "FPS: 18-22. artefacts: no",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-15",
+          "notes": "In game menu  runs fine but app crashes when after loading screen",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
