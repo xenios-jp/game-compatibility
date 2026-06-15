@@ -26086,8 +26086,8 @@
     "slug": "resident-evil-5",
     "title": "Resident Evil 5",
     "titleId": "434307D4",
-    "status": "playable",
-    "perf": "poor",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
@@ -26095,34 +26095,13 @@
     "lastReport": {
       "device": "iPhone 15 Pro",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-06-15",
-    "notes": "It’s pretty choppy but it works",
+    "notes": "iPhone15pro running Resident Evil 5 black screen",
     "reports": [
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-06-15",
-        "notes": "It’s pretty choppy but it works",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -26133,6 +26112,26 @@
         "perf": "n/a",
         "date": "2026-06-15",
         "notes": "iPhone15pro running Resident Evil 5 black screen",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-06-15",
+        "notes": "It’s pretty choppy but it works",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-2.0.1-9730",
@@ -26165,32 +26164,41 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "It’s pretty choppy but it works",
+        "notes": "iPhone15pro running Resident Evil 5 black screen",
         "updatedAt": "2026-06-15",
         "reportCount": 2,
         "latestReport": {
           "device": "iPhone 15 Pro",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
+          "status": "nothing",
+          "perf": "n/a",
           "date": "2026-06-15",
-          "notes": "It’s pretty choppy but it works",
+          "notes": "iPhone15pro running Resident Evil 5 black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -26205,13 +26213,12 @@
           "notes": "It’s pretty choppy but it works",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
