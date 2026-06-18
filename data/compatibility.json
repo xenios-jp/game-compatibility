@@ -24329,6 +24329,154 @@
     }
   },
   {
+    "slug": "perfect-dark-zero",
+    "title": "Perfect Dark Zero",
+    "titleId": "4D5307D3",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-18",
+    "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-18",
+        "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-preview-2.1-9857",
+          "channel": "preview",
+          "official": true,
+          "appVersion": "2.1",
+          "buildNumber": "9857"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 533,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/533",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
+        "updatedAt": "2026-06-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-18",
+          "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-18",
+          "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        }
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
+        "updatedAt": "2026-06-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-18",
+          "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-18",
+          "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "pes-2011-we-2011",
     "title": "PES 2011/WE 2011",
     "titleId": "4B4E081D",
