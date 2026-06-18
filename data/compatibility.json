@@ -20573,21 +20573,42 @@
     "title": "Modern Warfare® 3",
     "titleId": "415608CB",
     "status": "playable",
-    "perf": "great",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-11",
-    "notes": "The game runs AMAZINGLY at first there’s graphical issues but just walk around the map and it gets better and better it runs 30-50 fps. it’s up there with sonic unleashed to run 50 fps on A chip devices.",
+    "updatedAt": "2026-06-18",
+    "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-18",
+        "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -20609,7 +20630,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608CB/1781801091761-1.jpg"
+    ],
     "issueNumber": 494,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/494",
     "summaries": {
@@ -20623,61 +20646,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "The game runs AMAZINGLY at first there’s graphical issues but just walk around the map and it gets better and better it runs 30-50 fps. it’s up there with sonic unleashed to run 50 fps on A chip devices.",
-        "updatedAt": "2026-06-11",
-        "reportCount": 1,
+        "perf": "ok",
+        "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
+        "updatedAt": "2026-06-18",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-06-11",
-          "notes": "The game runs AMAZINGLY at first there’s graphical issues but just walk around the map and it gets better and better it runs 30-50 fps. it’s up there with sonic unleashed to run 50 fps on A chip devices.",
+          "perf": "ok",
+          "date": "2026-06-18",
+          "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-06-11",
-          "notes": "The game runs AMAZINGLY at first there’s graphical issues but just walk around the map and it gets better and better it runs 30-50 fps. it’s up there with sonic unleashed to run 50 fps on A chip devices.",
+          "perf": "ok",
+          "date": "2026-06-18",
+          "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
