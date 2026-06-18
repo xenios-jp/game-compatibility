@@ -5104,73 +5104,12 @@
         "notes": "Haven’t really got into any gameplay just the intro",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0-9712",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0",
           "buildNumber": "9712",
-          "stage": "stable",
-          "commitShort": "358deaee5",
-          "buildId": "ios-self-built-2.0-9712"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-05-25",
-        "notes": "Just boot into cyan screen",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-04-08",
-        "notes": "Just Cyan",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-04-03",
-        "notes": "Cyan",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
+          "commitShort": "358deaee5"
         }
       }
     ],
@@ -5191,13 +5130,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "intro",
         "perf": "poor",
         "notes": "Haven’t really got into any gameplay just the intro",
         "updatedAt": "2026-06-17",
-        "reportCount": 4,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro Max",
           "platform": "ios",
@@ -5210,13 +5159,12 @@
           "notes": "Haven’t really got into any gameplay just the intro",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         },
         "bestReport": {
@@ -5231,13 +5179,12 @@
           "notes": "Haven’t really got into any gameplay just the intro",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0-9712",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
-            "commitShort": "358deaee5",
-            "buildId": "ios-self-built-2.0-9712"
+            "commitShort": "358deaee5"
           }
         }
       }
@@ -11099,20 +11046,31 @@
         "notes": "Game always crashes when started",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 525,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/525",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -11140,13 +11098,12 @@
           "notes": "Game always crashes when started",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -11161,19 +11118,16 @@
           "notes": "Game always crashes when started",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 525,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/525"
+    }
   },
   {
     "slug": "fifa-16",
@@ -24263,118 +24217,6 @@
     }
   },
   {
-    "slug": "persona-4-arena",
-    "title": "Persona 4 Arena",
-    "titleId": "453907D2",
-    "status": "ingame",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "IOS 26.5.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-06-18",
-    "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "IOS 26.5.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "great",
-        "date": "2026-06-18",
-        "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-2.01-9730",
-          "channel": "release",
-          "official": true,
-          "appVersion": "2.01",
-          "buildNumber": "9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 528,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/528",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "great",
-        "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
-        "updatedAt": "2026-06-18",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "IOS 26.5.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-06-18",
-          "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-2.01-9730",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.01",
-            "buildNumber": "9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "IOS 26.5.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-06-18",
-          "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-2.01-9730",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.01",
-            "buildNumber": "9730"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "pes-2011-we-2011",
     "title": "PES 2011/WE 2011",
     "titleId": "4B4E081D",
@@ -27856,22 +27698,33 @@
         "notes": "Extreme graphical glitches and basically unplayable freezes everywhere. Had to use Vulkan to even see colours.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5451086D/1781724708373-1.jpg"
     ],
+    "issueNumber": 526,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/526",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -27899,13 +27752,12 @@
           "notes": "Extreme graphical glitches and basically unplayable freezes everywhere. Had to use Vulkan to even see colours.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -27920,19 +27772,16 @@
           "notes": "Extreme graphical glitches and basically unplayable freezes everywhere. Had to use Vulkan to even see colours.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 526,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/526"
+    }
   },
   {
     "slug": "saw",
