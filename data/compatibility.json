@@ -33967,6 +33967,154 @@
     }
   },
   {
+    "slug": "virtua-tennis-3",
+    "title": "Virtua Tennis 3",
+    "titleId": "534507E1",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-18",
+    "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-18",
+        "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-preview-2.1-9857",
+          "channel": "preview",
+          "official": true,
+          "appVersion": "2.1",
+          "buildNumber": "9857"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 529,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/529",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+        "updatedAt": "2026-06-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-18",
+          "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-18",
+          "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        }
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+        "updatedAt": "2026-06-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-18",
+          "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-18",
+          "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "wrc-5-fia-world-rally-championship",
     "title": "WRC 5: FIA WORLD RALLY CHAMPIONSHIP",
     "titleId": "573607E2",
