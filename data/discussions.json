@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T00:10:45.034Z",
+  "generatedAt": "2026-06-20T00:23:46.971Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2354,6 +2354,37 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
+    "53510811": {
+      "titleId": "53510811",
+      "issueNumber": 536,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/536",
+      "updatedAt": "2026-06-20",
+      "entries": [
+        {
+          "id": "issue-536",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/536",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-20",
+          "createdAtMs": 1781914933000,
+          "issueNumber": 536,
+          "excerpt": "The Game will boot but after the intro will freeze",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
           }
         }
       ]
