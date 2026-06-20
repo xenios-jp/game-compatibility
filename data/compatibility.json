@@ -22604,22 +22604,43 @@
     "slug": "need-for-speed-prostreet",
     "title": "Need for Speed: ProStreet",
     "titleId": "45410822",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Pro Max",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
-      "osVersion": "16.0",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-18",
-    "notes": "Doesn‘t start at all",
+    "updatedAt": "2026-06-20",
+    "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-20",
+        "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 13 Pro Max",
         "platform": "ios",
@@ -22660,61 +22681,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Doesn‘t start at all",
-        "updatedAt": "2026-03-18",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
+        "updatedAt": "2026-06-20",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 13 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "16.0",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-18",
-          "notes": "Doesn‘t start at all",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-20",
+          "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "16.0",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-18",
-          "notes": "Doesn‘t start at all",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-20",
+          "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
