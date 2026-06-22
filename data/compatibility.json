@@ -17276,22 +17276,43 @@
     "slug": "left-4-dead-2",
     "title": "Left 4 Dead 2",
     "titleId": "454108D4",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 4",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-13",
-    "notes": "Not playable yet on iPad Air 4th Gen",
+    "updatedAt": "2026-06-22",
+    "notes": "Game stucks on loading screen cinematic runs perfect",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "great",
+        "date": "2026-06-22",
+        "notes": "Game stucks on loading screen cinematic runs perfect",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPad Air 4",
         "platform": "ios",
@@ -17327,61 +17348,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Not playable yet on iPad Air 4th Gen",
-        "updatedAt": "2026-03-13",
-        "reportCount": 1,
+        "status": "intro",
+        "perf": "great",
+        "notes": "Game stucks on loading screen cinematic runs perfect",
+        "updatedAt": "2026-06-22",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Air 4",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "Not playable yet on iPad Air 4th Gen",
+          "status": "intro",
+          "perf": "great",
+          "date": "2026-06-22",
+          "notes": "Game stucks on loading screen cinematic runs perfect",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "d8c101905"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
-          "device": "iPad Air 4",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "Not playable yet on iPad Air 4th Gen",
+          "status": "intro",
+          "perf": "great",
+          "date": "2026-06-22",
+          "notes": "Game stucks on loading screen cinematic runs perfect",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "d8c101905"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
