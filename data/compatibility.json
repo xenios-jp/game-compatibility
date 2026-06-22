@@ -3394,6 +3394,121 @@
   {
     "slug": "bioshock",
     "title": "BioShock",
+    "titleId": "54540822",
+    "status": "ingame",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-22",
+    "notes": "Game runs well on the initial accident but it doesnt get pass loading screen after you enter rapture",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "great",
+        "date": "2026-06-22",
+        "notes": "Game runs well on the initial accident but it doesnt get pass loading screen after you enter rapture",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 544,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/544",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "great",
+        "notes": "Game runs well on the initial accident but it doesnt get pass loading screen after you enter rapture",
+        "updatedAt": "2026-06-22",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-06-22",
+          "notes": "Game runs well on the initial accident but it doesnt get pass loading screen after you enter rapture",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-06-22",
+          "notes": "Game runs well on the initial accident but it doesnt get pass loading screen after you enter rapture",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "bioshock",
+    "title": "BioShock",
     "titleId": "545407D8",
     "status": "playable",
     "perf": "great",
@@ -3527,114 +3642,6 @@
         }
       }
     }
-  },
-  {
-    "slug": "bioshock",
-    "title": "BioShock",
-    "titleId": "54540822",
-    "status": "ingame",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-06-22",
-    "notes": "Game runs well on the initial accident but it doesnt get pass loading screen after you enter rapture",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "great",
-        "date": "2026-06-22",
-        "notes": "Game runs well on the initial accident but it doesnt get pass loading screen after you enter rapture",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "great",
-        "notes": "Game runs well on the initial accident but it doesnt get pass loading screen after you enter rapture",
-        "updatedAt": "2026-06-22",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-06-22",
-          "notes": "Game runs well on the initial accident but it doesnt get pass loading screen after you enter rapture",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-06-22",
-          "notes": "Game runs well on the initial accident but it doesnt get pass loading screen after you enter rapture",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 544,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/544"
   },
   {
     "slug": "bioshock-infinite",
@@ -5991,154 +5998,6 @@
             "appVersion": "2.0",
             "buildNumber": "9712",
             "commitShort": "358deaee5"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "counter-strike-go",
-    "title": "Counter-Strike: GO",
-    "titleId": "5841125A",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-06-20",
-    "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-    "reports": [
-      {
-        "device": "iPhone 15",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-06-20",
-        "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-        "source": "github",
-        "build": {
-          "buildId": "ios-preview-2.1-9857",
-          "channel": "preview",
-          "official": true,
-          "appVersion": "2.1",
-          "buildNumber": "9857"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 538,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/538",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "playable",
-        "perf": "great",
-        "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-        "updatedAt": "2026-06-20",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-20",
-          "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-          "source": "github",
-          "build": {
-            "buildId": "ios-preview-2.1-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1",
-            "buildNumber": "9857"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-20",
-          "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-          "source": "github",
-          "build": {
-            "buildId": "ios-preview-2.1-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1",
-            "buildNumber": "9857"
-          }
-        }
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-        "updatedAt": "2026-06-20",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-20",
-          "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-          "source": "github",
-          "build": {
-            "buildId": "ios-preview-2.1-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1",
-            "buildNumber": "9857"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-20",
-          "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-          "source": "github",
-          "build": {
-            "buildId": "ios-preview-2.1-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1",
-            "buildNumber": "9857"
           }
         }
       }
@@ -12286,43 +12145,22 @@
     "slug": "forza-horizon",
     "title": "Forza Horizon",
     "titleId": "4D5309C9",
-    "status": "playable",
-    "perf": "great",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Air (M4)",
-      "platform": "macos",
-      "osVersion": "26.5.1",
+      "device": "iPhone 14",
+      "platform": "ios",
+      "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-22",
-    "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
+    "updatedAt": "2026-05-29",
+    "notes": "Game just shows black screen.",
     "reports": [
-      {
-        "device": "MacBook Air (M4)",
-        "platform": "macos",
-        "osVersion": "26.5.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-06-22",
-        "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-preview-2.0.1-9849-2.0.1-9849",
-          "channel": "preview",
-          "official": true,
-          "appVersion": "2.0.1-9849",
-          "buildNumber": "2.0.1-9849",
-          "commitShort": "acfa2878a"
-        }
-      },
       {
         "device": "iPhone 14",
         "platform": "ios",
@@ -12431,48 +12269,48 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
-        "updatedAt": "2026-06-22",
-        "reportCount": 5,
+        "perf": "ok",
+        "notes": "Game just shows black screen.",
+        "updatedAt": "2026-05-29",
+        "reportCount": 4,
         "latestReport": {
-          "device": "MacBook Air (M4)",
-          "platform": "macos",
-          "osVersion": "26.5.1",
+          "device": "iPhone 14",
+          "platform": "ios",
+          "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-22",
-          "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
-          "source": "github",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-05-29",
+          "notes": "Game just shows black screen.",
+          "source": "app",
           "build": {
-            "buildId": "macos-preview-2.0.1-9849-2.0.1-9849",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.0.1-9849",
-            "buildNumber": "2.0.1-9849",
-            "commitShort": "acfa2878a"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "MacBook Air (M4)",
-          "platform": "macos",
-          "osVersion": "26.5.1",
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.5",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-06-22",
-          "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
-          "source": "github",
+          "perf": "ok",
+          "date": "2026-05-04",
+          "notes": "No Racing",
+          "source": "app",
           "build": {
-            "buildId": "macos-preview-2.0.1-9849-2.0.1-9849",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.0.1-9849",
-            "buildNumber": "2.0.1-9849",
-            "commitShort": "acfa2878a"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -15425,6 +15263,8 @@
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156081A/1774210690171-1.jpg"
     ],
+    "issueNumber": 319,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/319",
     "summaries": {
       "release": {
         "channel": "release",
@@ -17431,33 +17271,12 @@
         "notes": "Game stucks on loading screen cinematic runs perfect",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      },
-      {
-        "device": "iPad Air 4",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-13",
-        "notes": "Not playable yet on iPad Air 4th Gen",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9299",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "commitShort": "d8c101905"
+          "commitShort": "57c3ca140"
         }
       }
     ],
@@ -17475,13 +17294,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "intro",
         "perf": "great",
         "notes": "Game stucks on loading screen cinematic runs perfect",
         "updatedAt": "2026-06-22",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 15 Pro Max",
           "platform": "ios",
@@ -17494,13 +17323,12 @@
           "notes": "Game stucks on loading screen cinematic runs perfect",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -17515,13 +17343,12 @@
           "notes": "Game stucks on loading screen cinematic runs perfect",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -18039,20 +17866,31 @@
         "notes": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 542,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/542",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -18080,13 +17918,12 @@
           "notes": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -18101,19 +17938,16 @@
           "notes": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 542,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/542"
+    }
   },
   {
     "slug": "lego-indiana-jones-2",
@@ -20977,13 +20811,12 @@
         "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       },
       {
@@ -21043,6 +20876,16 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "playable",
@@ -21062,13 +20905,12 @@
           "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -21083,13 +20925,12 @@
           "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
