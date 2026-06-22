@@ -20956,15 +20956,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-18",
-    "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
+    "updatedAt": "2026-06-22",
+    "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-22",
+        "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -21022,61 +21043,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
-        "updatedAt": "2026-06-18",
-        "reportCount": 2,
+        "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
+        "updatedAt": "2026-06-22",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-06-18",
-          "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
+          "date": "2026-06-22",
+          "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-06-18",
-          "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
+          "date": "2026-06-22",
+          "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
