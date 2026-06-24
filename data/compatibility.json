@@ -35790,7 +35790,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 551,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/551"
   },
   {
     "slug": "top-spin-4",
@@ -35896,6 +35898,8 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 552,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/552"
   }
 ]
