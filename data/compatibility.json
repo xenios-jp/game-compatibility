@@ -36009,5 +36009,111 @@
     },
     "issueNumber": 553,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/553"
+  },
+  {
+    "slug": "u-marvel-vs-capcom-3",
+    "title": "U. MARVEL VS. CAPCOM 3",
+    "titleId": "43430821",
+    "status": "playable",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-24",
+    "notes": "The fighters look like they’re in the moon and jumping with very low gravity of how the performance is I wouldn’t say is the most lowest you could see but it’s slow enough to where it feels like they’re in some kind of spacesuit in the moon when they jump and that it looks perfect and loads usually problem, free unless at the beginning where sometimes it doesn’t quite initiate the generating the first save part at the start of the game and you have to exit the game and restart until it does it, after that loads of pretty consistently, I would say about 90% of the time",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-06-24",
+        "notes": "The fighters look like they’re in the moon and jumping with very low gravity of how the performance is I wouldn’t say is the most lowest you could see but it’s slow enough to where it feels like they’re in some kind of spacesuit in the moon when they jump and that it looks perfect and loads usually problem, free unless at the beginning where sometimes it doesn’t quite initiate the generating the first save part at the start of the game and you have to exit the game and restart until it does it, after that loads of pretty consistently, I would say about 90% of the time",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "poor",
+        "notes": "The fighters look like they’re in the moon and jumping with very low gravity of how the performance is I wouldn’t say is the most lowest you could see but it’s slow enough to where it feels like they’re in some kind of spacesuit in the moon when they jump and that it looks perfect and loads usually problem, free unless at the beginning where sometimes it doesn’t quite initiate the generating the first save part at the start of the game and you have to exit the game and restart until it does it, after that loads of pretty consistently, I would say about 90% of the time",
+        "updatedAt": "2026-06-24",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-06-24",
+          "notes": "The fighters look like they’re in the moon and jumping with very low gravity of how the performance is I wouldn’t say is the most lowest you could see but it’s slow enough to where it feels like they’re in some kind of spacesuit in the moon when they jump and that it looks perfect and loads usually problem, free unless at the beginning where sometimes it doesn’t quite initiate the generating the first save part at the start of the game and you have to exit the game and restart until it does it, after that loads of pretty consistently, I would say about 90% of the time",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-06-24",
+          "notes": "The fighters look like they’re in the moon and jumping with very low gravity of how the performance is I wouldn’t say is the most lowest you could see but it’s slow enough to where it feels like they’re in some kind of spacesuit in the moon when they jump and that it looks perfect and loads usually problem, free unless at the beginning where sometimes it doesn’t quite initiate the generating the first save part at the start of the game and you have to exit the game and restart until it does it, after that loads of pretty consistently, I would say about 90% of the time",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    }
   }
 ]
