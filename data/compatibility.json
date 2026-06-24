@@ -13701,6 +13701,204 @@
     }
   },
   {
+    "slug": "gta-iv",
+    "title": "Grand Theft Auto IV",
+    "titleId": "545407F2",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "IPad Pro M5",
+      "platform": "ios",
+      "osVersion": "iPadOS 26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-24",
+    "notes": "Device: iPad Pro 13-inch (M5, 16GB RAM, 1TB)\nPerformance: Smooth gameplay on default settings, locked 1280x720 at stable 30 FPS. Zero drops even during location loading, cutscenes, intense combat, or high-speed driving. No overheating during long sessions.\nBugs & Saves: Absolutely no audio or visual glitches. Cutscenes play perfectly without any loops, black screens, or rendering bugs. Saves work flawlessly.\nNotes: Fully playable so far, no progression crashes or game-breaking bugs encountered.",
+    "reports": [
+      {
+        "device": "IPad Pro M5",
+        "platform": "ios",
+        "osVersion": "iPadOS 26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-24",
+        "notes": "Device: iPad Pro 13-inch (M5, 16GB RAM, 1TB)\nPerformance: Smooth gameplay on default settings, locked 1280x720 at stable 30 FPS. Zero drops even during location loading, cutscenes, intense combat, or high-speed driving. No overheating during long sessions.\nBugs & Saves: Absolutely no audio or visual glitches. Cutscenes play perfectly without any loops, black screens, or rendering bugs. Saves work flawlessly.\nNotes: Fully playable so far, no progression crashes or game-breaking bugs encountered.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-preview-2.1-9857",
+          "channel": "preview",
+          "official": true,
+          "appVersion": "2.1",
+          "buildNumber": "9857"
+        }
+      },
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-20",
+        "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
+      {
+        "device": "iPad Pro 11-inch (M4)",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-12",
+        "notes": "the lost and damned working whule the balleds of gay tony crash \nperformance soso like ps3 version",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773669019358-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773669019358-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773669019358-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773088492970-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773088492970-2.jpg"
+    ],
+    "issueNumber": 41,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Device: iPad Pro 13-inch (M5, 16GB RAM, 1TB)\nPerformance: Smooth gameplay on default settings, locked 1280x720 at stable 30 FPS. Zero drops even during location loading, cutscenes, intense combat, or high-speed driving. No overheating during long sessions.\nBugs & Saves: Absolutely no audio or visual glitches. Cutscenes play perfectly without any loops, black screens, or rendering bugs. Saves work flawlessly.\nNotes: Fully playable so far, no progression crashes or game-breaking bugs encountered.",
+        "updatedAt": "2026-06-24",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "IPad Pro M5",
+          "platform": "ios",
+          "osVersion": "iPadOS 26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-24",
+          "notes": "Device: iPad Pro 13-inch (M5, 16GB RAM, 1TB)\nPerformance: Smooth gameplay on default settings, locked 1280x720 at stable 30 FPS. Zero drops even during location loading, cutscenes, intense combat, or high-speed driving. No overheating during long sessions.\nBugs & Saves: Absolutely no audio or visual glitches. Cutscenes play perfectly without any loops, black screens, or rendering bugs. Saves work flawlessly.\nNotes: Fully playable so far, no progression crashes or game-breaking bugs encountered.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "IPad Pro M5",
+          "platform": "ios",
+          "osVersion": "iPadOS 26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-24",
+          "notes": "Device: iPad Pro 13-inch (M5, 16GB RAM, 1TB)\nPerformance: Smooth gameplay on default settings, locked 1280x720 at stable 30 FPS. Zero drops even during location loading, cutscenes, intense combat, or high-speed driving. No overheating during long sessions.\nBugs & Saves: Absolutely no audio or visual glitches. Cutscenes play perfectly without any loops, black screens, or rendering bugs. Saves work flawlessly.\nNotes: Fully playable so far, no progression crashes or game-breaking bugs encountered.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        }
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Device: iPad Pro 13-inch (M5, 16GB RAM, 1TB)\nPerformance: Smooth gameplay on default settings, locked 1280x720 at stable 30 FPS. Zero drops even during location loading, cutscenes, intense combat, or high-speed driving. No overheating during long sessions.\nBugs & Saves: Absolutely no audio or visual glitches. Cutscenes play perfectly without any loops, black screens, or rendering bugs. Saves work flawlessly.\nNotes: Fully playable so far, no progression crashes or game-breaking bugs encountered.",
+        "updatedAt": "2026-06-24",
+        "reportCount": 3,
+        "latestReport": {
+          "device": "IPad Pro M5",
+          "platform": "ios",
+          "osVersion": "iPadOS 26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-24",
+          "notes": "Device: iPad Pro 13-inch (M5, 16GB RAM, 1TB)\nPerformance: Smooth gameplay on default settings, locked 1280x720 at stable 30 FPS. Zero drops even during location loading, cutscenes, intense combat, or high-speed driving. No overheating during long sessions.\nBugs & Saves: Absolutely no audio or visual glitches. Cutscenes play perfectly without any loops, black screens, or rendering bugs. Saves work flawlessly.\nNotes: Fully playable so far, no progression crashes or game-breaking bugs encountered.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "IPad Pro M5",
+          "platform": "ios",
+          "osVersion": "iPadOS 26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-24",
+          "notes": "Device: iPad Pro 13-inch (M5, 16GB RAM, 1TB)\nPerformance: Smooth gameplay on default settings, locked 1280x720 at stable 30 FPS. Zero drops even during location loading, cutscenes, intense combat, or high-speed driving. No overheating during long sessions.\nBugs & Saves: Absolutely no audio or visual glitches. Cutscenes play perfectly without any loops, black screens, or rendering bugs. Saves work flawlessly.\nNotes: Fully playable so far, no progression crashes or game-breaking bugs encountered.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "grand-theft-auto-v",
     "title": "Grand Theft Auto V",
     "titleId": "545408A7",
@@ -14054,151 +14252,6 @@
           "perf": "n/a",
           "date": "2026-06-09",
           "notes": "Black screen",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "gta-iv",
-    "title": "GTA IV",
-    "titleId": "545407F2",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.5.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-06-20",
-    "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-20",
-        "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPad Pro 11-inch (M4)",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-12",
-        "notes": "the lost and damned working whule the balleds of gay tony crash \nperformance soso like ps3 version",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773669019358-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773669019358-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773669019358-3.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-3.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-4.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773088492970-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773088492970-2.jpg"
-    ],
-    "issueNumber": 508,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/508",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
-        "updatedAt": "2026-06-20",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-20",
-          "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-20",
-          "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-2.0.1-9730",
