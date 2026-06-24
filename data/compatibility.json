@@ -35187,6 +35187,154 @@
     }
   },
   {
+    "slug": "x-men-origins-wolverine",
+    "title": "X-Men Origins: Wolverine",
+    "titleId": "41560816",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro M4",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-24",
+    "notes": "Game run pretty good some time frame drop but still great",
+    "reports": [
+      {
+        "device": "iPad Pro M4",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-24",
+        "notes": "Game run pretty good some time frame drop but still great",
+        "source": "github",
+        "build": {
+          "buildId": "ios-preview-2.1-9857",
+          "channel": "preview",
+          "official": true,
+          "appVersion": "2.1",
+          "buildNumber": "9857"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 409,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/409",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Game run pretty good some time frame drop but still great",
+        "updatedAt": "2026-06-24",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro M4",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-24",
+          "notes": "Game run pretty good some time frame drop but still great",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro M4",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-24",
+          "notes": "Game run pretty good some time frame drop but still great",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        }
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Game run pretty good some time frame drop but still great",
+        "updatedAt": "2026-06-24",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro M4",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-24",
+          "notes": "Game run pretty good some time frame drop but still great",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro M4",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-24",
+          "notes": "Game run pretty good some time frame drop but still great",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "xuitutorial-exe",
     "title": "XuiTutorial.exe",
     "titleId": "4D530A81",
