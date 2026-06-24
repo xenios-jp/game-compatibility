@@ -36151,8 +36151,29 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-06-24",
-    "notes": "Overall play super consistent and smooth for what it is once in a while it might crash after continuing your story campaign what it knows but if that’s if you’re pressing or spamming button",
+    "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-24",
+        "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -36175,7 +36196,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156089C/1782332768689-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -36191,9 +36214,9 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Overall play super consistent and smooth for what it is once in a while it might crash after continuing your story campaign what it knows but if that’s if you’re pressing or spamming button",
+        "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
         "updatedAt": "2026-06-24",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
@@ -36203,7 +36226,7 @@
           "status": "playable",
           "perf": "great",
           "date": "2026-06-24",
-          "notes": "Overall play super consistent and smooth for what it is once in a while it might crash after continuing your story campaign what it knows but if that’s if you’re pressing or spamming button",
+          "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
           "source": "app",
           "build": {
             "channel": "self-built",
@@ -36224,7 +36247,7 @@
           "status": "playable",
           "perf": "great",
           "date": "2026-06-24",
-          "notes": "Overall play super consistent and smooth for what it is once in a while it might crash after continuing your story campaign what it knows but if that’s if you’re pressing or spamming button",
+          "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
           "source": "app",
           "build": {
             "channel": "self-built",
