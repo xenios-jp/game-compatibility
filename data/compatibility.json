@@ -19661,6 +19661,118 @@
     }
   },
   {
+    "slug": "metal-gear-solid-v-the-phantom-pa",
+    "title": "Metal Gear Solid V: The Phantom Pa",
+    "titleId": "4B4E085E",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro M4",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-25",
+    "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
+    "reports": [
+      {
+        "device": "iPad Pro M4",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-06-25",
+        "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
+        "source": "github",
+        "build": {
+          "buildId": "ios-preview-2.1-9857-9857",
+          "channel": "preview",
+          "official": true,
+          "appVersion": "2.1-9857",
+          "buildNumber": "9857"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 559,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/559",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
+        "updatedAt": "2026-06-25",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro M4",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-25",
+          "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1-9857",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro M4",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-25",
+          "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1-9857",
+            "buildNumber": "9857"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "metal-slug-3",
     "title": "Metal Slug 3",
     "titleId": "584108CF",
@@ -31869,6 +31981,116 @@
     }
   },
   {
+    "slug": "superstreetfighter2thd",
+    "title": "SuperStreetFighter2THD",
+    "titleId": "584108A4",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-25",
+    "notes": "Plays fantastic!",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-25",
+        "notes": "Plays fantastic!",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584108A4/1782351462227-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Plays fantastic!",
+        "updatedAt": "2026-06-25",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-25",
+          "notes": "Plays fantastic!",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-25",
+          "notes": "Plays fantastic!",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    },
+    "issueNumber": 557,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/557"
+  },
+  {
     "slug": "tales-of-vesperia",
     "title": "Tales of Vesperia",
     "titleId": "4E4D07E9",
@@ -32546,6 +32768,114 @@
         }
       }
     }
+  },
+  {
+    "slug": "tf-devastation",
+    "title": "TF: Devastation",
+    "titleId": "41560923",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-25",
+    "notes": "The game seems to load fine up until the moment that it asks you to sign in to your profile when you do it simply starts to pan into space and the Earth and  goes in circles panning here and there, but there is no sounds of menus at that point moving or selecting there’s no menus at all visibly either abound basically the game does not let you go past  there.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-06-25",
+        "notes": "The game seems to load fine up until the moment that it asks you to sign in to your profile when you do it simply starts to pan into space and the Earth and  goes in circles panning here and there, but there is no sounds of menus at that point moving or selecting there’s no menus at all visibly either abound basically the game does not let you go past  there.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "The game seems to load fine up until the moment that it asks you to sign in to your profile when you do it simply starts to pan into space and the Earth and  goes in circles panning here and there, but there is no sounds of menus at that point moving or selecting there’s no menus at all visibly either abound basically the game does not let you go past  there.",
+        "updatedAt": "2026-06-25",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-06-25",
+          "notes": "The game seems to load fine up until the moment that it asks you to sign in to your profile when you do it simply starts to pan into space and the Earth and  goes in circles panning here and there, but there is no sounds of menus at that point moving or selecting there’s no menus at all visibly either abound basically the game does not let you go past  there.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-06-25",
+          "notes": "The game seems to load fine up until the moment that it asks you to sign in to your profile when you do it simply starts to pan into space and the Earth and  goes in circles panning here and there, but there is no sounds of menus at that point moving or selecting there’s no menus at all visibly either abound basically the game does not let you go past  there.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    },
+    "issueNumber": 558,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/558"
   },
   {
     "slug": "the-amazing-spider-man",
@@ -36264,223 +36594,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "superstreetfighter2thd",
-    "title": "SuperStreetFighter2THD",
-    "titleId": "584108A4",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.5.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-06-25",
-    "notes": "Plays fantastic!",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-06-25",
-        "notes": "Plays fantastic!",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584108A4/1782351462227-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Plays fantastic!",
-        "updatedAt": "2026-06-25",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-25",
-          "notes": "Plays fantastic!",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-25",
-          "notes": "Plays fantastic!",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 557,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/557"
-  },
-  {
-    "slug": "tf-devastation",
-    "title": "TF: Devastation",
-    "titleId": "41560923",
-    "status": "loads",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.5.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-06-25",
-    "notes": "The game seems to load fine up until the moment that it asks you to sign in to your profile when you do it simply starts to pan into space and the Earth and  goes in circles panning here and there, but there is no sounds of menus at that point moving or selecting there’s no menus at all visibly either abound basically the game does not let you go past  there.",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-06-25",
-        "notes": "The game seems to load fine up until the moment that it asks you to sign in to your profile when you do it simply starts to pan into space and the Earth and  goes in circles panning here and there, but there is no sounds of menus at that point moving or selecting there’s no menus at all visibly either abound basically the game does not let you go past  there.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "The game seems to load fine up until the moment that it asks you to sign in to your profile when you do it simply starts to pan into space and the Earth and  goes in circles panning here and there, but there is no sounds of menus at that point moving or selecting there’s no menus at all visibly either abound basically the game does not let you go past  there.",
-        "updatedAt": "2026-06-25",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-06-25",
-          "notes": "The game seems to load fine up until the moment that it asks you to sign in to your profile when you do it simply starts to pan into space and the Earth and  goes in circles panning here and there, but there is no sounds of menus at that point moving or selecting there’s no menus at all visibly either abound basically the game does not let you go past  there.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-06-25",
-          "notes": "The game seems to load fine up until the moment that it asks you to sign in to your profile when you do it simply starts to pan into space and the Earth and  goes in circles panning here and there, but there is no sounds of menus at that point moving or selecting there’s no menus at all visibly either abound basically the game does not let you go past  there.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 558,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/558"
   }
 ]
