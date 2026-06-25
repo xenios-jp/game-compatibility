@@ -26364,6 +26364,118 @@
     }
   },
   {
+    "slug": "rayman-legends",
+    "title": "Rayman Legends",
+    "titleId": "555308C3",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro M4",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-25",
+    "notes": "Game run so good run so smooth",
+    "reports": [
+      {
+        "device": "iPad Pro M4",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-25",
+        "notes": "Game run so good run so smooth",
+        "source": "github",
+        "build": {
+          "buildId": "ios-preview-2.1-9857-9857",
+          "channel": "preview",
+          "official": true,
+          "appVersion": "2.1-9857",
+          "buildNumber": "9857"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 99,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/99",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game run so good run so smooth",
+        "updatedAt": "2026-06-25",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro M4",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-25",
+          "notes": "Game run so good run so smooth",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1-9857",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro M4",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-25",
+          "notes": "Game run so good run so smooth",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1-9857",
+            "buildNumber": "9857"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "rayman-origins",
     "title": "Rayman Origins",
     "titleId": "55530884",
