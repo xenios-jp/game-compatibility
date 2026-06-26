@@ -8230,22 +8230,41 @@
     "slug": "deadpool",
     "title": "Deadpool",
     "titleId": "415608EC",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPad Pro M4",
       "platform": "ios",
-      "osVersion": "18.5",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-22",
-    "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
+    "updatedAt": "2026-06-26",
+    "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
     "reports": [
+      {
+        "device": "iPad Pro M4",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-26",
+        "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
+        "source": "github",
+        "build": {
+          "buildId": "ios-preview-2.1-9857",
+          "channel": "preview",
+          "official": true,
+          "appVersion": "2.1",
+          "buildNumber": "9857"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -8268,8 +8287,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 312,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/312",
+    "issueNumber": 105,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/105",
     "summaries": {
       "release": {
         "channel": "release",
@@ -8283,59 +8302,93 @@
       },
       "preview": {
         "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
-        "updatedAt": "2026-03-22",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
+        "updatedAt": "2026-06-26",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPad Pro M4",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-22",
-          "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
-          "source": "app",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-26",
+          "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPad Pro M4",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-22",
-          "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
-          "source": "app",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-26",
+          "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        }
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
+        "updatedAt": "2026-06-26",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "iPad Pro M4",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-26",
+          "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro M4",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-26",
+          "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
           }
         }
       }
