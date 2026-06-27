@@ -32590,15 +32590,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
-      "osVersion": "26.4",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-10",
-    "notes": "Gets in game laggy audio lag outfits have issues on textures.",
+    "updatedAt": "2026-06-27",
+    "notes": "Reaches In game menu. Crashes abruptly",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-06-27",
+        "notes": "Reaches In game menu. Crashes abruptly",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -32638,61 +32659,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
-        "notes": "Gets in game laggy audio lag outfits have issues on textures.",
-        "updatedAt": "2026-04-10",
-        "reportCount": 1,
+        "notes": "Reaches In game menu. Crashes abruptly",
+        "updatedAt": "2026-06-27",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
           "perf": "poor",
-          "date": "2026-04-10",
-          "notes": "Gets in game laggy audio lag outfits have issues on textures.",
+          "date": "2026-06-27",
+          "notes": "Reaches In game menu. Crashes abruptly",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
           "perf": "poor",
-          "date": "2026-04-10",
-          "notes": "Gets in game laggy audio lag outfits have issues on textures.",
+          "date": "2026-06-27",
+          "notes": "Reaches In game menu. Crashes abruptly",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
