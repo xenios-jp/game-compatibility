@@ -8230,41 +8230,22 @@
     "slug": "deadpool",
     "title": "Deadpool",
     "titleId": "415608EC",
-    "status": "playable",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro M4",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "18.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-26",
-    "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
+    "updatedAt": "2026-03-22",
+    "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
     "reports": [
-      {
-        "device": "iPad Pro M4",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-26",
-        "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
-        "source": "github",
-        "build": {
-          "buildId": "ios-preview-2.1-9857",
-          "channel": "preview",
-          "official": true,
-          "appVersion": "2.1",
-          "buildNumber": "9857"
-        }
-      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -8302,93 +8283,59 @@
       },
       "preview": {
         "channel": "preview",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
-        "updatedAt": "2026-06-26",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro M4",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-26",
-          "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
-          "source": "github",
-          "build": {
-            "buildId": "ios-preview-2.1-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1",
-            "buildNumber": "9857"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro M4",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-26",
-          "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
-          "source": "github",
-          "build": {
-            "buildId": "ios-preview-2.1-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1",
-            "buildNumber": "9857"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
-        "updatedAt": "2026-06-26",
-        "reportCount": 2,
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
+        "updatedAt": "2026-03-22",
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPad Pro M4",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "18.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-26",
-          "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
-          "source": "github",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-22",
+          "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
+          "source": "app",
           "build": {
-            "buildId": "ios-preview-2.1-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1",
-            "buildNumber": "9857"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad Pro M4",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "18.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-26",
-          "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
-          "source": "github",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-22",
+          "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
+          "source": "app",
           "build": {
-            "buildId": "ios-preview-2.1-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1",
-            "buildNumber": "9857"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -19714,118 +19661,6 @@
     }
   },
   {
-    "slug": "metal-gear-solid-v-the-phantom-pa",
-    "title": "Metal Gear Solid V: The Phantom Pa",
-    "titleId": "4B4E085E",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro M4",
-      "platform": "ios",
-      "osVersion": "26.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-06-25",
-    "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
-    "reports": [
-      {
-        "device": "iPad Pro M4",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-06-25",
-        "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
-        "source": "github",
-        "build": {
-          "buildId": "ios-preview-2.1-9857-9857",
-          "channel": "preview",
-          "official": true,
-          "appVersion": "2.1-9857",
-          "buildNumber": "9857"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 559,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/559",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
-        "updatedAt": "2026-06-25",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro M4",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-25",
-          "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
-          "source": "github",
-          "build": {
-            "buildId": "ios-preview-2.1-9857-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1-9857",
-            "buildNumber": "9857"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro M4",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-25",
-          "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
-          "source": "github",
-          "build": {
-            "buildId": "ios-preview-2.1-9857-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1-9857",
-            "buildNumber": "9857"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "metal-slug-3",
     "title": "Metal Slug 3",
     "titleId": "584108CF",
@@ -20838,13 +20673,12 @@
         "notes": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       },
       {
@@ -20905,6 +20739,16 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "playable",
@@ -20924,13 +20768,12 @@
           "notes": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -20945,13 +20788,12 @@
           "notes": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -32190,22 +32032,33 @@
         "notes": "Plays fantastic!",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584108A4/1782351462227-1.jpg"
     ],
+    "issueNumber": 557,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/557",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -32233,13 +32086,12 @@
           "notes": "Plays fantastic!",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -32254,19 +32106,16 @@
           "notes": "Plays fantastic!",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 557,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/557"
+    }
   },
   {
     "slug": "tales-of-vesperia",
@@ -32624,33 +32473,12 @@
         "notes": "Reaches In game menu. Crashes abruptly",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-04-10",
-        "notes": "Gets in game laggy audio lag outfits have issues on textures.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "commitShort": "57c3ca140"
         }
       }
     ],
@@ -32672,13 +32500,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
         "notes": "Reaches In game menu. Crashes abruptly",
         "updatedAt": "2026-06-27",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -32691,13 +32529,12 @@
           "notes": "Reaches In game menu. Crashes abruptly",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -32712,13 +32549,12 @@
           "notes": "Reaches In game menu. Crashes abruptly",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -32992,20 +32828,31 @@
         "notes": "The game seems to load fine up until the moment that it asks you to sign in to your profile when you do it simply starts to pan into space and the Earth and  goes in circles panning here and there, but there is no sounds of menus at that point moving or selecting there’s no menus at all visibly either abound basically the game does not let you go past  there.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 558,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/558",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -33033,13 +32880,12 @@
           "notes": "The game seems to load fine up until the moment that it asks you to sign in to your profile when you do it simply starts to pan into space and the Earth and  goes in circles panning here and there, but there is no sounds of menus at that point moving or selecting there’s no menus at all visibly either abound basically the game does not let you go past  there.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -33054,19 +32900,16 @@
           "notes": "The game seems to load fine up until the moment that it asks you to sign in to your profile when you do it simply starts to pan into space and the Earth and  goes in circles panning here and there, but there is no sounds of menus at that point moving or selecting there’s no menus at all visibly either abound basically the game does not let you go past  there.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 558,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/558"
+    }
   },
   {
     "slug": "the-amazing-spider-man",
