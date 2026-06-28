@@ -9257,6 +9257,121 @@
     }
   },
   {
+    "slug": "driver-san-francisco",
+    "title": "DRIVER San Francisco",
+    "titleId": "5553087E",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-27",
+    "notes": "ran really well unless a lot of cars and trucks are seen, also I had no sound at all",
+    "reports": [
+      {
+        "device": "iPhone 14 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-27",
+        "notes": "ran really well unless a lot of cars and trucks are seen, also I had no sound at all",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 566,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/566",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "ran really well unless a lot of cars and trucks are seen, also I had no sound at all",
+        "updatedAt": "2026-06-27",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-27",
+          "notes": "ran really well unless a lot of cars and trucks are seen, also I had no sound at all",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-27",
+          "notes": "ran really well unless a lot of cars and trucks are seen, also I had no sound at all",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "ducktales-remastered",
     "title": "DuckTales: Remastered",
     "titleId": "584113C6",
@@ -17143,47 +17258,13 @@
         "notes": "at first loads fine, after the cutscene the actual game starts to load and it just crashes",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Severe graphical issues on pre-rendered cutscenes. The game will hang on opening \"Left 4 Dead\" loading screen.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9820",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9820",
-          "commitShort": "2633E8177"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "ok",
-        "date": "2026-03-02",
-        "notes": "Get stuck on the left for dead screen before the menu.",
-        "source": "app",
-        "build": null
       }
     ],
     "screenshots": [],
@@ -17200,13 +17281,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "intro",
         "perf": "poor",
         "notes": "at first loads fine, after the cutscene the actual game starts to load and it just crashes",
         "updatedAt": "2026-06-27",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 14 Pro Max",
           "platform": "ios",
@@ -17219,13 +17310,12 @@
           "notes": "at first loads fine, after the cutscene the actual game starts to load and it just crashes",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -17240,13 +17330,12 @@
           "notes": "at first loads fine, after the cutscene the actual game starts to load and it just crashes",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -31476,154 +31565,6 @@
     }
   },
   {
-    "slug": "spongebob-truth-sq",
-    "title": "SpongeBob: Truth-Sq.",
-    "titleId": "54510850",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Mini (A17 Pro)",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-06-27",
-    "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
-    "reports": [
-      {
-        "device": "iPad Mini (A17 Pro)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-06-27",
-        "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-2.0.1-9730",
-          "channel": "release",
-          "official": true,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 564,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/564",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
-        "updatedAt": "2026-06-27",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-27",
-          "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-2.0.1-9730",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-27",
-          "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-2.0.1-9730",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
-        "updatedAt": "2026-06-27",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-27",
-          "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-2.0.1-9730",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-27",
-          "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-2.0.1-9730",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "sroa",
     "title": "Sroa",
     "titleId": "58410AC2",
@@ -36789,113 +36730,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "driver-san-francisco",
-    "title": "DRIVER San Francisco",
-    "titleId": "5553087E",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 14 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-06-27",
-    "notes": "ran really well unless a lot of cars and trucks are seen, also I had no sound at all",
-    "reports": [
-      {
-        "device": "iPhone 14 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-27",
-        "notes": "ran really well unless a lot of cars and trucks are seen, also I had no sound at all",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "ran really well unless a lot of cars and trucks are seen, also I had no sound at all",
-        "updatedAt": "2026-06-27",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 14 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-27",
-          "notes": "ran really well unless a lot of cars and trucks are seen, also I had no sound at all",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 14 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-27",
-          "notes": "ran really well unless a lot of cars and trucks are seen, also I had no sound at all",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 566,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/566"
   }
 ]
