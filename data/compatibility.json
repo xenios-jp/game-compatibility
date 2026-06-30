@@ -36788,8 +36788,29 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-06-30",
-    "notes": "Thr games gets stuck after a short period of games play",
+    "notes": "No sound the games gets stuck it freezes not playable",
     "reports": [
+      {
+        "device": "iPad Pro 13-inch (M4)",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-06-30",
+        "notes": "No sound the games gets stuck it freezes not playable",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
@@ -36828,9 +36849,9 @@
         "channel": "all",
         "status": "loads",
         "perf": "poor",
-        "notes": "Thr games gets stuck after a short period of games play",
+        "notes": "No sound the games gets stuck it freezes not playable",
         "updatedAt": "2026-06-30",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
@@ -36840,7 +36861,7 @@
           "status": "loads",
           "perf": "poor",
           "date": "2026-06-30",
-          "notes": "Thr games gets stuck after a short period of games play",
+          "notes": "No sound the games gets stuck it freezes not playable",
           "source": "app",
           "build": {
             "channel": "self-built",
@@ -36861,7 +36882,7 @@
           "status": "loads",
           "perf": "poor",
           "date": "2026-06-30",
-          "notes": "Thr games gets stuck after a short period of games play",
+          "notes": "No sound the games gets stuck it freezes not playable",
           "source": "app",
           "build": {
             "channel": "self-built",
