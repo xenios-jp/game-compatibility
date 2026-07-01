@@ -5658,22 +5658,43 @@
     "slug": "cod-world-at-war",
     "title": "CoD: World at War",
     "titleId": "4156081C",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 17",
       "platform": "ios",
-      "osVersion": "18.7.2",
+      "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-13",
-    "notes": "just a black screen",
+    "updatedAt": "2026-07-01",
+    "notes": "Game just freezes after a while",
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-07-01",
+        "notes": "Game just freezes after a while",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -5711,61 +5732,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "just a black screen",
-        "updatedAt": "2026-03-13",
-        "reportCount": 1,
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Game just freezes after a while",
+        "updatedAt": "2026-07-01",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "18.7.2",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "just a black screen",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-07-01",
+          "notes": "Game just freezes after a while",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "d8c101905"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "18.7.2",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "just a black screen",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-07-01",
+          "notes": "Game just freezes after a while",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "d8c101905"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
