@@ -12280,15 +12280,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14",
+      "device": "iPad Air 5",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-05-29",
-    "notes": "Game just shows black screen.",
+    "updatedAt": "2026-07-02",
+    "notes": "It just crashes every time I try",
     "reports": [
+      {
+        "device": "iPad Air 5",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-02",
+        "notes": "It just crashes every time I try",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 14",
         "platform": "ios",
@@ -12384,41 +12405,32 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Game just shows black screen.",
-        "updatedAt": "2026-05-29",
-        "reportCount": 4,
+        "notes": "It just crashes every time I try",
+        "updatedAt": "2026-07-02",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone 14",
+          "device": "iPad Air 5",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-05-29",
-          "notes": "Game just shows black screen.",
+          "date": "2026-07-02",
+          "notes": "It just crashes every time I try",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
