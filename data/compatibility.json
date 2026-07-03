@@ -20642,8 +20642,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 303,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/303",
+    "issueNumber": 572,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/572",
     "summaries": {
       "release": {
         "channel": "release",
@@ -36934,6 +36934,8 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 573,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/573"
   }
 ]
