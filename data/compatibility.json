@@ -28993,7 +28993,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 355,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/355"
   },
   {
     "slug": "sf3-online-edition",
@@ -36636,8 +36638,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 409,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/409",
+    "issueNumber": 577,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/577",
     "summaries": {
       "release": {
         "channel": "release",
