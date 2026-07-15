@@ -539,33 +539,12 @@
         "notes": "O jogo abre, mas rapidamente fecha sozinho 😭 estou achando que é meu IOS 18, preciso atualizar para o IOS 26",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      },
-      {
-        "device": "iPhone 15",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "ok",
-        "date": "2026-03-12",
-        "notes": "Stuck in Main menu because I don’t have joystick. 🤣",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9299",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "commitShort": "d8c101905"
+          "commitShort": "57c3ca140"
         }
       }
     ],
@@ -585,13 +564,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "intro",
         "perf": "poor",
         "notes": "O jogo abre, mas rapidamente fecha sozinho 😭 estou achando que é meu IOS 18, preciso atualizar para o IOS 26",
         "updatedAt": "2026-07-15",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16",
           "platform": "ios",
@@ -604,13 +593,12 @@
           "notes": "O jogo abre, mas rapidamente fecha sozinho 😭 estou achando que é meu IOS 18, preciso atualizar para o IOS 26",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -625,13 +613,12 @@
           "notes": "O jogo abre, mas rapidamente fecha sozinho 😭 estou achando que é meu IOS 18, preciso atualizar para o IOS 26",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -5254,33 +5241,12 @@
         "notes": "Totalmente jogável, experiencia incrível 🤩",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      },
-      {
-        "device": "iPhone 14 Pro",
-        "platform": "ios",
-        "osVersion": "26.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-06-06",
-        "notes": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0-9712",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0",
-          "buildNumber": "9712",
-          "commitShort": "358deaee5"
+          "commitShort": "57c3ca140"
         }
       }
     ],
@@ -5300,13 +5266,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "great",
         "notes": "Totalmente jogável, experiencia incrível 🤩",
         "updatedAt": "2026-07-15",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16",
           "platform": "ios",
@@ -5319,13 +5295,12 @@
           "notes": "Totalmente jogável, experiencia incrível 🤩",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -5340,13 +5315,12 @@
           "notes": "Totalmente jogável, experiencia incrível 🤩",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -5928,6 +5902,121 @@
             "appVersion": "2.0",
             "buildNumber": "9712",
             "commitShort": "358deaee5"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "counter-strike-go",
+    "title": "Counter-Strike: GO",
+    "titleId": "5841125A",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-15",
+    "notes": "o emulador fecha junto com o jogo",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-15",
+        "notes": "o emulador fecha junto com o jogo",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 538,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/538",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "o emulador fecha junto com o jogo",
+        "updatedAt": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "o emulador fecha junto com o jogo",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "o emulador fecha junto com o jogo",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -11953,6 +12042,121 @@
     }
   },
   {
+    "slug": "final-exam",
+    "title": "Final Exam",
+    "titleId": "584113F3",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-15",
+    "notes": "Não abre, fecha sozinho. o mais engraçado que isso ta acontecendo só com jogos 3D no meu iphone 16(IOS 18) :(",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-15",
+        "notes": "Não abre, fecha sozinho. o mais engraçado que isso ta acontecendo só com jogos 3D no meu iphone 16(IOS 18) :(",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 591,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/591",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Não abre, fecha sozinho. o mais engraçado que isso ta acontecendo só com jogos 3D no meu iphone 16(IOS 18) :(",
+        "updatedAt": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "Não abre, fecha sozinho. o mais engraçado que isso ta acontecendo só com jogos 3D no meu iphone 16(IOS 18) :(",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "Não abre, fecha sozinho. o mais engraçado que isso ta acontecendo só com jogos 3D no meu iphone 16(IOS 18) :(",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "final-fantasy-xiii",
     "title": "FINAL FANTASY XIII",
     "titleId": "535107E4",
@@ -16776,6 +16980,121 @@
     }
   },
   {
+    "slug": "joy-ride-turbo",
+    "title": "Joy Ride Turbo",
+    "titleId": "5841125E",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-15",
+    "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-15",
+        "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 590,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/590",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
+        "updatedAt": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "just-cause-2",
     "title": "Just Cause 2",
     "titleId": "534307E7",
@@ -17284,13 +17603,12 @@
         "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       },
       {
@@ -17334,6 +17652,16 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "intro",
@@ -17353,13 +17681,12 @@
           "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -17374,13 +17701,12 @@
           "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -18496,6 +18822,127 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "limbo",
+    "title": "Limbo",
+    "titleId": "584109D1",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-15",
+    "notes": "O jogo está funcionando perfeitamente bem. Só não intendo por que ele só está funcionando no “vulkan” no IOS 18",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-07-15",
+        "notes": "O jogo está funcionando perfeitamente bem. Só não intendo por que ele só está funcionando no “vulkan” no IOS 18",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-5.jpg"
+    ],
+    "issueNumber": 587,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/587",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "O jogo está funcionando perfeitamente bem. Só não intendo por que ele só está funcionando no “vulkan” no IOS 18",
+        "updatedAt": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-07-15",
+          "notes": "O jogo está funcionando perfeitamente bem. Só não intendo por que ele só está funcionando no “vulkan” no IOS 18",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-07-15",
+          "notes": "O jogo está funcionando perfeitamente bem. Só não intendo por que ele só está funcionando no “vulkan” no IOS 18",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -21332,6 +21779,127 @@
             "appVersion": "1.0.0",
             "buildNumber": "9299",
             "commitShort": "d8c101905"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "ms-pac-man",
+    "title": "Ms.Pac-Man",
+    "titleId": "58410837",
+    "status": "ingame",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-15",
+    "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "great",
+        "date": "2026-07-15",
+        "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-5.jpg"
+    ],
+    "issueNumber": 589,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/589",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "great",
+        "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
+        "updatedAt": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-07-15",
+          "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-07-15",
+          "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -29908,6 +30476,125 @@
     }
   },
   {
+    "slug": "slender-the-arrival",
+    "title": "Slender - The Arrival",
+    "titleId": "58411430",
+    "status": "intro",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-15",
+    "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "ok",
+        "date": "2026-07-15",
+        "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58411430/1784090856797-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58411430/1784090856797-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58411430/1784090856797-3.jpg"
+    ],
+    "issueNumber": 588,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/588",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "intro",
+        "perf": "ok",
+        "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
+        "updatedAt": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "ok",
+          "date": "2026-07-15",
+          "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "ok",
+          "date": "2026-07-15",
+          "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "sm2014finalstaticlib360-exe",
     "title": "SM2014FinalStaticLib360.exe",
     "titleId": "41560905",
@@ -32070,6 +32757,125 @@
     }
   },
   {
+    "slug": "state-of-decay",
+    "title": "State of Decay",
+    "titleId": "584111E8",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-15",
+    "notes": "O jogo apenas abre nas intro de boa, mas depois disso ele fecha, não chega nem no menu. E sim, eu usei a atualização do jogo, mas fica fechando do mesmo jeito.",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-15",
+        "notes": "O jogo apenas abre nas intro de boa, mas depois disso ele fecha, não chega nem no menu. E sim, eu usei a atualização do jogo, mas fica fechando do mesmo jeito.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111E8/1784089652678-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111E8/1784089652678-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111E8/1784089652678-3.jpg"
+    ],
+    "issueNumber": 586,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/586",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "O jogo apenas abre nas intro de boa, mas depois disso ele fecha, não chega nem no menu. E sim, eu usei a atualização do jogo, mas fica fechando do mesmo jeito.",
+        "updatedAt": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "O jogo apenas abre nas intro de boa, mas depois disso ele fecha, não chega nem no menu. E sim, eu usei a atualização do jogo, mas fica fechando do mesmo jeito.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "O jogo apenas abre nas intro de boa, mas depois disso ele fecha, não chega nem no menu. E sim, eu usei a atualização do jogo, mas fica fechando do mesmo jeito.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "steins-gate",
     "title": "STEINS;GATE 比翼恋理のだーりん",
     "titleId": "465607E8",
@@ -33654,6 +34460,240 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "056d2f64d"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "the-dishwasher",
+    "title": "The Dishwasher",
+    "titleId": "58410902",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-15",
+    "notes": "Fica com tela preta.",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-15",
+        "notes": "Fica com tela preta.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410902/1784092702849-1.jpg"
+    ],
+    "issueNumber": 593,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/593",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Fica com tela preta.",
+        "updatedAt": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "Fica com tela preta.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "Fica com tela preta.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "the-dishwasher-vs",
+    "title": "The Dishwasher: VS",
+    "titleId": "58410A21",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-15",
+    "notes": "Tela preta.",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-15",
+        "notes": "Tela preta.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410A21/1784092535145-1.jpg"
+    ],
+    "issueNumber": 592,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/592",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Tela preta.",
+        "updatedAt": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "Tela preta.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "Tela preta.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -36989,1000 +38029,6 @@
             "appVersion": "0.9.2",
             "buildNumber": "9321",
             "commitShort": "6228dab43"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "state-of-decay",
-    "title": "State of Decay",
-    "titleId": "584111E8",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-07-15",
-    "notes": "O jogo apenas abre nas intro de boa, mas depois disso ele fecha, não chega nem no menu. E sim, eu usei a atualização do jogo, mas fica fechando do mesmo jeito.",
-    "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-07-15",
-        "notes": "O jogo apenas abre nas intro de boa, mas depois disso ele fecha, não chega nem no menu. E sim, eu usei a atualização do jogo, mas fica fechando do mesmo jeito.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111E8/1784089652678-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111E8/1784089652678-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111E8/1784089652678-3.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "O jogo apenas abre nas intro de boa, mas depois disso ele fecha, não chega nem no menu. E sim, eu usei a atualização do jogo, mas fica fechando do mesmo jeito.",
-        "updatedAt": "2026-07-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-15",
-          "notes": "O jogo apenas abre nas intro de boa, mas depois disso ele fecha, não chega nem no menu. E sim, eu usei a atualização do jogo, mas fica fechando do mesmo jeito.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-15",
-          "notes": "O jogo apenas abre nas intro de boa, mas depois disso ele fecha, não chega nem no menu. E sim, eu usei a atualização do jogo, mas fica fechando do mesmo jeito.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 586,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/586"
-  },
-  {
-    "slug": "limbo",
-    "title": "Limbo",
-    "titleId": "584109D1",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-07-15",
-    "notes": "O jogo está funcionando perfeitamente bem. Só não intendo por que ele só está funcionando no “vulkan” no IOS 18",
-    "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-07-15",
-        "notes": "O jogo está funcionando perfeitamente bem. Só não intendo por que ele só está funcionando no “vulkan” no IOS 18",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-3.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-4.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-5.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "O jogo está funcionando perfeitamente bem. Só não intendo por que ele só está funcionando no “vulkan” no IOS 18",
-        "updatedAt": "2026-07-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-07-15",
-          "notes": "O jogo está funcionando perfeitamente bem. Só não intendo por que ele só está funcionando no “vulkan” no IOS 18",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-07-15",
-          "notes": "O jogo está funcionando perfeitamente bem. Só não intendo por que ele só está funcionando no “vulkan” no IOS 18",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 587,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/587"
-  },
-  {
-    "slug": "slender-the-arrival",
-    "title": "Slender - The Arrival",
-    "titleId": "58411430",
-    "status": "intro",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-07-15",
-    "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
-    "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "ok",
-        "date": "2026-07-15",
-        "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58411430/1784090856797-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58411430/1784090856797-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58411430/1784090856797-3.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "intro",
-        "perf": "ok",
-        "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
-        "updatedAt": "2026-07-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-07-15",
-          "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-07-15",
-          "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 588,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/588"
-  },
-  {
-    "slug": "ms-pac-man",
-    "title": "Ms.Pac-Man",
-    "titleId": "58410837",
-    "status": "ingame",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-07-15",
-    "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
-    "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "great",
-        "date": "2026-07-15",
-        "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-3.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-4.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-5.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "great",
-        "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
-        "updatedAt": "2026-07-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-07-15",
-          "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-07-15",
-          "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 589,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/589"
-  },
-  {
-    "slug": "joy-ride-turbo",
-    "title": "Joy Ride Turbo",
-    "titleId": "5841125E",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-07-15",
-    "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
-    "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-07-15",
-        "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
-        "updatedAt": "2026-07-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-15",
-          "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-15",
-          "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 590,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/590"
-  },
-  {
-    "slug": "final-exam",
-    "title": "Final Exam",
-    "titleId": "584113F3",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-07-15",
-    "notes": "Não abre, fecha sozinho. o mais engraçado que isso ta acontecendo só com jogos 3D no meu iphone 16(IOS 18) :(",
-    "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-07-15",
-        "notes": "Não abre, fecha sozinho. o mais engraçado que isso ta acontecendo só com jogos 3D no meu iphone 16(IOS 18) :(",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Não abre, fecha sozinho. o mais engraçado que isso ta acontecendo só com jogos 3D no meu iphone 16(IOS 18) :(",
-        "updatedAt": "2026-07-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-15",
-          "notes": "Não abre, fecha sozinho. o mais engraçado que isso ta acontecendo só com jogos 3D no meu iphone 16(IOS 18) :(",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-15",
-          "notes": "Não abre, fecha sozinho. o mais engraçado que isso ta acontecendo só com jogos 3D no meu iphone 16(IOS 18) :(",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 591,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/591"
-  },
-  {
-    "slug": "the-dishwasher-vs",
-    "title": "The Dishwasher: VS",
-    "titleId": "58410A21",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-07-15",
-    "notes": "Tela preta.",
-    "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-07-15",
-        "notes": "Tela preta.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410A21/1784092535145-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Tela preta.",
-        "updatedAt": "2026-07-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-15",
-          "notes": "Tela preta.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-15",
-          "notes": "Tela preta.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 592,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/592"
-  },
-  {
-    "slug": "the-dishwasher",
-    "title": "The Dishwasher",
-    "titleId": "58410902",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-07-15",
-    "notes": "Fica com tela preta.",
-    "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-07-15",
-        "notes": "Fica com tela preta.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410902/1784092702849-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Fica com tela preta.",
-        "updatedAt": "2026-07-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-15",
-          "notes": "Fica com tela preta.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-15",
-          "notes": "Fica com tela preta.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 593,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/593"
-  },
-  {
-    "slug": "counter-strike-go",
-    "title": "Counter-Strike: GO",
-    "titleId": "5841125A",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-07-15",
-    "notes": "o emulador fecha junto com o jogo",
-    "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-07-15",
-        "notes": "o emulador fecha junto com o jogo",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "o emulador fecha junto com o jogo",
-        "updatedAt": "2026-07-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-15",
-          "notes": "o emulador fecha junto com o jogo",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-15",
-          "notes": "o emulador fecha junto com o jogo",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
