@@ -37174,5 +37174,115 @@
     },
     "issueNumber": 587,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/587"
+  },
+  {
+    "slug": "slender-the-arrival",
+    "title": "Slender - The Arrival",
+    "titleId": "58411430",
+    "status": "intro",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-15",
+    "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "ok",
+        "date": "2026-07-15",
+        "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58411430/1784090856797-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58411430/1784090856797-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58411430/1784090856797-3.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "intro",
+        "perf": "ok",
+        "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
+        "updatedAt": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "ok",
+          "date": "2026-07-15",
+          "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "ok",
+          "date": "2026-07-15",
+          "notes": "ele só abre até o “MENU” do jogo e depois fecha :(",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    }
   }
 ]
