@@ -37286,5 +37286,117 @@
     },
     "issueNumber": 588,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/588"
+  },
+  {
+    "slug": "ms-pac-man",
+    "title": "Ms.Pac-Man",
+    "titleId": "58410837",
+    "status": "ingame",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-15",
+    "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "great",
+        "date": "2026-07-15",
+        "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-5.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "great",
+        "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
+        "updatedAt": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-07-15",
+          "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-07-15",
+          "notes": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    }
   }
 ]
