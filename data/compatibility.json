@@ -17263,15 +17263,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "18.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-22",
-    "notes": "Game stucks on loading screen cinematic runs perfect",
+    "updatedAt": "2026-07-15",
+    "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "great",
+        "date": "2026-07-15",
+        "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -17293,7 +17314,13 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-5.jpg"
+    ],
     "issueNumber": 543,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/543",
     "summaries": {
@@ -17307,61 +17334,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "intro",
         "perf": "great",
-        "notes": "Game stucks on loading screen cinematic runs perfect",
-        "updatedAt": "2026-06-22",
-        "reportCount": 1,
+        "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
+        "updatedAt": "2026-07-15",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "18.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "intro",
           "perf": "great",
-          "date": "2026-06-22",
-          "notes": "Game stucks on loading screen cinematic runs perfect",
+          "date": "2026-07-15",
+          "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "18.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "intro",
           "perf": "great",
-          "date": "2026-06-22",
-          "notes": "Game stucks on loading screen cinematic runs perfect",
+          "date": "2026-07-15",
+          "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
