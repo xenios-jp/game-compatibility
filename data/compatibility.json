@@ -37400,5 +37400,111 @@
     },
     "issueNumber": 589,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/589"
+  },
+  {
+    "slug": "joy-ride-turbo",
+    "title": "Joy Ride Turbo",
+    "titleId": "5841125E",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-15",
+    "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-15",
+        "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
+        "updatedAt": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "Quando vai abrir ele fecha sozinho o emulador 😢",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    }
   }
 ]
