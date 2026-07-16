@@ -35813,21 +35813,42 @@
     "title": "Tomb Raider Underworld",
     "titleId": "534307EC",
     "status": "ingame",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPad16,8",
       "platform": "ios",
-      "osVersion": "18.6",
+      "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-11",
-    "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+    "updatedAt": "2026-07-16",
+    "notes": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
     "reports": [
+      {
+        "device": "iPad16,8",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-07-16",
+        "notes": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -35849,7 +35870,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534307EC/1784242678407-1.jpg"
+    ],
     "issueNumber": 207,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/207",
     "summaries": {
@@ -35863,61 +35886,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "ok",
-        "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
-        "updatedAt": "2026-03-11",
-        "reportCount": 1,
+        "perf": "poor",
+        "notes": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
+        "updatedAt": "2026-07-16",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPad16,8",
           "platform": "ios",
-          "osVersion": "18.6",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-11",
-          "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+          "perf": "poor",
+          "date": "2026-07-16",
+          "notes": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPad16,8",
           "platform": "ios",
-          "osVersion": "18.6",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-11",
-          "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+          "perf": "poor",
+          "date": "2026-07-16",
+          "notes": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
