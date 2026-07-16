@@ -18197,21 +18197,42 @@
     "title": "LEGO® Indiana Jones™",
     "titleId": "4C4107DF",
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPad16,8",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-22",
-    "notes": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
+    "updatedAt": "2026-07-16",
+    "notes": "The game runs normally. I haven’t had any texture problems yet.",
     "reports": [
+      {
+        "device": "iPad16,8",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-07-16",
+        "notes": "The game runs normally. I haven’t had any texture problems yet.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -18247,61 +18268,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
-        "updatedAt": "2026-06-22",
-        "reportCount": 1,
+        "perf": "great",
+        "notes": "The game runs normally. I haven’t had any texture problems yet.",
+        "updatedAt": "2026-07-16",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16e",
+          "device": "iPad16,8",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-22",
-          "notes": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
+          "perf": "great",
+          "date": "2026-07-16",
+          "notes": "The game runs normally. I haven’t had any texture problems yet.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
-          "device": "iPhone 16e",
+          "device": "iPad16,8",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-22",
-          "notes": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
+          "perf": "great",
+          "date": "2026-07-16",
+          "notes": "The game runs normally. I haven’t had any texture problems yet.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
