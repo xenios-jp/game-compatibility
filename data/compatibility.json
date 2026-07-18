@@ -8423,8 +8423,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 188,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/188",
+    "issueNumber": 604,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/604",
     "summaries": {
       "release": {
         "channel": "release",
@@ -18268,8 +18268,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 542,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/542",
+    "issueNumber": 602,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/602",
     "summaries": {
       "release": {
         "channel": "release",
@@ -35899,8 +35899,8 @@
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534307EC/1784242678407-1.jpg"
     ],
-    "issueNumber": 207,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/207",
+    "issueNumber": 601,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/601",
     "summaries": {
       "release": {
         "channel": "release",
@@ -38722,7 +38722,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 603,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/603"
   },
   {
     "slug": "backbreaker-vengeance",
@@ -38828,7 +38830,9 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 605,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/605"
   },
   {
     "slug": "madden-nfl-arcade",
@@ -38934,6 +38938,8 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 606,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/606"
   }
 ]
