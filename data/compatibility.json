@@ -2332,20 +2332,31 @@
         "notes": "Just a black screen",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 605,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/605",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -2373,13 +2384,12 @@
           "notes": "Just a black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -2394,19 +2404,16 @@
           "notes": "Just a black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 605,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/605"
+    }
   },
   {
     "slug": "band-hero",
@@ -3438,20 +3445,31 @@
         "notes": "Everything works but the text glitches often as in some letters might be missing or a line of a letter is missing",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 599,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/599",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -3479,13 +3497,12 @@
           "notes": "Everything works but the text glitches often as in some letters might be missing or a line of a letter is missing",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -3500,19 +3517,16 @@
           "notes": "Everything works but the text glitches often as in some letters might be missing or a line of a letter is missing",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 599,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/599"
+    }
   },
   {
     "slug": "bf-bad-company",
@@ -5342,20 +5356,31 @@
         "notes": "Crash",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 596,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/596",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -5383,13 +5408,12 @@
           "notes": "Crash",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -5404,19 +5428,16 @@
           "notes": "Crash",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 596,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/596"
+    }
   },
   {
     "slug": "call-of-duty-black-ops",
@@ -5450,27 +5471,6 @@
         "notes": "Black screen",
         "source": "app",
         "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-11",
-        "notes": "The Performance is 17-24 pretty smooth I don’t know what the other reports are talking about I mean I do get some graphical issues put it’s still ok",
-        "source": "app",
-        "build": {
           "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
@@ -5494,13 +5494,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "ok",
+        "status": "nothing",
+        "perf": "n/a",
         "notes": "Black screen",
         "updatedAt": "2026-07-18",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 13 Pro",
           "platform": "ios",
@@ -5513,25 +5523,24 @@
           "notes": "Black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 13 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-11",
-          "notes": "The Performance is 17-24 pretty smooth I don’t know what the other reports are talking about I mean I do get some graphical issues put it’s still ok",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-18",
+          "notes": "Black screen",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-2.0.1-9730",
@@ -8728,33 +8737,12 @@
         "notes": "The sound is very bad and the game runs maybe  a quarter second slow. It can be played but it’s not enjoyable",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      },
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-11",
-        "notes": "Everything but the player models load. The fps is a little slow & audio is bad",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "commitShort": "57c3ca140"
         }
       }
     ],
@@ -8772,13 +8760,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "poor",
         "notes": "The sound is very bad and the game runs maybe  a quarter second slow. It can be played but it’s not enjoyable",
         "updatedAt": "2026-07-18",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
@@ -8791,13 +8789,12 @@
           "notes": "The sound is very bad and the game runs maybe  a quarter second slow. It can be played but it’s not enjoyable",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -8812,13 +8809,12 @@
           "notes": "The sound is very bad and the game runs maybe  a quarter second slow. It can be played but it’s not enjoyable",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -8971,20 +8967,31 @@
         "notes": "Jogável, nos 30 FPS mas está jogavel",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 598,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/598",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -9012,13 +9019,12 @@
           "notes": "Jogável, nos 30 FPS mas está jogavel",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -9033,19 +9039,16 @@
           "notes": "Jogável, nos 30 FPS mas está jogavel",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 598,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/598"
+    }
   },
   {
     "slug": "diablo-iii",
@@ -14453,8 +14456,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-4.jpg"
     ],
-    "issueNumber": 516,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/516",
+    "issueNumber": 369,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/369",
     "summaries": {
       "release": {
         "channel": "release",
@@ -18698,27 +18701,6 @@
         "notes": "The game runs normally. I haven’t had any texture problems yet.",
         "source": "app",
         "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      },
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-22",
-        "notes": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
-        "source": "app",
-        "build": {
           "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
@@ -18742,13 +18724,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "great",
         "notes": "The game runs normally. I haven’t had any texture problems yet.",
         "updatedAt": "2026-07-16",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPad16,8",
           "platform": "ios",
@@ -18761,13 +18753,12 @@
           "notes": "The game runs normally. I haven’t had any texture problems yet.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -18782,13 +18773,12 @@
           "notes": "The game runs normally. I haven’t had any texture problems yet.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -19794,20 +19784,31 @@
         "notes": "Plays well, some audio and visual issues but nothing terrible",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 606,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/606",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -19835,13 +19836,12 @@
           "notes": "Plays well, some audio and visual issues but nothing terrible",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -19856,19 +19856,16 @@
           "notes": "Plays well, some audio and visual issues but nothing terrible",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 606,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/606"
+    }
   },
   {
     "slug": "mafia-ii",
@@ -21497,20 +21494,31 @@
         "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 597,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/597",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -21538,13 +21546,12 @@
           "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -21559,19 +21566,16 @@
           "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 597,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/597"
+    }
   },
   {
     "slug": "mirror-s-edge",
@@ -23606,20 +23610,31 @@
         "notes": "Runs perfectly",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 603,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/603",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -23647,13 +23662,12 @@
           "notes": "Runs perfectly",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -23668,19 +23682,16 @@
           "notes": "Runs perfectly",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 603,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/603"
+    }
   },
   {
     "slug": "nba-live-06",
@@ -35892,13 +35903,12 @@
         "notes": "The game loads, but you can’t start the games",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       }
     ],
@@ -35906,9 +35916,21 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541080F/1784220325556-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541080F/1784220325556-2.jpg"
     ],
+    "issueNumber": 600,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/600",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -35936,13 +35958,12 @@
           "notes": "The game loads, but you can’t start the games",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -35957,19 +35978,16 @@
           "notes": "The game loads, but you can’t start the games",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
-    },
-    "issueNumber": 600,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/600"
+    }
   },
   {
     "slug": "the-outfit",
@@ -36762,33 +36780,12 @@
         "notes": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "18.6",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-11",
-        "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
+          "commitShort": "57c3ca140"
         }
       }
     ],
@@ -36808,13 +36805,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
         "notes": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
         "updatedAt": "2026-07-16",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPad16,8",
           "platform": "ios",
@@ -36827,13 +36834,12 @@
           "notes": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -36848,13 +36854,12 @@
           "notes": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
