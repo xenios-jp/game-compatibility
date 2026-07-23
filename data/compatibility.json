@@ -7762,7 +7762,6 @@
     "perf": "n/a",
     "tags": [],
     "platforms": [
-      "macos",
       "ios"
     ],
     "lastReport": {
@@ -7787,60 +7786,13 @@
         "notes": "crashes instantly or infinitely loads",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
-      },
-      {
-        "device": "MacBook Pro M1",
-        "platform": "macos",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-05-30",
-        "notes": "While there were some slight glitch with the intro, I was able to play through training and 2 matches with no issues. the performance was also very playable and runs smoothly.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056D2F64D"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-05",
-        "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
-        "source": "app",
-        "build": null
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-03",
-        "notes": "Visuals are perfect with no apparent glitches. Performance is half speed but stutter free. Menus are perfect and sound is perfect.",
-        "source": "app",
-        "build": null
       }
     ],
     "screenshots": [],
@@ -7857,13 +7809,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "great",
+        "status": "nothing",
+        "perf": "n/a",
         "notes": "crashes instantly or infinitely loads",
         "updatedAt": "2026-07-23",
-        "reportCount": 4,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -7876,33 +7838,32 @@
           "notes": "crashes instantly or infinitely loads",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro M1",
-          "platform": "macos",
-          "osVersion": "26.5",
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "18.6.2",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-05-30",
-          "notes": "While there were some slight glitch with the intro, I was able to play through training and 2 matches with no issues. the performance was also very playable and runs smoothly.",
-          "source": "github",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-23",
+          "notes": "crashes instantly or infinitely loads",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056D2F64D"
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -36706,6 +36667,121 @@
     }
   },
   {
+    "slug": "tmnt-mim",
+    "title": "TMNT:MiM",
+    "titleId": "4156091E",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-22",
+    "notes": "You see the first frame of the boot up screen with no sound that’s it",
+    "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-07-22",
+        "notes": "You see the first frame of the boot up screen with no sound that’s it",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 611,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/611",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "You see the first frame of the boot up screen with no sound that’s it",
+        "updatedAt": "2026-07-22",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-07-22",
+          "notes": "You see the first frame of the boot up screen with no sound that’s it",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-07-22",
+          "notes": "You see the first frame of the boot up screen with no sound that’s it",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "tomb-raider",
     "title": "Tomb Raider",
     "titleId": "53510802",
@@ -39047,113 +39123,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "tmnt-mim",
-    "title": "TMNT:MiM",
-    "titleId": "4156091E",
-    "status": "loads",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17",
-      "platform": "ios",
-      "osVersion": "26.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-07-22",
-    "notes": "You see the first frame of the boot up screen with no sound that’s it",
-    "reports": [
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-07-22",
-        "notes": "You see the first frame of the boot up screen with no sound that’s it",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "You see the first frame of the boot up screen with no sound that’s it",
-        "updatedAt": "2026-07-22",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-07-22",
-          "notes": "You see the first frame of the boot up screen with no sound that’s it",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-07-22",
-          "notes": "You see the first frame of the boot up screen with no sound that’s it",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 611,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/611"
   }
 ]
