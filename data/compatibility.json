@@ -21230,8 +21230,8 @@
     "slug": "midnight-club-los-angeles",
     "title": "Midnight Club: Los Angeles",
     "titleId": "545407F8",
-    "status": "playable",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
@@ -21239,13 +21239,34 @@
     "lastReport": {
       "device": "iPad Pro 13-inch (M5)",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-13",
-    "notes": "Surprised it runs. Only did the tutorial race but it doesn’t run that bad.",
+    "updatedAt": "2026-07-24",
+    "notes": "Literally does nothing",
     "reports": [
+      {
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-24",
+        "notes": "Literally does nothing",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
@@ -21315,41 +21336,32 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Surprised it runs. Only did the tutorial race but it doesn’t run that bad.",
-        "updatedAt": "2026-06-13",
-        "reportCount": 2,
+        "notes": "Literally does nothing",
+        "updatedAt": "2026-07-24",
+        "reportCount": 3,
         "latestReport": {
           "device": "iPad Pro 13-inch (M5)",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-13",
-          "notes": "Surprised it runs. Only did the tutorial race but it doesn’t run that bad.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-24",
+          "notes": "Literally does nothing",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
