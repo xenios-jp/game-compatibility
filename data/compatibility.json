@@ -39148,8 +39148,8 @@
     "slug": "real-steel",
     "title": "REAL STEEL",
     "titleId": "584111E0",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
@@ -39162,8 +39162,29 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-07-24",
-    "notes": "It crash 4seconds after clicking play",
+    "notes": "Black screen",
     "reports": [
+      {
+        "device": "iPhone 12 Pro",
+        "platform": "ios",
+        "osVersion": "18.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "ok",
+        "date": "2026-07-24",
+        "notes": "Black screen",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 12 Pro",
         "platform": "ios",
@@ -39200,21 +39221,21 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "It crash 4seconds after clicking play",
+        "status": "loads",
+        "perf": "ok",
+        "notes": "Black screen",
         "updatedAt": "2026-07-24",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 12 Pro",
           "platform": "ios",
           "osVersion": "18.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "loads",
+          "perf": "ok",
           "date": "2026-07-24",
-          "notes": "It crash 4seconds after clicking play",
+          "notes": "Black screen",
           "source": "app",
           "build": {
             "channel": "self-built",
@@ -39232,10 +39253,10 @@
           "osVersion": "18.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "loads",
+          "perf": "ok",
           "date": "2026-07-24",
-          "notes": "It crash 4seconds after clicking play",
+          "notes": "Black screen",
           "source": "app",
           "build": {
             "channel": "self-built",
