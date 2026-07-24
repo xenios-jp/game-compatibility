@@ -21323,8 +21323,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773116358648-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773116358648-2.jpg"
     ],
-    "issueNumber": 442,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/442",
+    "issueNumber": 614,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/614",
     "summaries": {
       "release": {
         "channel": "release",
@@ -39395,6 +39395,8 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 615,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/615"
   }
 ]
