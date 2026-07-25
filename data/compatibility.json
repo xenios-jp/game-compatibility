@@ -11582,22 +11582,43 @@
     "slug": "fifa-09",
     "title": "FIFA 09",
     "titleId": "4541085B",
-    "status": "playable",
-    "perf": "great",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
-      "osVersion": "26.4.2",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-05",
-    "notes": "Works good didn’t face any crash or specific glitch.",
+    "updatedAt": "2026-07-25",
+    "notes": "I’ve tried to switch some setting around according  to the FaQ and sometimes the touchpad shows up but other times it crashes, maybe a new update broke it",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-25",
+        "notes": "I’ve tried to switch some setting around according  to the FaQ and sometimes the touchpad shows up but other times it crashes, maybe a new update broke it",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -11637,41 +11658,32 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Works good didn’t face any crash or specific glitch.",
-        "updatedAt": "2026-06-05",
-        "reportCount": 1,
+        "notes": "I’ve tried to switch some setting around according  to the FaQ and sometimes the touchpad shows up but other times it crashes, maybe a new update broke it",
+        "updatedAt": "2026-07-25",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-05",
-          "notes": "Works good didn’t face any crash or specific glitch.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-25",
+          "notes": "I’ve tried to switch some setting around according  to the FaQ and sometimes the touchpad shows up but other times it crashes, maybe a new update broke it",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-0",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "0",
-            "commitShort": "39be0d65a"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
