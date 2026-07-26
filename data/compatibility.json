@@ -14389,15 +14389,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
       "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-20",
-    "notes": "black screen, then freezes after 15 seconds, then crashes after 15-20 more seconds",
+    "updatedAt": "2026-07-26",
+    "notes": "Black screen",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-26",
+        "notes": "Black screen",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -14494,41 +14515,32 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "ingame",
         "perf": "ok",
-        "notes": "black screen, then freezes after 15 seconds, then crashes after 15-20 more seconds",
-        "updatedAt": "2026-07-20",
-        "reportCount": 3,
+        "notes": "Black screen",
+        "updatedAt": "2026-07-26",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
           "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-07-20",
-          "notes": "black screen, then freezes after 15 seconds, then crashes after 15-20 more seconds",
+          "date": "2026-07-26",
+          "notes": "Black screen",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
           }
         },
         "bestReport": {
