@@ -34822,15 +34822,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad (A16)",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "26.2.1",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-28",
-    "notes": "Doesn’t boot",
+    "updatedAt": "2026-07-28",
+    "notes": "Doesn’t booth",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-28",
+        "notes": "Doesn’t booth",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPad (A16)",
         "platform": "ios",
@@ -34866,61 +34887,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Doesn’t boot",
-        "updatedAt": "2026-04-28",
-        "reportCount": 1,
+        "notes": "Doesn’t booth",
+        "updatedAt": "2026-07-28",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad (A16)",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-04-28",
-          "notes": "Doesn’t boot",
+          "date": "2026-07-28",
+          "notes": "Doesn’t booth",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
-          "device": "iPad (A16)",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-04-28",
-          "notes": "Doesn’t boot",
+          "date": "2026-07-28",
+          "notes": "Doesn’t booth",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
