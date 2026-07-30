@@ -5441,43 +5441,24 @@
   },
   {
     "slug": "call-of-duty-black-ops",
-    "title": "Call Of Duty: Black Ops 1",
+    "title": "Call of Duty: Black Ops",
     "titleId": "41560855",
-    "status": "playable",
-    "perf": "great",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro M4",
+      "device": "iPhone 13 Pro",
       "platform": "ios",
-      "osVersion": "iPadOS 27",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-29",
-    "notes": "Game ran well 60fps but some textures were missing",
+    "updatedAt": "2026-07-18",
+    "notes": "Black screen",
     "reports": [
-      {
-        "device": "iPad Pro M4",
-        "platform": "ios",
-        "osVersion": "iPadOS 27",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-07-29",
-        "notes": "Game ran well 60fps but some textures were missing",
-        "source": "github",
-        "build": {
-          "buildId": "ios-preview-2.1-preview-9857",
-          "channel": "preview",
-          "official": true,
-          "appVersion": "2.1 Preview",
-          "buildNumber": "9857"
-        }
-      },
       {
         "device": "iPhone 13 Pro",
         "platform": "ios",
@@ -5525,47 +5506,49 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Game ran well 60fps but some textures were missing",
-        "updatedAt": "2026-07-29",
-        "reportCount": 2,
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Black screen",
+        "updatedAt": "2026-07-18",
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPad Pro M4",
+          "device": "iPhone 13 Pro",
           "platform": "ios",
-          "osVersion": "iPadOS 27",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-07-29",
-          "notes": "Game ran well 60fps but some textures were missing",
-          "source": "github",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-18",
+          "notes": "Black screen",
+          "source": "app",
           "build": {
-            "buildId": "ios-preview-2.1-preview-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1 Preview",
-            "buildNumber": "9857"
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPad Pro M4",
+          "device": "iPhone 13 Pro",
           "platform": "ios",
-          "osVersion": "iPadOS 27",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-07-29",
-          "notes": "Game ran well 60fps but some textures were missing",
-          "source": "github",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-18",
+          "notes": "Black screen",
+          "source": "app",
           "build": {
-            "buildId": "ios-preview-2.1-preview-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1 Preview",
-            "buildNumber": "9857"
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -18326,13 +18309,12 @@
         "notes": "Crashes",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       },
       {
@@ -18370,6 +18352,16 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "intro",
@@ -18389,13 +18381,12 @@
           "notes": "Crashes",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
