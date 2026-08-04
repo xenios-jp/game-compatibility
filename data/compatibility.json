@@ -17588,6 +17588,116 @@
     }
   },
   {
+    "slug": "injustice",
+    "title": "Injustice",
+    "titleId": "57520829",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-08-03",
+    "notes": "Runs pretty good",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-08-03",
+        "notes": "Runs pretty good",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/57520829/1785728834102-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Runs pretty good",
+        "updatedAt": "2026-08-03",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-08-03",
+          "notes": "Runs pretty good",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-08-03",
+          "notes": "Runs pretty good",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    },
+    "issueNumber": 626,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/626"
+  },
+  {
     "slug": "iron-man",
     "title": "Iron Man",
     "titleId": "534507F2",
@@ -18040,6 +18150,154 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "kane-lynch-2-dog-days",
+    "title": "Kane & Lynch 2: Dog Days",
+    "titleId": "534307F8",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 13 Pro Max",
+      "platform": "ios",
+      "osVersion": "iOS 26.4",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-08-04",
+    "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+    "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "iOS 26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-04",
+        "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-2.0.1-9730",
+          "channel": "release",
+          "official": true,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 628,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/628",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+        "updatedAt": "2026-08-04",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "iOS 26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-04",
+          "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "iOS 26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-04",
+          "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+        "updatedAt": "2026-08-04",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "iOS 26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-04",
+          "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "iOS 26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-04",
+          "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
           }
         }
       }
@@ -36609,6 +36867,114 @@
     }
   },
   {
+    "slug": "the-simpsons-game",
+    "title": "The Simpsons™ Game",
+    "titleId": "45410809",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15",
+      "platform": "ios",
+      "osVersion": "27.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-08-04",
+    "notes": "Just blank black screen without no sign of ever loading",
+    "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-04",
+        "notes": "Just blank black screen without no sign of ever loading",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d",
+          "buildId": "ios-self-built-1.0.1-9288"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Just blank black screen without no sign of ever loading",
+        "updatedAt": "2026-08-04",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-04",
+          "notes": "Just blank black screen without no sign of ever loading",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-04",
+          "notes": "Just blank black screen without no sign of ever loading",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d",
+            "buildId": "ios-self-built-1.0.1-9288"
+          }
+        }
+      }
+    },
+    "issueNumber": 627,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/627"
+  },
+  {
     "slug": "the-wolf-among-us",
     "title": "The Wolf Among Us",
     "titleId": "443607D5",
@@ -39589,223 +39955,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "injustice",
-    "title": "Injustice",
-    "titleId": "57520829",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.5.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-08-03",
-    "notes": "Runs pretty good",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-08-03",
-        "notes": "Runs pretty good",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/57520829/1785728834102-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Runs pretty good",
-        "updatedAt": "2026-08-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-08-03",
-          "notes": "Runs pretty good",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-08-03",
-          "notes": "Runs pretty good",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    },
-    "issueNumber": 626,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/626"
-  },
-  {
-    "slug": "the-simpsons-game",
-    "title": "The Simpsons™ Game",
-    "titleId": "45410809",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15",
-      "platform": "ios",
-      "osVersion": "27.0",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-08-04",
-    "notes": "Just blank black screen without no sign of ever loading",
-    "reports": [
-      {
-        "device": "iPhone 15",
-        "platform": "ios",
-        "osVersion": "27.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-08-04",
-        "notes": "Just blank black screen without no sign of ever loading",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d",
-          "buildId": "ios-self-built-1.0.1-9288"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Just blank black screen without no sign of ever loading",
-        "updatedAt": "2026-08-04",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15",
-          "platform": "ios",
-          "osVersion": "27.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-08-04",
-          "notes": "Just blank black screen without no sign of ever loading",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15",
-          "platform": "ios",
-          "osVersion": "27.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-08-04",
-          "notes": "Just blank black screen without no sign of ever loading",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d",
-            "buildId": "ios-self-built-1.0.1-9288"
-          }
-        }
-      }
-    },
-    "issueNumber": 627,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/627"
   }
 ]
