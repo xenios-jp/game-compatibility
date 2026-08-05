@@ -22413,22 +22413,43 @@
     "slug": "modern-warfare-2",
     "title": "Modern Warfare® 2",
     "titleId": "41560817",
-    "status": "playable",
-    "perf": "great",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPhone 15",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-27",
-    "notes": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
+    "updatedAt": "2026-08-05",
+    "notes": "Almost finishes IW intro before audio looping and eventually freezing, requiring a force close from in the app",
     "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-05",
+        "notes": "Almost finishes IW intro before audio looping and eventually freezing, requiring a force close from in the app",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -22507,41 +22528,32 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
-        "updatedAt": "2026-06-27",
-        "reportCount": 3,
+        "notes": "Almost finishes IW intro before audio looping and eventually freezing, requiring a force close from in the app",
+        "updatedAt": "2026-08-05",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-27",
-          "notes": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-05",
+          "notes": "Almost finishes IW intro before audio looping and eventually freezing, requiring a force close from in the app",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
