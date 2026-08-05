@@ -27789,15 +27789,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone12,1",
+      "device": "iPhone 15",
       "platform": "ios",
-      "osVersion": "17.5.1",
+      "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-24",
-    "notes": "Well, uh. Guessing this fork is still in Alpha, and I do not have an iPhone 14. So, I guess I’ll wait.",
+    "updatedAt": "2026-08-05",
+    "notes": "Instantly crashes with “0x0000000” (idk a bunch of 0’s)",
     "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-05",
+        "notes": "Instantly crashes with “0x0000000” (idk a bunch of 0’s)",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone12,1",
         "platform": "ios",
@@ -27903,41 +27924,32 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "Well, uh. Guessing this fork is still in Alpha, and I do not have an iPhone 14. So, I guess I’ll wait.",
-        "updatedAt": "2026-03-24",
-        "reportCount": 4,
+        "notes": "Instantly crashes with “0x0000000” (idk a bunch of 0’s)",
+        "updatedAt": "2026-08-05",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone12,1",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "17.5.1",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-24",
-          "notes": "Well, uh. Guessing this fork is still in Alpha, and I do not have an iPhone 14. So, I guess I’ll wait.",
+          "date": "2026-08-05",
+          "notes": "Instantly crashes with “0x0000000” (idk a bunch of 0’s)",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
