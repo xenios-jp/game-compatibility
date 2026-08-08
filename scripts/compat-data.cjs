@@ -16,6 +16,8 @@ const VALID_PLATFORMS = ["ios", "macos"];
 const VALID_ARCHS = ["arm64", "x86_64"];
 const VALID_GPU_BACKENDS = ["msl", "msc"];
 const VALID_CHANNELS = ["release", "preview", "self-built"];
+const VALID_STAGES = ["alpha", "beta", "rc", "stable"];
+const REPORT_METADATA_PREFIX = "xenios-report-meta:";
 const SOURCE_FOOTERS = {
   app: "*Submitted via XeniOS in-app reporter*",
   discord: "*Submitted via Discord /report*",
@@ -132,6 +134,11 @@ function normalizeChannel(raw) {
   return null;
 }
 
+function normalizeStage(raw) {
+  const lower = String(raw || "").toLowerCase().trim();
+  return VALID_STAGES.includes(lower) ? lower : null;
+}
+
 function parseIssueTitle(title) {
   const match = String(title || "").match(/^\[?([A-Fa-f0-9]{8})\]?\s*[—–-]\s*(.+?)$/);
   if (!match) {
@@ -146,6 +153,19 @@ function parseIssueTitle(title) {
     titleId: match[1].toUpperCase(),
     gameName,
   };
+}
+
+function normalizeIssueFormText(raw) {
+  const value = String(raw || "").trim();
+  return value === "_No response_" ? "" : value;
+}
+
+function normalizeIssueFormTitleId(raw) {
+  return normalizeIssueFormText(raw)
+    .replace(/^`+|`+$/g, "")
+    .replace(/^\[|\]$/g, "")
+    .trim()
+    .toUpperCase();
 }
 
 function sanitizeBuildFragment(value) {
@@ -166,6 +186,87 @@ function makeBuildId(platform, channel, appVersion, buildNumber) {
   return parts.length >= 3 ? parts.join("-") : null;
 }
 
+function encodeReportMetadata(source, build) {
+  return Buffer.from(JSON.stringify({ source, build }), "utf8")
+    .toString("base64")
+    .replace(/\+/g, "-")
+    .replace(/\//g, "_")
+    .replace(/=+$/g, "");
+}
+
+function decodeReportMetadata(text) {
+  const match = String(text || "").match(/<!--\s*xenios-report-meta:([A-Za-z0-9_-]+)\s*-->/i);
+  if (!match) {
+    return null;
+  }
+  try {
+    const normalized = match[1].replace(/-/g, "+").replace(/_/g, "/");
+    const padding = normalized.length % 4 === 0 ? "" : "=".repeat(4 - (normalized.length % 4));
+    return JSON.parse(Buffer.from(normalized + padding, "base64").toString("utf8"));
+  } catch (_error) {
+    return null;
+  }
+}
+
+function normalizeWorkerBuildMetadata(build, platform) {
+  if (!build || typeof build !== "object") {
+    return null;
+  }
+
+  const channel = VALID_CHANNELS.includes(build.channel) ? build.channel : null;
+  const appVersion = String(build.appVersion || "").trim();
+  const buildNumber = String(build.buildNumber || "").trim();
+  const stage = normalizeStage(build.stage);
+  const commitShort = String(build.commitShort || "").trim();
+  const publishedAt = String(build.publishedAt || "").trim();
+  const buildId =
+    String(build.buildId || "").trim() ||
+    makeBuildId(platform, channel || "self-built", appVersion, buildNumber) ||
+    null;
+
+  if (!channel && !appVersion && !buildNumber && !stage && !commitShort && !buildId) {
+    return null;
+  }
+
+  return {
+    buildId: buildId || undefined,
+    channel: channel || "self-built",
+    official: Boolean(build.official),
+    appVersion: appVersion || undefined,
+    buildNumber: buildNumber || undefined,
+    stage: stage || undefined,
+    commitShort: commitShort || undefined,
+    publishedAt: publishedAt || undefined,
+  };
+}
+
+function coerceUnverifiedBuild(build, platform) {
+  if (!build) {
+    return null;
+  }
+
+  const appVersion = String(build.appVersion || "").trim();
+  const buildNumber = String(build.buildNumber || "").trim();
+  const stage = normalizeStage(build.stage);
+  const commitShort = String(build.commitShort || "").trim();
+  const publishedAt = String(build.publishedAt || "").trim();
+  const buildId =
+    makeBuildId(platform, "self-built", appVersion, buildNumber) ||
+    String(build.buildId || "").trim() ||
+    null;
+
+  return {
+    buildId: buildId || undefined,
+    channel: "self-built",
+    official: false,
+    appVersion: appVersion || undefined,
+    buildNumber: buildNumber || undefined,
+    stage: stage || undefined,
+    commitShort: commitShort || undefined,
+    publishedAt: publishedAt || undefined,
+  };
+}
+
 function parseBuildFromSections(sections, platform) {
   const channel =
     normalizeChannel(sections["Build Channel"] || sections["Release Channel"] || sections["Channel"]) ||
@@ -174,6 +275,7 @@ function parseBuildFromSections(sections, platform) {
     sections["XeniOS Version"] || sections["App Version"] || sections["Version"] || ""
   ).trim();
   const buildNumber = String(sections["Build Number"] || sections["Build"] || "").trim();
+  const stage = normalizeStage(sections["Build Stage"] || sections["Stage"] || "");
   const commitShort = String(
     sections["Commit Short"] || sections["Commit"] || sections["Commit Hash"] || ""
   ).trim();
@@ -182,7 +284,7 @@ function parseBuildFromSections(sections, platform) {
     String(sections["Build ID"] || "").trim() ||
     null;
 
-  if (!buildId && !appVersion && !buildNumber && !commitShort) {
+  if (!buildId && !appVersion && !buildNumber && !stage && !commitShort) {
     return null;
   }
 
@@ -192,6 +294,7 @@ function parseBuildFromSections(sections, platform) {
     official: channel !== "self-built",
     appVersion: appVersion || undefined,
     buildNumber: buildNumber || undefined,
+    stage: stage || undefined,
     commitShort: commitShort || undefined,
   };
 }
@@ -268,13 +371,14 @@ function parseBuildFromMarkdownFields(fields, platform) {
   const channel = normalizeChannel(fields["Build Channel"] || fields["Channel"]) || null;
   const appVersion = String(fields["XeniOS Version"] || fields["App Version"] || "").trim();
   const buildNumber = String(fields["Build Number"] || "").trim();
+  const stage = normalizeStage(fields["Build Stage"] || fields["Stage"] || "");
   const commitShort = String(fields["Commit Short"] || fields["Commit"] || "").trim();
   const buildId =
     makeBuildId(platform, channel || "release", appVersion, buildNumber) ||
     String(fields["Build ID"] || "").trim() ||
     null;
 
-  if (!channel && !appVersion && !buildNumber && !commitShort && !buildId) {
+  if (!channel && !appVersion && !buildNumber && !stage && !commitShort && !buildId) {
     return null;
   }
 
@@ -284,12 +388,15 @@ function parseBuildFromMarkdownFields(fields, platform) {
     official: (channel || "release") !== "self-built",
     appVersion: appVersion || undefined,
     buildNumber: buildNumber || undefined,
+    stage: stage || undefined,
     commitShort: commitShort || undefined,
   };
 }
 
-function parseReportFromMarkdown(text, createdAt) {
+function parseReportFromMarkdown(text, createdAt, options = {}) {
+  const trustWorkerMetadata = Boolean(options.trustWorkerMetadata);
   const fields = parseMarkdownTableFields(text);
+  const metadata = trustWorkerMetadata ? decodeReportMetadata(text) : null;
   const status = normalizeStatus(fields["Status"] || "");
   const platform = normalizePlatform(fields["Platform"] || "");
   const device = canonicalizeDeviceName(fields["Device"] || "");
@@ -308,7 +415,10 @@ function parseReportFromMarkdown(text, createdAt) {
   const gpuBackend = normalizeGpuBackend(fields["GPU Backend"] || "") || "msl";
   const notes = extractNotes(text);
   const submittedBy = String(fields["Submitted By"] || "").trim() || undefined;
-  const build = parseBuildFromMarkdownFields(fields, platform);
+  const parsedBuild = parseBuildFromMarkdownFields(fields, platform);
+  const workerBuild = normalizeWorkerBuildMetadata(metadata && metadata.build, platform);
+  const build = workerBuild || coerceUnverifiedBuild(parsedBuild, platform);
+  const source = (metadata && typeof metadata.source === "string" ? metadata.source : parseSource(text));
 
   return {
     device,
@@ -320,7 +430,7 @@ function parseReportFromMarkdown(text, createdAt) {
     perf: perf || (status === "nothing" ? "n/a" : undefined),
     date: new Date(createdAt).toISOString().slice(0, 10),
     notes,
-    source: parseSource(text),
+    source,
     submittedBy,
     build,
   };
@@ -473,8 +583,10 @@ function buildMarkdownReportBody(report, source, screenshotUrls = [], submittedB
 
   if (build) {
     if (build.channel) lines.push(`| **Build Channel** | ${build.channel} |`);
+    lines.push(`| **Build Trust** | ${build.official ? "Verified CI build" : "Self-built / unverified"} |`);
     if (build.appVersion) lines.push(`| **XeniOS Version** | ${build.appVersion} |`);
     if (build.buildNumber) lines.push(`| **Build Number** | ${build.buildNumber} |`);
+    if (build.stage) lines.push(`| **Build Stage** | ${build.stage} |`);
     if (build.commitShort) lines.push(`| **Commit Short** | \`${build.commitShort}\` |`);
   }
   if (submittedBy) {
@@ -490,7 +602,13 @@ function buildMarkdownReportBody(report, source, screenshotUrls = [], submittedB
     });
   }
 
-  lines.push("", "---", SOURCE_FOOTERS[source] || SOURCE_FOOTERS.github, "<!-- xenios-auto -->");
+  lines.push(
+    "",
+    "---",
+    SOURCE_FOOTERS[source] || SOURCE_FOOTERS.github,
+    `<!-- ${REPORT_METADATA_PREFIX}${encodeReportMetadata(source, build || { channel: "self-built", official: false })} -->`,
+    "<!-- xenios-auto -->"
+  );
   return lines.join("\n");
 }
 
@@ -500,6 +618,9 @@ function validateNormalizedReport(report) {
     errors.push("Title ID must be an 8-character hex value.");
   }
   if (!report.title) errors.push("Title is required.");
+  if (report.title && report.title.length > 200) {
+    errors.push("Title must be 200 characters or fewer.");
+  }
   if (!VALID_STATUSES.includes(report.status)) {
     errors.push(`Status must be one of: ${VALID_STATUSES.join(", ")}.`);
   }
@@ -518,6 +639,15 @@ function validateNormalizedReport(report) {
     errors.push(`GPU backend must be one of: ${VALID_GPU_BACKENDS.join(", ")}.`);
   }
   if (!report.notes) errors.push("Notes are required.");
+  if (report.status === "nothing" && report.perf !== "n/a") {
+    errors.push('Reports with status "nothing" must use performance "n/a".');
+  }
+  if (report.status && report.status !== "nothing" && report.perf === "n/a") {
+    errors.push('Performance "n/a" is only valid when the game does not boot.');
+  }
+  if (report.platform === "ios" && report.arch !== "arm64") {
+    errors.push("iOS reports can only use ARM64.");
+  }
   if (report.platform === "ios" && report.gpuBackend !== "msl") {
     errors.push("iOS reports can only use MSL.");
   }
@@ -528,9 +658,17 @@ function validateNormalizedReport(report) {
 }
 
 function normalizeIssueFormReport(issue, sections) {
-  const titleInfo = parseIssueTitle(issue.title || "");
+  const formTitleId = normalizeIssueFormTitleId(sections["Title ID"] || "");
+  const formGameName = normalizeIssueFormText(sections["Game Name"] || "");
+  const hasFormIdentity = Boolean(formTitleId || formGameName);
+  const titleInfo = hasFormIdentity
+    ? { titleId: formTitleId, gameName: formGameName }
+    : parseIssueTitle(issue.title || "");
   if (!titleInfo) {
-    return { report: null, errors: ['Issue title must match "TITLE_ID — Game Name".'] };
+    return {
+      report: null,
+      errors: ["Game Name and an 8-character hexadecimal Title ID are required."],
+    };
   }
 
   const platform = normalizePlatform(sections["Platform"] || "");
@@ -540,7 +678,7 @@ function normalizeIssueFormReport(issue, sections) {
     (status === "nothing" ? "n/a" : null);
   const arch = normalizeArch(sections["Architecture"] || "");
   const gpuBackend = normalizeGpuBackend(sections["GPU Backend"] || "");
-  const build = parseBuildFromSections(sections, platform || "ios");
+  const build = coerceUnverifiedBuild(parseBuildFromSections(sections, platform || "ios"), platform || "ios");
 
   const report = {
     titleId: titleInfo.titleId,

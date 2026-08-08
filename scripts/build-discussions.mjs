@@ -16,6 +16,8 @@ const DEFAULT_OWNER = "xenios-jp";
 const DEFAULT_REPO = "game-compatibility";
 const DISCUSSION_LABEL = "compat-report";
 const MAX_DISCUSSION_ENTRIES = 6;
+const MAX_GITHUB_ATTEMPTS = 4;
+const RETRYABLE_GITHUB_STATUSES = new Set([408, 429, 500, 502, 503, 504]);
 
 const owner = process.env.GITHUB_OWNER || process.env.GITHUB_REPOSITORY_OWNER || DEFAULT_OWNER;
 const repo =
@@ -61,13 +63,57 @@ function githubHeaders() {
   return headers;
 }
 
-async function githubFetch(url) {
-  const response = await fetch(url, { headers: githubHeaders() });
-  if (!response.ok) {
-    const body = await response.text();
-    throw new Error(`GitHub request failed (${response.status}): ${body}`);
+function retryDelayMs(response, attempt) {
+  const retryAfter = response?.headers.get("retry-after");
+  if (retryAfter) {
+    const seconds = Number(retryAfter);
+    if (Number.isFinite(seconds)) {
+      return Math.min(Math.max(seconds * 1000, 0), 30_000);
+    }
+
+    const timestamp = Date.parse(retryAfter);
+    if (!Number.isNaN(timestamp)) {
+      return Math.min(Math.max(timestamp - Date.now(), 0), 30_000);
+    }
   }
-  return response;
+
+  return 1000 * 2 ** (attempt - 1);
+}
+
+function wait(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function githubFetch(url) {
+  for (let attempt = 1; attempt <= MAX_GITHUB_ATTEMPTS; attempt += 1) {
+    let response;
+    try {
+      response = await fetch(url, { headers: githubHeaders() });
+    } catch (error) {
+      if (attempt === MAX_GITHUB_ATTEMPTS) {
+        const detail = error instanceof Error ? error.message : String(error);
+        throw new Error(`GitHub request failed after ${attempt} attempts: ${detail}`);
+      }
+      await wait(retryDelayMs(null, attempt));
+      continue;
+    }
+
+    if (response.ok) {
+      return response;
+    }
+
+    const body = await response.text();
+    const retryable =
+      RETRYABLE_GITHUB_STATUSES.has(response.status) ||
+      (response.status === 403 && response.headers.has("retry-after"));
+    if (!retryable || attempt === MAX_GITHUB_ATTEMPTS) {
+      throw new Error(`GitHub request failed (${response.status}): ${body}`);
+    }
+
+    await wait(retryDelayMs(response, attempt));
+  }
+
+  throw new Error("GitHub request failed without a response");
 }
 
 async function listIssues() {
@@ -164,6 +210,7 @@ function extractReportMeta(markdown) {
     ["Build Channel", "buildChannel"],
     ["XeniOS Version", "appVersion"],
     ["Build Number", "buildNumber"],
+    ["Build Stage", "buildStage"],
     ["Commit Short", "commitShort"],
     ["Submitted By", "submittedBy"],
   ];
