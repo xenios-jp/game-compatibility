@@ -22,13 +22,14 @@ jobs:
       contains(github.event.issue.labels.*.name, 'compat-report')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: main
 
       - name: Rebuild compatibility.json from GitHub issues
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
+          retries: 3
           script: |
             const fs = require("fs");
             const helpers = require("./scripts/compat-data.cjs");
@@ -153,6 +154,7 @@ jobs:
         run: node scripts/build-discussions.mjs
 
       - name: Commit rebuilt data
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -160,11 +162,14 @@ jobs:
           if ! git diff --staged --quiet; then
             git commit -m "compat: rebuild canonical data [skip ci]"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No changes"
           fi
 
       - name: Notify website mirror
+        if: steps.commit.outputs.changed == 'true'
         env:
           WEBSITE_REPO_PAT: ${{ secrets.WEBSITE_REPO_PAT }}
         run: |

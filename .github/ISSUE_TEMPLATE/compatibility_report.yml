@@ -1,6 +1,6 @@
 name: Compatibility Report
 description: Report game compatibility with XeniOS
-title: "[TITLE_ID] — [GAME_NAME]"
+title: "[Compatibility Report] "
 labels: ["compat-report"]
 
 body:
@@ -12,6 +12,8 @@ body:
         Please fill out all fields below to submit a compatibility report. If you need help or have a support question, please use the [XeniOS Discord](https://discord.gg/xenios) instead.
 
         **How to find the Title ID:** Open the game in XeniOS and check the title bar or log output for the 8-character hex ID (e.g. `4D5307E6`).
+
+        The workflow uses the required Game Name and Title ID fields below and will correct the issue title automatically.
 
         **Build trust:** GitHub issue and Discord reports are always recorded as self-built / unverified. Only reports submitted from CI-distributed XeniOS builds can count as official Release or Preview compatibility data.
 
@@ -26,6 +28,24 @@ body:
           required: true
         - label: This is not a tech support request
           required: true
+
+  - type: input
+    id: game-name
+    attributes:
+      label: Game Name
+      description: The game title shown by XeniOS
+      placeholder: "e.g., Halo 3"
+    validations:
+      required: true
+
+  - type: input
+    id: title-id
+    attributes:
+      label: Title ID
+      description: The exact 8-character hexadecimal Title ID shown by XeniOS
+      placeholder: "e.g., 4D5307E6"
+    validations:
+      required: true
 
   - type: dropdown
     id: platform

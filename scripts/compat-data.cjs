@@ -155,6 +155,19 @@ function parseIssueTitle(title) {
   };
 }
 
+function normalizeIssueFormText(raw) {
+  const value = String(raw || "").trim();
+  return value === "_No response_" ? "" : value;
+}
+
+function normalizeIssueFormTitleId(raw) {
+  return normalizeIssueFormText(raw)
+    .replace(/^`+|`+$/g, "")
+    .replace(/^\[|\]$/g, "")
+    .trim()
+    .toUpperCase();
+}
+
 function sanitizeBuildFragment(value) {
   return String(value || "")
     .trim()
@@ -605,6 +618,9 @@ function validateNormalizedReport(report) {
     errors.push("Title ID must be an 8-character hex value.");
   }
   if (!report.title) errors.push("Title is required.");
+  if (report.title && report.title.length > 200) {
+    errors.push("Title must be 200 characters or fewer.");
+  }
   if (!VALID_STATUSES.includes(report.status)) {
     errors.push(`Status must be one of: ${VALID_STATUSES.join(", ")}.`);
   }
@@ -623,6 +639,15 @@ function validateNormalizedReport(report) {
     errors.push(`GPU backend must be one of: ${VALID_GPU_BACKENDS.join(", ")}.`);
   }
   if (!report.notes) errors.push("Notes are required.");
+  if (report.status === "nothing" && report.perf !== "n/a") {
+    errors.push('Reports with status "nothing" must use performance "n/a".');
+  }
+  if (report.status && report.status !== "nothing" && report.perf === "n/a") {
+    errors.push('Performance "n/a" is only valid when the game does not boot.');
+  }
+  if (report.platform === "ios" && report.arch !== "arm64") {
+    errors.push("iOS reports can only use ARM64.");
+  }
   if (report.platform === "ios" && report.gpuBackend !== "msl") {
     errors.push("iOS reports can only use MSL.");
   }
@@ -633,9 +658,17 @@ function validateNormalizedReport(report) {
 }
 
 function normalizeIssueFormReport(issue, sections) {
-  const titleInfo = parseIssueTitle(issue.title || "");
+  const formTitleId = normalizeIssueFormTitleId(sections["Title ID"] || "");
+  const formGameName = normalizeIssueFormText(sections["Game Name"] || "");
+  const hasFormIdentity = Boolean(formTitleId || formGameName);
+  const titleInfo = hasFormIdentity
+    ? { titleId: formTitleId, gameName: formGameName }
+    : parseIssueTitle(issue.title || "");
   if (!titleInfo) {
-    return { report: null, errors: ['Issue title must match "TITLE_ID — Game Name".'] };
+    return {
+      report: null,
+      errors: ["Game Name and an 8-character hexadecimal Title ID are required."],
+    };
   }
 
   const platform = normalizePlatform(sections["Platform"] || "");

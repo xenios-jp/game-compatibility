@@ -2,7 +2,7 @@ name: Process Compatibility Report
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
 
 permissions:
   contents: write
@@ -17,21 +17,35 @@ jobs:
     if: contains(github.event.issue.labels.*.name, 'compat-report')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: main
 
       - name: Parse issue and update canonical data
-        uses: actions/github-script@v7
+        id: process
+        uses: actions/github-script@v9
         with:
           script: |
             const fs = require("fs");
             const helpers = require("./scripts/compat-data.cjs");
             const issue = context.payload.issue;
             const sentinel = "<!-- xenios-auto -->";
+            core.setOutput("processed", "false");
 
             if ((issue.body || "").includes(sentinel)) {
               core.info("Skipping auto-generated issue");
+              return;
+            }
+
+            const issueLabels = (issue.labels || []).map((label) =>
+              typeof label === "string" ? label : label.name || ""
+            );
+            const processedLabelPrefixes = ["state:", "perf:", "platform:", "gpu:", "channel:"];
+            const alreadyProcessed = processedLabelPrefixes.every((prefix) =>
+              issueLabels.some((label) => label.startsWith(prefix))
+            );
+            if (context.payload.action === "edited" && alreadyProcessed) {
+              core.info("Skipping edit for an already processed report");
               return;
             }
 
@@ -40,13 +54,13 @@ jobs:
             if (!report || errors.length > 0) {
               const extra = errors.length > 0
                 ? errors.map((error) => `- ${error}`).join("\n")
-                : '- Issue title must match "TITLE_ID — Game Name".';
+                : "- Game Name and an 8-character hexadecimal Title ID are required.";
               await github.rest.issues.createComment({
                 ...context.repo,
                 issue_number: issue.number,
                 body: `⚠️ Could not process this report automatically.\n\n${extra}\n\n${sentinel}`,
               });
-              core.setFailed("Issue validation failed");
+              core.warning(`Issue validation failed: ${errors.join("; ")}`);
               return;
             }
 
@@ -151,6 +165,15 @@ jobs:
               labels: reportLabels,
             });
 
+            const canonicalIssueTitle = `${report.titleId} — ${report.title}`;
+            if (String(issue.title || "").trim() !== canonicalIssueTitle) {
+              await github.rest.issues.update({
+                ...context.repo,
+                issue_number: issue.number,
+                title: canonicalIssueTitle,
+              });
+            }
+
             const existingIssues = await github.paginate(github.rest.issues.listForRepo, {
               ...context.repo,
               labels: "compat-report",
@@ -224,13 +247,16 @@ jobs:
               };
             });
             fs.writeFileSync("data/compatibility.json", JSON.stringify(refreshed, null, 2) + "\n");
+            core.setOutput("processed", "true");
 
       - name: Rebuild discussions snapshot
+        if: steps.process.outputs.processed == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/build-discussions.mjs
 
       - name: Commit compatibility data
+        if: steps.process.outputs.processed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -243,6 +269,7 @@ jobs:
           fi
 
       - name: Notify website mirror
+        if: steps.process.outputs.processed == 'true'
         env:
           WEBSITE_REPO_PAT: ${{ secrets.WEBSITE_REPO_PAT }}
         run: |
