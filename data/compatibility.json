@@ -7909,15 +7909,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-17",
-    "notes": "Story mode is somewhat playable, but cutscenes are completely messed up.\n\nTrying to start an arcade or versus match causes the game to crash after you pick a character.",
+    "updatedAt": "2026-08-09",
+    "notes": "Laggy menu performance. Story and Versus crash when loading.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-08-09",
+        "notes": "Laggy menu performance. Story and Versus crash when loading.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -7953,61 +7974,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
-        "notes": "Story mode is somewhat playable, but cutscenes are completely messed up.\n\nTrying to start an arcade or versus match causes the game to crash after you pick a character.",
-        "updatedAt": "2026-03-17",
-        "reportCount": 1,
+        "notes": "Laggy menu performance. Story and Versus crash when loading.",
+        "updatedAt": "2026-08-09",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
           "perf": "poor",
-          "date": "2026-03-17",
-          "notes": "Story mode is somewhat playable, but cutscenes are completely messed up.\n\nTrying to start an arcade or versus match causes the game to crash after you pick a character.",
+          "date": "2026-08-09",
+          "notes": "Laggy menu performance. Story and Versus crash when loading.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
           "perf": "poor",
-          "date": "2026-03-17",
-          "notes": "Story mode is somewhat playable, but cutscenes are completely messed up.\n\nTrying to start an arcade or versus match causes the game to crash after you pick a character.",
+          "date": "2026-08-09",
+          "notes": "Laggy menu performance. Story and Versus crash when loading.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
