@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T21:27:56.515Z",
+  "generatedAt": "2026-08-11T21:31:22.648Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -11240,8 +11240,20 @@
       "titleId": "445007F4",
       "issueNumber": 410,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/410",
-      "updatedAt": "2026-04-12",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259071479",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/410#issuecomment-5259071479",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786483745000,
+          "issueNumber": 410,
+          "excerpt": "UPDATE: Preview 2.0.1-9849 still gets black screen on boot.",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-410",
           "type": "issue",
