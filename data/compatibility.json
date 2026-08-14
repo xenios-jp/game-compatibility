@@ -19477,6 +19477,118 @@
     }
   },
   {
+    "slug": "lego-jurassic-world",
+    "title": "LEGO Jurassic World",
+    "titleId": "5752084D",
+    "status": "loads",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "26.6",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-08-14",
+    "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.6",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "great",
+        "date": "2026-08-14",
+        "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9849",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9849"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 655,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/655",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "great",
+        "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
+        "updatedAt": "2026-08-14",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "26.6",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-08-14",
+          "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "26.6",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-08-14",
+          "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "lego-star-wars-tcs",
     "title": "LEGO Star Wars: TCS",
     "titleId": "4C4107D7",
