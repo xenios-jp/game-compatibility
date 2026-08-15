@@ -380,118 +380,6 @@
     }
   },
   {
-    "slug": "3",
-    "title": "3",
-    "titleId": "4D5307E7",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 11bro mix",
-      "platform": "ios",
-      "osVersion": "26 5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-08-14",
-    "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
-    "reports": [
-      {
-        "device": "iPhone 11bro mix",
-        "platform": "ios",
-        "osVersion": "26 5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-08-14",
-        "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
-        "source": "github",
-        "build": {
-          "buildId": "ios-self-built-e-45",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "e",
-          "buildNumber": "45"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 656,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/656",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
-        "updatedAt": "2026-08-14",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 11bro mix",
-          "platform": "ios",
-          "osVersion": "26 5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-08-14",
-          "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
-          "source": "github",
-          "build": {
-            "buildId": "ios-self-built-e-45",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "e",
-            "buildNumber": "45"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 11bro mix",
-          "platform": "ios",
-          "osVersion": "26 5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-08-14",
-          "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
-          "source": "github",
-          "build": {
-            "buildId": "ios-self-built-e-45",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "e",
-            "buildNumber": "45"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "50-cent-bots",
     "title": "50 Cent: BotS",
     "titleId": "5451083B",
@@ -19589,118 +19477,6 @@
     }
   },
   {
-    "slug": "lego-jurassic-world",
-    "title": "LEGO Jurassic World",
-    "titleId": "5752084D",
-    "status": "loads",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16",
-      "platform": "ios",
-      "osVersion": "26.6",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-08-14",
-    "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
-    "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.6",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "great",
-        "date": "2026-08-14",
-        "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9849",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9849"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 655,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/655",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "great",
-        "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
-        "updatedAt": "2026-08-14",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "26.6",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-08-14",
-          "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-self-built-2.0.1-9849",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9849"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "26.6",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-08-14",
-          "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-self-built-2.0.1-9849",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9849"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "lego-star-wars-tcs",
     "title": "LEGO Star Wars: TCS",
     "titleId": "4C4107D7",
@@ -32285,143 +32061,6 @@
     }
   },
   {
-    "slug": "sroa",
-    "title": "SEGA Rally Online Arcade",
-    "titleId": "58410AC2",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios",
-      "macos"
-    ],
-    "lastReport": {
-      "device": "MacBook Pro (M1)",
-      "platform": "macos",
-      "osVersion": "26.6.1",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-08-15",
-    "notes": "Game boots to game logo and hangs.",
-    "reports": [
-      {
-        "device": "MacBook Pro (M1)",
-        "platform": "macos",
-        "osVersion": "26.6.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-08-15",
-        "notes": "Game boots to game logo and hangs.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-self-built-2.0.1-9849",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9849",
-          "commitShort": "3418fc4"
-        }
-      },
-      {
-        "device": "iPad Pro 13-inch (M5)",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-06-11",
-        "notes": "Loads to title screen then stops",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 500,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/500",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Game boots to game logo and hangs.",
-        "updatedAt": "2026-08-15",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "26.6.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-08-15",
-          "notes": "Game boots to game logo and hangs.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-self-built-2.0.1-9849",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9849",
-            "commitShort": "3418fc4"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "26.6.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-08-15",
-          "notes": "Game boots to game logo and hangs.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-self-built-2.0.1-9849",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9849",
-            "commitShort": "3418fc4"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "serious-sam-hd-tfe",
     "title": "Serious Sam HD: TFE",
     "titleId": "584109DA",
@@ -35639,6 +35278,143 @@
             "buildNumber": "9730",
             "stage": "stable",
             "commitShort": "57c3ca140"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "sroa",
+    "title": "Sroa",
+    "titleId": "58410AC2",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "macos",
+      "ios"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro (M1)",
+      "platform": "macos",
+      "osVersion": "26.6.1",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-08-15",
+    "notes": "Game boots to game logo and hangs.",
+    "reports": [
+      {
+        "device": "MacBook Pro (M1)",
+        "platform": "macos",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-15",
+        "notes": "Game boots to game logo and hangs.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9849",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9849",
+          "commitShort": "3418fc4"
+        }
+      },
+      {
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-06-11",
+        "notes": "Loads to title screen then stops",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 500,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/500",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Game boots to game logo and hangs.",
+        "updatedAt": "2026-08-15",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-15",
+          "notes": "Game boots to game logo and hangs.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849",
+            "commitShort": "3418fc4"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-15",
+          "notes": "Game boots to game logo and hangs.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849",
+            "commitShort": "3418fc4"
           }
         }
       }
