@@ -14200,6 +14200,121 @@
     }
   },
   {
+    "slug": "full-house-poker",
+    "title": "Full House Poker",
+    "titleId": "5841098D",
+    "status": "loads",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro (M1)",
+      "platform": "macos",
+      "osVersion": "26.6.1",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-08-15",
+    "notes": "Game boots and able to navigate menus but hangs attempting to get in-game on LOADING screen.\n\nOn successive boots, \"LOADING\" isn't rendered...",
+    "reports": [
+      {
+        "device": "MacBook Pro (M1)",
+        "platform": "macos",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "loads",
+        "perf": "great",
+        "date": "2026-08-15",
+        "notes": "Game boots and able to navigate menus but hangs attempting to get in-game on LOADING screen.\n\nOn successive boots, \"LOADING\" isn't rendered...",
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9849",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9849",
+          "commitShort": "3418fc4"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 657,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/657",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "great",
+        "notes": "Game boots and able to navigate menus but hangs attempting to get in-game on LOADING screen.\n\nOn successive boots, \"LOADING\" isn't rendered...",
+        "updatedAt": "2026-08-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-08-15",
+          "notes": "Game boots and able to navigate menus but hangs attempting to get in-game on LOADING screen.\n\nOn successive boots, \"LOADING\" isn't rendered...",
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849",
+            "commitShort": "3418fc4"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-08-15",
+          "notes": "Game boots and able to navigate menus but hangs attempting to get in-game on LOADING screen.\n\nOn successive boots, \"LOADING\" isn't rendered...",
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849",
+            "commitShort": "3418fc4"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "game-final-exe",
     "title": "Game_FINAL.exe",
     "titleId": "454108F9",
