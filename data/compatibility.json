@@ -32285,6 +32285,143 @@
     }
   },
   {
+    "slug": "sroa",
+    "title": "SEGA Rally Online Arcade",
+    "titleId": "58410AC2",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios",
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro (M1)",
+      "platform": "macos",
+      "osVersion": "26.6.1",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-08-15",
+    "notes": "Game boots to game logo and hangs.",
+    "reports": [
+      {
+        "device": "MacBook Pro (M1)",
+        "platform": "macos",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-15",
+        "notes": "Game boots to game logo and hangs.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9849",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9849",
+          "commitShort": "3418fc4"
+        }
+      },
+      {
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-06-11",
+        "notes": "Loads to title screen then stops",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 500,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/500",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Game boots to game logo and hangs.",
+        "updatedAt": "2026-08-15",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-15",
+          "notes": "Game boots to game logo and hangs.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849",
+            "commitShort": "3418fc4"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-15",
+          "notes": "Game boots to game logo and hangs.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849",
+            "commitShort": "3418fc4"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "serious-sam-hd-tfe",
     "title": "Serious Sam HD: TFE",
     "titleId": "584109DA",
@@ -35493,124 +35630,6 @@
           "perf": "great",
           "date": "2026-06-11",
           "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "sroa",
-    "title": "Sroa",
-    "titleId": "58410AC2",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro 13-inch (M5)",
-      "platform": "ios",
-      "osVersion": "26.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-06-11",
-    "notes": "Loads to title screen then stops",
-    "reports": [
-      {
-        "device": "iPad Pro 13-inch (M5)",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-06-11",
-        "notes": "Loads to title screen then stops",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 500,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/500",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Loads to title screen then stops",
-        "updatedAt": "2026-06-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro 13-inch (M5)",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-11",
-          "notes": "Loads to title screen then stops",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro 13-inch (M5)",
-          "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-11",
-          "notes": "Loads to title screen then stops",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-2.0.1-9730",
