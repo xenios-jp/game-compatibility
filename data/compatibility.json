@@ -17152,18 +17152,38 @@
     "perf": "n/a",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
+      "device": "m5 pro",
+      "platform": "macos",
       "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-27",
-    "notes": "Unable to load, could be bad file but I noticed others not being able to boot up either. So I’m assuming unimplemented file up calls",
+    "updatedAt": "2026-08-16",
+    "notes": "Opens black screen closes",
     "reports": [
+      {
+        "device": "m5 pro",
+        "platform": "macos",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-16",
+        "notes": "Opens black screen closes",
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9730-9857",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1-9730",
+          "buildNumber": "9857"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -17217,49 +17237,45 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Unable to load, could be bad file but I noticed others not being able to boot up either. So I’m assuming unimplemented file up calls",
-        "updatedAt": "2026-07-27",
-        "reportCount": 1,
+        "notes": "Opens black screen closes",
+        "updatedAt": "2026-08-16",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
+          "device": "m5 pro",
+          "platform": "macos",
           "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-07-27",
-          "notes": "Unable to load, could be bad file but I noticed others not being able to boot up either. So I’m assuming unimplemented file up calls",
-          "source": "app",
+          "date": "2026-08-16",
+          "notes": "Opens black screen closes",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9730-9857",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "9857"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
+          "device": "m5 pro",
+          "platform": "macos",
           "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-07-27",
-          "notes": "Unable to load, could be bad file but I noticed others not being able to boot up either. So I’m assuming unimplemented file up calls",
-          "source": "app",
+          "date": "2026-08-16",
+          "notes": "Opens black screen closes",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9730-9857",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "9857"
           }
         }
       }
@@ -25715,8 +25731,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-4.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-5.jpg"
     ],
-    "issueNumber": 223,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/223",
+    "issueNumber": 660,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/660",
     "summaries": {
       "release": {
         "channel": "release",
@@ -35983,6 +35999,114 @@
     }
   },
   {
+    "slug": "superman-returns",
+    "title": "Superman Returns",
+    "titleId": "454107ED",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-08-15",
+    "notes": "Boots and plays fine, almost no stutter.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-08-15",
+        "notes": "Boots and plays fine, almost no stutter.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Boots and plays fine, almost no stutter.",
+        "updatedAt": "2026-08-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-08-15",
+          "notes": "Boots and plays fine, almost no stutter.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-08-15",
+          "notes": "Boots and plays fine, almost no stutter.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    },
+    "issueNumber": 661,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/661"
+  },
+  {
     "slug": "superstreetfighter2thd",
     "title": "SuperStreetFighter2THD",
     "titleId": "584108A4",
@@ -41533,112 +41657,6 @@
             "buildNumber": "9321",
             "stage": "stable",
             "commitShort": "6228dab43"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "superman-returns",
-    "title": "Superman Returns",
-    "titleId": "454107ED",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.5.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-08-15",
-    "notes": "Boots and plays fine, almost no stutter.",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-08-15",
-        "notes": "Boots and plays fine, almost no stutter.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Boots and plays fine, almost no stutter.",
-        "updatedAt": "2026-08-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-08-15",
-          "notes": "Boots and plays fine, almost no stutter.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-08-15",
-          "notes": "Boots and plays fine, almost no stutter.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
