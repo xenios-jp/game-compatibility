@@ -15087,15 +15087,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPhone12,1",
       "platform": "ios",
-      "osVersion": "26.6",
+      "osVersion": "26.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-16",
-    "notes": "Nothing do",
+    "updatedAt": "2026-08-17",
+    "notes": "I don’t know what’s the problem",
     "reports": [
+      {
+        "device": "iPhone12,1",
+        "platform": "ios",
+        "osVersion": "26.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-17",
+        "notes": "I don’t know what’s the problem",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -15119,6 +15140,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1787008012244-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1785316651021-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1782764313005-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1776600642715-1.jpg",
@@ -15137,8 +15159,7 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-3.jpg"
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-2.jpg"
     ],
     "issueNumber": 663,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/663",
@@ -15153,63 +15174,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Nothing do",
-        "updatedAt": "2026-08-16",
-        "reportCount": 1,
+        "notes": "I don’t know what’s the problem",
+        "updatedAt": "2026-08-17",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone12,1",
           "platform": "ios",
-          "osVersion": "26.6",
+          "osVersion": "26.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-08-16",
-          "notes": "Nothing do",
+          "date": "2026-08-17",
+          "notes": "I don’t know what’s the problem",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "57c3ca140"
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone12,1",
           "platform": "ios",
-          "osVersion": "26.6",
+          "osVersion": "26.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-08-16",
-          "notes": "Nothing do",
+          "date": "2026-08-17",
+          "notes": "I don’t know what’s the problem",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "57c3ca140"
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
