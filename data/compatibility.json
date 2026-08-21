@@ -15608,8 +15608,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773088492970-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773088492970-2.jpg"
     ],
-    "issueNumber": 41,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
+    "issueNumber": 667,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/667",
     "summaries": {
       "release": {
         "channel": "release",
@@ -22021,6 +22021,118 @@
             "buildNumber": "9730",
             "stage": "stable",
             "commitShort": "57c3ca140"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "metal-gear-solid-hd-collection",
+    "title": "Metal Gear Solid HD Collection",
+    "titleId": "4B4E0840",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Air (M2)",
+      "platform": "macos",
+      "osVersion": "MacOS 26.6",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-08-21",
+    "notes": "MGS2: The game runs at 60 FPS with no significant drops. Any resolution above 720p breaks the game’s visuals. Random crashes occur, mostly due to heat or switching between areas too quickly. There are almost no visual issues, aside from some transparency problems, such as the glasses of one character and the surface of the water in a small part of the game. Some people recommend disabling GPU invalid fetch constants to fix transparency issues, but doing so causes even worse graphical glitches.\n\nMGS3: Unlike MGS2, this game has no resolution-related problems. However, frame drops are much more severe, even at 720p, and FPS below 40 causes slow motion. This happens frequently in vast, bright areas and during boss fights, accounting for roughly 30% of the game. Random crashes are also present.\n\nConclusion: While MGS2 is absolutely playable, MGS3’s slowdowns cannot be overlooked. The main advantages of this version are its modern controller layout and the lack of pressure-sensitive button requirements.",
+    "reports": [
+      {
+        "device": "MacBook Air (M2)",
+        "platform": "macos",
+        "osVersion": "MacOS 26.6",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-08-21",
+        "notes": "MGS2: The game runs at 60 FPS with no significant drops. Any resolution above 720p breaks the game’s visuals. Random crashes occur, mostly due to heat or switching between areas too quickly. There are almost no visual issues, aside from some transparency problems, such as the glasses of one character and the surface of the water in a small part of the game. Some people recommend disabling GPU invalid fetch constants to fix transparency issues, but doing so causes even worse graphical glitches.\n\nMGS3: Unlike MGS2, this game has no resolution-related problems. However, frame drops are much more severe, even at 720p, and FPS below 40 causes slow motion. This happens frequently in vast, bright areas and during boss fights, accounting for roughly 30% of the game. Random crashes are also present.\n\nConclusion: While MGS2 is absolutely playable, MGS3’s slowdowns cannot be overlooked. The main advantages of this version are its modern controller layout and the lack of pressure-sensitive button requirements.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 669,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/669",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "MGS2: The game runs at 60 FPS with no significant drops. Any resolution above 720p breaks the game’s visuals. Random crashes occur, mostly due to heat or switching between areas too quickly. There are almost no visual issues, aside from some transparency problems, such as the glasses of one character and the surface of the water in a small part of the game. Some people recommend disabling GPU invalid fetch constants to fix transparency issues, but doing so causes even worse graphical glitches.\n\nMGS3: Unlike MGS2, this game has no resolution-related problems. However, frame drops are much more severe, even at 720p, and FPS below 40 causes slow motion. This happens frequently in vast, bright areas and during boss fights, accounting for roughly 30% of the game. Random crashes are also present.\n\nConclusion: While MGS2 is absolutely playable, MGS3’s slowdowns cannot be overlooked. The main advantages of this version are its modern controller layout and the lack of pressure-sensitive button requirements.",
+        "updatedAt": "2026-08-21",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Air (M2)",
+          "platform": "macos",
+          "osVersion": "MacOS 26.6",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-08-21",
+          "notes": "MGS2: The game runs at 60 FPS with no significant drops. Any resolution above 720p breaks the game’s visuals. Random crashes occur, mostly due to heat or switching between areas too quickly. There are almost no visual issues, aside from some transparency problems, such as the glasses of one character and the surface of the water in a small part of the game. Some people recommend disabling GPU invalid fetch constants to fix transparency issues, but doing so causes even worse graphical glitches.\n\nMGS3: Unlike MGS2, this game has no resolution-related problems. However, frame drops are much more severe, even at 720p, and FPS below 40 causes slow motion. This happens frequently in vast, bright areas and during boss fights, accounting for roughly 30% of the game. Random crashes are also present.\n\nConclusion: While MGS2 is absolutely playable, MGS3’s slowdowns cannot be overlooked. The main advantages of this version are its modern controller layout and the lack of pressure-sensitive button requirements.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Air (M2)",
+          "platform": "macos",
+          "osVersion": "MacOS 26.6",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-08-21",
+          "notes": "MGS2: The game runs at 60 FPS with no significant drops. Any resolution above 720p breaks the game’s visuals. Random crashes occur, mostly due to heat or switching between areas too quickly. There are almost no visual issues, aside from some transparency problems, such as the glasses of one character and the surface of the water in a small part of the game. Some people recommend disabling GPU invalid fetch constants to fix transparency issues, but doing so causes even worse graphical glitches.\n\nMGS3: Unlike MGS2, this game has no resolution-related problems. However, frame drops are much more severe, even at 720p, and FPS below 40 causes slow motion. This happens frequently in vast, bright areas and during boss fights, accounting for roughly 30% of the game. Random crashes are also present.\n\nConclusion: While MGS2 is absolutely playable, MGS3’s slowdowns cannot be overlooked. The main advantages of this version are its modern controller layout and the lack of pressure-sensitive button requirements.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
           }
         }
       }
@@ -29714,8 +29826,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 99,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/99",
+    "issueNumber": 668,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/668",
     "summaries": {
       "release": {
         "channel": "release",
