@@ -6549,6 +6549,118 @@
     }
   },
   {
+    "slug": "crackdown",
+    "title": "Crackdown",
+    "titleId": "4D5307DC",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "Mac mini (M4)",
+      "platform": "macos",
+      "osVersion": "26.5.2 (for mac OS)",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-08-23",
+    "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
+    "reports": [
+      {
+        "device": "Mac mini (M4)",
+        "platform": "macos",
+        "osVersion": "26.5.2 (for mac OS)",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-08-23",
+        "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9730-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1-9730",
+          "buildNumber": "9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 672,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/672",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
+        "updatedAt": "2026-08-23",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Mac mini (M4)",
+          "platform": "macos",
+          "osVersion": "26.5.2 (for mac OS)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-08-23",
+          "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9730-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "Mac mini (M4)",
+          "platform": "macos",
+          "osVersion": "26.5.2 (for mac OS)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-08-23",
+          "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9730-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "9730"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "crash-of-the-titans",
     "title": "Crash Of The Titans",
     "titleId": "565507E4",
