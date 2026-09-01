@@ -21354,8 +21354,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 283,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/283",
+    "issueNumber": 456,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/456",
     "summaries": {
       "release": {
         "channel": "release",
@@ -21947,6 +21947,118 @@
             "buildNumber": "9730",
             "stage": "stable",
             "commitShort": "57c3ca140"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "metal-gear-solid-v-ground-zeroes",
+    "title": "Metal Gear Solid V: Ground Zeroes",
+    "titleId": "4B4E085C",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-09-01",
+    "notes": "Haven’t tested Full game but all the menus work, the opening cutscene works, and gameplay works with fps around 15-25. The only 2 negatives about it right now is that some text is bugged like in the credits and when selecting guns and also some textures are bugged out",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-09-01",
+        "notes": "Haven’t tested Full game but all the menus work, the opening cutscene works, and gameplay works with fps around 15-25. The only 2 negatives about it right now is that some text is bugged like in the credits and when selecting guns and also some textures are bugged out",
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1-9730",
+          "buildNumber": "9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 166,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/166",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Haven’t tested Full game but all the menus work, the opening cutscene works, and gameplay works with fps around 15-25. The only 2 negatives about it right now is that some text is bugged like in the credits and when selecting guns and also some textures are bugged out",
+        "updatedAt": "2026-09-01",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-01",
+          "notes": "Haven’t tested Full game but all the menus work, the opening cutscene works, and gameplay works with fps around 15-25. The only 2 negatives about it right now is that some text is bugged like in the credits and when selecting guns and also some textures are bugged out",
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-01",
+          "notes": "Haven’t tested Full game but all the menus work, the opening cutscene works, and gameplay works with fps around 15-25. The only 2 negatives about it right now is that some text is bugged like in the credits and when selecting guns and also some textures are bugged out",
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "9730"
           }
         }
       }
