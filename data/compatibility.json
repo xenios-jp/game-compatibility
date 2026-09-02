@@ -27785,6 +27785,118 @@
     }
   },
   {
+    "slug": "payday-2",
+    "title": "Payday 2",
+    "titleId": "464F0800",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-09-02",
+    "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-09-02",
+        "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 684,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/684",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
+        "updatedAt": "2026-09-02",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-02",
+          "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-02",
+          "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "peggle",
     "title": "Peggle",
     "titleId": "58410889",
