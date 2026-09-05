@@ -15045,15 +15045,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "26.6",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-09-05",
-    "notes": "It kinda loads,but it’s just a black screen,I can tell it’s trying because the whole app lags like crazy (I’m in LiveContainer)",
+    "notes": "It doesnt load at all",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-09-05",
+        "notes": "It doesnt load at all",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -15174,42 +15195,32 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
-        "notes": "It kinda loads,but it’s just a black screen,I can tell it’s trying because the whole app lags like crazy (I’m in LiveContainer)",
+        "notes": "It doesnt load at all",
         "updatedAt": "2026-09-05",
-        "reportCount": 4,
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.6",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
           "date": "2026-09-05",
-          "notes": "It kinda loads,but it’s just a black screen,I can tell it’s trying because the whole app lags like crazy (I’m in LiveContainer)",
+          "notes": "It doesnt load at all",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "57c3ca140"
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
