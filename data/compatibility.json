@@ -5080,8 +5080,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1785908121016-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1773031857872-1.jpg"
     ],
-    "issueNumber": 120,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/120",
+    "issueNumber": 632,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/632",
     "summaries": {
       "release": {
         "channel": "release",
@@ -32858,18 +32858,38 @@
     "perf": "great",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3",
+      "device": "MacBook Pro (M4)",
+      "platform": "macos",
+      "osVersion": "macOS 27",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-12",
-    "notes": "Works perfectly",
+    "updatedAt": "2026-09-06",
+    "notes": "Performmance is great. I didnt came across any issues.",
     "reports": [
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "macOS 27",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-09-06",
+        "notes": "Performmance is great. I didnt came across any issues.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -32969,49 +32989,45 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Works perfectly",
-        "updatedAt": "2026-06-12",
-        "reportCount": 3,
+        "notes": "Performmance is great. I didnt came across any issues.",
+        "updatedAt": "2026-09-06",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "macOS 27",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-06-12",
-          "notes": "Works perfectly",
-          "source": "app",
+          "date": "2026-09-06",
+          "notes": "Performmance is great. I didnt came across any issues.",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "buildNumber": "9730"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "macOS 27",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-06-12",
-          "notes": "Works perfectly",
-          "source": "app",
+          "date": "2026-09-06",
+          "notes": "Performmance is great. I didnt came across any issues.",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "buildNumber": "9730"
           }
         }
       }
