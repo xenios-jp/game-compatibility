@@ -28871,8 +28871,8 @@
     "slug": "popcap-collection",
     "title": "PopCap Collection",
     "titleId": "504787D8",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
@@ -28880,13 +28880,34 @@
     "lastReport": {
       "device": "iPhone 14 Pro",
       "platform": "ios",
-      "osVersion": "26.2.1",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-20",
-    "notes": "Nothing at all just crashes .",
+    "updatedAt": "2026-09-10",
+    "notes": "Loads into game selector, but A button doesn’t register game select.",
     "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "ok",
+        "date": "2026-09-10",
+        "notes": "Loads into game selector, but A button doesn’t register game select.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -28923,63 +28944,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Nothing at all just crashes .",
-        "updatedAt": "2026-03-20",
-        "reportCount": 1,
+        "status": "loads",
+        "perf": "ok",
+        "notes": "Loads into game selector, but A button doesn’t register game select.",
+        "updatedAt": "2026-09-10",
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-20",
-          "notes": "Nothing at all just crashes .",
+          "status": "loads",
+          "perf": "ok",
+          "date": "2026-09-10",
+          "notes": "Loads into game selector, but A button doesn’t register game select.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "056d2f64d"
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
           "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-20",
-          "notes": "Nothing at all just crashes .",
+          "status": "loads",
+          "perf": "ok",
+          "date": "2026-09-10",
+          "notes": "Loads into game selector, but A button doesn’t register game select.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "056d2f64d"
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
