@@ -520,6 +520,222 @@
     }
   },
   {
+    "slug": "a-kingdom-for-keflings",
+    "title": "A Kingdom for Keflings",
+    "titleId": "584108DB",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14 Pro",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-09-10",
+    "notes": "Loads great, pressing start seems to make it load faster",
+    "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-09-10",
+        "notes": "Loads great, pressing start seems to make it load faster",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Loads great, pressing start seems to make it load faster",
+        "updatedAt": "2026-09-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-09-10",
+          "notes": "Loads great, pressing start seems to make it load faster",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-09-10",
+          "notes": "Loads great, pressing start seems to make it load faster",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    },
+    "issueNumber": 691,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/691"
+  },
+  {
+    "slug": "a-world-of-keflings",
+    "title": "A World of Keflings",
+    "titleId": "584109DB",
+    "status": "intro",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14 Pro",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-09-10",
+    "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
+    "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "ok",
+        "date": "2026-09-10",
+        "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "intro",
+        "perf": "ok",
+        "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
+        "updatedAt": "2026-09-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "ok",
+          "date": "2026-09-10",
+          "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "ok",
+          "date": "2026-09-10",
+          "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    },
+    "issueNumber": 693,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/693"
+  },
+  {
     "slug": "ac-liberation-hd",
     "title": "AC Liberation HD",
     "titleId": "584113FC",
@@ -4232,22 +4448,42 @@
     "slug": "blur",
     "title": "Blur",
     "titleId": "41560845",
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
-      "platform": "ios",
-      "osVersion": "18.7.2",
+      "device": "MacBook Pro M5",
+      "platform": "macos",
+      "osVersion": "26.6.2",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
-    "updatedAt": "2026-06-12",
-    "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
+    "updatedAt": "2026-09-11",
+    "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
     "reports": [
+      {
+        "device": "MacBook Pro M5",
+        "platform": "macos",
+        "osVersion": "26.6.2",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-09-11",
+        "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9730-57c3a140",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1-9730",
+          "buildNumber": "57c3a140"
+        }
+      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -4315,8 +4551,8 @@
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560845/1773962391027-1.jpg"
     ],
-    "issueNumber": 441,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/441",
+    "issueNumber": 298,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/298",
     "summaries": {
       "release": {
         "channel": "release",
@@ -4340,51 +4576,47 @@
       },
       "all": {
         "channel": "all",
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
-        "updatedAt": "2026-06-12",
-        "reportCount": 3,
+        "status": "playable",
+        "perf": "great",
+        "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
+        "updatedAt": "2026-09-11",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "18.7.2",
+          "device": "MacBook Pro M5",
+          "platform": "macos",
+          "osVersion": "26.6.2",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-12",
-          "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
-          "source": "app",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-11",
+          "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9730-57c3a140",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "57c3a140"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "18.7.2",
+          "device": "MacBook Pro M5",
+          "platform": "macos",
+          "osVersion": "26.6.2",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-12",
-          "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
-          "source": "app",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-11",
+          "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9730-57c3a140",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "57c3a140"
           }
         }
       }
@@ -5080,8 +5312,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1785908121016-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1773031857872-1.jpg"
     ],
-    "issueNumber": 632,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/632",
+    "issueNumber": 120,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/120",
     "summaries": {
       "release": {
         "channel": "release",
@@ -28931,8 +29163,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 307,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/307",
+    "issueNumber": 692,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/692",
     "summaries": {
       "release": {
         "channel": "release",
@@ -29763,6 +29995,114 @@
         }
       }
     }
+  },
+  {
+    "slug": "rango",
+    "title": "Rango",
+    "titleId": "4541093A",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Air 5",
+      "platform": "ios",
+      "osVersion": "26.6.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-09-07",
+    "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
+    "reports": [
+      {
+        "device": "iPad Air 5",
+        "platform": "ios",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-09-07",
+        "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
+        "updatedAt": "2026-09-07",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Air 5",
+          "platform": "ios",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-09-07",
+          "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Air 5",
+          "platform": "ios",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-09-07",
+          "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    },
+    "issueNumber": 689,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/689"
   },
   {
     "slug": "rayman-legends",
@@ -41863,324 +42203,6 @@
     }
   },
   {
-    "slug": "rango",
-    "title": "Rango",
-    "titleId": "4541093A",
-    "status": "loads",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Air 5",
-      "platform": "ios",
-      "osVersion": "26.6.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-09-07",
-    "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
-    "reports": [
-      {
-        "device": "iPad Air 5",
-        "platform": "ios",
-        "osVersion": "26.6.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-09-07",
-        "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
-        "updatedAt": "2026-09-07",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Air 5",
-          "platform": "ios",
-          "osVersion": "26.6.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-09-07",
-          "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Air 5",
-          "platform": "ios",
-          "osVersion": "26.6.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-09-07",
-          "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "a-kingdom-for-keflings",
-    "title": "A Kingdom for Keflings",
-    "titleId": "584108DB",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 14 Pro",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-09-10",
-    "notes": "Loads great, pressing start seems to make it load faster",
-    "reports": [
-      {
-        "device": "iPhone 14 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-09-10",
-        "notes": "Loads great, pressing start seems to make it load faster",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Loads great, pressing start seems to make it load faster",
-        "updatedAt": "2026-09-10",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 14 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-09-10",
-          "notes": "Loads great, pressing start seems to make it load faster",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 14 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-09-10",
-          "notes": "Loads great, pressing start seems to make it load faster",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "a-world-of-keflings",
-    "title": "A World of Keflings",
-    "titleId": "584109DB",
-    "status": "intro",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 14 Pro",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-09-10",
-    "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
-    "reports": [
-      {
-        "device": "iPhone 14 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "ok",
-        "date": "2026-09-10",
-        "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "intro",
-        "perf": "ok",
-        "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
-        "updatedAt": "2026-09-10",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 14 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-09-10",
-          "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 14 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-09-10",
-          "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "zuma",
     "title": "Zuma",
     "titleId": "584107EF",
@@ -42284,6 +42306,8 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 694,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/694"
   }
 ]
