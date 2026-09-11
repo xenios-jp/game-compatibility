@@ -10294,22 +10294,42 @@
     "slug": "driver-san-francisco",
     "title": "DRIVER San Francisco",
     "titleId": "5553087E",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPad Air 11-inch (M3)",
-      "platform": "ios",
-      "osVersion": "18.6.2",
+      "device": "MacBook Pro M5",
+      "platform": "macos",
+      "osVersion": "26.6.2",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
-    "updatedAt": "2026-07-07",
-    "notes": "Crashes Xenios on launch",
+    "updatedAt": "2026-09-11",
+    "notes": "The game runs smoothly with an average frame rate of around 40-60 FPS, and there are no crashes or glitches.",
     "reports": [
+      {
+        "device": "MacBook Pro M5",
+        "platform": "macos",
+        "osVersion": "26.6.2",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-09-11",
+        "notes": "The game runs smoothly with an average frame rate of around 40-60 FPS, and there are no crashes or glitches.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9730-57c3ca140",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1 (9730)",
+          "buildNumber": "57C3CA140"
+        }
+      },
       {
         "device": "iPad Air 11-inch (M3)",
         "platform": "ios",
@@ -10380,50 +10400,46 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "Crashes Xenios on launch",
-        "updatedAt": "2026-07-07",
-        "reportCount": 2,
+        "perf": "great",
+        "notes": "The game runs smoothly with an average frame rate of around 40-60 FPS, and there are no crashes or glitches.",
+        "updatedAt": "2026-09-11",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPad Air 11-inch (M3)",
-          "platform": "ios",
-          "osVersion": "18.6.2",
+          "device": "MacBook Pro M5",
+          "platform": "macos",
+          "osVersion": "26.6.2",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-07",
-          "notes": "Crashes Xenios on launch",
-          "source": "app",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-11",
+          "notes": "The game runs smoothly with an average frame rate of around 40-60 FPS, and there are no crashes or glitches.",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9730-57c3ca140",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.0.1 (9730)",
+            "buildNumber": "57C3CA140"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5",
+          "device": "MacBook Pro M5",
+          "platform": "macos",
+          "osVersion": "26.6.2",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-27",
-          "notes": "ran really well unless a lot of cars and trucks are seen, also I had no sound at all",
-          "source": "app",
+          "perf": "great",
+          "date": "2026-09-11",
+          "notes": "The game runs smoothly with an average frame rate of around 40-60 FPS, and there are no crashes or glitches.",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9730-57c3ca140",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.0.1 (9730)",
+            "buildNumber": "57C3CA140"
           }
         }
       }
