@@ -15797,13 +15797,13 @@
         "notes": "Loading intro on Vulkan with low performance, Metal crashes immediately",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
           "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       },
       {
@@ -15860,11 +15860,21 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773088492970-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773088492970-2.jpg"
     ],
-    "issueNumber": 41,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
+    "issueNumber": 667,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/667",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -15892,13 +15902,13 @@
           "notes": "Loading intro on Vulkan with low performance, Metal crashes immediately",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -15913,13 +15923,13 @@
           "notes": "Loading intro on Vulkan with low performance, Metal crashes immediately",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
