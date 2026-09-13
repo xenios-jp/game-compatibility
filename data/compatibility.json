@@ -4911,6 +4911,8 @@
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E7/1773398208451-1.jpg"
     ],
+    "issueNumber": 241,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/241",
     "summaries": {
       "release": {
         "channel": "release",
@@ -4982,9 +4984,7 @@
           }
         }
       }
-    },
-    "issueNumber": 241,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/241"
+    }
   },
   {
     "slug": "bully-scholarship-ed",
@@ -6291,42 +6291,22 @@
     "slug": "cod-black-ops-iii",
     "title": "COD: Black Ops III",
     "titleId": "4156091D",
-    "status": "ingame",
-    "perf": "poor",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15",
+      "device": "iPhone 13",
       "platform": "ios",
-      "osVersion": "iOS 27",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-09-11",
-    "notes": "With my iPhone 15 I get around 15-20 fps on free run, 12 on multiplayers maps (playing without bots, just me), and some times I could launch zombies and play it\nThe Giant: 10 fps\nDer eisendrache: 9 fps\n\nTo play the game you have to open it on PC cnd then transfer the “content” folder from Xenia to XeniOS\n\nIf your game freezes your have to clean the game cache and switch to Vulkan, Metal doesn’t work for me",
+    "updatedAt": "2026-03-14",
+    "notes": "Black screen",
     "reports": [
-      {
-        "device": "iPhone 15",
-        "platform": "ios",
-        "osVersion": "iOS 27",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-09-11",
-        "notes": "With my iPhone 15 I get around 15-20 fps on free run, 12 on multiplayers maps (playing without bots, just me), and some times I could launch zombies and play it\nThe Giant: 10 fps\nDer eisendrache: 9 fps\n\nTo play the game you have to open it on PC cnd then transfer the “content” folder from Xenia to XeniOS\n\nIf your game freezes your have to clean the game cache and switch to Vulkan, Metal doesn’t work for me",
-        "source": "github",
-        "build": {
-          "buildId": "ios-self-built-2.1-9857",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.1",
-          "buildNumber": "9857",
-          "commitShort": "2f888db"
-        }
-      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -6375,49 +6355,51 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "With my iPhone 15 I get around 15-20 fps on free run, 12 on multiplayers maps (playing without bots, just me), and some times I could launch zombies and play it\nThe Giant: 10 fps\nDer eisendrache: 9 fps\n\nTo play the game you have to open it on PC cnd then transfer the “content” folder from Xenia to XeniOS\n\nIf your game freezes your have to clean the game cache and switch to Vulkan, Metal doesn’t work for me",
-        "updatedAt": "2026-09-11",
-        "reportCount": 2,
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Black screen",
+        "updatedAt": "2026-03-14",
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "iOS 27",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-09-11",
-          "notes": "With my iPhone 15 I get around 15-20 fps on free run, 12 on multiplayers maps (playing without bots, just me), and some times I could launch zombies and play it\nThe Giant: 10 fps\nDer eisendrache: 9 fps\n\nTo play the game you have to open it on PC cnd then transfer the “content” folder from Xenia to XeniOS\n\nIf your game freezes your have to clean the game cache and switch to Vulkan, Metal doesn’t work for me",
-          "source": "github",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-14",
+          "notes": "Black screen",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.1-9857",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.1",
-            "buildNumber": "9857",
-            "commitShort": "2f888db"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "iOS 27",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-09-11",
-          "notes": "With my iPhone 15 I get around 15-20 fps on free run, 12 on multiplayers maps (playing without bots, just me), and some times I could launch zombies and play it\nThe Giant: 10 fps\nDer eisendrache: 9 fps\n\nTo play the game you have to open it on PC cnd then transfer the “content” folder from Xenia to XeniOS\n\nIf your game freezes your have to clean the game cache and switch to Vulkan, Metal doesn’t work for me",
-          "source": "github",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-14",
+          "notes": "Black screen",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.1-9857",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.1",
-            "buildNumber": "9857",
-            "commitShort": "2f888db"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -15336,13 +15318,13 @@
         "notes": "Only play the rockstar animation",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
           "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       },
       {
@@ -15486,6 +15468,16 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "ingame",
@@ -15505,13 +15497,13 @@
           "notes": "Only play the rockstar animation",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
