@@ -19621,27 +19621,6 @@
         "notes": "Black screen",
         "source": "app",
         "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-13",
-        "notes": "30-45 FPS maintained, some effects take some time to appear",
-        "source": "app",
-        "build": {
           "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
@@ -19653,8 +19632,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 513,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/513",
+    "issueNumber": 699,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/699",
     "summaries": {
       "release": {
         "channel": "release",
@@ -19666,13 +19645,23 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "ok",
+        "status": "nothing",
+        "perf": "n/a",
         "notes": "Black screen",
         "updatedAt": "2026-09-14",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone Air",
           "platform": "ios",
@@ -19685,25 +19674,25 @@
           "notes": "Black screen",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone Air",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-13",
-          "notes": "30-45 FPS maintained, some effects take some time to appear",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-09-14",
+          "notes": "Black screen",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-2.0.1-9730",
@@ -30623,13 +30612,13 @@
         "notes": "Prolonged black screen with visible button icons, followed by a crash (without reaching the intro/menu).",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
           "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
+          "commitShort": "57c3ca140"
         }
       },
       {
@@ -30712,6 +30701,16 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "loads",
@@ -30731,13 +30730,13 @@
           "notes": "Prolonged black screen with visible button icons, followed by a crash (without reaching the intro/menu).",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -30752,13 +30751,13 @@
           "notes": "Prolonged black screen with visible button icons, followed by a crash (without reaching the intro/menu).",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
