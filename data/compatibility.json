@@ -10850,6 +10850,8 @@
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507D9/1773415475070-1.jpg"
     ],
+    "issueNumber": 245,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/245",
     "summaries": {
       "release": {
         "channel": "release",
@@ -22309,7 +22311,7 @@
   },
   {
     "slug": "metal-gear-solid-v-ground-zeros",
-    "title": "Metal Gear Solid V: Ground Zeroes",
+    "title": "Metal Gear Solid V Ground Zeros",
     "titleId": "4B4E085C",
     "status": "playable",
     "perf": "great",
