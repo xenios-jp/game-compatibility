@@ -5930,6 +5930,114 @@
     }
   },
   {
+    "slug": "call-of-duty-classic",
+    "title": "Call of Duty Classic",
+    "titleId": "58410957",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.6.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-09-27",
+    "notes": "Good old game. Play with gamepad",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.6.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-09-27",
+        "notes": "Good old game. Play with gamepad",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Good old game. Play with gamepad",
+        "updatedAt": "2026-09-27",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.6.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-27",
+          "notes": "Good old game. Play with gamepad",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.6.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-27",
+          "notes": "Good old game. Play with gamepad",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    },
+    "issueNumber": 705,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/705"
+  },
+  {
     "slug": "call-of-duty-black-ops",
     "title": "Call of Duty: Black Ops",
     "titleId": "41560855",
@@ -34609,24 +34717,43 @@
   },
   {
     "slug": "sonic-generations",
-    "title": "SONIC GENERATIONS",
+    "title": "Sonic Generations",
     "titleId": "53450848",
     "status": "playable",
-    "perf": "great",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "IOS 27",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-28",
-    "notes": "Sound isn’t bad FPS is great",
+    "updatedAt": "2026-09-28",
+    "notes": "Great fps, and great game!\n\n<img width=\"1389\" height=\"642\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d65d7f23-9fbe-4da0-8d92-13e86dd86064\" />",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "IOS 27",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-09-28",
+        "notes": "Great fps, and great game!\n\n<img width=\"1389\" height=\"642\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d65d7f23-9fbe-4da0-8d92-13e86dd86064\" />",
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-0.4.1-45",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "0.4.1",
+          "buildNumber": "45"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -34697,50 +34824,46 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "Sound isn’t bad FPS is great",
-        "updatedAt": "2026-03-28",
-        "reportCount": 2,
+        "perf": "ok",
+        "notes": "Great fps, and great game!\n\n<img width=\"1389\" height=\"642\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d65d7f23-9fbe-4da0-8d92-13e86dd86064\" />",
+        "updatedAt": "2026-09-28",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "IOS 27",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-03-28",
-          "notes": "Sound isn’t bad FPS is great",
-          "source": "app",
+          "perf": "ok",
+          "date": "2026-09-28",
+          "notes": "Great fps, and great game!\n\n<img width=\"1389\" height=\"642\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d65d7f23-9fbe-4da0-8d92-13e86dd86064\" />",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-0.4.1-45",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "appVersion": "0.4.1",
+            "buildNumber": "45"
           }
         },
         "bestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "IOS 27",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-03-28",
-          "notes": "Sound isn’t bad FPS is great",
-          "source": "app",
+          "perf": "ok",
+          "date": "2026-09-28",
+          "notes": "Great fps, and great game!\n\n<img width=\"1389\" height=\"642\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d65d7f23-9fbe-4da0-8d92-13e86dd86064\" />",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-0.4.1-45",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "appVersion": "0.4.1",
+            "buildNumber": "45"
           }
         }
       }
@@ -42463,112 +42586,6 @@
             "buildNumber": "9730",
             "stage": "stable",
             "commitShort": "57c3ca140"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "call-of-duty-classic",
-    "title": "Call of Duty Classic",
-    "titleId": "58410957",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.6.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-09-27",
-    "notes": "Good old game. Play with gamepad",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.6.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-09-27",
-        "notes": "Good old game. Play with gamepad",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Good old game. Play with gamepad",
-        "updatedAt": "2026-09-27",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.6.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-09-27",
-          "notes": "Good old game. Play with gamepad",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.6.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-09-27",
-          "notes": "Good old game. Play with gamepad",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
