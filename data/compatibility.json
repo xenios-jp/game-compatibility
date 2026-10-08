@@ -17615,22 +17615,43 @@
     "slug": "halo-3",
     "title": "Halo 3",
     "titleId": "4D5307E6",
-    "status": "playable",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 13-inch (M5)",
+      "device": "iPhone19,2",
       "platform": "ios",
-      "osVersion": "26.5.2",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-26",
-    "notes": "Textures sometime seem slow to load in but once they do plays fine.",
+    "updatedAt": "2026-10-08",
+    "notes": "Doesn’t load, just black screen no audio or anything",
     "reports": [
+      {
+        "device": "iPhone19,2",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-10-08",
+        "notes": "Doesn’t load, just black screen no audio or anything",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
@@ -17691,42 +17712,32 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Textures sometime seem slow to load in but once they do plays fine.",
-        "updatedAt": "2026-08-26",
-        "reportCount": 2,
+        "notes": "Doesn’t load, just black screen no audio or anything",
+        "updatedAt": "2026-10-08",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPad Pro 13-inch (M5)",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "26.5.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-08-26",
-          "notes": "Textures sometime seem slow to load in but once they do plays fine.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-10-08",
+          "notes": "Doesn’t load, just black screen no audio or anything",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "57c3ca140"
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
