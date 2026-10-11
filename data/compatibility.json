@@ -16134,15 +16134,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Plus",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.6.1",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-09-24",
-    "notes": "App crashes immediately",
+    "updatedAt": "2026-10-11",
+    "notes": "Black screen, app crashes after about a minute",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-10-11",
+        "notes": "Black screen, app crashes after about a minute",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 16 Plus",
         "platform": "ios",
@@ -16252,42 +16273,32 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "intro",
         "perf": "poor",
-        "notes": "App crashes immediately",
-        "updatedAt": "2026-09-24",
-        "reportCount": 4,
+        "notes": "Black screen, app crashes after about a minute",
+        "updatedAt": "2026-10-11",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone 16 Plus",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.6.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-09-24",
-          "notes": "App crashes immediately",
+          "date": "2026-10-11",
+          "notes": "Black screen, app crashes after about a minute",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "57c3ca140"
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
