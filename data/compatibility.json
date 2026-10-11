@@ -42950,5 +42950,112 @@
         }
       }
     }
+  },
+  {
+    "slug": "bionic-commando",
+    "title": "Bionic Commando",
+    "titleId": "434307DD",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 12.9-inch (M2)",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-10-11",
+    "notes": "- Some “minor” graphical glitches.\n- unlocking FPS messes up with the frame pacing.\n- Audio cuts out in some cutscenes.\n- Lock FPS to 30 for a consistent frame pacing.",
+    "reports": [
+      {
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-10-11",
+        "notes": "- Some “minor” graphical glitches.\n- unlocking FPS messes up with the frame pacing.\n- Audio cuts out in some cutscenes.\n- Lock FPS to 30 for a consistent frame pacing.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "0",
+          "commitShort": "2f888db75",
+          "buildId": "ios-self-built-1.0.0-0"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307DD/1791697591244-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307DD/1791697591244-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307DD/1791697591244-3.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "- Some “minor” graphical glitches.\n- unlocking FPS messes up with the frame pacing.\n- Audio cuts out in some cutscenes.\n- Lock FPS to 30 for a consistent frame pacing.",
+        "updatedAt": "2026-10-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-10-11",
+          "notes": "- Some “minor” graphical glitches.\n- unlocking FPS messes up with the frame pacing.\n- Audio cuts out in some cutscenes.\n- Lock FPS to 30 for a consistent frame pacing.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "2f888db75",
+            "buildId": "ios-self-built-1.0.0-0"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-10-11",
+          "notes": "- Some “minor” graphical glitches.\n- unlocking FPS messes up with the frame pacing.\n- Audio cuts out in some cutscenes.\n- Lock FPS to 30 for a consistent frame pacing.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "2f888db75",
+            "buildId": "ios-self-built-1.0.0-0"
+          }
+        }
+      }
+    }
   }
 ]
