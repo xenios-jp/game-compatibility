@@ -16392,13 +16392,13 @@
         "notes": "My game doesn’t load but I have an iPhone XS",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
           "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       },
       {
@@ -16531,6 +16531,16 @@
         "latestReport": null,
         "bestReport": null
       },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
         "channel": "all",
         "status": "intro",
@@ -16550,13 +16560,13 @@
           "notes": "My game doesn’t load but I have an iPhone XS",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -20145,48 +20155,6 @@
         "notes": "It seems the in game texts like selecting a mode or slelecting ANYTHING is super blurry and cant read at all. Also i still have no sound after alot of troubleshooting still cant figure out why but game runs perfectly other than that",
         "source": "app",
         "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "great",
-        "date": "2026-07-15",
-        "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "great",
-        "date": "2026-06-22",
-        "notes": "Game stucks on loading screen cinematic runs perfect",
-        "source": "app",
-        "build": {
           "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
@@ -20204,11 +20172,21 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-4.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-5.jpg"
     ],
-    "issueNumber": 543,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/543",
+    "issueNumber": 722,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/722",
     "summaries": {
       "release": {
         "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
         "status": "untested",
         "perf": null,
         "notes": "",
@@ -20223,7 +20201,7 @@
         "perf": "great",
         "notes": "It seems the in game texts like selecting a mode or slelecting ANYTHING is super blurry and cant read at all. Also i still have no sound after alot of troubleshooting still cant figure out why but game runs perfectly other than that",
         "updatedAt": "2026-10-25",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 15",
           "platform": "ios",
@@ -20236,13 +20214,13 @@
           "notes": "It seems the in game texts like selecting a mode or slelecting ANYTHING is super blurry and cant read at all. Also i still have no sound after alot of troubleshooting still cant figure out why but game runs perfectly other than that",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -20257,13 +20235,13 @@
           "notes": "It seems the in game texts like selecting a mode or slelecting ANYTHING is super blurry and cant read at all. Also i still have no sound after alot of troubleshooting still cant figure out why but game runs perfectly other than that",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -37825,118 +37803,6 @@
             "buildNumber": "9730",
             "stage": "stable",
             "commitShort": "57c3ca140"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "teenage-mutant-ninja-turtles-danger-of-the-ooze",
-    "title": "Teenage Mutant Ninja Turtles: Danger of the Ooze",
-    "titleId": "4156090C",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro Max",
-      "platform": "ios",
-      "osVersion": "iOS 27.0",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-10-15",
-    "notes": "Rodou cravado a 60 fps",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "iOS 27.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-10-15",
-        "notes": "Rodou cravado a 60 fps",
-        "source": "github",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730-45",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1-9730",
-          "buildNumber": "45"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 721,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/721",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Rodou cravado a 60 fps",
-        "updatedAt": "2026-10-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "iOS 27.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-10-15",
-          "notes": "Rodou cravado a 60 fps",
-          "source": "github",
-          "build": {
-            "buildId": "ios-self-built-2.0.1-9730-45",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1-9730",
-            "buildNumber": "45"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "iOS 27.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-10-15",
-          "notes": "Rodou cravado a 60 fps",
-          "source": "github",
-          "build": {
-            "buildId": "ios-self-built-2.0.1-9730-45",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1-9730",
-            "buildNumber": "45"
           }
         }
       }
