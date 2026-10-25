@@ -16371,15 +16371,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone11,2",
       "platform": "ios",
-      "osVersion": "27.0",
+      "osVersion": "18.7.10",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-10-11",
-    "notes": "Black screen, app crashes after about a minute",
+    "updatedAt": "2026-10-25",
+    "notes": "My game doesn’t load but I have an iPhone XS",
     "reports": [
+      {
+        "device": "iPhone11,2",
+        "platform": "ios",
+        "osVersion": "18.7.10",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-10-25",
+        "notes": "My game doesn’t load but I have an iPhone XS",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -16510,42 +16531,32 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "intro",
         "perf": "poor",
-        "notes": "Black screen, app crashes after about a minute",
-        "updatedAt": "2026-10-11",
-        "reportCount": 5,
+        "notes": "My game doesn’t load but I have an iPhone XS",
+        "updatedAt": "2026-10-25",
+        "reportCount": 6,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone11,2",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "18.7.10",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-10-11",
-          "notes": "Black screen, app crashes after about a minute",
+          "date": "2026-10-25",
+          "notes": "My game doesn’t load but I have an iPhone XS",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
             "stage": "stable",
-            "commitShort": "57c3ca140"
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
