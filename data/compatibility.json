@@ -5750,22 +5750,43 @@
     "slug": "call-of-duty-2",
     "title": "Call of Duty 2",
     "titleId": "415607D1",
-    "status": "ingame",
-    "perf": "ok",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "18.7.2",
+      "osVersion": "26.4",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "notes": "Campaign loads, movement, controls, audio work all okay. Text does not display correctly. Graphical glitches a very common, particularly bright green colours appearing often.",
+    "updatedAt": "2026-10-28",
+    "notes": "Work on 60fps",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-10-28",
+        "notes": "Work on 60fps",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -5826,61 +5847,53 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Campaign loads, movement, controls, audio work all okay. Text does not display correctly. Graphical glitches a very common, particularly bright green colours appearing often.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 2,
+        "notes": "Work on 60fps",
+        "updatedAt": "2026-10-28",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "18.7.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Campaign loads, movement, controls, audio work all okay. Text does not display correctly. Graphical glitches a very common, particularly bright green colours appearing often.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 14 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.4",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Playable, some graphical issues.",
+          "date": "2026-10-28",
+          "notes": "Work on 60fps",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "2633e8177"
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-10-28",
+          "notes": "Work on 60fps",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
