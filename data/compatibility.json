@@ -10205,23 +10205,44 @@
     "slug": "diablo-iii-ros",
     "title": "Diablo III: RoS",
     "titleId": "394F07D4",
-    "status": "loads",
-    "perf": "poor",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "macos",
       "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
-      "osVersion": "26.1",
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
+    "updatedAt": "2026-10-30",
+    "notes": "Crashing on launch",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-10-30",
+        "notes": "Crashing on launch",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      },
       {
         "device": "MacBook Pro (M4)",
         "platform": "macos",
@@ -10272,41 +10293,32 @@
         "latestReport": null,
         "bestReport": null
       },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
-        "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 2,
+        "notes": "Crashing on launch",
+        "updatedAt": "2026-10-30",
+        "reportCount": 3,
         "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.1",
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
-          "source": "github",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-10-30",
+          "notes": "Crashing on launch",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
           }
         },
         "bestReport": {
