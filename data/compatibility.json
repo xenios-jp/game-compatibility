@@ -756,6 +756,114 @@
     }
   },
   {
+    "slug": "ac-for-answer",
+    "title": "AC for Answer",
+    "titleId": "465307DA",
+    "status": "intro",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-10-30",
+    "notes": "not able to start game",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-10-30",
+        "notes": "not able to start game",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "intro",
+        "perf": "poor",
+        "notes": "not able to start game",
+        "updatedAt": "2026-10-30",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-10-30",
+          "notes": "not able to start game",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-10-30",
+          "notes": "not able to start game",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    },
+    "issueNumber": 727,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/727"
+  },
+  {
     "slug": "ac-liberation-hd",
     "title": "AC Liberation HD",
     "titleId": "584113FC",
@@ -5834,8 +5942,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607D1/1772995767852-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607D1/1772995767852-4.jpg"
     ],
-    "issueNumber": 54,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/54",
+    "issueNumber": 725,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/725",
     "summaries": {
       "release": {
         "channel": "release",
@@ -10280,8 +10388,8 @@
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/394F07D4/1772815326075-1.jpg"
     ],
-    "issueNumber": 2,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/2",
+    "issueNumber": 728,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/728",
     "summaries": {
       "release": {
         "channel": "release",
@@ -11801,6 +11909,114 @@
         }
       }
     }
+  },
+  {
+    "slug": "fable-ii",
+    "title": "Fable II",
+    "titleId": "4D5307F1",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.4",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-10-28",
+    "notes": "Black screen",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-10-28",
+        "notes": "Black screen",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Black screen",
+        "updatedAt": "2026-10-28",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-10-28",
+          "notes": "Black screen",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-10-28",
+          "notes": "Black screen",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    },
+    "issueNumber": 724,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/724"
   },
   {
     "slug": "fable-iii",
@@ -14389,22 +14605,42 @@
     "slug": "forza-horizon",
     "title": "Forza Horizon",
     "titleId": "4D5309C9",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPad Air 5",
-      "platform": "ios",
-      "osVersion": "26.5",
+      "device": "MacBook Air (M4)",
+      "platform": "macos",
+      "osVersion": "15.8.2",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
-    "updatedAt": "2026-07-02",
-    "notes": "It just crashes every time I try",
+    "updatedAt": "2026-10-31",
+    "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
     "reports": [
+      {
+        "device": "MacBook Air (M4)",
+        "platform": "macos",
+        "osVersion": "15.8.2",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-10-31",
+        "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-0.0.0.10-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "0.0.0.10",
+          "buildNumber": "9730"
+        }
+      },
       {
         "device": "iPad Air 5",
         "platform": "ios",
@@ -14428,8 +14664,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 570,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/570",
+    "issueNumber": 61,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/61",
     "summaries": {
       "release": {
         "channel": "release",
@@ -14453,51 +14689,47 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "It just crashes every time I try",
-        "updatedAt": "2026-07-02",
-        "reportCount": 1,
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
+        "updatedAt": "2026-10-31",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Air 5",
-          "platform": "ios",
-          "osVersion": "26.5",
+          "device": "MacBook Air (M4)",
+          "platform": "macos",
+          "osVersion": "15.8.2",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-02",
-          "notes": "It just crashes every time I try",
-          "source": "app",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-10-31",
+          "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-0.0.0.10-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "0.0.0.10",
+            "buildNumber": "9730"
           }
         },
         "bestReport": {
-          "device": "iPad Air 5",
-          "platform": "ios",
-          "osVersion": "26.5",
+          "device": "MacBook Air (M4)",
+          "platform": "macos",
+          "osVersion": "15.8.2",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-02",
-          "notes": "It just crashes every time I try",
-          "source": "app",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-10-31",
+          "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-0.0.0.10-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "0.0.0.10",
+            "buildNumber": "9730"
           }
         }
       }
@@ -26180,8 +26412,6 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 603,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/603",
     "summaries": {
       "release": {
         "channel": "release",
@@ -39769,6 +39999,114 @@
     }
   },
   {
+    "slug": "the-witcher-2",
+    "title": "The Witcher 2",
+    "titleId": "4E4D0855",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 12.9-inch 5",
+      "platform": "ios",
+      "osVersion": "18.3.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-10-28",
+    "notes": "Вылетает",
+    "reports": [
+      {
+        "device": "iPad Pro 12.9-inch 5",
+        "platform": "ios",
+        "osVersion": "18.3.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-10-28",
+        "notes": "Вылетает",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Вылетает",
+        "updatedAt": "2026-10-28",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 12.9-inch 5",
+          "platform": "ios",
+          "osVersion": "18.3.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-10-28",
+          "notes": "Вылетает",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 12.9-inch 5",
+          "platform": "ios",
+          "osVersion": "18.3.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-10-28",
+          "notes": "Вылетает",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    },
+    "issueNumber": 726,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/726"
+  },
+  {
     "slug": "the-wolf-among-us",
     "title": "The Wolf Among Us",
     "titleId": "443607D5",
@@ -43224,324 +43562,6 @@
             "buildNumber": "9730",
             "stage": "stable",
             "commitShort": "57c3ca140"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "fable-ii",
-    "title": "Fable II",
-    "titleId": "4D5307F1",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.4",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-10-28",
-    "notes": "Black screen",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-10-28",
-        "notes": "Black screen",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-10-28",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.4",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-10-28",
-          "notes": "Black screen",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.4",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-10-28",
-          "notes": "Black screen",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "the-witcher-2",
-    "title": "The Witcher 2",
-    "titleId": "4E4D0855",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro 12.9-inch 5",
-      "platform": "ios",
-      "osVersion": "18.3.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-10-28",
-    "notes": "Вылетает",
-    "reports": [
-      {
-        "device": "iPad Pro 12.9-inch 5",
-        "platform": "ios",
-        "osVersion": "18.3.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-10-28",
-        "notes": "Вылетает",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Вылетает",
-        "updatedAt": "2026-10-28",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro 12.9-inch 5",
-          "platform": "ios",
-          "osVersion": "18.3.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-10-28",
-          "notes": "Вылетает",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro 12.9-inch 5",
-          "platform": "ios",
-          "osVersion": "18.3.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-10-28",
-          "notes": "Вылетает",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "ac-for-answer",
-    "title": "AC for Answer",
-    "titleId": "465307DA",
-    "status": "intro",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-10-30",
-    "notes": "not able to start game",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-10-30",
-        "notes": "not able to start game",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "intro",
-        "perf": "poor",
-        "notes": "not able to start game",
-        "updatedAt": "2026-10-30",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-10-30",
-          "notes": "not able to start game",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-10-30",
-          "notes": "not able to start game",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
           }
         }
       }
