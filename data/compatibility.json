@@ -3614,6 +3614,116 @@
     }
   },
   {
+    "slug": "battlefield-4",
+    "title": "Battlefield 4",
+    "titleId": "454109BA",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "27.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-03",
+    "notes": "Holds 30fps for all of 30 seconds 😂",
+    "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-11-03",
+        "notes": "Holds 30fps for all of 30 seconds 😂",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.1",
+          "buildNumber": "11215",
+          "stage": "stable",
+          "commitShort": "ff50b1e07",
+          "buildId": "ios-self-built-2.1-11215"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454109BA/1793692491073-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Holds 30fps for all of 30 seconds 😂",
+        "updatedAt": "2026-11-03",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-03",
+          "notes": "Holds 30fps for all of 30 seconds 😂",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.1",
+            "buildNumber": "11215",
+            "stage": "stable",
+            "commitShort": "ff50b1e07",
+            "buildId": "ios-self-built-2.1-11215"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-03",
+          "notes": "Holds 30fps for all of 30 seconds 😂",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.1",
+            "buildNumber": "11215",
+            "stage": "stable",
+            "commitShort": "ff50b1e07",
+            "buildId": "ios-self-built-2.1-11215"
+          }
+        }
+      }
+    },
+    "issueNumber": 733,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/733"
+  },
+  {
     "slug": "bayonetta",
     "title": "Bayonetta",
     "titleId": "53450813",
@@ -6880,6 +6990,114 @@
         }
       }
     }
+  },
+  {
+    "slug": "cod-black-ops-ii",
+    "title": "COD: Black Ops II",
+    "titleId": "415608C3",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14 Pro",
+      "platform": "ios",
+      "osVersion": "27.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-01",
+    "notes": "O jogo crachá nem abre",
+    "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-11-01",
+        "notes": "O jogo crachá nem abre",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140",
+          "buildId": "ios-self-built-2.0.1-9730"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "O jogo crachá nem abre",
+        "updatedAt": "2026-11-01",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-01",
+          "notes": "O jogo crachá nem abre",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-01",
+          "notes": "O jogo crachá nem abre",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140",
+            "buildId": "ios-self-built-2.0.1-9730"
+          }
+        }
+      }
+    },
+    "issueNumber": 731,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/731"
   },
   {
     "slug": "cod-black-ops-iii",
@@ -28060,6 +28278,118 @@
     }
   },
   {
+    "slug": "nhl-legacy-edition",
+    "title": "NHL Legacy Edition",
+    "titleId": "454109EC",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "MacBook Neo 8/512",
+      "platform": "ios",
+      "osVersion": "26.7.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-04",
+    "notes": "Game is fully playable now but missing metal shining (shaders?) on helmets and some textures on pads/pants",
+    "reports": [
+      {
+        "device": "MacBook Neo 8/512",
+        "platform": "ios",
+        "osVersion": "26.7.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-04",
+        "notes": "Game is fully playable now but missing metal shining (shaders?) on helmets and some textures on pads/pants",
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.2-11145",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.2",
+          "buildNumber": "11145"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 734,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/734",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game is fully playable now but missing metal shining (shaders?) on helmets and some textures on pads/pants",
+        "updatedAt": "2026-11-04",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Neo 8/512",
+          "platform": "ios",
+          "osVersion": "26.7.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-04",
+          "notes": "Game is fully playable now but missing metal shining (shaders?) on helmets and some textures on pads/pants",
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.2-11145",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.2",
+            "buildNumber": "11145"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Neo 8/512",
+          "platform": "ios",
+          "osVersion": "26.7.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-04",
+          "notes": "Game is fully playable now but missing metal shining (shaders?) on helmets and some textures on pads/pants",
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.2-11145",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.2",
+            "buildNumber": "11145"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "nhlzf-exe",
     "title": "nhlzf.exe",
     "titleId": "454109DC",
@@ -32078,8 +32408,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 249,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/249",
+    "issueNumber": 732,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/732",
     "summaries": {
       "release": {
         "channel": "release",
@@ -43591,220 +43921,6 @@
             "buildNumber": "9730",
             "stage": "stable",
             "commitShort": "57c3ca140"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "cod-black-ops-ii",
-    "title": "COD: Black Ops II",
-    "titleId": "415608C3",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 14 Pro",
-      "platform": "ios",
-      "osVersion": "27.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-11-01",
-    "notes": "O jogo crachá nem abre",
-    "reports": [
-      {
-        "device": "iPhone 14 Pro",
-        "platform": "ios",
-        "osVersion": "27.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-11-01",
-        "notes": "O jogo crachá nem abre",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140",
-          "buildId": "ios-self-built-2.0.1-9730"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "O jogo crachá nem abre",
-        "updatedAt": "2026-11-01",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 14 Pro",
-          "platform": "ios",
-          "osVersion": "27.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-11-01",
-          "notes": "O jogo crachá nem abre",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 14 Pro",
-          "platform": "ios",
-          "osVersion": "27.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-11-01",
-          "notes": "O jogo crachá nem abre",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140",
-            "buildId": "ios-self-built-2.0.1-9730"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "battlefield-4",
-    "title": "Battlefield 4",
-    "titleId": "454109BA",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17",
-      "platform": "ios",
-      "osVersion": "27.0",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-11-03",
-    "notes": "Holds 30fps for all of 30 seconds 😂",
-    "reports": [
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "27.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-11-03",
-        "notes": "Holds 30fps for all of 30 seconds 😂",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.1",
-          "buildNumber": "11215",
-          "stage": "stable",
-          "commitShort": "ff50b1e07",
-          "buildId": "ios-self-built-2.1-11215"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454109BA/1793692491073-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Holds 30fps for all of 30 seconds 😂",
-        "updatedAt": "2026-11-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "27.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-11-03",
-          "notes": "Holds 30fps for all of 30 seconds 😂",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.1",
-            "buildNumber": "11215",
-            "stage": "stable",
-            "commitShort": "ff50b1e07",
-            "buildId": "ios-self-built-2.1-11215"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "27.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-11-03",
-          "notes": "Holds 30fps for all of 30 seconds 😂",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.1",
-            "buildNumber": "11215",
-            "stage": "stable",
-            "commitShort": "ff50b1e07",
-            "buildId": "ios-self-built-2.1-11215"
           }
         }
       }
