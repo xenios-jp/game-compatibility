@@ -1117,8 +1117,8 @@
     "slug": "after-burner-climax",
     "title": "After Burner Climax",
     "titleId": "58410A06",
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
@@ -1126,13 +1126,30 @@
     "lastReport": {
       "device": "iPad Pro 13-inch (M5)",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-11",
-    "notes": "Fails to load 3D graphics",
+    "updatedAt": "2026-11-06",
+    "notes": "All seems good. Solid frame rate.",
     "reports": [
+      {
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-06",
+        "notes": "All seems good. Solid frame rate.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
@@ -1156,54 +1173,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/502",
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Fails to load 3D graphics",
-        "updatedAt": "2026-06-11",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "All seems good. Solid frame rate.",
+        "updatedAt": "2026-11-06",
+        "reportCount": 2,
         "latestReport": {
           "device": "iPad Pro 13-inch (M5)",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-11",
-          "notes": "Fails to load 3D graphics",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "All seems good. Solid frame rate.",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
           "device": "iPad Pro 13-inch (M5)",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-11",
-          "notes": "Fails to load 3D graphics",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "All seems good. Solid frame rate.",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
-        "osVersion": "26.5",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
         }
       }
     }
