@@ -32041,22 +32041,39 @@
     "slug": "the-evil-within",
     "title": "The Evil Within",
     "titleId": "425307F4",
-    "status": "intro",
+    "status": "loads",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "26.4.2",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-05-09",
-    "notes": "The game load perfect but the grafics looks like crashed.",
+    "updatedAt": "2026-11-06",
+    "notes": "The game graphic is too glitchy and cant load contents properly, even the game loads completely",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-11-06",
+        "notes": "The game graphic is too glitchy and cant load contents properly, even the game loads completely",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -32082,24 +32099,24 @@
       "all": {
         "status": "intro",
         "perf": "poor",
-        "notes": "The game load perfect but the grafics looks like crashed.",
-        "updatedAt": "2026-05-09",
-        "reportCount": 1,
+        "notes": "The game graphic is too glitchy and cant load contents properly, even the game loads completely",
+        "updatedAt": "2026-11-06",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "loads",
           "perf": "poor",
-          "date": "2026-05-09",
-          "notes": "The game load perfect but the grafics looks like crashed.",
+          "date": "2026-11-06",
+          "notes": "The game graphic is too glitchy and cant load contents properly, even the game loads completely",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
