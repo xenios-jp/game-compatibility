@@ -35525,5 +35525,98 @@
         }
       }
     }
+  },
+  {
+    "slug": "syndicate",
+    "title": "Syndicate",
+    "titleId": "45410923",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro",
+      "platform": "ios",
+      "osVersion": "27.0.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-06",
+    "notes": "Runs without any issues",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-06",
+        "notes": "Runs without any issues",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "Runs without any issues",
+        "updatedAt": "2026-11-06",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "27.0.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "Runs without any issues",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "27.0.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "Runs without any issues",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      }
+    }
   }
 ]
