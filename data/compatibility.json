@@ -2547,22 +2547,39 @@
     "slug": "batman-arkham-asylum",
     "title": "Batman: Arkham Asylum",
     "titleId": "534307F6",
-    "status": "intro",
-    "perf": "great",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 14 Pro",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
-    "notes": "Game doesn’t load. Cutscenes only work.",
+    "updatedAt": "2026-11-06",
+    "notes": "When you go outside then will lag a little bit but overall is playable",
     "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-11-06",
+        "notes": "When you go outside then will lag a little bit but overall is playable",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -2605,24 +2622,24 @@
       "all": {
         "status": "playable",
         "perf": "ok",
-        "notes": "Game doesn’t load. Cutscenes only work.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 2,
+        "notes": "When you go outside then will lag a little bit but overall is playable",
+        "updatedAt": "2026-11-06",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Game doesn’t load. Cutscenes only work.",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-11-06",
+          "notes": "When you go outside then will lag a little bit but overall is playable",
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
