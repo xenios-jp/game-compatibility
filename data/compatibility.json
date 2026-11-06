@@ -7546,22 +7546,39 @@
     "slug": "dead-or-alive-xtreme-2",
     "title": "DEAD OR ALIVE Xtreme 2",
     "titleId": "544307D2",
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Pro Max",
+      "device": "iPad Pro 12.9-inch (M2)",
       "platform": "ios",
-      "osVersion": "18.6.1",
+      "osVersion": "26.7.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-27",
-    "notes": "Plays the opening cinematic with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don’t press anything. But then if you try to start playing after the menu screen it crashes.",
+    "updatedAt": "2026-11-06",
+    "notes": "Works very well, no slowdown, no more giant black shadow square. Excellent work!!!!! Only minor black flashing when jet ski-ing and some other times, but a setting might fix that. Volleyball is smooth and playable-lag is fixed there.",
     "reports": [
+      {
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.7.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-06",
+        "notes": "Works very well, no slowdown, no more giant black shadow square. Excellent work!!!!! Only minor black flashing when jet ski-ing and some other times, but a setting might fix that. Volleyball is smooth and playable-lag is fixed there.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPhone 13 Pro Max",
         "platform": "ios",
@@ -7597,6 +7614,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/544307D2/1793963533232-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/544307D2/1774597460577-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/544307D2/1774597460577-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/544307D2/1774597460577-3.jpg",
@@ -7606,54 +7624,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/365",
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Plays the opening cinematic with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don’t press anything. But then if you try to start playing after the menu screen it crashes.",
-        "updatedAt": "2026-03-27",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Works very well, no slowdown, no more giant black shadow square. Excellent work!!!!! Only minor black flashing when jet ski-ing and some other times, but a setting might fix that. Volleyball is smooth and playable-lag is fixed there.",
+        "updatedAt": "2026-11-06",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 13 Pro Max",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
-          "osVersion": "18.6.1",
+          "osVersion": "26.7.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-27",
-          "notes": "Plays the opening cinematic with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don’t press anything. But then if you try to start playing after the menu screen it crashes.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "Works very well, no slowdown, no more giant black shadow square. Excellent work!!!!! Only minor black flashing when jet ski-ing and some other times, but a setting might fix that. Volleyball is smooth and playable-lag is fixed there.",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Pro Max",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
-          "osVersion": "18.6.1",
+          "osVersion": "26.7.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-27",
-          "notes": "Plays the opening cinematic with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don’t press anything. But then if you try to start playing after the menu screen it crashes.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "Works very well, no slowdown, no more giant black shadow square. Excellent work!!!!! Only minor black flashing when jet ski-ing and some other times, but a setting might fix that. Volleyball is smooth and playable-lag is fixed there.",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
-        "device": "iPhone 13 Pro Max",
+        "device": "iPad Pro 12.9-inch (M2)",
         "platform": "ios",
-        "osVersion": "18.6.1",
+        "osVersion": "26.7.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
         }
       }
     }
