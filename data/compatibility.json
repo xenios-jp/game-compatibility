@@ -35823,5 +35823,100 @@
         }
       }
     }
+  },
+  {
+    "slug": "star-wars-the-force-unleashed-ii",
+    "title": "Star Wars The Force Unleashed II",
+    "titleId": "4C4107F2",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 12.9-inch (M2)",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-06",
+    "notes": "The first run is full of stutters due to shader compilation, but the second run should be completely smooth. For context, the game wasn't even working in previous versions",
+    "reports": [
+      {
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-06",
+        "notes": "The first run is full of stutters due to shader compilation, but the second run should be completely smooth. For context, the game wasn't even working in previous versions",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.1",
+          "buildNumber": "11458",
+          "commitShort": "ef65d1718"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4C4107F2/1794008437026-1.jpg"
+    ],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "The first run is full of stutters due to shader compilation, but the second run should be completely smooth. For context, the game wasn't even working in previous versions",
+        "updatedAt": "2026-11-06",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "The first run is full of stutters due to shader compilation, but the second run should be completely smooth. For context, the game wasn't even working in previous versions",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.1",
+            "buildNumber": "11458",
+            "commitShort": "ef65d1718"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "The first run is full of stutters due to shader compilation, but the second run should be completely smooth. For context, the game wasn't even working in previous versions",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.1",
+            "buildNumber": "11458",
+            "commitShort": "ef65d1718"
+          }
+        },
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.2.1",
+          "buildNumber": "11458",
+          "commitShort": "ef65d1718"
+        }
+      }
+    }
   }
 ]
