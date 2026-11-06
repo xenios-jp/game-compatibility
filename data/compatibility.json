@@ -35728,5 +35728,100 @@
         }
       }
     }
+  },
+  {
+    "slug": "yaiba-ninja-gaiden-z",
+    "title": "Yaiba Ninja Gaiden Z",
+    "titleId": "4B5607E2",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 12.9-inch (M2)",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-06",
+    "notes": "60 FPS",
+    "reports": [
+      {
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-06",
+        "notes": "60 FPS",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.1",
+          "buildNumber": "11458",
+          "commitShort": "ef65d1718"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E2/1794007921921-1.jpg"
+    ],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "60 FPS",
+        "updatedAt": "2026-11-06",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "60 FPS",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.1",
+            "buildNumber": "11458",
+            "commitShort": "ef65d1718"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "60 FPS",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.1",
+            "buildNumber": "11458",
+            "commitShort": "ef65d1718"
+          }
+        },
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.2.1",
+          "buildNumber": "11458",
+          "commitShort": "ef65d1718"
+        }
+      }
+    }
   }
 ]
