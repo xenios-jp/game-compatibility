@@ -35635,5 +35635,98 @@
         }
       }
     }
+  },
+  {
+    "slug": "rainbow-six-vegas-2",
+    "title": "Rainbow Six® Vegas 2",
+    "titleId": "55530807",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-06",
+    "notes": "First time booting it took more than a minute. Cancelled loading. Second time worked. Within seconds the menu. Stutters. In game very stuttery. Not really working.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-11-06",
+        "notes": "First time booting it took more than a minute. Cancelled loading. Second time worked. Within seconds the menu. Stutters. In game very stuttery. Not really working.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "First time booting it took more than a minute. Cancelled loading. Second time worked. Within seconds the menu. Stutters. In game very stuttery. Not really working.",
+        "updatedAt": "2026-11-06",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-06",
+          "notes": "First time booting it took more than a minute. Cancelled loading. Second time worked. Within seconds the menu. Stutters. In game very stuttery. Not really working.",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-06",
+          "notes": "First time booting it took more than a minute. Cancelled loading. Second time worked. Within seconds the menu. Stutters. In game very stuttery. Not really working.",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      }
+    }
   }
 ]
