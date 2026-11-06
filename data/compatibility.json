@@ -30123,23 +30123,40 @@
     "slug": "sroa",
     "title": "Sroa",
     "titleId": "58410AC2",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "macos",
       "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M1)",
-      "platform": "macos",
-      "osVersion": "26.6.1",
+      "device": "iPad Pro 13-inch (M5)",
+      "platform": "ios",
+      "osVersion": "27.0",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-15",
-    "notes": "Game boots to game logo and hangs.",
+    "updatedAt": "2026-11-06",
+    "notes": "All seems to work great.",
     "reports": [
+      {
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-06",
+        "notes": "All seems to work great.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "MacBook Pro (M1)",
         "platform": "macos",
@@ -30180,54 +30197,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/500",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Game boots to game logo and hangs.",
-        "updatedAt": "2026-08-15",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "great",
+        "notes": "All seems to work great.",
+        "updatedAt": "2026-11-06",
+        "reportCount": 3,
         "latestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "26.6.1",
+          "device": "iPad Pro 13-inch (M5)",
+          "platform": "ios",
+          "osVersion": "27.0",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-08-15",
-          "notes": "Game boots to game logo and hangs.",
-          "source": "github",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "All seems to work great.",
+          "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9849",
-            "commitShort": "3418fc4"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "26.6.1",
+          "device": "iPad Pro 13-inch (M5)",
+          "platform": "ios",
+          "osVersion": "27.0",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-08-15",
-          "notes": "Game boots to game logo and hangs.",
-          "source": "github",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "All seems to work great.",
+          "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9849",
-            "commitShort": "3418fc4"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
-        "device": "MacBook Pro (M1)",
-        "platform": "macos",
-        "osVersion": "26.6.1",
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "27.0",
         "arch": "arm64",
-        "gpuBackend": "msc",
+        "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9849",
-          "commitShort": "3418fc4"
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
         }
       }
     }
