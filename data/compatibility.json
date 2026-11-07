@@ -1735,22 +1735,39 @@
     "slug": "assassin-s-creed-ii",
     "title": "Assassin's Creed II",
     "titleId": "5553083B",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "26.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-03",
-    "notes": "Black screen",
+    "updatedAt": "2026-11-07",
+    "notes": "It runs atleast but they are some graphical glitches and then after sometime it became stable then just crashed",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-11-07",
+        "notes": "It runs atleast but they are some graphical glitches and then after sometime it became stable then just crashed",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.5",
+          "buildNumber": "11501",
+          "commitShort": "9b3820832"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -1774,54 +1791,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/466",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-06-03",
-        "reportCount": 1,
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "It runs atleast but they are some graphical glitches and then after sometime it became stable then just crashed",
+        "updatedAt": "2026-11-07",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-03",
-          "notes": "Black screen",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-07",
+          "notes": "It runs atleast but they are some graphical glitches and then after sometime it became stable then just crashed",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.2.5",
+            "buildNumber": "11501",
+            "commitShort": "9b3820832"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-03",
-          "notes": "Black screen",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-07",
+          "notes": "It runs atleast but they are some graphical glitches and then after sometime it became stable then just crashed",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.2.5",
+            "buildNumber": "11501",
+            "commitShort": "9b3820832"
           }
         },
-        "device": "iPhone 14 Pro",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "26.1",
+        "osVersion": "26.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.2.5",
+          "buildNumber": "11501",
+          "commitShort": "9b3820832"
         }
       }
     }
