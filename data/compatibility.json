@@ -33761,22 +33761,39 @@
     "slug": "tomb-raider",
     "title": "Tomb Raider",
     "titleId": "53510802",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPad (A16)",
       "platform": "ios",
-      "osVersion": "26.2",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-12",
-    "notes": "Freeze",
+    "updatedAt": "2026-11-07",
+    "notes": "20-30 fps runs good",
     "reports": [
+      {
+        "device": "iPad (A16)",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-07",
+        "notes": "20-30 fps runs good",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -33800,54 +33817,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/212",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Freeze",
-        "updatedAt": "2026-03-12",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "20-30 fps runs good",
+        "updatedAt": "2026-11-07",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPad (A16)",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-12",
-          "notes": "Freeze",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-07",
+          "notes": "20-30 fps runs good",
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPad (A16)",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-12",
-          "notes": "Freeze",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-07",
+          "notes": "20-30 fps runs good",
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
-        "device": "iPhone 15 Pro Max",
+        "device": "iPad (A16)",
         "platform": "ios",
-        "osVersion": "26.2",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
         }
       }
     }
