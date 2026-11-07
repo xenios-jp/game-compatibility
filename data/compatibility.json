@@ -5109,22 +5109,39 @@
     "slug": "call-of-duty-4",
     "title": "Call of Duty 4",
     "titleId": "415607E6",
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro",
+      "device": "iPad Air 11-inch (M2)",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-08",
-    "notes": "freezes in menu if you can’t select new mission fast enough but in game runs like a potato",
+    "updatedAt": "2026-11-07",
+    "notes": "Runs at 60 FPS, with drops into the high 30s and low 40s every now here and then, but otherwise great performance on 11” iPad Air M2",
     "reports": [
+      {
+        "device": "iPad Air 11-inch (M2)",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-07",
+        "notes": "Runs at 60 FPS, with drops into the high 30s and low 40s every now here and then, but otherwise great performance on 11” iPad Air M2",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -5178,60 +5195,61 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607E6/1794073988946-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607E6/1773077297584-1.jpg"
     ],
     "issueNumber": 37,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/37",
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "freezes in menu if you can’t select new mission fast enough but in game runs like a potato",
-        "updatedAt": "2026-04-08",
-        "reportCount": 3,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Runs at 60 FPS, with drops into the high 30s and low 40s every now here and then, but otherwise great performance on 11” iPad Air M2",
+        "updatedAt": "2026-11-07",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPad Air 11-inch (M2)",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-04-08",
-          "notes": "freezes in menu if you can’t select new mission fast enough but in game runs like a potato",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-07",
+          "notes": "Runs at 60 FPS, with drops into the high 30s and low 40s every now here and then, but otherwise great performance on 11” iPad Air M2",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPad Air 11-inch (M2)",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-04-08",
-          "notes": "freezes in menu if you can’t select new mission fast enough but in game runs like a potato",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-07",
+          "notes": "Runs at 60 FPS, with drops into the high 30s and low 40s every now here and then, but otherwise great performance on 11” iPad Air M2",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
-        "device": "iPhone 14 Pro",
+        "device": "iPad Air 11-inch (M2)",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
         }
       }
     }
