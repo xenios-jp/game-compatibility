@@ -1752,8 +1752,8 @@
     "slug": "assassin-s-creed-ii",
     "title": "Assassin's Creed II",
     "titleId": "5553083B",
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
@@ -1766,8 +1766,25 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-07",
-    "notes": "It runs atleast but they are some graphical glitches and then after sometime it became stable then just crashed",
+    "notes": "They were graphical glitches at first then I changed occlusion query from fast to strict\n\nThe cutscenes are smooth and the gameplay little bit of stuttering here and there \n\nAlso the phone starts overheating then it throttles so I used a cooling fan \n\nOverall gameplay Fantastic",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-07",
+        "notes": "They were graphical glitches at first then I changed occlusion query from fast to strict\n\nThe cutscenes are smooth and the gameplay little bit of stuttering here and there \n\nAlso the phone starts overheating then it throttles so I used a cooling fan \n\nOverall gameplay Fantastic",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.5",
+          "buildNumber": "11501",
+          "commitShort": "9b3820832"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -1808,21 +1825,21 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/466",
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "It runs atleast but they are some graphical glitches and then after sometime it became stable then just crashed",
+        "status": "playable",
+        "perf": "great",
+        "notes": "They were graphical glitches at first then I changed occlusion query from fast to strict\n\nThe cutscenes are smooth and the gameplay little bit of stuttering here and there \n\nAlso the phone starts overheating then it throttles so I used a cooling fan \n\nOverall gameplay Fantastic",
         "updatedAt": "2026-11-07",
-        "reportCount": 2,
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 16 Pro Max",
           "platform": "ios",
           "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
+          "status": "playable",
+          "perf": "great",
           "date": "2026-11-07",
-          "notes": "It runs atleast but they are some graphical glitches and then after sometime it became stable then just crashed",
+          "notes": "They were graphical glitches at first then I changed occlusion query from fast to strict\n\nThe cutscenes are smooth and the gameplay little bit of stuttering here and there \n\nAlso the phone starts overheating then it throttles so I used a cooling fan \n\nOverall gameplay Fantastic",
           "source": "app",
           "build": {
             "appVersion": "2.2.5",
@@ -1836,10 +1853,10 @@
           "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
+          "status": "playable",
+          "perf": "great",
           "date": "2026-11-07",
-          "notes": "It runs atleast but they are some graphical glitches and then after sometime it became stable then just crashed",
+          "notes": "They were graphical glitches at first then I changed occlusion query from fast to strict\n\nThe cutscenes are smooth and the gameplay little bit of stuttering here and there \n\nAlso the phone starts overheating then it throttles so I used a cooling fan \n\nOverall gameplay Fantastic",
           "source": "app",
           "build": {
             "appVersion": "2.2.5",
