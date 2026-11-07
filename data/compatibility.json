@@ -15228,22 +15228,39 @@
     "slug": "halo-4",
     "title": "Halo 4",
     "titleId": "4D530919",
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9-inch (M2)",
+      "device": "iPad19,1",
       "platform": "ios",
-      "osVersion": "18.7.2",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-10",
-    "notes": "After those images just black screen, sadly",
+    "updatedAt": "2026-11-07",
+    "notes": "Play solid, sometimes shader loadi g",
     "reports": [
+      {
+        "device": "iPad19,1",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-07",
+        "notes": "Play solid, sometimes shader loadi g",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPad Pro 12.9-inch (M2)",
         "platform": "ios",
@@ -15287,54 +15304,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/57",
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "poor",
-        "notes": "After those images just black screen, sadly",
-        "updatedAt": "2026-03-10",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Play solid, sometimes shader loadi g",
+        "updatedAt": "2026-11-07",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPad Pro 12.9-inch (M2)",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "18.7.2",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "After those images just black screen, sadly",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-07",
+          "notes": "Play solid, sometimes shader loadi g",
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9-inch (M2)",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "18.7.2",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "After those images just black screen, sadly",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-07",
+          "notes": "Play solid, sometimes shader loadi g",
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
-        "device": "iPad Pro 12.9-inch (M2)",
+        "device": "iPad19,1",
         "platform": "ios",
-        "osVersion": "18.7.2",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
         }
       }
     }
