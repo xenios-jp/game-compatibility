@@ -31593,8 +31593,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0859/1775802601635-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0859/1775802601635-3.jpg"
     ],
-    "issueNumber": 563,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/563",
+    "issueNumber": 751,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/751",
     "summaries": {
       "all": {
         "status": "playable",
@@ -33036,6 +33036,101 @@
         }
       }
     }
+  },
+  {
+    "slug": "the-sims-3",
+    "title": "The Sims™ 3",
+    "titleId": "454108E2",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-07",
+    "notes": "Some lags",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-07",
+        "notes": "Some lags",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Some lags",
+        "updatedAt": "2026-11-07",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-07",
+          "notes": "Some lags",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-07",
+          "notes": "Some lags",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      }
+    },
+    "issueNumber": 752,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/752"
   },
   {
     "slug": "the-witcher-2",
@@ -35133,6 +35228,118 @@
     }
   },
   {
+    "slug": "wwe-all-stars",
+    "title": "WWE All Stars",
+    "titleId": "60CEF505",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro M2",
+      "platform": "ios",
+      "osVersion": "27.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-07",
+    "notes": "Work on 60fps",
+    "reports": [
+      {
+        "device": "iPad Pro M2",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-07",
+        "notes": "Work on 60fps",
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.2.4-11500",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.2.4",
+          "buildNumber": "11500"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 753,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/753",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Work on 60fps",
+        "updatedAt": "2026-11-07",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro M2",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-07",
+          "notes": "Work on 60fps",
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.2.4-11500",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.2.4",
+            "buildNumber": "11500"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro M2",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-07",
+          "notes": "Work on 60fps",
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.2.4-11500",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.2.4",
+            "buildNumber": "11500"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "wwe-svr-2007",
     "title": "WWE SVR 2007",
     "titleId": "545107E0",
@@ -36019,99 +36226,6 @@
           "appVersion": "2.0.1",
           "buildNumber": "9730",
           "commitShort": "57c3ca140"
-        }
-      }
-    }
-  },
-  {
-    "slug": "the-sims-3",
-    "title": "The Sims™ 3",
-    "titleId": "454108E2",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro Max",
-      "platform": "ios",
-      "osVersion": "27.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-11-07",
-    "notes": "Some lags",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "27.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-11-07",
-        "notes": "Some lags",
-        "source": "app",
-        "build": {
-          "appVersion": "2.2.4",
-          "buildNumber": "11500",
-          "commitShort": "bef950648"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "all": {
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Some lags",
-        "updatedAt": "2026-11-07",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "27.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-11-07",
-          "notes": "Some lags",
-          "source": "app",
-          "build": {
-            "appVersion": "2.2.4",
-            "buildNumber": "11500",
-            "commitShort": "bef950648"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "27.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-11-07",
-          "notes": "Some lags",
-          "source": "app",
-          "build": {
-            "appVersion": "2.2.4",
-            "buildNumber": "11500",
-            "commitShort": "bef950648"
-          }
-        },
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "27.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "build": {
-          "appVersion": "2.2.4",
-          "buildNumber": "11500",
-          "commitShort": "bef950648"
         }
       }
     }
