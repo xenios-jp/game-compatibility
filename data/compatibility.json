@@ -15009,22 +15009,39 @@
     "slug": "halo-3",
     "title": "Halo 3",
     "titleId": "4D5307E6",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone19,2",
+      "device": "iPad Air 11-inch (M2)",
       "platform": "ios",
-      "osVersion": "27.0.1",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-10-08",
-    "notes": "Doesn’t load, just black screen no audio or anything",
+    "updatedAt": "2026-11-07",
+    "notes": "Runs at about 30 FPS, shader caching makes it stutter sometimes",
     "reports": [
+      {
+        "device": "iPad Air 11-inch (M2)",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-07",
+        "notes": "Runs at about 30 FPS, shader caching makes it stutter sometimes",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPhone19,2",
         "platform": "ios",
@@ -15087,52 +15104,52 @@
       "all": {
         "status": "playable",
         "perf": "ok",
-        "notes": "Doesn’t load, just black screen no audio or anything",
-        "updatedAt": "2026-10-08",
-        "reportCount": 3,
+        "notes": "Runs at about 30 FPS, shader caching makes it stutter sometimes",
+        "updatedAt": "2026-11-07",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone19,2",
+          "device": "iPad Air 11-inch (M2)",
           "platform": "ios",
-          "osVersion": "27.0.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-10-08",
-          "notes": "Doesn’t load, just black screen no audio or anything",
-          "source": "app",
-          "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro 13-inch (M5)",
-          "platform": "ios",
-          "osVersion": "26.5.2",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-08-26",
-          "notes": "Textures sometime seem slow to load in but once they do plays fine.",
+          "date": "2026-11-07",
+          "notes": "Runs at about 30 FPS, shader caching makes it stutter sometimes",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
-        "device": "iPad Pro 13-inch (M5)",
+        "bestReport": {
+          "device": "iPad Air 11-inch (M2)",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-07",
+          "notes": "Runs at about 30 FPS, shader caching makes it stutter sometimes",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "device": "iPad Air 11-inch (M2)",
         "platform": "ios",
-        "osVersion": "26.5.2",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
         }
       }
     }
