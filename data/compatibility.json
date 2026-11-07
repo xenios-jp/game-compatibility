@@ -36445,5 +36445,98 @@
         }
       }
     }
+  },
+  {
+    "slug": "nights-into-dreams",
+    "title": "NiGHTS into dreams...",
+    "titleId": "58411268",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 13-inch (M5)",
+      "platform": "ios",
+      "osVersion": "27.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-07",
+    "notes": "Works great",
+    "reports": [
+      {
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-07",
+        "notes": "Works great",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "Works great",
+        "updatedAt": "2026-11-07",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 13-inch (M5)",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-07",
+          "notes": "Works great",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 13-inch (M5)",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-07",
+          "notes": "Works great",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      }
+    }
   }
 ]
