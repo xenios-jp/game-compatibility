@@ -35259,9 +35259,6 @@
         "notes": "Work on 60fps",
         "source": "github",
         "build": {
-          "buildId": "ios-self-built-2.2.4-11500",
-          "channel": "self-built",
-          "official": false,
           "appVersion": "2.2.4",
           "buildNumber": "11500"
         }
@@ -35271,28 +35268,7 @@
     "issueNumber": 753,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/753",
     "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
-        "channel": "all",
         "status": "playable",
         "perf": "great",
         "notes": "Work on 60fps",
@@ -35310,9 +35286,6 @@
           "notes": "Work on 60fps",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.2.4-11500",
-            "channel": "self-built",
-            "official": false,
             "appVersion": "2.2.4",
             "buildNumber": "11500"
           }
@@ -35329,12 +35302,18 @@
           "notes": "Work on 60fps",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.2.4-11500",
-            "channel": "self-built",
-            "official": false,
             "appVersion": "2.2.4",
             "buildNumber": "11500"
           }
+        },
+        "device": "iPad Pro M2",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500"
         }
       }
     }
@@ -36226,6 +36205,99 @@
           "appVersion": "2.0.1",
           "buildNumber": "9730",
           "commitShort": "57c3ca140"
+        }
+      }
+    }
+  },
+  {
+    "slug": "rainbow-six-vegas",
+    "title": "Rainbow Six® Vegas",
+    "titleId": "555307D6",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-07",
+    "notes": "Slight stutter in the beginning. But playable",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-07",
+        "notes": "Slight stutter in the beginning. But playable",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Slight stutter in the beginning. But playable",
+        "updatedAt": "2026-11-07",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-07",
+          "notes": "Slight stutter in the beginning. But playable",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-07",
+          "notes": "Slight stutter in the beginning. But playable",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
         }
       }
     }
