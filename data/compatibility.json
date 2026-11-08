@@ -13286,22 +13286,39 @@
     "slug": "grand-theft-auto-v",
     "title": "Grand Theft Auto V",
     "titleId": "545408A7",
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone18,5",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-09-13",
-    "notes": "Only play the rockstar animation",
+    "updatedAt": "2026-11-08",
+    "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-08",
+        "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone18,5",
         "platform": "ios",
@@ -13431,54 +13448,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/369",
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Only play the rockstar animation",
-        "updatedAt": "2026-09-13",
-        "reportCount": 6,
+        "status": "playable",
+        "perf": "great",
+        "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
+        "updatedAt": "2026-11-08",
+        "reportCount": 7,
         "latestReport": {
-          "device": "iPhone18,5",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-09-13",
-          "notes": "Only play the rockstar animation",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-08",
+          "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-08-26",
-          "notes": "Go into game and can walk around the map but very unstable and any sudden movement can crash it",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-08",
+          "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 16",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "26.5",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
