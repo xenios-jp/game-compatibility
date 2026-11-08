@@ -20014,22 +20014,39 @@
     "slug": "modern-warfare-2",
     "title": "Modern Warfare® 2",
     "titleId": "41560817",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone19,2",
+      "device": "iPad19,1",
       "platform": "ios",
-      "osVersion": "27.0.1",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-10-08",
-    "notes": "Black screen",
+    "updatedAt": "2026-11-08",
+    "notes": "I can start the game, level loads crashed during playing",
     "reports": [
+      {
+        "device": "iPad19,1",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-11-08",
+        "notes": "I can start the game, level loads crashed during playing",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone19,2",
         "platform": "ios",
@@ -20066,6 +20083,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560817/1794160446877-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560817/1781468082414-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560817/1781468082414-2.jpg"
     ],
@@ -20073,54 +20091,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/630",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-10-08",
-        "reportCount": 2,
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "I can start the game, level loads crashed during playing",
+        "updatedAt": "2026-11-08",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone19,2",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "27.0.1",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-10-08",
-          "notes": "Black screen",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-11-08",
+          "notes": "I can start the game, level loads crashed during playing",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone19,2",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "27.0.1",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-10-08",
-          "notes": "Black screen",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-11-08",
+          "notes": "I can start the game, level loads crashed during playing",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone19,2",
+        "device": "iPad19,1",
         "platform": "ios",
-        "osVersion": "27.0.1",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
