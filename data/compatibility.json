@@ -13567,22 +13567,39 @@
     "slug": "gta-iv",
     "title": "GTA IV",
     "titleId": "545407F2",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone11,2",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "18.7.10",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-10-25",
-    "notes": "My game doesn’t load but I have an iPhone XS",
+    "updatedAt": "2026-11-08",
+    "notes": "It works great",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-08",
+        "notes": "It works great",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone11,2",
         "platform": "ios",
@@ -13701,54 +13718,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/667",
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "poor",
-        "notes": "My game doesn’t load but I have an iPhone XS",
-        "updatedAt": "2026-10-25",
-        "reportCount": 6,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "It works great",
+        "updatedAt": "2026-11-08",
+        "reportCount": 7,
         "latestReport": {
-          "device": "iPhone11,2",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "18.7.10",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-10-25",
-          "notes": "My game doesn’t load but I have an iPhone XS",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-08",
+          "notes": "It works great",
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPad Air 5",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "18.7.8",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-09-13",
-          "notes": "Loading intro on Vulkan with low performance, Metal crashes immediately",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-08",
+          "notes": "It works great",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPad Air 5",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "18.7.8",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
