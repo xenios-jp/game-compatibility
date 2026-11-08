@@ -36333,5 +36333,100 @@
         }
       }
     }
+  },
+  {
+    "slug": "mrvl-ultimate-alliance",
+    "title": "MRVL Ultimate Alliance",
+    "titleId": "415607DA",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.4.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-08",
+    "notes": "Playable, stable fps with minimal FPS drops.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-08",
+        "notes": "Playable, stable fps with minimal FPS drops.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.0",
+          "buildNumber": "11659",
+          "commitShort": "cef52a33f"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607DA/1794159177718-1.jpg"
+    ],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "Playable, stable fps with minimal FPS drops.",
+        "updatedAt": "2026-11-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-08",
+          "notes": "Playable, stable fps with minimal FPS drops.",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "cef52a33f"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-08",
+          "notes": "Playable, stable fps with minimal FPS drops.",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "cef52a33f"
+          }
+        },
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.0",
+          "buildNumber": "11659",
+          "commitShort": "cef52a33f"
+        }
+      }
+    }
   }
 ]
