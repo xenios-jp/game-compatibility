@@ -10473,22 +10473,39 @@
     "slug": "far-cry-3",
     "title": "Far Cry® 3",
     "titleId": "5553088C",
-    "status": "intro",
-    "perf": "ok",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 14 Pro",
       "platform": "ios",
-      "osVersion": "26.4.2",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-12",
-    "notes": "Infinite loading when try to play",
+    "updatedAt": "2026-11-08",
+    "notes": ".",
     "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-11-08",
+        "notes": ".",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -10519,54 +10536,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/251",
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "ok",
-        "notes": "Infinite loading when try to play",
-        "updatedAt": "2026-06-12",
-        "reportCount": 1,
+        "status": "ingame",
+        "perf": "poor",
+        "notes": ".",
+        "updatedAt": "2026-11-08",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-06-12",
-          "notes": "Infinite loading when try to play",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-08",
+          "notes": ".",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-06-12",
-          "notes": "Infinite loading when try to play",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-08",
+          "notes": ".",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 15 Pro",
+        "device": "iPhone 14 Pro",
         "platform": "ios",
-        "osVersion": "26.4.2",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
