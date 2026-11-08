@@ -36106,5 +36106,101 @@
         }
       }
     }
+  },
+  {
+    "slug": "wwe-all-stars",
+    "title": "WWE® All Stars™",
+    "titleId": "54510866",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 11-inch (M2)",
+      "platform": "ios",
+      "osVersion": "27.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-08",
+    "notes": "The game runs smoothly at nearly 60 FPS",
+    "reports": [
+      {
+        "device": "iPad Pro 11-inch (M2)",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-08",
+        "notes": "The game runs smoothly at nearly 60 FPS",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.0",
+          "buildNumber": "11659",
+          "commitShort": "cef52a33f"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/54510866/1794105910687-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/54510866/1794105910687-2.jpg"
+    ],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "The game runs smoothly at nearly 60 FPS",
+        "updatedAt": "2026-11-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 11-inch (M2)",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-08",
+          "notes": "The game runs smoothly at nearly 60 FPS",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "cef52a33f"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 11-inch (M2)",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-08",
+          "notes": "The game runs smoothly at nearly 60 FPS",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "cef52a33f"
+          }
+        },
+        "device": "iPad Pro 11-inch (M2)",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.0",
+          "buildNumber": "11659",
+          "commitShort": "cef52a33f"
+        }
+      }
+    }
   }
 ]
