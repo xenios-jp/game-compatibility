@@ -3,22 +3,39 @@
     "slug": "prototype",
     "title": "[Prototype]™",
     "titleId": "4156084E",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro",
+      "device": "iPad19,1",
       "platform": "ios",
-      "osVersion": "18.1.1",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-11",
-    "notes": "When the game boot Nothing just black screen and the app gets closed",
+    "updatedAt": "2026-11-09",
+    "notes": "I can run the game but audio and gameplay laggs",
     "reports": [
+      {
+        "device": "iPad19,1",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-11-09",
+        "notes": "I can run the game but audio and gameplay laggs",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -42,54 +59,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/44",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "When the game boot Nothing just black screen and the app gets closed",
-        "updatedAt": "2026-06-11",
-        "reportCount": 1,
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "I can run the game but audio and gameplay laggs",
+        "updatedAt": "2026-11-09",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "18.1.1",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-11",
-          "notes": "When the game boot Nothing just black screen and the app gets closed",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-09",
+          "notes": "I can run the game but audio and gameplay laggs",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "18.1.1",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-11",
-          "notes": "When the game boot Nothing just black screen and the app gets closed",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-09",
+          "notes": "I can run the game but audio and gameplay laggs",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 14 Pro",
+        "device": "iPad19,1",
         "platform": "ios",
-        "osVersion": "18.1.1",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
