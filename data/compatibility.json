@@ -36609,5 +36609,104 @@
         }
       }
     }
+  },
+  {
+    "slug": "mgsv-tpp",
+    "title": "MGSV: TPP",
+    "titleId": "4B4E085E",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14",
+      "platform": "ios",
+      "osVersion": "27.0.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-10",
+    "notes": "Some glitches so far but running pretty good",
+    "reports": [
+      {
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-10",
+        "notes": "Some glitches so far but running pretty good",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E085E/1794334218992-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E085E/1794334218992-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E085E/1794334218992-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E085E/1794334218992-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E085E/1794334218992-5.jpg"
+    ],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Some glitches so far but running pretty good",
+        "updatedAt": "2026-11-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14",
+          "platform": "ios",
+          "osVersion": "27.0.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-10",
+          "notes": "Some glitches so far but running pretty good",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14",
+          "platform": "ios",
+          "osVersion": "27.0.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-10",
+          "notes": "Some glitches so far but running pretty good",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
+          }
+        },
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      }
+    }
   }
 ]
