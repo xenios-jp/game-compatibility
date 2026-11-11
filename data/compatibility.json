@@ -35715,15 +35715,32 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "26.6.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-06",
-    "notes": "Choppy but alright",
+    "updatedAt": "2026-11-11",
+    "notes": "Works fine with fewer enemies and gets faster with loads all the assets.",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-11",
+        "notes": "Works fine with fewer enemies and gets faster with loads all the assets.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.2",
+          "buildNumber": "11498",
+          "commitShort": "69fd00155"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -35749,52 +35766,52 @@
       "all": {
         "status": "playable",
         "perf": "ok",
-        "notes": "Choppy but alright",
-        "updatedAt": "2026-07-06",
-        "reportCount": 1,
+        "notes": "Works fine with fewer enemies and gets faster with loads all the assets.",
+        "updatedAt": "2026-11-11",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-07-06",
-          "notes": "Choppy but alright",
+          "date": "2026-11-11",
+          "notes": "Works fine with fewer enemies and gets faster with loads all the assets.",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.2.2",
+            "buildNumber": "11498",
+            "commitShort": "69fd00155"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-07-06",
-          "notes": "Choppy but alright",
+          "date": "2026-11-11",
+          "notes": "Works fine with fewer enemies and gets faster with loads all the assets.",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.2.2",
+            "buildNumber": "11498",
+            "commitShort": "69fd00155"
           }
         },
-        "device": "iPhone 16 Pro Max",
+        "device": "iPhone 13 Pro Max",
         "platform": "ios",
-        "osVersion": "26.5",
+        "osVersion": "26.6.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.2.2",
+          "buildNumber": "11498",
+          "commitShort": "69fd00155"
         }
       }
     }
