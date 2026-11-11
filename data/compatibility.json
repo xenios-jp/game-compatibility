@@ -4001,22 +4001,39 @@
     "slug": "blur",
     "title": "Blur",
     "titleId": "41560845",
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 17",
       "platform": "ios",
-      "osVersion": "18.7.2",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-12",
-    "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
+    "updatedAt": "2026-11-11",
+    "notes": "Works okay",
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-11",
+        "notes": "Works okay",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -4076,54 +4093,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/298",
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
-        "updatedAt": "2026-06-12",
-        "reportCount": 3,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Works okay",
+        "updatedAt": "2026-11-11",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "18.7.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-12",
-          "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-11",
+          "notes": "Works okay",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "18.7.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-12",
-          "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-11",
+          "notes": "Works okay",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 15 Pro",
+        "device": "iPhone 17",
         "platform": "ios",
-        "osVersion": "18.7.2",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
