@@ -18433,22 +18433,39 @@
     "slug": "marathon-exe",
     "title": "marathon.exe",
     "titleId": "534507D6",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-03",
-    "notes": "just crashes immediately when I press play",
+    "updatedAt": "2026-11-12",
+    "notes": "Roda liso",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-12",
+        "notes": "Roda liso",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -18468,6 +18485,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1794478764541-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-3.jpg"
@@ -18476,54 +18494,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/384",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "just crashes immediately when I press play",
-        "updatedAt": "2026-04-03",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Roda liso",
+        "updatedAt": "2026-11-12",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-03",
-          "notes": "just crashes immediately when I press play",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-12",
+          "notes": "Roda liso",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-03",
-          "notes": "just crashes immediately when I press play",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-12",
+          "notes": "Roda liso",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 13",
+        "device": "iPhone 15 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
