@@ -7306,22 +7306,39 @@
     "slug": "dead-or-alive-4",
     "title": "DEAD OR ALIVE 4",
     "titleId": "544307D1",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPhone19,2",
       "platform": "ios",
-      "osVersion": "18.6.2",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-23",
-    "notes": "crashes instantly or infinitely loads",
+    "updatedAt": "2026-11-12",
+    "notes": "The game launches but menu only",
     "reports": [
+      {
+        "device": "iPhone19,2",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-11-12",
+        "notes": "The game launches but menu only",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -7345,54 +7362,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/612",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "crashes instantly or infinitely loads",
-        "updatedAt": "2026-07-23",
-        "reportCount": 1,
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "The game launches but menu only",
+        "updatedAt": "2026-11-12",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "18.6.2",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-23",
-          "notes": "crashes instantly or infinitely loads",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-12",
+          "notes": "The game launches but menu only",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "18.6.2",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-23",
-          "notes": "crashes instantly or infinitely loads",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-12",
+          "notes": "The game launches but menu only",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone 16 Pro",
+        "device": "iPhone19,2",
         "platform": "ios",
-        "osVersion": "18.6.2",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
