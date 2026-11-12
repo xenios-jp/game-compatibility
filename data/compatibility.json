@@ -15467,8 +15467,8 @@
     "slug": "halo-ce-anniversary",
     "title": "Halo: CE Anniversary",
     "titleId": "4D5309B1",
-    "status": "loads",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
@@ -15476,13 +15476,30 @@
     "lastReport": {
       "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.0",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-11",
-    "notes": "The game gets stuck at the end of the initial loading screen most of the time, and on the off chance that I can actually get to the main menu:\n- Audio does not exist (this is extremely rare though)\n- Selecting the multiplayer crashes the game back to the XeniOS emulator every time.\n- Sometimes the Extras menu from the main menu gets stuck on “Wait…” forever",
+    "updatedAt": "2026-11-12",
+    "notes": "Sometimes needs a short time of stutter/shader loading, but overall great experience",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-12",
+        "notes": "Sometimes needs a short time of stutter/shader loading, but overall great experience",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -15510,54 +15527,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/495",
     "summaries": {
       "all": {
-        "status": "loads",
-        "perf": "poor",
-        "notes": "The game gets stuck at the end of the initial loading screen most of the time, and on the off chance that I can actually get to the main menu:\n- Audio does not exist (this is extremely rare though)\n- Selecting the multiplayer crashes the game back to the XeniOS emulator every time.\n- Sometimes the Extras menu from the main menu gets stuck on “Wait…” forever",
-        "updatedAt": "2026-06-11",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Sometimes needs a short time of stutter/shader loading, but overall great experience",
+        "updatedAt": "2026-11-12",
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-06-11",
-          "notes": "The game gets stuck at the end of the initial loading screen most of the time, and on the off chance that I can actually get to the main menu:\n- Audio does not exist (this is extremely rare though)\n- Selecting the multiplayer crashes the game back to the XeniOS emulator every time.\n- Sometimes the Extras menu from the main menu gets stuck on “Wait…” forever",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-12",
+          "notes": "Sometimes needs a short time of stutter/shader loading, but overall great experience",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-06-11",
-          "notes": "The game gets stuck at the end of the initial loading screen most of the time, and on the off chance that I can actually get to the main menu:\n- Audio does not exist (this is extremely rare though)\n- Selecting the multiplayer crashes the game back to the XeniOS emulator every time.\n- Sometimes the Extras menu from the main menu gets stuck on “Wait…” forever",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-12",
+          "notes": "Sometimes needs a short time of stutter/shader loading, but overall great experience",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "26.0",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
