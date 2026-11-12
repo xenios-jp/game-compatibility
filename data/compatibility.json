@@ -36652,5 +36652,98 @@
         }
       }
     }
+  },
+  {
+    "slug": "boom-boom-rocket",
+    "title": "Boom Boom Rocket",
+    "titleId": "5841086A",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-12",
+    "notes": "great",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-12",
+        "notes": "great",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "great",
+        "updatedAt": "2026-11-12",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-12",
+          "notes": "great",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-12",
+          "notes": "great",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
+          }
+        },
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      }
+    }
   }
 ]
