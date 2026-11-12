@@ -4619,22 +4619,39 @@
     "slug": "burnout-paradise",
     "title": "Burnout Paradise",
     "titleId": "45410806",
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 11 inch 4th Gen",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-12",
-    "notes": "After introduction finished it’s crashed",
+    "updatedAt": "2026-11-12",
+    "notes": "After some stutter when booting first, in-game is fluent",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-12",
+        "notes": "After some stutter when booting first, in-game is fluent",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPad Pro 11 inch 4th Gen",
         "platform": "ios",
@@ -4658,54 +4675,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/217",
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "poor",
-        "notes": "After introduction finished it’s crashed",
-        "updatedAt": "2026-03-12",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "After some stutter when booting first, in-game is fluent",
+        "updatedAt": "2026-11-12",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 11 inch 4th Gen",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-12",
-          "notes": "After introduction finished it’s crashed",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-12",
+          "notes": "After some stutter when booting first, in-game is fluent",
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 11 inch 4th Gen",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-12",
-          "notes": "After introduction finished it’s crashed",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-12",
+          "notes": "After some stutter when booting first, in-game is fluent",
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPad Pro 11 inch 4th Gen",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "26.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
