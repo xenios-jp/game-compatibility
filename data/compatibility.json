@@ -24873,22 +24873,39 @@
     "slug": "pgr-4",
     "title": "PGR 4",
     "titleId": "4D5307F9",
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.5.2",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-05",
-    "notes": "Everything is playable, textures load slowly, sometimes glitch, and maybe a consistent 15 fps since you start the game",
+    "updatedAt": "2026-11-12",
+    "notes": "Lowish framerate",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-12",
+        "notes": "Lowish framerate",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone 15",
         "platform": "ios",
@@ -24912,54 +24929,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/255",
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Everything is playable, textures load slowly, sometimes glitch, and maybe a consistent 15 fps since you start the game",
-        "updatedAt": "2026-08-05",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Lowish framerate",
+        "updatedAt": "2026-11-12",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5.2",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-08-05",
-          "notes": "Everything is playable, textures load slowly, sometimes glitch, and maybe a consistent 15 fps since you start the game",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-12",
+          "notes": "Lowish framerate",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5.2",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-08-05",
-          "notes": "Everything is playable, textures load slowly, sometimes glitch, and maybe a consistent 15 fps since you start the game",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-12",
+          "notes": "Lowish framerate",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 15",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "26.5.2",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
