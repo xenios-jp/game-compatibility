@@ -31438,21 +31438,38 @@
     "title": "STREETFIGHTER X TEKKEN",
     "titleId": "4343080F",
     "status": "playable",
-    "perf": "poor",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPad Pro 11-inch (M2)",
       "platform": "ios",
-      "osVersion": "26.2",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-11",
-    "notes": "Game loads and boots fine, cutscenes have graphical glitches, game play is below full speed.",
+    "updatedAt": "2026-11-12",
+    "notes": "Compared to the previous version (screenshot #3), performance has improved significantly. The game can now run at nearly 60 FPS.",
     "reports": [
+      {
+        "device": "iPad Pro 11-inch (M2)",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-12",
+        "notes": "Compared to the previous version (screenshot #3), performance has improved significantly. The game can now run at nearly 60 FPS.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -31472,6 +31489,9 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4343080F/1794505595052-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4343080F/1794505595052-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4343080F/1794505595052-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4343080F/1773198412364-1.jpg"
     ],
     "issueNumber": 191,
@@ -31479,53 +31499,53 @@
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "poor",
-        "notes": "Game loads and boots fine, cutscenes have graphical glitches, game play is below full speed.",
-        "updatedAt": "2026-03-11",
-        "reportCount": 1,
+        "perf": "great",
+        "notes": "Compared to the previous version (screenshot #3), performance has improved significantly. The game can now run at nearly 60 FPS.",
+        "updatedAt": "2026-11-12",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPad Pro 11-inch (M2)",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-11",
-          "notes": "Game loads and boots fine, cutscenes have graphical glitches, game play is below full speed.",
+          "perf": "great",
+          "date": "2026-11-12",
+          "notes": "Compared to the previous version (screenshot #3), performance has improved significantly. The game can now run at nearly 60 FPS.",
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPad Pro 11-inch (M2)",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-11",
-          "notes": "Game loads and boots fine, cutscenes have graphical glitches, game play is below full speed.",
+          "perf": "great",
+          "date": "2026-11-12",
+          "notes": "Compared to the previous version (screenshot #3), performance has improved significantly. The game can now run at nearly 60 FPS.",
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone 16 Pro Max",
+        "device": "iPad Pro 11-inch (M2)",
         "platform": "ios",
-        "osVersion": "26.2",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
