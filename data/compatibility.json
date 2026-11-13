@@ -4289,6 +4289,101 @@
     }
   },
   {
+    "slug": "boom-boom-rocket",
+    "title": "Boom Boom Rocket",
+    "titleId": "5841086A",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-12",
+    "notes": "great",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-12",
+        "notes": "great",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "great",
+        "updatedAt": "2026-11-12",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-12",
+          "notes": "great",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-12",
+          "notes": "great",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
+          }
+        },
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      }
+    },
+    "issueNumber": 781,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/781"
+  },
+  {
     "slug": "borderlands",
     "title": "Borderlands",
     "titleId": "545407E7",
@@ -4671,8 +4766,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 217,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/217",
+    "issueNumber": 782,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/782",
     "summaries": {
       "all": {
         "status": "playable",
@@ -7358,8 +7453,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 612,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/612",
+    "issueNumber": 787,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/787",
     "summaries": {
       "all": {
         "status": "ingame",
@@ -10222,8 +10317,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307E0/1781807050824-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307E0/1773340129130-1.jpg"
     ],
-    "issueNumber": 534,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/534",
+    "issueNumber": 780,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/780",
     "summaries": {
       "all": {
         "status": "playable",
@@ -15523,8 +15618,8 @@
       "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-3.jpg"
     ],
-    "issueNumber": 495,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/495",
+    "issueNumber": 788,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/788",
     "summaries": {
       "all": {
         "status": "playable",
@@ -16572,6 +16667,101 @@
         }
       }
     }
+  },
+  {
+    "slug": "l-a-noire",
+    "title": "L.A. Noire",
+    "titleId": "5454086C",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14 Pro",
+      "platform": "ios",
+      "osVersion": "27.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-11",
+    "notes": "Low fps",
+    "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-11-11",
+        "notes": "Low fps",
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.5",
+          "buildNumber": "11501",
+          "commitShort": "9b3820832"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Low fps",
+        "updatedAt": "2026-11-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-11-11",
+          "notes": "Low fps",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.5",
+            "buildNumber": "11501",
+            "commitShort": "9b3820832"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-11-11",
+          "notes": "Low fps",
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.5",
+            "buildNumber": "11501",
+            "commitShort": "9b3820832"
+          }
+        },
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.2.5",
+          "buildNumber": "11501",
+          "commitShort": "9b3820832"
+        }
+      }
+    },
+    "issueNumber": 779,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/779"
   },
   {
     "slug": "launcher-exe",
@@ -18524,8 +18714,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-3.jpg"
     ],
-    "issueNumber": 384,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/384",
+    "issueNumber": 783,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/783",
     "summaries": {
       "all": {
         "status": "playable",
@@ -24959,8 +25149,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 255,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/255",
+    "issueNumber": 785,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/785",
     "summaries": {
       "all": {
         "status": "playable",
@@ -26698,22 +26888,41 @@
     "slug": "red-dead-redemption",
     "title": "Red Dead Redemption",
     "titleId": "5454082B",
-    "status": "loads",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 13-inch (M4)",
+      "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "26.4",
+      "osVersion": "iOS 27",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-24",
-    "notes": "Horrível",
+    "updatedAt": "2026-11-13",
+    "notes": "Great",
     "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "iOS 27",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-13",
+        "notes": "Great",
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.3.2-11934",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.3.2",
+          "buildNumber": "11934"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
@@ -26758,55 +26967,70 @@
     "issueNumber": 386,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/386",
     "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Horrível",
-        "updatedAt": "2026-04-24",
-        "reportCount": 2,
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Great",
+        "updatedAt": "2026-11-13",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPad Pro 13-inch (M4)",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "iOS 27",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-04-24",
-          "notes": "Horrível",
-          "source": "app",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-13",
+          "notes": "Great",
+          "source": "github",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildId": "ios-self-built-2.3.2-11934",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.3.2",
+            "buildNumber": "11934"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 13-inch (M4)",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "iOS 27",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-04-24",
-          "notes": "Horrível",
-          "source": "app",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-13",
+          "notes": "Great",
+          "source": "github",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildId": "ios-self-built-2.3.2-11934",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.3.2",
+            "buildNumber": "11934"
           }
-        },
-        "device": "iPad Pro 13-inch (M4)",
-        "platform": "ios",
-        "osVersion": "26.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
         }
       }
     }
@@ -27943,8 +28167,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545107D1/1773171890346-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545107D1/1773171890346-4.jpg"
     ],
-    "issueNumber": 174,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/174",
+    "issueNumber": 784,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/784",
     "summaries": {
       "all": {
         "status": "playable",
@@ -31528,8 +31752,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4343080F/1794505595052-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4343080F/1773198412364-1.jpg"
     ],
-    "issueNumber": 191,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/191",
+    "issueNumber": 786,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/786",
     "summaries": {
       "all": {
         "status": "playable",
@@ -34863,8 +35087,8 @@
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156084C/1782332448296-1.jpg"
     ],
-    "issueNumber": 555,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/555",
+    "issueNumber": 350,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/350",
     "summaries": {
       "all": {
         "status": "playable",
@@ -36679,192 +36903,6 @@
           "appVersion": "2.0.1",
           "buildNumber": "9730",
           "commitShort": "57c3ca140"
-        }
-      }
-    }
-  },
-  {
-    "slug": "l-a-noire",
-    "title": "L.A. Noire",
-    "titleId": "5454086C",
-    "status": "ingame",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 14 Pro",
-      "platform": "ios",
-      "osVersion": "27.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-11-11",
-    "notes": "Low fps",
-    "reports": [
-      {
-        "device": "iPhone 14 Pro",
-        "platform": "ios",
-        "osVersion": "27.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-11-11",
-        "notes": "Low fps",
-        "source": "app",
-        "build": {
-          "appVersion": "2.2.5",
-          "buildNumber": "11501",
-          "commitShort": "9b3820832"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "all": {
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Low fps",
-        "updatedAt": "2026-11-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 14 Pro",
-          "platform": "ios",
-          "osVersion": "27.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-11-11",
-          "notes": "Low fps",
-          "source": "app",
-          "build": {
-            "appVersion": "2.2.5",
-            "buildNumber": "11501",
-            "commitShort": "9b3820832"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 14 Pro",
-          "platform": "ios",
-          "osVersion": "27.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-11-11",
-          "notes": "Low fps",
-          "source": "app",
-          "build": {
-            "appVersion": "2.2.5",
-            "buildNumber": "11501",
-            "commitShort": "9b3820832"
-          }
-        },
-        "device": "iPhone 14 Pro",
-        "platform": "ios",
-        "osVersion": "27.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "build": {
-          "appVersion": "2.2.5",
-          "buildNumber": "11501",
-          "commitShort": "9b3820832"
-        }
-      }
-    }
-  },
-  {
-    "slug": "boom-boom-rocket",
-    "title": "Boom Boom Rocket",
-    "titleId": "5841086A",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.5.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-11-12",
-    "notes": "great",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-11-12",
-        "notes": "great",
-        "source": "app",
-        "build": {
-          "appVersion": "2.3.1",
-          "buildNumber": "11662",
-          "commitShort": "cf7c7ee45"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "all": {
-        "status": "playable",
-        "perf": "great",
-        "notes": "great",
-        "updatedAt": "2026-11-12",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-11-12",
-          "notes": "great",
-          "source": "app",
-          "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.5.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-11-12",
-          "notes": "great",
-          "source": "app",
-          "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
-          }
-        },
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "build": {
-          "appVersion": "2.3.1",
-          "buildNumber": "11662",
-          "commitShort": "cf7c7ee45"
         }
       }
     }
