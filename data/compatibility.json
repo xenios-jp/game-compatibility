@@ -5388,24 +5388,43 @@
   },
   {
     "slug": "call-of-duty-black-ops",
-    "title": "Call of Duty: Black Ops",
+    "title": "CALL OF DUTY: BLACK OPS",
     "titleId": "41560855",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Pro",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "27.0",
+      "osVersion": "IOS 27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-18",
-    "notes": "Black screen",
+    "updatedAt": "2026-11-13",
+    "notes": "60 FPS",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "IOS 27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-13",
+        "notes": "60 FPS",
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.3.2-11934",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.3.2",
+          "buildNumber": "11934"
+        }
+      },
       {
         "device": "iPhone 13 Pro",
         "platform": "ios",
@@ -5428,55 +5447,70 @@
     "issueNumber": 45,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/45",
     "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-07-18",
-        "reportCount": 1,
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "60 FPS",
+        "updatedAt": "2026-11-13",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 13 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "IOS 27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-18",
-          "notes": "Black screen",
-          "source": "app",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-13",
+          "notes": "60 FPS",
+          "source": "github",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "buildId": "ios-self-built-2.3.2-11934",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.3.2",
+            "buildNumber": "11934"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "IOS 27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-18",
-          "notes": "Black screen",
-          "source": "app",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-13",
+          "notes": "60 FPS",
+          "source": "github",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "buildId": "ios-self-built-2.3.2-11934",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.3.2",
+            "buildNumber": "11934"
           }
-        },
-        "device": "iPhone 13 Pro",
-        "platform": "ios",
-        "osVersion": "27.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
         }
       }
     }
