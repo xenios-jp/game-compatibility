@@ -32324,21 +32324,38 @@
     "title": "TEKKEN TAG 2",
     "titleId": "4E4D0859",
     "status": "playable",
-    "perf": "poor",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "27.2",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-07",
-    "notes": "Need more powerful device",
+    "updatedAt": "2026-11-13",
+    "notes": "My iphone does heat up and performance does drop after playing a while although I suspect because my phone is now old",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-13",
+        "notes": "My iphone does heat up and performance does drop after playing a while although I suspect because my phone is now old",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -32367,53 +32384,53 @@
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "poor",
-        "notes": "Need more powerful device",
-        "updatedAt": "2026-11-07",
-        "reportCount": 1,
+        "perf": "great",
+        "notes": "My iphone does heat up and performance does drop after playing a while although I suspect because my phone is now old",
+        "updatedAt": "2026-11-13",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-11-07",
-          "notes": "Need more powerful device",
+          "perf": "great",
+          "date": "2026-11-13",
+          "notes": "My iphone does heat up and performance does drop after playing a while although I suspect because my phone is now old",
           "source": "app",
           "build": {
-            "appVersion": "2.2.4",
-            "buildNumber": "11500",
-            "commitShort": "bef950648"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-11-07",
-          "notes": "Need more powerful device",
+          "perf": "great",
+          "date": "2026-11-13",
+          "notes": "My iphone does heat up and performance does drop after playing a while although I suspect because my phone is now old",
           "source": "app",
           "build": {
-            "appVersion": "2.2.4",
-            "buildNumber": "11500",
-            "commitShort": "bef950648"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone 15 Pro Max",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "27.2",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.2.4",
-          "buildNumber": "11500",
-          "commitShort": "bef950648"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
