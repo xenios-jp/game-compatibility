@@ -12147,22 +12147,39 @@
     "slug": "forza-horizon",
     "title": "Forza Horizon",
     "titleId": "4D5309C9",
-    "status": "ingame",
-    "perf": "ok",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 11-inch (M2)",
+      "device": "iPad (A16)",
       "platform": "ios",
-      "osVersion": "27.2",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-08",
-    "notes": "play with 15fps - 30fps\nperformance drop when device get heat",
+    "updatedAt": "2026-11-13",
+    "notes": "Warm device decreases performance, about 50-60 fps very playable and beatable. Nostalgia rush.",
     "reports": [
+      {
+        "device": "iPad (A16)",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-13",
+        "notes": "Warm device decreases performance, about 50-60 fps very playable and beatable. Nostalgia rush.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPad Pro 11-inch (M2)",
         "platform": "ios",
@@ -12186,54 +12203,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/761",
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "play with 15fps - 30fps\nperformance drop when device get heat",
-        "updatedAt": "2026-11-08",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Warm device decreases performance, about 50-60 fps very playable and beatable. Nostalgia rush.",
+        "updatedAt": "2026-11-13",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 11-inch (M2)",
+          "device": "iPad (A16)",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-11-08",
-          "notes": "play with 15fps - 30fps\nperformance drop when device get heat",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-13",
+          "notes": "Warm device decreases performance, about 50-60 fps very playable and beatable. Nostalgia rush.",
           "source": "app",
           "build": {
-            "appVersion": "2.3.0",
-            "buildNumber": "11659",
-            "commitShort": "cef52a33f"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 11-inch (M2)",
+          "device": "iPad (A16)",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-11-08",
-          "notes": "play with 15fps - 30fps\nperformance drop when device get heat",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-13",
+          "notes": "Warm device decreases performance, about 50-60 fps very playable and beatable. Nostalgia rush.",
           "source": "app",
           "build": {
-            "appVersion": "2.3.0",
-            "buildNumber": "11659",
-            "commitShort": "cef52a33f"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPad Pro 11-inch (M2)",
+        "device": "iPad (A16)",
         "platform": "ios",
-        "osVersion": "27.2",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.0",
-          "buildNumber": "11659",
-          "commitShort": "cef52a33f"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
@@ -26916,9 +26933,6 @@
         "notes": "Great",
         "source": "github",
         "build": {
-          "buildId": "ios-self-built-2.3.2-11934",
-          "channel": "self-built",
-          "official": false,
           "appVersion": "2.3.2",
           "buildNumber": "11934"
         }
@@ -26967,28 +26981,7 @@
     "issueNumber": 386,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/386",
     "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
-        "channel": "all",
         "status": "playable",
         "perf": "great",
         "notes": "Great",
@@ -27006,9 +26999,6 @@
           "notes": "Great",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.3.2-11934",
-            "channel": "self-built",
-            "official": false,
             "appVersion": "2.3.2",
             "buildNumber": "11934"
           }
@@ -27025,12 +27015,18 @@
           "notes": "Great",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.3.2-11934",
-            "channel": "self-built",
-            "official": false,
             "appVersion": "2.3.2",
             "buildNumber": "11934"
           }
+        },
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "iOS 27",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934"
         }
       }
     }
