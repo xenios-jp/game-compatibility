@@ -11728,22 +11728,39 @@
     "slug": "fight-night-champion",
     "title": "FIGHT NIGHT CHAMPION",
     "titleId": "45410915",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro (M2)",
+      "device": "iPhone 15",
       "platform": "ios",
-      "osVersion": "18.3.1",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-03",
-    "notes": "Couldn’t get it to boot.",
+    "updatedAt": "2026-11-13",
+    "notes": "I loaded up no problems look smooth just gotta keep up with your phone being hot I’m using frozen meat lol",
     "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-13",
+        "notes": "I loaded up no problems look smooth just gotta keep up with your phone being hot I’m using frozen meat lol",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPad Pro (M2)",
         "platform": "ios",
@@ -11762,40 +11779,55 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/14",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Couldn’t get it to boot.",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "I loaded up no problems look smooth just gotta keep up with your phone being hot I’m using frozen meat lol",
+        "updatedAt": "2026-11-13",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro (M2)",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "18.3.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-03",
-          "notes": "Couldn’t get it to boot.",
-          "source": "app"
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-13",
+          "notes": "I loaded up no problems look smooth just gotta keep up with your phone being hot I’m using frozen meat lol",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
+          }
         },
         "bestReport": {
-          "device": "iPad Pro (M2)",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "18.3.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-03",
-          "notes": "Couldn’t get it to boot.",
-          "source": "app"
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-13",
+          "notes": "I loaded up no problems look smooth just gotta keep up with your phone being hot I’m using frozen meat lol",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
+          }
         },
-        "device": "iPad Pro (M2)",
+        "device": "iPhone 15",
         "platform": "ios",
-        "osVersion": "18.3.1",
+        "osVersion": "27.0",
         "arch": "arm64",
-        "gpuBackend": "msl"
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
       }
     }
   },
