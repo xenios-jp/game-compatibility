@@ -5418,9 +5418,6 @@
         "notes": "60 FPS",
         "source": "github",
         "build": {
-          "buildId": "ios-self-built-2.3.2-11934",
-          "channel": "self-built",
-          "official": false,
           "appVersion": "2.3.2",
           "buildNumber": "11934"
         }
@@ -5447,28 +5444,7 @@
     "issueNumber": 45,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/45",
     "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
-        "channel": "all",
         "status": "playable",
         "perf": "great",
         "notes": "60 FPS",
@@ -5486,9 +5462,6 @@
           "notes": "60 FPS",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.3.2-11934",
-            "channel": "self-built",
-            "official": false,
             "appVersion": "2.3.2",
             "buildNumber": "11934"
           }
@@ -5505,12 +5478,18 @@
           "notes": "60 FPS",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.3.2-11934",
-            "channel": "self-built",
-            "official": false,
             "appVersion": "2.3.2",
             "buildNumber": "11934"
           }
+        },
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "IOS 27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934"
         }
       }
     }
@@ -26855,21 +26834,38 @@
     "title": "Red Dead Redemption",
     "titleId": "5454082B",
     "status": "playable",
-    "perf": "great",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "iOS 27",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-13",
-    "notes": "Great",
+    "notes": "Average 18fps but no major graphical issues",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-13",
+        "notes": "Average 18fps but no major graphical issues",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 17 Pro",
         "platform": "ios",
@@ -26932,50 +26928,53 @@
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "great",
-        "notes": "Great",
+        "perf": "ok",
+        "notes": "Average 18fps but no major graphical issues",
         "updatedAt": "2026-11-13",
-        "reportCount": 3,
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 17 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "iOS 27",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
+          "perf": "ok",
           "date": "2026-11-13",
-          "notes": "Great",
-          "source": "github",
+          "notes": "Average 18fps but no major graphical issues",
+          "source": "app",
           "build": {
             "appVersion": "2.3.2",
-            "buildNumber": "11934"
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "iOS 27",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
+          "perf": "ok",
           "date": "2026-11-13",
-          "notes": "Great",
-          "source": "github",
+          "notes": "Average 18fps but no major graphical issues",
+          "source": "app",
           "build": {
             "appVersion": "2.3.2",
-            "buildNumber": "11934"
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone 17 Pro",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "iOS 27",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
           "appVersion": "2.3.2",
-          "buildNumber": "11934"
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
