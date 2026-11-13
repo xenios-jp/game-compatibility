@@ -13811,13 +13811,30 @@
     "lastReport": {
       "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "27.2",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-09",
-    "notes": "Expected stuttering, but was fluent.",
+    "updatedAt": "2026-11-13",
+    "notes": "it works really REALLY well",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-13",
+        "notes": "it works really REALLY well",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -13972,52 +13989,52 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "Expected stuttering, but was fluent.",
-        "updatedAt": "2026-11-09",
-        "reportCount": 8,
+        "notes": "it works really REALLY well",
+        "updatedAt": "2026-11-13",
+        "reportCount": 9,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-09",
-          "notes": "Expected stuttering, but was fluent.",
+          "date": "2026-11-13",
+          "notes": "it works really REALLY well",
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-09",
-          "notes": "Expected stuttering, but was fluent.",
+          "date": "2026-11-13",
+          "notes": "it works really REALLY well",
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "27.2",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.1",
-          "buildNumber": "11662",
-          "commitShort": "cf7c7ee45"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
