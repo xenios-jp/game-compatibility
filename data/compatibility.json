@@ -30919,22 +30919,39 @@
     "slug": "splintercellconviction",
     "title": "SplinterCellConviction",
     "titleId": "5553080B",
-    "status": "intro",
-    "perf": "great",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "26.4",
+      "osVersion": "26.6.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-11",
-    "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
+    "updatedAt": "2026-11-14",
+    "notes": "The graphics load too slow.",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-11-14",
+        "notes": "The graphics load too slow.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -30977,54 +30994,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/489",
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "great",
-        "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
-        "updatedAt": "2026-06-11",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "poor",
+        "notes": "The graphics load too slow.",
+        "updatedAt": "2026-11-14",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "great",
-          "date": "2026-06-11",
-          "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-11-14",
+          "notes": "The graphics load too slow.",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "great",
-          "date": "2026-06-11",
-          "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-11-14",
+          "notes": "The graphics load too slow.",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone 15 Pro Max",
+        "device": "iPhone 13 Pro Max",
         "platform": "ios",
-        "osVersion": "26.4",
+        "osVersion": "26.6.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
