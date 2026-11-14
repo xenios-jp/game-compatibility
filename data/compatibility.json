@@ -32119,15 +32119,32 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone19,2",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "27.2",
+      "osVersion": "26.6.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-08",
-    "notes": "Works well on IPhone 18 pro nothing to add.",
+    "updatedAt": "2026-11-14",
+    "notes": "Works with minimal glitches.",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-14",
+        "notes": "Works with minimal glitches.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone19,2",
         "platform": "ios",
@@ -32153,52 +32170,52 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "Works well on IPhone 18 pro nothing to add.",
-        "updatedAt": "2026-11-08",
-        "reportCount": 1,
+        "notes": "Works with minimal glitches.",
+        "updatedAt": "2026-11-14",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone19,2",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-08",
-          "notes": "Works well on IPhone 18 pro nothing to add.",
+          "date": "2026-11-14",
+          "notes": "Works with minimal glitches.",
           "source": "app",
           "build": {
-            "appVersion": "2.3.0",
-            "buildNumber": "11659",
-            "commitShort": "cef52a33f"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone19,2",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-08",
-          "notes": "Works well on IPhone 18 pro nothing to add.",
+          "date": "2026-11-14",
+          "notes": "Works with minimal glitches.",
           "source": "app",
           "build": {
-            "appVersion": "2.3.0",
-            "buildNumber": "11659",
-            "commitShort": "cef52a33f"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone19,2",
+        "device": "iPhone 13 Pro Max",
         "platform": "ios",
-        "osVersion": "27.2",
+        "osVersion": "26.6.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.0",
-          "buildNumber": "11659",
-          "commitShort": "cef52a33f"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
