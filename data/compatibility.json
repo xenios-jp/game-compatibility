@@ -1718,8 +1718,8 @@
     "slug": "assassin-s-creed-ii",
     "title": "Assassin's Creed II",
     "titleId": "5553083B",
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
@@ -1731,9 +1731,26 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-07",
-    "notes": "It runs atleast but they are some graphical glitches and then after sometime it became stable then just crashed",
+    "updatedAt": "2026-11-14",
+    "notes": "In the new updated version it’s very smooth it sometime has glitches like going black for a second then back to normal \n\nOcclusion query (strict) \n\nBut overall the gameplay in the new updated version is amazing",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-14",
+        "notes": "In the new updated version it’s very smooth it sometime has glitches like going black for a second then back to normal \n\nOcclusion query (strict) \n\nBut overall the gameplay in the new updated version is amazing",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -1776,24 +1793,24 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "It runs atleast but they are some graphical glitches and then after sometime it became stable then just crashed",
-        "updatedAt": "2026-11-07",
-        "reportCount": 2,
+        "notes": "In the new updated version it’s very smooth it sometime has glitches like going black for a second then back to normal \n\nOcclusion query (strict) \n\nBut overall the gameplay in the new updated version is amazing",
+        "updatedAt": "2026-11-14",
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 16 Pro Max",
           "platform": "ios",
           "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-11-07",
-          "notes": "It runs atleast but they are some graphical glitches and then after sometime it became stable then just crashed",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-14",
+          "notes": "In the new updated version it’s very smooth it sometime has glitches like going black for a second then back to normal \n\nOcclusion query (strict) \n\nBut overall the gameplay in the new updated version is amazing",
           "source": "app",
           "build": {
-            "appVersion": "2.2.5",
-            "buildNumber": "11501",
-            "commitShort": "9b3820832"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
@@ -1804,13 +1821,13 @@
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-07",
-          "notes": "They were graphical glitches at first then I changed occlusion query from fast to strict\n\nThe cutscenes are smooth and the gameplay little bit of stuttering here and there \n\nAlso the phone starts overheating then it throttles so I used a cooling fan \n\nOverall gameplay Fantastic",
+          "date": "2026-11-14",
+          "notes": "In the new updated version it’s very smooth it sometime has glitches like going black for a second then back to normal \n\nOcclusion query (strict) \n\nBut overall the gameplay in the new updated version is amazing",
           "source": "app",
           "build": {
-            "appVersion": "2.2.5",
-            "buildNumber": "11501",
-            "commitShort": "9b3820832"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "device": "iPhone 16 Pro Max",
@@ -1819,9 +1836,9 @@
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.2.5",
-          "buildNumber": "11501",
-          "commitShort": "9b3820832"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
