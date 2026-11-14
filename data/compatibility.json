@@ -98,22 +98,39 @@
     "slug": "2010-fifa-world-cup",
     "title": "2010 FIFA World Cup™",
     "titleId": "454108E4",
-    "status": "loads",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-05-27",
-    "notes": "Can load into the game but is really slow and audio stutters. Also major graphical glitches.",
+    "updatedAt": "2026-11-14",
+    "notes": "It lags a little bit, I have my phone on full battery and with a cooling fan attached to the back. I played for a good 2 hours with 2 controllers and the game actually saved.",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-14",
+        "notes": "It lags a little bit, I have my phone on full battery and with a cooling fan attached to the back. I played for a good 2 hours with 2 controllers and the game actually saved.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -137,54 +154,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/458",
     "summaries": {
       "all": {
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Can load into the game but is really slow and audio stutters. Also major graphical glitches.",
-        "updatedAt": "2026-05-27",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "It lags a little bit, I have my phone on full battery and with a cooling fan attached to the back. I played for a good 2 hours with 2 controllers and the game actually saved.",
+        "updatedAt": "2026-11-14",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-05-27",
-          "notes": "Can load into the game but is really slow and audio stutters. Also major graphical glitches.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-14",
+          "notes": "It lags a little bit, I have my phone on full battery and with a cooling fan attached to the back. I played for a good 2 hours with 2 controllers and the game actually saved.",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-05-27",
-          "notes": "Can load into the game but is really slow and audio stutters. Also major graphical glitches.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-14",
+          "notes": "It lags a little bit, I have my phone on full battery and with a cooling fan attached to the back. I played for a good 2 hours with 2 controllers and the game actually saved.",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone 17",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "26.5",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
