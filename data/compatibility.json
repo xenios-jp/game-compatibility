@@ -8054,22 +8054,39 @@
     "slug": "deadpool",
     "title": "Deadpool",
     "titleId": "415608EC",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPhone 14 Pro",
       "platform": "ios",
-      "osVersion": "18.5",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-22",
-    "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
+    "updatedAt": "2026-11-14",
+    "notes": "Good",
     "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-14",
+        "notes": "Good",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -8093,54 +8110,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/105",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
-        "updatedAt": "2026-03-22",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Good",
+        "updatedAt": "2026-11-14",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-22",
-          "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-14",
+          "notes": "Good",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-22",
-          "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-14",
+          "notes": "Good",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone 16 Pro",
+        "device": "iPhone 14 Pro",
         "platform": "ios",
-        "osVersion": "18.5",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
