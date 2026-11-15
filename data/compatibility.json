@@ -27125,22 +27125,39 @@
     "slug": "resident-evil-4",
     "title": "resident evil 4",
     "titleId": "4343081C",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13",
+      "device": "iPad Pro 11-inch (M2)",
       "platform": "ios",
-      "osVersion": "27.2",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-02",
-    "notes": "Não abre o jogo",
+    "updatedAt": "2026-11-15",
+    "notes": "Playing with stable 30 FPS",
     "reports": [
+      {
+        "device": "iPad Pro 11-inch (M2)",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-15",
+        "notes": "Playing with stable 30 FPS",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -27164,54 +27181,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/732",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Não abre o jogo",
-        "updatedAt": "2026-11-02",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Playing with stable 30 FPS",
+        "updatedAt": "2026-11-15",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 13",
+          "device": "iPad Pro 11-inch (M2)",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-11-02",
-          "notes": "Não abre o jogo",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-15",
+          "notes": "Playing with stable 30 FPS",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone 13",
+          "device": "iPad Pro 11-inch (M2)",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-11-02",
-          "notes": "Não abre o jogo",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-15",
+          "notes": "Playing with stable 30 FPS",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone 13",
+        "device": "iPad Pro 11-inch (M2)",
         "platform": "ios",
-        "osVersion": "27.2",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
