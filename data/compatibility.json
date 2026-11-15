@@ -37254,5 +37254,98 @@
         }
       }
     }
+  },
+  {
+    "slug": "dante-s-inferno",
+    "title": "Dante's Inferno™",
+    "titleId": "454108CF",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.0.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-15",
+    "notes": "Outstanding Performance, extremely stable FPS with almost no drop. The image is also really great",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-15",
+        "notes": "Outstanding Performance, extremely stable FPS with almost no drop. The image is also really great",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "Outstanding Performance, extremely stable FPS with almost no drop. The image is also really great",
+        "updatedAt": "2026-11-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.0.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-15",
+          "notes": "Outstanding Performance, extremely stable FPS with almost no drop. The image is also really great",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.0.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-15",
+          "notes": "Outstanding Performance, extremely stable FPS with almost no drop. The image is also really great",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
+          }
+        },
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      }
+    }
   }
 ]
