@@ -23285,21 +23285,38 @@
     "title": "Need for Speed: ProStreet",
     "titleId": "45410822",
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-20",
-    "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
+    "updatedAt": "2026-11-15",
+    "notes": "Averages 60 fps both when phone is cool and warm during race and in most menus. Only menu where fps dips are the scoreboard after races.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-15",
+        "notes": "Averages 60 fps both when phone is cool and warm during race and in most menus. Only menu where fps dips are the scoreboard after races.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -23329,53 +23346,53 @@
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "ok",
-        "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
-        "updatedAt": "2026-06-20",
-        "reportCount": 1,
+        "perf": "great",
+        "notes": "Averages 60 fps both when phone is cool and warm during race and in most menus. Only menu where fps dips are the scoreboard after races.",
+        "updatedAt": "2026-11-15",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-20",
-          "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
+          "perf": "great",
+          "date": "2026-11-15",
+          "notes": "Averages 60 fps both when phone is cool and warm during race and in most menus. Only menu where fps dips are the scoreboard after races.",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-20",
-          "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
+          "perf": "great",
+          "date": "2026-11-15",
+          "notes": "Averages 60 fps both when phone is cool and warm during race and in most menus. Only menu where fps dips are the scoreboard after races.",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 16 Pro",
+        "device": "iPhone 17 Pro",
         "platform": "ios",
-        "osVersion": "26.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
