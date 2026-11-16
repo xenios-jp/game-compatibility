@@ -5424,22 +5424,39 @@
     "slug": "call-of-duty-black-ops",
     "title": "Call of Duty: Black Ops",
     "titleId": "41560855",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Pro",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "27.0",
+      "osVersion": "27.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-18",
-    "notes": "Black screen",
+    "updatedAt": "2026-11-16",
+    "notes": "It’s playable just some graphical glitches here and there.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-16",
+        "notes": "It’s playable just some graphical glitches here and there.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 13 Pro",
         "platform": "ios",
@@ -5463,54 +5480,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/45",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-07-18",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "It’s playable just some graphical glitches here and there.",
+        "updatedAt": "2026-11-16",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 13 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-18",
-          "notes": "Black screen",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-16",
+          "notes": "It’s playable just some graphical glitches here and there.",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-18",
-          "notes": "Black screen",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-16",
+          "notes": "It’s playable just some graphical glitches here and there.",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 13 Pro",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "27.0",
+        "osVersion": "27.3",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
