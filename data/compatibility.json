@@ -4,21 +4,38 @@
     "title": "[Prototype]™",
     "titleId": "4156084E",
     "status": "ingame",
-    "perf": "poor",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad19,1",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "27.2",
+      "osVersion": "26.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-09",
-    "notes": "I can run the game but audio and gameplay laggs",
+    "updatedAt": "2026-11-16",
+    "notes": "The game is running it glitches when there’s massive amounts of destruction \n\nThen after sometime it just freezes on a random frame",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-11-16",
+        "notes": "The game is running it glitches when there’s massive amounts of destruction \n\nThen after sometime it just freezes on a random frame",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPad19,1",
         "platform": "ios",
@@ -43,53 +60,53 @@
     "summaries": {
       "all": {
         "status": "ingame",
-        "perf": "poor",
-        "notes": "I can run the game but audio and gameplay laggs",
-        "updatedAt": "2026-11-09",
-        "reportCount": 1,
+        "perf": "ok",
+        "notes": "The game is running it glitches when there’s massive amounts of destruction \n\nThen after sometime it just freezes on a random frame",
+        "updatedAt": "2026-11-16",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad19,1",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
-          "date": "2026-11-09",
-          "notes": "I can run the game but audio and gameplay laggs",
+          "perf": "ok",
+          "date": "2026-11-16",
+          "notes": "The game is running it glitches when there’s massive amounts of destruction \n\nThen after sometime it just freezes on a random frame",
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPad19,1",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
-          "date": "2026-11-09",
-          "notes": "I can run the game but audio and gameplay laggs",
+          "perf": "ok",
+          "date": "2026-11-16",
+          "notes": "The game is running it glitches when there’s massive amounts of destruction \n\nThen after sometime it just freezes on a random frame",
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPad19,1",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "27.2",
+        "osVersion": "26.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.1",
-          "buildNumber": "11662",
-          "commitShort": "cf7c7ee45"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
