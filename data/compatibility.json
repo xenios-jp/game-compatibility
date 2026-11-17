@@ -7804,22 +7804,39 @@
     "slug": "dead-rising",
     "title": "DEAD RISING",
     "titleId": "434307D2",
-    "status": "intro",
+    "status": "ingame",
     "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad (A16)",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-04",
-    "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
+    "updatedAt": "2026-11-17",
+    "notes": "Just needs to have a patch to help with black shaders but it’s playable",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-11-17",
+        "notes": "Just needs to have a patch to help with black shaders but it’s playable",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPad (A16)",
         "platform": "ios",
@@ -7838,40 +7855,55 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/13",
     "summaries": {
       "all": {
-        "status": "intro",
+        "status": "ingame",
         "perf": "ok",
-        "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
-        "updatedAt": "2026-03-04",
-        "reportCount": 1,
+        "notes": "Just needs to have a patch to help with black shaders but it’s playable",
+        "updatedAt": "2026-11-17",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad (A16)",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "ingame",
           "perf": "ok",
-          "date": "2026-03-04",
-          "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
-          "source": "app"
+          "date": "2026-11-17",
+          "notes": "Just needs to have a patch to help with black shaders but it’s playable",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
         },
         "bestReport": {
-          "device": "iPad (A16)",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "ingame",
           "perf": "ok",
-          "date": "2026-03-04",
-          "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
-          "source": "app"
+          "date": "2026-11-17",
+          "notes": "Just needs to have a patch to help with black shaders but it’s playable",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
         },
-        "device": "iPad (A16)",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "26.5",
         "arch": "arm64",
-        "gpuBackend": "msl"
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
       }
     }
   },
