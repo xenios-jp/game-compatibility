@@ -13727,13 +13727,30 @@
     "lastReport": {
       "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "27.0.1",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-08",
-    "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
+    "updatedAt": "2026-11-18",
+    "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-18",
+        "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -13882,52 +13899,52 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
-        "updatedAt": "2026-11-08",
-        "reportCount": 7,
+        "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
+        "updatedAt": "2026-11-18",
+        "reportCount": 8,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-08",
-          "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
+          "date": "2026-11-18",
+          "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-08",
-          "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
+          "date": "2026-11-18",
+          "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "27.0.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.1",
-          "buildNumber": "11662",
-          "commitShort": "cf7c7ee45"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
