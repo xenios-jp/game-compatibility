@@ -5903,22 +5903,39 @@
     "slug": "cod-black-ops-iii",
     "title": "COD: Black Ops III",
     "titleId": "4156091D",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-14",
-    "notes": "Black screen",
+    "updatedAt": "2026-11-19",
+    "notes": "Some slight shader issues but other than that it works perfectly",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-19",
+        "notes": "Some slight shader issues but other than that it works perfectly",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -5942,54 +5959,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/143",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-03-14",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Some slight shader issues but other than that it works perfectly",
+        "updatedAt": "2026-11-19",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "Black screen",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-19",
+          "notes": "Some slight shader issues but other than that it works perfectly",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "Black screen",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-19",
+          "notes": "Some slight shader issues but other than that it works perfectly",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 13",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "27.3",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
