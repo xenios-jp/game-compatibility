@@ -5955,8 +5955,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 143,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/143",
+    "issueNumber": 820,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/820",
     "summaries": {
       "all": {
         "status": "playable",
@@ -15939,8 +15939,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 32,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/32",
+    "issueNumber": 819,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/819",
     "summaries": {
       "all": {
         "status": "playable",
@@ -25683,6 +25683,121 @@
           "appVersion": "1.0.1",
           "buildNumber": "9288",
           "commitShort": "056d2f64d"
+        }
+      }
+    }
+  },
+  {
+    "slug": "pes-2014",
+    "title": "PES 2014",
+    "titleId": "4B4E0856",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Air(13 inch)",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-19",
+    "notes": "Exhibition matches are smooth, player textures might disappear but will load later",
+    "reports": [
+      {
+        "device": "iPad Air(13 inch)",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-19",
+        "notes": "Exhibition matches are smooth, player textures might disappear but will load later",
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.3.3-no-number",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.3.3",
+          "buildNumber": "No number",
+          "commitShort": "Don’t know"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 821,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/821",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Exhibition matches are smooth, player textures might disappear but will load later",
+        "updatedAt": "2026-11-19",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Air(13 inch)",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-19",
+          "notes": "Exhibition matches are smooth, player textures might disappear but will load later",
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.3.3-no-number",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.3.3",
+            "buildNumber": "No number",
+            "commitShort": "Don’t know"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Air(13 inch)",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-19",
+          "notes": "Exhibition matches are smooth, player textures might disappear but will load later",
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.3.3-no-number",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.3.3",
+            "buildNumber": "No number",
+            "commitShort": "Don’t know"
+          }
         }
       }
     }
