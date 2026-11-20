@@ -37923,8 +37923,25 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-20",
-    "notes": "Needed title update 6 to fix audio",
+    "notes": "Runs great needed tiitoe update to fix an audio glitch but besides that flawless",
     "reports": [
+      {
+        "device": "iPhone19,7",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-20",
+        "notes": "Runs great needed tiitoe update to fix an audio glitch but besides that flawless",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone19,7",
         "platform": "ios",
@@ -37948,9 +37965,9 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "Needed title update 6 to fix audio",
+        "notes": "Runs great needed tiitoe update to fix an audio glitch but besides that flawless",
         "updatedAt": "2026-11-20",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone19,7",
           "platform": "ios",
@@ -37960,7 +37977,7 @@
           "status": "playable",
           "perf": "great",
           "date": "2026-11-20",
-          "notes": "Needed title update 6 to fix audio",
+          "notes": "Runs great needed tiitoe update to fix an audio glitch but besides that flawless",
           "source": "app",
           "build": {
             "appVersion": "2.3.3",
@@ -37977,7 +37994,7 @@
           "status": "playable",
           "perf": "great",
           "date": "2026-11-20",
-          "notes": "Needed title update 6 to fix audio",
+          "notes": "Runs great needed tiitoe update to fix an audio glitch but besides that flawless",
           "source": "app",
           "build": {
             "appVersion": "2.3.3",
