@@ -29031,21 +29031,38 @@
     "title": "Saints Row",
     "titleId": "545107D1",
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro",
+      "device": "iPhone19,3",
       "platform": "ios",
-      "osVersion": "27.2",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-12",
-    "notes": "Runs great i just put the ugly mode for higher framerate. I have played for like 30 min no crashes until now.",
+    "updatedAt": "2026-11-20",
+    "notes": "Smoove",
     "reports": [
+      {
+        "device": "iPhone19,3",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-20",
+        "notes": "Smoove",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 17 Pro",
         "platform": "ios",
@@ -29075,53 +29092,53 @@
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "ok",
-        "notes": "Runs great i just put the ugly mode for higher framerate. I have played for like 30 min no crashes until now.",
-        "updatedAt": "2026-11-12",
-        "reportCount": 1,
+        "perf": "great",
+        "notes": "Smoove",
+        "updatedAt": "2026-11-20",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro",
+          "device": "iPhone19,3",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-11-12",
-          "notes": "Runs great i just put the ugly mode for higher framerate. I have played for like 30 min no crashes until now.",
+          "perf": "great",
+          "date": "2026-11-20",
+          "notes": "Smoove",
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro",
+          "device": "iPhone19,3",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-11-12",
-          "notes": "Runs great i just put the ugly mode for higher framerate. I have played for like 30 min no crashes until now.",
+          "perf": "great",
+          "date": "2026-11-20",
+          "notes": "Smoove",
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 17 Pro",
+        "device": "iPhone19,3",
         "platform": "ios",
-        "osVersion": "27.2",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.1",
-          "buildNumber": "11662",
-          "commitShort": "cf7c7ee45"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
