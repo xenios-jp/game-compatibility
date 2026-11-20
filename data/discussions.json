@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T05:54:59.829Z",
+  "generatedAt": "2026-11-20T07:24:51.979Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4598,6 +4598,70 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4D5307DC": {
+      "titleId": "4D5307DC",
+      "issueNumber": 823,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/823",
+      "updatedAt": "2026-11-20",
+      "entries": [
+        {
+          "id": "comment-7033175744",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/823#issuecomment-7033175744",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-20",
+          "createdAtMs": 1795159269000,
+          "issueNumber": 823,
+          "excerpt": "Runs great needed tiitoe update to fix an audio glitch but besides that flawless",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone19,7",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
+        {
+          "id": "issue-823",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/823",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-20",
+          "createdAtMs": 1795159201000,
+          "issueNumber": 823,
+          "excerpt": "Needed title update 6 to fix audio",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone19,7",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
+        {
+          "id": "issue-672",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/672",
+          "author": "kineticvenergy",
+          "createdAt": "2026-08-23",
+          "createdAtMs": 1787481862000,
+          "issueNumber": 672,
+          "excerpt": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
           "images": [],
           "meta": {}
         }
@@ -10480,26 +10544,6 @@
           "createdAtMs": 1787482467000,
           "issueNumber": 673,
           "excerpt": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
-          "images": [],
-          "meta": {}
-        }
-      ]
-    },
-    "4D5307DC": {
-      "titleId": "4D5307DC",
-      "issueNumber": 672,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/672",
-      "updatedAt": "2026-08-23",
-      "entries": [
-        {
-          "id": "issue-672",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/672",
-          "author": "kineticvenergy",
-          "createdAt": "2026-08-23",
-          "createdAtMs": 1787481862000,
-          "issueNumber": 672,
-          "excerpt": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
           "images": [],
           "meta": {}
         }
