@@ -12261,22 +12261,39 @@
     "slug": "fifazf-tmp-dll",
     "title": "fifazf.tmp.dll",
     "titleId": "454109DB",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 13-inch (M4)",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-13",
-    "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
+    "updatedAt": "2026-11-21",
+    "notes": "Plays well on my phone everything good",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-21",
+        "notes": "Plays well on my phone everything good",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
@@ -12300,54 +12317,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/235",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
-        "updatedAt": "2026-03-13",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Plays well on my phone everything good",
+        "updatedAt": "2026-11-21",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 13-inch (M4)",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-21",
+          "notes": "Plays well on my phone everything good",
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 13-inch (M4)",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-21",
+          "notes": "Plays well on my phone everything good",
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPad Pro 13-inch (M4)",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
