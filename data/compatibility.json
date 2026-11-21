@@ -6511,22 +6511,39 @@
     "slug": "crash-of-the-titans",
     "title": "Crash Of The Titans",
     "titleId": "565507E4",
-    "status": "loads",
+    "status": "playable",
     "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad (A16)",
+      "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "18.3",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
-    "notes": "Only boots the game on Loading Screen.",
+    "updatedAt": "2026-11-21",
+    "notes": "Everything ok",
     "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-21",
+        "notes": "Everything ok",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPad (A16)",
         "platform": "ios",
@@ -6552,54 +6569,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/72",
     "summaries": {
       "all": {
-        "status": "loads",
+        "status": "playable",
         "perf": "great",
-        "notes": "Only boots the game on Loading Screen.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
+        "notes": "Everything ok",
+        "updatedAt": "2026-11-21",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad (A16)",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "18.3",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "playable",
           "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Only boots the game on Loading Screen.",
+          "date": "2026-11-21",
+          "notes": "Everything ok",
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPad (A16)",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "18.3",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "playable",
           "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Only boots the game on Loading Screen.",
+          "date": "2026-11-21",
+          "notes": "Everything ok",
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPad (A16)",
+        "device": "iPhone 17 Pro",
         "platform": "ios",
-        "osVersion": "18.3",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
