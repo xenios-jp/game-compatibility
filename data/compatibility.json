@@ -28320,21 +28320,38 @@
     "title": "RESIDENT EVIL 6",
     "titleId": "43430819",
     "status": "ingame",
-    "perf": "poor",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Pro Max",
+      "device": "iPhone 15",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-20",
-    "notes": "It’s slow. And buggy. After changing FPS it could be playable little bit. But still needs little optimisation",
+    "updatedAt": "2026-11-21",
+    "notes": "Muito carregamento de sha …",
     "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-11-21",
+        "notes": "Muito carregamento de sha …",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 13 Pro Max",
         "platform": "ios",
@@ -28378,53 +28395,53 @@
     "summaries": {
       "all": {
         "status": "ingame",
-        "perf": "poor",
-        "notes": "It’s slow. And buggy. After changing FPS it could be playable little bit. But still needs little optimisation",
-        "updatedAt": "2026-03-20",
-        "reportCount": 2,
+        "perf": "ok",
+        "notes": "Muito carregamento de sha …",
+        "updatedAt": "2026-11-21",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 13 Pro Max",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-20",
-          "notes": "It’s slow. And buggy. After changing FPS it could be playable little bit. But still needs little optimisation",
+          "perf": "ok",
+          "date": "2026-11-21",
+          "notes": "Muito carregamento de sha …",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Pro Max",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-20",
-          "notes": "It’s slow. And buggy. After changing FPS it could be playable little bit. But still needs little optimisation",
+          "perf": "ok",
+          "date": "2026-11-21",
+          "notes": "Muito carregamento de sha …",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 13 Pro Max",
+        "device": "iPhone 15",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
