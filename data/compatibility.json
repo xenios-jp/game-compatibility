@@ -37076,22 +37076,39 @@
     "slug": "wwe-2k14",
     "title": "WWE 2K14",
     "titleId": "545408B2",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 14 Plus",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-25",
-    "notes": "The game doesn’t show anything just a black screen",
+    "updatedAt": "2026-11-21",
+    "notes": "it works",
     "reports": [
+      {
+        "device": "iPhone 14 Plus",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-21",
+        "notes": "it works",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -37115,54 +37132,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/363",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "The game doesn’t show anything just a black screen",
-        "updatedAt": "2026-03-25",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "it works",
+        "updatedAt": "2026-11-21",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 14 Plus",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-25",
-          "notes": "The game doesn’t show anything just a black screen",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-21",
+          "notes": "it works",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 14 Plus",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-25",
-          "notes": "The game doesn’t show anything just a black screen",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-21",
+          "notes": "it works",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 16",
+        "device": "iPhone 14 Plus",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
