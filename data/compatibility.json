@@ -14435,15 +14435,32 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone19,2",
       "platform": "ios",
-      "osVersion": "27.0",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-13",
-    "notes": "it works really REALLY well",
+    "updatedAt": "2026-11-22",
+    "notes": "It works AMAZING and runs smoothly",
     "reports": [
+      {
+        "device": "iPhone19,2",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-22",
+        "notes": "It works AMAZING and runs smoothly",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -14479,52 +14496,52 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "it works really REALLY well",
-        "updatedAt": "2026-11-13",
-        "reportCount": 1,
+        "notes": "It works AMAZING and runs smoothly",
+        "updatedAt": "2026-11-22",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-13",
-          "notes": "it works really REALLY well",
+          "date": "2026-11-22",
+          "notes": "It works AMAZING and runs smoothly",
           "source": "app",
           "build": {
-            "appVersion": "2.3.2",
-            "buildNumber": "11934",
-            "commitShort": "5533fbfd1"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-13",
-          "notes": "it works really REALLY well",
+          "date": "2026-11-22",
+          "notes": "It works AMAZING and runs smoothly",
           "source": "app",
           "build": {
-            "appVersion": "2.3.2",
-            "buildNumber": "11934",
-            "commitShort": "5533fbfd1"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 17 Pro Max",
+        "device": "iPhone19,2",
         "platform": "ios",
-        "osVersion": "27.0",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.2",
-          "buildNumber": "11934",
-          "commitShort": "5533fbfd1"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
