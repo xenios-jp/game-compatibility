@@ -7732,9 +7732,6 @@
         "notes": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
         "source": "github",
         "build": {
-          "buildId": "macos-self-built-2.3.3-11940",
-          "channel": "self-built",
-          "official": false,
           "appVersion": "2.3.3",
           "buildNumber": "11940",
           "commitShort": "77cc1358b"
@@ -7762,28 +7759,7 @@
     "issueNumber": 19,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/19",
     "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
-        "channel": "all",
         "status": "playable",
         "perf": "great",
         "notes": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
@@ -7801,9 +7777,6 @@
           "notes": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
           "source": "github",
           "build": {
-            "buildId": "macos-self-built-2.3.3-11940",
-            "channel": "self-built",
-            "official": false,
             "appVersion": "2.3.3",
             "buildNumber": "11940",
             "commitShort": "77cc1358b"
@@ -7821,13 +7794,20 @@
           "notes": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
           "source": "github",
           "build": {
-            "buildId": "macos-self-built-2.3.3-11940",
-            "channel": "self-built",
-            "official": false,
             "appVersion": "2.3.3",
             "buildNumber": "11940",
             "commitShort": "77cc1358b"
           }
+        },
+        "device": "Mac Studio M4 Max",
+        "platform": "macos",
+        "osVersion": "26.7.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -38355,6 +38335,99 @@
           "appVersion": "2.0.1",
           "buildNumber": "9730",
           "commitShort": "57c3ca140"
+        }
+      }
+    }
+  },
+  {
+    "slug": "perfect-dark-zero",
+    "title": "Perfect Dark Zero",
+    "titleId": "4D5307D3",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone19,7",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-22",
+    "notes": "Plays very well but if you're using the 60fps patch i suggest capping the fps to 45 because it makes my phone into a volcano at 60",
+    "reports": [
+      {
+        "device": "iPhone19,7",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-22",
+        "notes": "Plays very well but if you're using the 60fps patch i suggest capping the fps to 45 because it makes my phone into a volcano at 60",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "Plays very well but if you're using the 60fps patch i suggest capping the fps to 45 because it makes my phone into a volcano at 60",
+        "updatedAt": "2026-11-22",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone19,7",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-22",
+          "notes": "Plays very well but if you're using the 60fps patch i suggest capping the fps to 45 because it makes my phone into a volcano at 60",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone19,7",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-22",
+          "notes": "Plays very well but if you're using the 60fps patch i suggest capping the fps to 45 because it makes my phone into a volcano at 60",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "device": "iPhone19,7",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
