@@ -14395,21 +14395,38 @@
     "title": "GTA IV",
     "titleId": "545407F2",
     "status": "playable",
-    "perf": "great",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone19,2",
+      "device": "iPhone 16e",
       "platform": "ios",
       "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-22",
-    "notes": "It works AMAZING and runs smoothly",
+    "updatedAt": "2026-11-23",
+    "notes": "Only runs 30 fps and is laggy for the rest of the",
     "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-23",
+        "notes": "Only runs 30 fps and is laggy for the rest of the",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone19,2",
         "platform": "ios",
@@ -14461,20 +14478,20 @@
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "great",
-        "notes": "It works AMAZING and runs smoothly",
-        "updatedAt": "2026-11-22",
-        "reportCount": 2,
+        "perf": "ok",
+        "notes": "Only runs 30 fps and is laggy for the rest of the",
+        "updatedAt": "2026-11-23",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone19,2",
+          "device": "iPhone 16e",
           "platform": "ios",
           "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-11-22",
-          "notes": "It works AMAZING and runs smoothly",
+          "perf": "ok",
+          "date": "2026-11-23",
+          "notes": "Only runs 30 fps and is laggy for the rest of the",
           "source": "app",
           "build": {
             "appVersion": "2.3.3",
@@ -14483,15 +14500,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone19,2",
+          "device": "iPhone 16e",
           "platform": "ios",
           "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-11-22",
-          "notes": "It works AMAZING and runs smoothly",
+          "perf": "ok",
+          "date": "2026-11-23",
+          "notes": "Only runs 30 fps and is laggy for the rest of the",
           "source": "app",
           "build": {
             "appVersion": "2.3.3",
@@ -14499,7 +14516,7 @@
             "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone19,2",
+        "device": "iPhone 16e",
         "platform": "ios",
         "osVersion": "27.2.1",
         "arch": "arm64",
