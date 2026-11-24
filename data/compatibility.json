@@ -5937,6 +5937,23 @@
         }
       },
       {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-24",
+        "notes": "Plays good when once launched needs to be launched several times though still good and playable",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
+      {
         "device": "iPhone 14 Pro",
         "platform": "ios",
         "osVersion": "27.2",
@@ -5963,7 +5980,7 @@
         "perf": "great",
         "notes": "Plays good when once launched needs to be launched several times though still good and playable",
         "updatedAt": "2026-11-24",
-        "reportCount": 2,
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 16 Pro Max",
           "platform": "ios",
