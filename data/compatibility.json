@@ -21030,21 +21030,38 @@
     "title": "Minecraft",
     "titleId": "584111F7",
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro Max",
+      "device": "iPad Pro 11-inch (M4)",
       "platform": "ios",
-      "osVersion": "16.5",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-25",
-    "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
+    "updatedAt": "2026-11-24",
+    "notes": "Minecraft XBLA (584111F7) TU75 on iPad Pro M4 has black blocky artifacts on water/underwater (base version without TU is fine). Tried clear_memory_page_state, readback, Occlusion Query, half_pixel_offset, and anisotropic_override with no effect.",
     "reports": [
+      {
+        "device": "iPad Pro 11-inch (M4)",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-24",
+        "notes": "Minecraft XBLA (584111F7) TU75 on iPad Pro M4 has black blocky artifacts on water/underwater (base version without TU is fine). Tried clear_memory_page_state, readback, Occlusion Query, half_pixel_offset, and anisotropic_override with no effect.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 14 Pro Max",
         "platform": "ios",
@@ -21081,6 +21098,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1795512316090-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1774368552785-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773166296409-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773155623241-1.jpg",
@@ -21091,53 +21109,53 @@
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "ok",
-        "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
-        "updatedAt": "2026-03-25",
-        "reportCount": 2,
+        "perf": "great",
+        "notes": "Minecraft XBLA (584111F7) TU75 on iPad Pro M4 has black blocky artifacts on water/underwater (base version without TU is fine). Tried clear_memory_page_state, readback, Occlusion Query, half_pixel_offset, and anisotropic_override with no effect.",
+        "updatedAt": "2026-11-24",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "iPad Pro 11-inch (M4)",
           "platform": "ios",
-          "osVersion": "16.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-25",
-          "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
+          "perf": "great",
+          "date": "2026-11-24",
+          "notes": "Minecraft XBLA (584111F7) TU75 on iPad Pro M4 has black blocky artifacts on water/underwater (base version without TU is fine). Tried clear_memory_page_state, readback, Occlusion Query, half_pixel_offset, and anisotropic_override with no effect.",
           "source": "app",
           "build": {
-            "appVersion": "0.9.2",
-            "buildNumber": "9321",
-            "commitShort": "6228dab43"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "iPad Pro 11-inch (M4)",
           "platform": "ios",
-          "osVersion": "16.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-25",
-          "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
+          "perf": "great",
+          "date": "2026-11-24",
+          "notes": "Minecraft XBLA (584111F7) TU75 on iPad Pro M4 has black blocky artifacts on water/underwater (base version without TU is fine). Tried clear_memory_page_state, readback, Occlusion Query, half_pixel_offset, and anisotropic_override with no effect.",
           "source": "app",
           "build": {
-            "appVersion": "0.9.2",
-            "buildNumber": "9321",
-            "commitShort": "6228dab43"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 14 Pro Max",
+        "device": "iPad Pro 11-inch (M4)",
         "platform": "ios",
-        "osVersion": "16.5",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "0.9.2",
-          "buildNumber": "9321",
-          "commitShort": "6228dab43"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
