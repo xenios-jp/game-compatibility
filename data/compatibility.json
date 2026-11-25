@@ -5088,8 +5088,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1785908121016-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1773031857872-1.jpg"
     ],
-    "issueNumber": 120,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/120",
+    "issueNumber": 839,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/839",
     "summaries": {
       "all": {
         "status": "playable",
@@ -14219,18 +14219,38 @@
     "perf": "great",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "27.2.1",
+      "device": "Macbook Air M5",
+      "platform": "macos",
+      "osVersion": "MacOS (Latest)",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-18",
-    "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
+    "updatedAt": "2026-11-25",
+    "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
     "reports": [
+      {
+        "device": "Macbook Air M5",
+        "platform": "macos",
+        "osVersion": "MacOS (Latest)",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-25",
+        "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-latest-1",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "Latest",
+          "buildNumber": "1"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -14271,58 +14291,73 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-1.jpg"
     ],
-    "issueNumber": 818,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/818",
+    "issueNumber": 214,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/214",
     "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
       "all": {
+        "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
-        "updatedAt": "2026-11-18",
-        "reportCount": 1,
+        "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
+        "updatedAt": "2026-11-25",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "27.2.1",
+          "device": "Macbook Air M5",
+          "platform": "macos",
+          "osVersion": "MacOS (Latest)",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-18",
-          "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
-          "source": "app",
+          "date": "2026-11-25",
+          "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
+          "source": "github",
           "build": {
-            "appVersion": "2.3.3",
-            "buildNumber": "11940",
-            "commitShort": "77cc1358b"
+            "buildId": "macos-self-built-latest-1",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "Latest",
+            "buildNumber": "1"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "27.2.1",
+          "device": "Macbook Air M5",
+          "platform": "macos",
+          "osVersion": "MacOS (Latest)",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-18",
-          "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
-          "source": "app",
+          "date": "2026-11-25",
+          "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
+          "source": "github",
           "build": {
-            "appVersion": "2.3.3",
-            "buildNumber": "11940",
-            "commitShort": "77cc1358b"
+            "buildId": "macos-self-built-latest-1",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "Latest",
+            "buildNumber": "1"
           }
-        },
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "27.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "build": {
-          "appVersion": "2.3.3",
-          "buildNumber": "11940",
-          "commitShort": "77cc1358b"
         }
       }
     }
