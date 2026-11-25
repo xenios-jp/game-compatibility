@@ -14244,9 +14244,6 @@
         "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
         "source": "github",
         "build": {
-          "buildId": "macos-self-built-latest-1",
-          "channel": "self-built",
-          "official": false,
           "appVersion": "Latest",
           "buildNumber": "1"
         }
@@ -14294,28 +14291,7 @@
     "issueNumber": 214,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/214",
     "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
-        "channel": "all",
         "status": "playable",
         "perf": "great",
         "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
@@ -14333,9 +14309,6 @@
           "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
           "source": "github",
           "build": {
-            "buildId": "macos-self-built-latest-1",
-            "channel": "self-built",
-            "official": false,
             "appVersion": "Latest",
             "buildNumber": "1"
           }
@@ -14352,12 +14325,18 @@
           "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
           "source": "github",
           "build": {
-            "buildId": "macos-self-built-latest-1",
-            "channel": "self-built",
-            "official": false,
             "appVersion": "Latest",
             "buildNumber": "1"
           }
+        },
+        "device": "Macbook Air M5",
+        "platform": "macos",
+        "osVersion": "MacOS (Latest)",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "Latest",
+          "buildNumber": "1"
         }
       }
     }
@@ -29827,22 +29806,39 @@
     "slug": "saints-row-the-third",
     "title": "Saints Row: The Third",
     "titleId": "5451086D",
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro",
+      "device": "iPhone19,4",
       "platform": "ios",
-      "osVersion": "26.2.1",
+      "osVersion": "27.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-17",
-    "notes": "Extreme graphical glitches and basically unplayable freezes everywhere. Had to use Vulkan to even see colours.",
+    "updatedAt": "2026-11-25",
+    "notes": "Few graphical glitches(in water) but after about 10 on so minutes it smooths out.",
     "reports": [
+      {
+        "device": "iPhone19,4",
+        "platform": "ios",
+        "osVersion": "27.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-25",
+        "notes": "Few graphical glitches(in water) but after about 10 on so minutes it smooths out.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -29868,54 +29864,54 @@
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/526",
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Extreme graphical glitches and basically unplayable freezes everywhere. Had to use Vulkan to even see colours.",
-        "updatedAt": "2026-06-17",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Few graphical glitches(in water) but after about 10 on so minutes it smooths out.",
+        "updatedAt": "2026-11-25",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone19,4",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "27.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-17",
-          "notes": "Extreme graphical glitches and basically unplayable freezes everywhere. Had to use Vulkan to even see colours.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-25",
+          "notes": "Few graphical glitches(in water) but after about 10 on so minutes it smooths out.",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone19,4",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "27.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-17",
-          "notes": "Extreme graphical glitches and basically unplayable freezes everywhere. Had to use Vulkan to even see colours.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-25",
+          "notes": "Few graphical glitches(in water) but after about 10 on so minutes it smooths out.",
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 14 Pro",
+        "device": "iPhone19,4",
         "platform": "ios",
-        "osVersion": "26.2.1",
+        "osVersion": "27.3",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
