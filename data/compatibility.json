@@ -38968,5 +38968,98 @@
         }
       }
     }
+  },
+  {
+    "slug": "batman-arkham-origins",
+    "title": "Batman™ Arkham Origins",
+    "titleId": "57520828",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 13 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-26",
+    "notes": "Runs nice.",
+    "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-26",
+        "notes": "Runs nice.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Runs nice.",
+        "updatedAt": "2026-11-26",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-26",
+          "notes": "Runs nice.",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-26",
+          "notes": "Runs nice.",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
+          }
+        },
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
+        }
+      }
+    }
   }
 ]
