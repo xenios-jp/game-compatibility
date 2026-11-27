@@ -1959,22 +1959,39 @@
     "slug": "assassin-s-creed-iii",
     "title": "Assassin's Creed® III",
     "titleId": "555308AE",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-10",
-    "notes": "Instant crash and when I reopen it’s just black and you have to restart the whole app.",
+    "updatedAt": "2026-11-27",
+    "notes": "Runs kinda ok but present numerous glitches.",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-11-27",
+        "notes": "Runs kinda ok but present numerous glitches.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -1993,59 +2010,61 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/555308AE/1795794372764-1.jpg"
+    ],
     "issueNumber": 396,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/396",
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Instant crash and when I reopen it’s just black and you have to restart the whole app.",
-        "updatedAt": "2026-04-10",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "poor",
+        "notes": "Runs kinda ok but present numerous glitches.",
+        "updatedAt": "2026-11-27",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-10",
-          "notes": "Instant crash and when I reopen it’s just black and you have to restart the whole app.",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-11-27",
+          "notes": "Runs kinda ok but present numerous glitches.",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-10",
-          "notes": "Instant crash and when I reopen it’s just black and you have to restart the whole app.",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-11-27",
+          "notes": "Runs kinda ok but present numerous glitches.",
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
           }
         },
-        "device": "iPhone 17 Pro Max",
+        "device": "iPhone 13 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
         }
       }
     }
