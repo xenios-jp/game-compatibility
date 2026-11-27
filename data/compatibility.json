@@ -18033,22 +18033,39 @@
     "slug": "l-a-noire",
     "title": "L.A. Noire",
     "titleId": "5454086C",
-    "status": "ingame",
-    "perf": "ok",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "27.2",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-11",
-    "notes": "Low fps",
+    "updatedAt": "2026-11-27",
+    "notes": "I’ve tried multiple different ISOs and XEXs as well as tried changing several settings but every time I play it loads fine and is perfectly playable except for the fact that the main character loads up with all of the clothing but no shirt texture and instead shows an invisible space for his abdomen with a floating tie and badge",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-27",
+        "notes": "I’ve tried multiple different ISOs and XEXs as well as tried changing several settings but every time I play it loads fine and is perfectly playable except for the fact that the main character loads up with all of the clothing but no shirt texture and instead shows an invisible space for his abdomen with a floating tie and badge",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -18067,59 +18084,63 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454086C/1795822005973-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454086C/1795822005973-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454086C/1795822005973-3.jpg"
+    ],
     "issueNumber": 779,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/779",
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Low fps",
-        "updatedAt": "2026-11-11",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "I’ve tried multiple different ISOs and XEXs as well as tried changing several settings but every time I play it loads fine and is perfectly playable except for the fact that the main character loads up with all of the clothing but no shirt texture and instead shows an invisible space for his abdomen with a floating tie and badge",
+        "updatedAt": "2026-11-27",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-11-11",
-          "notes": "Low fps",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-27",
+          "notes": "I’ve tried multiple different ISOs and XEXs as well as tried changing several settings but every time I play it loads fine and is perfectly playable except for the fact that the main character loads up with all of the clothing but no shirt texture and instead shows an invisible space for his abdomen with a floating tie and badge",
           "source": "app",
           "build": {
-            "appVersion": "2.2.5",
-            "buildNumber": "11501",
-            "commitShort": "9b3820832"
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-11-11",
-          "notes": "Low fps",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-27",
+          "notes": "I’ve tried multiple different ISOs and XEXs as well as tried changing several settings but every time I play it loads fine and is perfectly playable except for the fact that the main character loads up with all of the clothing but no shirt texture and instead shows an invisible space for his abdomen with a floating tie and badge",
           "source": "app",
           "build": {
-            "appVersion": "2.2.5",
-            "buildNumber": "11501",
-            "commitShort": "9b3820832"
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
           }
         },
-        "device": "iPhone 14 Pro",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "27.2",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.2.5",
-          "buildNumber": "11501",
-          "commitShort": "9b3820832"
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
         }
       }
     }
