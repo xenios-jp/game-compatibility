@@ -37952,22 +37952,39 @@
     "slug": "wwe-2k14",
     "title": "WWE 2K14",
     "titleId": "545408B2",
-    "status": "playable",
+    "status": "loads",
     "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Plus",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
       "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-21",
-    "notes": "it works",
+    "updatedAt": "2026-11-27",
+    "notes": "It loads menus and everything but as soon as a match starts it crashes the guest. I might just have a bad copy of the game so I’ll try getting another one to test it out",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "great",
+        "date": "2026-11-27",
+        "notes": "It loads menus and everything but as soon as a match starts it crashes the guest. I might just have a bad copy of the game so I’ll try getting another one to test it out",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
+        }
+      },
       {
         "device": "iPhone 14 Plus",
         "platform": "ios",
@@ -37993,24 +38010,24 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "it works",
-        "updatedAt": "2026-11-21",
-        "reportCount": 1,
+        "notes": "It loads menus and everything but as soon as a match starts it crashes the guest. I might just have a bad copy of the game so I’ll try getting another one to test it out",
+        "updatedAt": "2026-11-27",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14 Plus",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
           "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "loads",
           "perf": "great",
-          "date": "2026-11-21",
-          "notes": "it works",
+          "date": "2026-11-27",
+          "notes": "It loads menus and everything but as soon as a match starts it crashes the guest. I might just have a bad copy of the game so I’ll try getting another one to test it out",
           "source": "app",
           "build": {
-            "appVersion": "2.3.3",
-            "buildNumber": "11940",
-            "commitShort": "77cc1358b"
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
           }
         },
         "bestReport": {
