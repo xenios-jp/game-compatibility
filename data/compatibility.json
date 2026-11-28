@@ -3015,8 +3015,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 137,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/137",
+    "issueNumber": 851,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/851",
     "summaries": {
       "all": {
         "status": "playable",
@@ -12154,6 +12154,101 @@
         }
       }
     }
+  },
+  {
+    "slug": "fifa-12",
+    "title": "FIFA 12",
+    "titleId": "45410967",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-28",
+    "notes": "Plays smooth AF",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-28",
+        "notes": "Plays smooth AF",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "Plays smooth AF",
+        "updatedAt": "2026-11-28",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-28",
+          "notes": "Plays smooth AF",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-28",
+          "notes": "Plays smooth AF",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
+          }
+        },
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
+        }
+      }
+    },
+    "issueNumber": 852,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/852"
   },
   {
     "slug": "fifa-13",
@@ -37759,6 +37854,118 @@
     }
   },
   {
+    "slug": "watchdogs",
+    "title": "Watchdogs",
+    "titleId": "555308B7",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad (A16)",
+      "platform": "ios",
+      "osVersion": "27.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-28",
+    "notes": "Playable at 20 to 30fps but crashes due to OOM",
+    "reports": [
+      {
+        "device": "iPad (A16)",
+        "platform": "ios",
+        "osVersion": "27.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-11-28",
+        "notes": "Playable at 20 to 30fps but crashes due to OOM",
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.33-45",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.33",
+          "buildNumber": "45"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 853,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/853",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Playable at 20 to 30fps but crashes due to OOM",
+        "updatedAt": "2026-11-28",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad (A16)",
+          "platform": "ios",
+          "osVersion": "27.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-11-28",
+          "notes": "Playable at 20 to 30fps but crashes due to OOM",
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.33-45",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.33",
+            "buildNumber": "45"
+          }
+        },
+        "bestReport": {
+          "device": "iPad (A16)",
+          "platform": "ios",
+          "osVersion": "27.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-11-28",
+          "notes": "Playable at 20 to 30fps but crashes due to OOM",
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.33-45",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.33",
+            "buildNumber": "45"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "wrc-5-fia-world-rally-championship",
     "title": "WRC 5: FIA WORLD RALLY CHAMPIONSHIP",
     "titleId": "573607E2",
@@ -39170,99 +39377,6 @@
           "appVersion": "2.0.1",
           "buildNumber": "9730",
           "commitShort": "57c3ca140"
-        }
-      }
-    }
-  },
-  {
-    "slug": "fifa-12",
-    "title": "FIFA 12",
-    "titleId": "45410967",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "27.2.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-11-28",
-    "notes": "Plays smooth AF",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "27.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-11-28",
-        "notes": "Plays smooth AF",
-        "source": "app",
-        "build": {
-          "appVersion": "2.3.5",
-          "buildNumber": "12326",
-          "commitShort": "0761cac73"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "all": {
-        "status": "playable",
-        "perf": "great",
-        "notes": "Plays smooth AF",
-        "updatedAt": "2026-11-28",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "27.2.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-11-28",
-          "notes": "Plays smooth AF",
-          "source": "app",
-          "build": {
-            "appVersion": "2.3.5",
-            "buildNumber": "12326",
-            "commitShort": "0761cac73"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "27.2.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-11-28",
-          "notes": "Plays smooth AF",
-          "source": "app",
-          "build": {
-            "appVersion": "2.3.5",
-            "buildNumber": "12326",
-            "commitShort": "0761cac73"
-          }
-        },
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "27.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "build": {
-          "appVersion": "2.3.5",
-          "buildNumber": "12326",
-          "commitShort": "0761cac73"
         }
       }
     }
