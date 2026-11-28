@@ -37885,9 +37885,6 @@
         "notes": "Playable at 20 to 30fps but crashes due to OOM",
         "source": "github",
         "build": {
-          "buildId": "ios-self-built-2.33-45",
-          "channel": "self-built",
-          "official": false,
           "appVersion": "2.33",
           "buildNumber": "45"
         }
@@ -37897,28 +37894,7 @@
     "issueNumber": 853,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/853",
     "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
       "all": {
-        "channel": "all",
         "status": "ingame",
         "perf": "ok",
         "notes": "Playable at 20 to 30fps but crashes due to OOM",
@@ -37936,9 +37912,6 @@
           "notes": "Playable at 20 to 30fps but crashes due to OOM",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.33-45",
-            "channel": "self-built",
-            "official": false,
             "appVersion": "2.33",
             "buildNumber": "45"
           }
@@ -37955,12 +37928,18 @@
           "notes": "Playable at 20 to 30fps but crashes due to OOM",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.33-45",
-            "channel": "self-built",
-            "official": false,
             "appVersion": "2.33",
             "buildNumber": "45"
           }
+        },
+        "device": "iPad (A16)",
+        "platform": "ios",
+        "osVersion": "27.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.33",
+          "buildNumber": "45"
         }
       }
     }
@@ -39377,6 +39356,99 @@
           "appVersion": "2.0.1",
           "buildNumber": "9730",
           "commitShort": "57c3ca140"
+        }
+      }
+    }
+  },
+  {
+    "slug": "assassin-s-creed",
+    "title": "Assassin's Creed",
+    "titleId": "555307D4",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone19,7",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-28",
+    "notes": "Runs great în 18 Pro Max, Oclusion has to be set to strict.",
+    "reports": [
+      {
+        "device": "iPhone19,7",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-28",
+        "notes": "Runs great în 18 Pro Max, Oclusion has to be set to strict.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "Runs great în 18 Pro Max, Oclusion has to be set to strict.",
+        "updatedAt": "2026-11-28",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone19,7",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-28",
+          "notes": "Runs great în 18 Pro Max, Oclusion has to be set to strict.",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone19,7",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-28",
+          "notes": "Runs great în 18 Pro Max, Oclusion has to be set to strict.",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
+          }
+        },
+        "device": "iPhone19,7",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
         }
       }
     }
