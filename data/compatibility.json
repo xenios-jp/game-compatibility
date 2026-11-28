@@ -39452,5 +39452,98 @@
         }
       }
     }
+  },
+  {
+    "slug": "dirt-3",
+    "title": "DiRT 3",
+    "titleId": "434D083D",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone19,7",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-28",
+    "notes": "Oclusion set to strict, resolution 1, runs great also on low power mode. 18 Pro Max.",
+    "reports": [
+      {
+        "device": "iPhone19,7",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-28",
+        "notes": "Oclusion set to strict, resolution 1, runs great also on low power mode. 18 Pro Max.",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "Oclusion set to strict, resolution 1, runs great also on low power mode. 18 Pro Max.",
+        "updatedAt": "2026-11-28",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone19,7",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-28",
+          "notes": "Oclusion set to strict, resolution 1, runs great also on low power mode. 18 Pro Max.",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone19,7",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-28",
+          "notes": "Oclusion set to strict, resolution 1, runs great also on low power mode. 18 Pro Max.",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
+          }
+        },
+        "device": "iPhone19,7",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
+        }
+      }
+    }
   }
 ]
