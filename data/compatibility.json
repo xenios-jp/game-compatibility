@@ -39173,5 +39173,98 @@
         }
       }
     }
+  },
+  {
+    "slug": "fifa-12",
+    "title": "FIFA 12",
+    "titleId": "45410967",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-28",
+    "notes": "Plays smooth AF",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-28",
+        "notes": "Plays smooth AF",
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "Plays smooth AF",
+        "updatedAt": "2026-11-28",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-28",
+          "notes": "Plays smooth AF",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-28",
+          "notes": "Plays smooth AF",
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
+          }
+        },
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
+        }
+      }
+    }
   }
 ]
